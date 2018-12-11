@@ -41,7 +41,7 @@ Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016]
 
 1. Enter the Network address: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
