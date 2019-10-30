@@ -74,7 +74,10 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
      The vault name field has a 15 character limit.
      {:important}
-  3. The IP address field is populated with the {{site.data.keyword.backup_notm}} director location information. For example, `ev-director301.service.softlayer.com` has the IP address 10.1.114.46 and is located in WDC.
+  3. In the IP address field, add the IP address of the second {{site.data.keyword.backup_notm}} director location.
+  
+     You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} director in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. To get the IP address, ping the director server from the server that's going to be backed up. For example, `ev-director301.service.softlayer.com` that is located in WDC, has the IP address 10.1.114.46.
+     {:tip}
   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
   5. Click **Save**.
 
