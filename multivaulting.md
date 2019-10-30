@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-01"
+lastupdated: "2019-10-30"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -26,8 +26,7 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 **Key points**
 
 1. Multiple vaults can be managed through the same WebCC and they are handled the same way. The only difference is that you have different vault choices.
-2. Plug-in licensing is on a per vault basis - for example, if you purchased the MSSQL plug-in for a vault in Washington DC, it doesn't work on the Seattle vault.
-3. The new vault needs to be manually added to the WebCC after each purchase.
+2. The new vault needs to be manually added to the WebCC after each purchase.
 
 
 
