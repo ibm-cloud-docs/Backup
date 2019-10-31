@@ -17,6 +17,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
+{:term: .term}
 
 # Restoring data from one VSI to another in a different Data Center
 {: #restoreVSIotherlocation}
@@ -84,7 +85,7 @@ If Server2 has a current backup vault registration of its own and backup jobs, t
 ## Verifying the restore
 {: #verifyrestoreotherDC}
 
-1. Connect to the root of Server2 through SSH.
+1. Connect to the root of Server2 through [ssh](#x3574365){:term}.
 2. List the files and all directory entries in a long format.
   ```
   ls -la

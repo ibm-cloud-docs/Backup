@@ -15,6 +15,7 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:term: .term}
 
 # Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
 {: #portinfo}
@@ -23,7 +24,7 @@ The {{site.data.keyword.backup_full}} agent that is installed on your server nee
 
 Always register agents to the Cloud Backup Portal and the directors by using the FQDN because the IP addresses for these services might change.
 
-Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center location.
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the [data centers](#x2052913){:term} location.
 
 ```
 evregister.service.softlayer.com TCP 8086,8087

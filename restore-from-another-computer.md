@@ -17,11 +17,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
+{:term: .term}
 
 # Restoring data from one server to another
 {: #restorefromotherVSI}
 
-Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
+Sometimes you want to restore data to a different server in the same [data center](#x2052913){:term}. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
 {:shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
@@ -79,7 +80,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 ## Verifying the restore
 {: #verifyrestore}
 
-1. Connect to the root of Server2 through SSH.
+1. Connect to the root of Server2 through [ssh](#x3574365){:term}.
 2. List the files and all directory entries in a long format.
   ```
   ls -la

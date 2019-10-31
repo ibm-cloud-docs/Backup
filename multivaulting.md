@@ -16,6 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
+{:term: .term}
 
 # Multi-vaulting
 {: #multivault}
@@ -32,7 +33,7 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 
 **{{site.data.keyword.backup_notm}} Vault Director locations**
 
-Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
+Multi-vaulting is available across all [data centers](#x2052913){:term} and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
 
 Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
 {:note}
