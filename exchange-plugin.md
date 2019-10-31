@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Learn about the Exchange plug-in
 {: #Exchangeplugin}
 
-The Exchange plug-in is installed with the Windows Agent on the host. Through the WebCC, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
+The Exchange plug-in is installed with the Windows Agent on the host. Through the Cloud Backup Portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
 {:shortdesc}
 
 **Capabilities provided**
@@ -45,7 +45,7 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 8. Select **Keep my current registration**, and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If WebCC is able to access or view the database, then the installation was successful.
+11. If Cloud Backup Portal is able to access or view the database, then the installation was successful.
 
 ## Downloading the user guide
 {: #ExchangeUserGuide}

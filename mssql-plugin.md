@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-20"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Learn about the SQL Server plug-in
 {: #MSSQLplugin}
 
-The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the WebCC, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
+The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the Cloud Backup Portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
 {:shortdesc}
 
 ## Capabilities provided
@@ -68,7 +68,7 @@ Review the Release Notes to ensure that the Backup agent version is compatible w
 8. Select **Keep my current registration** and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If WebCC is able to view and access the database, then the installation was successful.
+11. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
 ## Downloading the user guide
 {: #SQLUserGuide}

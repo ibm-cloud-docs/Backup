@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-01"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Getting started with {{site.data.keyword.backup_notm}}
 {: #getting-started}
 
-Backups ensure that your data is safely stored outside of your device and protected if it gets lost. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the WebCC browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
+Backups ensure that your data is safely stored outside of your device and protected if it gets lost. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
 {:shortdesc}
 
 ## Before you begin
@@ -62,14 +62,14 @@ Follow the instructions appropriate for your OS,
 - [Installing the Backup Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installing the Backup Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-## Accessing the WebCC portal
-{: #accessingWebCC}
+## Accessing the Cloud Backup Portal portal
+{: #accessingPortal}
 
-WebCC is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. WebCC is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
+Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. Cloud Backup Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
 1. Access the Private Network over VPN.
 
-   WebCC can't be accessed over the public network. A VPN connection must be established first.
+   Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
@@ -123,4 +123,4 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 ## Getting more online help
 {: #onlinehelp}
 
-WebCC's systems are fully documented and support for the application is accessible within WebCC. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
+Cloud Backup Portal's systems are fully documented and support for the application is accessible within Cloud Backup Portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.

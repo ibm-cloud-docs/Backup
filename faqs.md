@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -37,7 +37,7 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 ## How frequently can we back up the data?
 {: faq}
 
-Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
+Within Cloud Backup Portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
 Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safe-sets to grow.
 {:note}
@@ -112,10 +112,10 @@ You can still save and retrieve your backups even if you reached the limit of th
 
 <hr>
 
-## How can I set up notifications in the WebCC that can alert me if a backup fails?
+## How can I set up notifications in the Cloud Backup Portal that can alert me if a backup fails?
 {: faq}
 
-Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in WebCC.
+Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in Cloud Backup Portal.
 
 <hr>
 

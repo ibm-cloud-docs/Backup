@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -48,9 +48,9 @@ Ensure that power management is disabled on the server where you install the VRA
 ## Configuring the vSphere Recovery Agent
 {: #configureVRA}
 
-After VRA is installed, you need to configure it in the WebCC.
+After VRA is installed, you need to configure it in the Cloud Backup Portal.
 
-1. Log in to the WebCC. For more information about how to access the WebCC, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC).
+1. Log in to the Cloud Backup Portal. For more information about how to access the Cloud Backup Portal, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingCloud Backup Portal).
 2. On the Computers Tab, select the server that you want to back up.
 3. Configure your vault information.
 

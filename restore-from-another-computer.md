@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-01"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -29,16 +29,16 @@ The process includes reregistering the backup agent on the second server to acce
 **Pre-requisites**
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in WebCC](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in Cloud Backup Portal](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.
 {:important}
 
-## Starting WebCC of Server2
-{: #startWebCC}
+## Starting Cloud Backup Portal of Server2
+{: #startPortal}
 
-Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the WebCC link doesn't work.
+Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
 {:tip}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
@@ -73,7 +73,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
    {:note}
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
-13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main WebCC screen.
+13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 
 
 ## Verifying the restore

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-20"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # Learn about the Oracle plug-in
 {: #Oracleplugin}
 
-The Oracle plug-in is an add-on and is installed with the Windows Agent or the Linux Agent on the Oracle database host. Through the WebCC, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
+The Oracle plug-in is an add-on and is installed with the Windows Agent or the Linux Agent on the Oracle database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 {:shortdesc}
 
 ## Capabilities provided
@@ -57,7 +57,7 @@ Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} serv
 7. Select **Keep my current registration**, and click **Next**.
 8. Click **Install**.
 9. When the installation is complete, check to ensure that both services are enabled and running.
-10. If WebCC is able to access or view the database, then the installation was successful.
+10. If Cloud Backup Portal is able to access or view the database, then the installation was successful.
 
 ## Installing the plug-in for Linux
 {: #installOracleLin}

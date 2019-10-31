@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Changing the password for the backup service
 {: #changePassword}
 
-Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the WebCC.
+Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.
 
 For many {{site.data.keyword.cloud}} products and services, the password storage feature within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic){: external} is used solely for the tracking of the password. For those products and services, the changes that are made to the password within the {{site.data.keyword.cloud_notm}} console aren't applied to the product or service. It's **not** the case for {{site.data.keyword.backup_notm}}.
 {:shortdesc}
