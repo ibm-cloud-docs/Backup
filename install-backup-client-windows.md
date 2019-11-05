@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-05"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -52,7 +52,7 @@ For more information about backups for Windows 2016 servers, see [Configuring {{
 
 1. Enter the Network address: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  cloudbackupregister.service.softlayer.com
   ```
   {: pre}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-05"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -39,7 +39,7 @@ Ensure that power management is disabled on the server where you install the VRA
    * To install the VRA in the default location, click **Next**.
    * To install the VRA in another location, click **Change**. In the Change destination folder dialog box, browse to the new installation folder, or type it in the Folder name box. Click **OK**. On the Destination Folder page, click **Next**.
 6. On the Register Agent with Portal Page, specify the following information.
-   * In the **Network address** field, type `ev-webcc01.service.softlayer.com`.
+   * In the **Network address** field, type `cloudbackupregister.service.softlayer.com`.
    * In the **Port** field, type `8086`.
    * In **Username** field, type the {{site.data.keyword.backup_notm}} user name for managing the VRA.
    * In **Password** field, type the password of the specified {{site.data.keyword.backup_notm}} user.
