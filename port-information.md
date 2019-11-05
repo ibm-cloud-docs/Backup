@@ -33,14 +33,13 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 
 ## Recommended {{site.data.keyword.backup_notm}} Portal settings
 
-Your servers must communicate with the Cloud Backup Portal and all AMP [proxy](#x2267627){:term} servers for Cloud Backup Portal to work correctly, regardless of the [data centers](#x2052913){:term} location.
+Your servers must communicate with the Cloud Backup Portal and all AMP [proxy](#x2267627){:term} servers for Cloud Backup Portal to work correctly, regardless of the data centers location.
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 
 ```
 cloudbackupregister.service.softlayer.com TCP Port 8086.
 ```
-
 
 TCP Port **8086**, **8087** must have access to **10.0.0.0/8**.
 {:important}
@@ -62,8 +61,7 @@ Cloud Backup Portal Agent Registration
 
 ## Commercial AMP Proxy Servers
 
-The following list contains all of the current AMP proxy servers. Other AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the Cloud Backup Portal.
-
+The following list contains all of the current AMP proxy servers.
 
 Agents must have connectivity to all proxy servers. New proxy servers might be added to the subnet 10.2.118.0/24 without notification.
 {:note}
