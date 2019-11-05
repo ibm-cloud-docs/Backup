@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
+{:external: target="_blank" .external}_
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -35,22 +35,21 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 
 Your servers must communicate with the Cloud Backup Portal and all AMP [proxy](#x2267627){:term} servers for Cloud Backup Portal to work correctly, regardless of the [data centers](#x2052913){:term} location.
 
-{{site.data.keyword.backup_notm}} Portal Registration Service: 
+{{site.data.keyword.backup_notm}} Portal Registration Service:
 
 ```
-cloudbackupregister.service.softlayer.com TCP Port 8086. 
+cloudbackupregister.service.softlayer.com TCP Port 8086.
 ```
 
-Other AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the Cloud Backup Portal.
 
 TCP Port **8086**, **8087** must have access to **10.0.0.0/8**.
 {:important}
 
-If you need to use more restrictive firewall rules, you might lose access to the Cloud Backup Portal as the infrastructure is expanded. 
+If you need to use more restrictive firewall rules, you might lose access to the Cloud Backup Portal as the infrastructure is expanded.
 
 ## Minimum Port Requirements
 
-Currently, at minimum, your servers must allow access to the **10.0.82.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. Other subnets might be used in the future as needed.
+Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. Other subnets might be used in the future as needed.
 
 ## Commercial Portal Servers
 
@@ -63,7 +62,8 @@ Cloud Backup Portal Agent Registration
 
 ## Commercial AMP Proxy Servers
 
-The following list contains all of the current AMP proxy servers.
+The following list contains all of the current AMP proxy servers. Other AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the Cloud Backup Portal.
+
 
 Agents must have connectivity to all proxy servers. New proxy servers might be added to the subnet 10.2.118.0/24 without notification.
 {:note}
