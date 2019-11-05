@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}_
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
