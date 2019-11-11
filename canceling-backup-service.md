@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -23,7 +23,7 @@ subcollection: Backup
 You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to Cloud Backup Portal with the canceled credentials.
 {:shortdesc}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select **Actions** > **Cancel {{site.data.keyword.backup_notm}}**.
 4. Choose to cancel **Immediately** or on the **Anniversary Date**.

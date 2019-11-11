@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -26,7 +26,7 @@ Current {{site.data.keyword.cloud}} users are able to expand the size of their v
 
 ## Ordering an increase
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select the vault that you want to extend.
 4. Click **Actions**, and select **Modify {{site.data.keyword.backup_notm}}**.

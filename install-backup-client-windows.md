@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-05"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -30,7 +30,7 @@ For more information about backups for Windows 2016 servers, see [Configuring {{
 ## Logging in to the target device server
 {: #logintargetWin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu to see the list of available servers.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make note of its public IP address.
 4. Click the arrow to expand and show more information about the device, including the user name and password. If the password isn't displayed, clicking **Show Password** reveals it.

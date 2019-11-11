@@ -52,7 +52,7 @@ Currently, at minimum, your servers must allow access to the **10.200.86.0/24** 
 
 ## Commercial Portal Servers
 
-Cloud Backup Portal Website
+Cloud Backup Portal website
 - ibmcloudbackup.service.softlayer.com [10.200.86.22] TCP 443
 
 Cloud Backup Portal Agent Registration

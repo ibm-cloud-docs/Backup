@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -72,7 +72,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
    Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
 3. Select the username of the {{site.data.keyword.cloud_notm}} account. Click the expansion arrow to reveal the WebCC portal link.
 4. Click **WebCC** to start the portal client in your browser.
@@ -113,7 +113,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
 The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.

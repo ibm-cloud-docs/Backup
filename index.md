@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -52,7 +52,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud_notm}} console.
 
 ### Confirming the {{site.data.keyword.backup_notm}} purchase
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Device** > **Device List**.
 2. Locate the new server that you ordered.
   - If you see a clock icon next to the url, you need to wait to continue with the {{site.data.keyword.backup_notm}} purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the {{site.data.keyword.backup_notm}} service purchase.
@@ -65,7 +65,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 ### Select a server on which to install {{site.data.keyword.backup_notm}}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add the backup service.
 3. Click the Device name to go to the **Device Details** page.
 

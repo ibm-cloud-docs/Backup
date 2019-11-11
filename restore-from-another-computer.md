@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -22,7 +22,7 @@ subcollection: Backup
 # Restoring data from one server to another
 {: #restorefromotherVSI}
 
-Sometimes you want to restore data to a different server in the same [data center](#x2052913){:term}. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
+Sometimes you might want to restore data to a different server in the same [data center](#x2052913){: term}. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
 {:shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
@@ -42,13 +42,13 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
 {:tip}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
 
 
-## Editting the vault information
+## Editing the vault information
 {: #changhingvault}
 
 1. Click **Computers**, and click the server name to display its information.
@@ -70,7 +70,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
-   Default restore options place the files in their original location, and if files exists in the destination folder with the same name folder, the incoming file is re-named. These options can be changed and alternate restore location can be selected from Restore Destination options.
+   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
    {:note}
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.

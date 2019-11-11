@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -42,7 +42,7 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
 {:tip}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
@@ -76,7 +76,7 @@ If Server2 has a current backup vault registration of its own and backup jobs, t
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
-   Default restore options place the files in their original location, and if files exists in the destination folder with the same name folder, the incoming file is re-named. These options can be changed and alternate restore location can be selected from Restore Destination options.
+   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
    {:note}
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
