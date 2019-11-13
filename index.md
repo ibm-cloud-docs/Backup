@@ -33,7 +33,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 {: #purchasingwithserver}
 
 1. Log in to the [IBM Cloud catalog](https://{DomainName}/catalog){: external}
-2. Order a monthly [bare metal server](#x6778472){: term}. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
+2. Order a monthly [bare metal server](#x6778472){: term}. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](https://{DomainName}/docs/bare-metal?topic=bare-metal-ordering-baremetal-server){: external}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any host name and domain that you like.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
