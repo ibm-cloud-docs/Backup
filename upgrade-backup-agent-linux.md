@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-13"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -43,7 +43,7 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
 
 5. Run installation script.
    ```
-   ./install.shCloud Backup Portal
+   ./install.sh
    ```
    {:pre}
 
