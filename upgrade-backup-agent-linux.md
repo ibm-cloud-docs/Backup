@@ -27,7 +27,7 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
    ```
-   wget -N downloads.softlayer.local/evault/Agent-Linux-x64-8.50.7245.tar.gz
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-8.50.7245-x64.tar.gz
    ```
    {:pre}
 
