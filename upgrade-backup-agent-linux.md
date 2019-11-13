@@ -47,6 +47,6 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
    ```
    {:pre}
 
-6. Answer the prompts by selecting your language, selecting `N` for not registering the computer as a new host, and `A` to encrypt data using the Integrated encryption method.
+6. Answer the prompts by selecting your language, selecting `N` for not registering the computer as a new host, and `A` to encrypt data by using the Integrated encryption method.
 
 7. If the installation is successful, it is recorded in `/opt/BUAgent/Install.log`.
