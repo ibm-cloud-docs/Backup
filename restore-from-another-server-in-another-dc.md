@@ -49,7 +49,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
- Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files were recovered from another computer.
+ Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
  {:note}
 
  If a current backup vault is registered to Server2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
