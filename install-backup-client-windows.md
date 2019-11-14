@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-11"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -21,11 +21,8 @@ subcollection: Backup
 # Installing the backup client in Windows
 {: #InstallinWindows}
 
-Installing the {{site.data.keyword.backup_full}} client in Windows is completed through a series of interactions on the server that is designated for the {{site.data.keyword.backup_notm}} service.
+Installing the {{site.data.keyword.backup_full}} client is completed through a series of interactions on the server that is designated for the {{site.data.keyword.backup_notm}} service.
 {:shortdesc}
-
-For more information about backups for Windows 2016 servers, see [Configuring {{site.data.keyword.backup_notm}} on Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016).
-{:tip}
 
 ## Logging in to the target device server
 {: #logintargetWin}
