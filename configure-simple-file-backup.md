@@ -24,7 +24,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 ## Starting Cloud Backup Portal
 {: #startPortalconfigLin}
 
-You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Cloud Backup Portal portal.
+You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
@@ -32,7 +32,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC** to start the portal client in your browser.
 
-   If Cloud Backup Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
+   If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {:tip}
 
 ## Configuring a backup job
