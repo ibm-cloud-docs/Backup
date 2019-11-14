@@ -60,13 +60,13 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Ubuntu Linux 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the Backup Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
-- [Installing the Backup Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Installing the backup client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [Installing the backup client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
 ## Accessing the Cloud Backup Portal portal
 {: #accessingPortal}
 
-Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. Cloud Backup Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
+Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. The Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
 1. Access the Private Network over VPN.
 
@@ -75,9 +75,9 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
 3. Select the username of the {{site.data.keyword.cloud_notm}} account. Click the expansion arrow to reveal the WebCC portal link.
-4. Click **WebCC** to start the portal client in your browser.
+4. Click **WebCC** to start the portal in your browser.
 
-## Configuring the Backup agent and the backup schedule
+## Configuring the backup agent and the backup schedule
 {: #configureagentschedule}
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
@@ -105,7 +105,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions**, and click **Run Job**.
 2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
-3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action** and choose **History/Logs**.
+3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.
 
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
@@ -124,4 +124,4 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 ## Getting more online help
 {: #onlinehelp}
 
-Cloud Backup Portal's systems are fully documented and support for the application is accessible within Cloud Backup Portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
+Cloud Backup Portal's systems are fully documented and support for the application is accessible within the Portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
