@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -43,7 +43,7 @@ Backing up to remote data center locations can take longer than backups to the s
 You must add the new remote vault to the account before a new backup location can be added in the Cloud Backup Portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Devices**
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
@@ -58,14 +58,14 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
 ## Adding an Extra Vault in Cloud Backup Portal
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
 3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the WebCC link.
 4. Click the **WebCC Login** link to start the portal client in your browser.
 
    Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
-5. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer you want to back up to a second vault.
+5. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to a second vault.
 6. Click **Vault Settings**.
 7. In the **Vault Settings** window, click **Add Vault**.
 8. In the **New Vault** window,

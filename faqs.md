@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -90,6 +90,13 @@ By default, the base client has a state-of-the-art technology to handle most ope
 
 <hr>
 
+## What does VSS (Volume Shadow Copy Services) do?
+{: faq}
+
+The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
+
+<hr>
+
 ## Where can I find information about pricing?
 {: #pricing}
 {: faq}
@@ -163,13 +170,6 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 {: faq}
 
 A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
-
-<hr>
-
-## What does VSS (Volume Shadow Copy Services) do?
-{: faq}
-
-The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
 
 <hr>
 

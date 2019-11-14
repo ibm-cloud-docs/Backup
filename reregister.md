@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -25,7 +25,7 @@ Reregistering a vault is a task that is most commonly used after the Operating S
 
    Remember, Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
-2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer you want to back up to second vault.
+2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to second vault.
 3. Click **Vault Settings**.
 4. Click **Re-register**.
 5. Complete the form.
@@ -33,7 +33,7 @@ Reregistering a vault is a task that is most commonly used after the Operating S
   - Vault address
   - Account
 
-    "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]"
+    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]".
     {:tip}
   - User name
   - Password

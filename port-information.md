@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-05"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
 {: #portinfo}
 
-The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the [data center](#x2439906){: term} that the director resides in.
+The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the data center that the director resides in.
 
 * ev-director01.service.softlayer.com TCP/2546
 * ev-director201.service.softlayer.com TCP/2546
@@ -33,7 +33,7 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 
 ## Recommended {{site.data.keyword.backup_notm}} Portal settings
 
-Your servers must communicate with the Cloud Backup Portal and all AMP [proxy](#x2267627){: term} servers for Cloud Backup Portal to work correctly, regardless of the data centers location.
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data centers location.
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 
