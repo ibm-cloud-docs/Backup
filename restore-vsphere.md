@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -49,7 +49,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
   * **Register with the selected hosts only when a Virtual Machine’s original hosts is not available.**
 15.	To power on the VMs after they are restored, select **Power VMs on after restoring**.
 16.	In **Performance options**, keep the default setting.
-17.	Click **Run Restor**e.
+17.	Click **Run Restore**.
 
 ## Restoring files and folders
 {: #restoreFFVRA}
@@ -74,7 +74,7 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
 8. In the **Encryption Password** field, enter the data encryption password.
 9. In the **Idle Time field**, enter the number of minutes of inactivity after which the share drive is to automatically unshare. The Idle time can range 2 - 180 minutes.
 
-    The drive does not unshare as long as new data is being copied. If you copy the same data from a shared drive more than once, the system could time out because no new data is being read.
+    The drive does not unshare while new data is being copied. If you copy the same data from a shared drive more than once, the system could time out because no new data is being read.
     {:note}
 
 10.	In **Performance options**, select Use all available bandwidth.

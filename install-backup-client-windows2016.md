@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -124,4 +124,4 @@ This task is completed through a series of interactions while you are logged in 
    For more information about multiple vaults, see [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
-7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup jon. When the backup job is done, click **Close**.
+7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup job. When the backup job is done, click **Close**.

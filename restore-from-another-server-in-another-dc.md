@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-11"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -47,17 +47,17 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
 
-If Server2 has a current backup vault registration of its own and backup jobs, those must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
+If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
- Deleting job in Portal does not delete job from Backup Vaults. Jobs can be recovered by re-registering the agent to its own vault location after recovering the file from another computer.
+ Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
  {:note}
 
- If Server2 has a current vault registered, this can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
+ If a current backup vault is registered to Server2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
 
 ## Reregistering the vault
 {: #reregistervaultotherDC}
 
-1. When the Vault Settings tab is blank, click **Re-register**. On the **Re-register Vault** screen for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
+1. When the Vault Settings tab is blank, click **Re-register**. On the next screen, for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
 2. Enter the Vault Name, which is the same as the vault name of Server1.
 3. Enter credentials for Server1 to log in to the vault for Server1.
 4. Click **Load Computers**, this action displays the servers that are attached to the vault location.

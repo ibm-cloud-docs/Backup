@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-05"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -23,7 +23,7 @@ subcollection: Backup
 The vSphere Recovery Agent (VRA) is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a machine that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.
 {:shortdesc}
 
-In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up preferred VMs of that site. If a VM is moved to a different site (due to maintenance or failures), backup performance can be degraded but remain acceptable.
+In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up preferred VMs of that site. If a VM is moved to a different site (because of maintenance or failures), backup performance can be degraded but remain acceptable.
 
 ## Installing the plug-in
 {: #installVRAPlugin}
@@ -87,7 +87,7 @@ After the successful vault registration, the vCenter Settings need to be configu
    The user must have administrative access to the vCenter to perform this task successfully.
    {:note}
 
-3. Disable Change Block Tracking (CBT) by removing the checkmark. CBT is a VMware feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
+3. Disable Change Block Tracking (CBT) by removing the check mark. CBT is a VMware feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
 4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, “The vCenter credentials have been validated successfully” message appears.
 5. Click **Save** to save the settings.
 
