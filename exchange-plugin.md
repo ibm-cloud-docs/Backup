@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2019-11-14"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -32,7 +32,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 
 The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
-Before you install the plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
+Before you install the plug-in for your MS Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
 
 1. Browse to `c:\installs\{{site.data.keyword.backup_notm}}` folder and run the .exe file with the higher revision number.
@@ -50,4 +50,4 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 ## Downloading the user guide
 {: #ExchangeUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}. The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safe-set. With a DR backup safe-set, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
+Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}. The guide describes how to back up and restore MS Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safe-set. With a DR backup safe-set, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
