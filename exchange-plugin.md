@@ -25,7 +25,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 
 **Capabilities provided**
 
-- Ability to back up and restore Microsoft Exchange databases.
+- Ability to back up and restore MS Exchange databases.
 
 ## Installing the plug-in
 {: #installExchangePlugin}
