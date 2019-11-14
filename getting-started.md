@@ -27,7 +27,7 @@ Backups ensure that your data is safely stored outside of your device and protec
 ## Before you begin
 {: #prereqs}
 
-You must have a valid license to use IBM Cloud Backup. You can purchase {{site.data.keyword.backup_notm}} service in two ways.
+You must have a valid license to use {{site.data.keyword.backup_notm}}. You can purchase the service in two ways.
 
 - [Purchase backups when you Order a Server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Purchase backups as an Upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
