@@ -55,7 +55,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 11. Click **Apply now** to confirm the backup sets before creating the job.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
 13. Click **Create Job**. The View/Add Schedule window is loaded.
-14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
+14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily, Weekly, Monthly. Select the appropriate retention period and click **Save**.
 
    For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
    {:tip}
