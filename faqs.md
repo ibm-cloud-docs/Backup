@@ -122,7 +122,7 @@ You can still save and retrieve your backups even if you reached the limit of th
 ## How can I set up notifications in the Cloud Backup Portal that can alert me if a backup fails?
 {: faq}
 
-Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in Cloud Backup Portal.
+Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in the Portal.
 
 <hr>
 
