@@ -32,7 +32,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select the server where the files to be restored are located. Click the arrow to reveal the WebCC link.
-4. Click **WebCC** to start the Cloud Backup Portal client in your browser.
+4. Click **WebCC** to start the Portal in your browser.
 
 ## Restoring your data
 

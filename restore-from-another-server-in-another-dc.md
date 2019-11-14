@@ -45,7 +45,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
-4. Click **WebCC Login** to start the portal client in your browser.
+4. Click **WebCC** to start the Portal in your browser.
 
 If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
