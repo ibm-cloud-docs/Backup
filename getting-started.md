@@ -63,7 +63,7 @@ Follow the instructions appropriate for your OS,
 - [Installing the backup client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installing the backup client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-## Accessing the Cloud Backup Portal portal
+## Accessing the Cloud Backup Portal
 {: #accessingPortal}
 
 Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. The Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
