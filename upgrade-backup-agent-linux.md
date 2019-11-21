@@ -1,4 +1,4 @@
----
+Agent-Linux-8.50.7245-x64---
 
 copyright:
   years: 1994, 2019
@@ -38,7 +38,7 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
    ```
 4. Go to the recent installation directory.
    ```
-   cd Agent-Linux-x64-8.50.7245/
+   cd Agent-Linux-8.50.7245-x64/
    ```
 
 5. Run installation script.
