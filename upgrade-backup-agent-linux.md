@@ -1,4 +1,4 @@
-Agent-Linux-8.50.7245-x64---
+---
 
 copyright:
   years: 1994, 2019
