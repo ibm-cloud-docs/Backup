@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-14"
+lastupdated: "2019-12-02"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -54,7 +54,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 1. Click **Computers**, and click the server name to display its information.
 2. Click **Vault Settings** and from the Action menu, select **Edit**.
 2. Enter the Vault Name, which is the same as the unique vault name of Server1.
-3. Enter credentials for Server1 to log in to the vault for Server1.
+3. Enter credentials for Server1 to log in to the vault.
 4. Click **Save**.
 
 ## Running the backup job from Server1 as the restore job on Server2
