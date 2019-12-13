@@ -73,7 +73,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 1. Click the **Storage** tab, and scroll down to locate the {{site.data.keyword.backup_notm}} section.
 2. Click the **Add** link.
 3. In the window, select a location, and select a size.
-4. Select Payment type, and click **Continue**
+4. Select Payment type, and click **Continue**.
 5. Enter the **Promo Code** if you have one, and click **Recalculate**.
 6. Review your order, and click the link to read the terms and conditions.
 7. Click the check box if you agree with the terms and conditions.

@@ -85,7 +85,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 ## Verifying the restore
 {: #verifyrestoreotherDC}
 
-1. Connect to the root of Server2 through [ssh](#x3574365){:term}.
+1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
   ```
   ls -la

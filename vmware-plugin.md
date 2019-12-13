@@ -57,7 +57,7 @@ After VRA is installed, you need to configure it in the Cloud Backup Portal.
    Vault information can be configured in two ways: **Automatically** or **Manually**.<br/>If the agent is being configured for the first time, then it can be configured by using the [Automatic configuration](#VRAautoconfig) option.<br/>If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
    {: tip}
 
-4. Configure the [vCenter Settings](#vCenterSettingsconfig)   
+4. Configure the [vCenter Settings](#vCenterSettingsconfig).   
 
 ### Configuring the Vault Automatically
 {: #VRAautoconfig}
@@ -80,9 +80,10 @@ To configure the vault settings manually, click **Configure Manually**.
 
 ### Configuring vCenter Agent settings
 {: #vCenterSettingsconfig}
+
 After the successful vault registration, the vCenter Settings need to be configured before you can create and run any backup jobs.
 
-1. Click the **vCenter Settings** Tab
+1. Click the **vCenter Settings** Tab.
 2. Provide the vCenter IP address, domain name, and credentials for the vCenter that you want to protect.
    The user must have administrative access to the vCenter to perform this task successfully.
    {:note}

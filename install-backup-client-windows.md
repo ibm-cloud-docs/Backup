@@ -55,7 +55,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 
 2. Enter the user name in the **user name** field.
 3. Enter the password in the **password** field.
-6. Click **Next**
+6. Click **Next**.
 7. Click **Install** to complete the installation.
 
 ## Configuring backup agents

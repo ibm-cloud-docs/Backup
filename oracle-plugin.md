@@ -43,14 +43,14 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 ## Installing the plug-in for Windows
 {: #installOracleWin}
 
-The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
 
 1. Run the Agent installation package.
-2. At the language screen, click **OK**
-3. At the welcome screen, click **Next**
+2. At the language screen, click **OK**.
+3. At the welcome screen, click **Next**.
 4. Select the **Modify installation**, and click **Next**.
 5. Select the **Leave Unchanged**, and click **Next**.
 6. At the custom setup screen, select each plug-in that you purchased, and select **This feature will be installed on ...**, then click **Next**.
@@ -100,4 +100,4 @@ The Oracle plug-in performs an "inconsistent" whole database backup that require
 ## Downloading the user guide
 {: #OracleUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
