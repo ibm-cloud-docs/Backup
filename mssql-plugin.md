@@ -73,4 +73,4 @@ Review the Release Notes to ensure that the Backup agent version is compatible w
 ## Downloading the user guide
 {: #SQLUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.

@@ -33,7 +33,7 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 
 **{{site.data.keyword.backup_notm}} Vault Director locations**
 
-Multi-vaulting is available across all [data centers](#x2052913){:term} and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
+Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
 
 Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
 {:note}
@@ -44,12 +44,12 @@ You must add the new remote vault to the account before a new backup location ca
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-2. Click **Devices**
+2. Click **Devices**.
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
 5. When the Storage section opens up, scroll down to **{{site.data.keyword.backup_notm}}**, and click **Add**.
 6. In the **Order {{site.data.keyword.backup_notm}}** window, select the remote vault location.
-7. Select the size of the storage, then click **Continue**
+7. Select the size of the storage, then click **Continue**.
 8. Check the **I have read the Master...** box, and click **Place Order**.
 
 The newly ordered vault is automatically added to the account. If not, contact Sales for help.

@@ -34,7 +34,7 @@ This article is deprecated because the content applies to our Federal environmen
 4. Click **Next** to begin.
 5. Read the Terms and Conditions, and select **I accept the terms in the license agreement**. Then, click **Next**.
 6. Select **Typical** as the Setup Type. Click **Next**.
-7. At the Register Agent with Portal screen, select **Skip Registration**. Click **Next**
+7. At the Register Agent with Portal screen, select **Skip Registration**. Click **Next**.
 8. On the next screen, click **Install**.
 9. When the installation is complete, click **Finish**.
 
@@ -109,8 +109,8 @@ This task is completed through a series of interactions while you are logged in 
    {:important}
 9. Select the data sources. Click **Add**.
 10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
-11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**
-12. Select log options for your job. Check **Create log file**, and select **Automatically purge expired log files only**. Then, click **Next**
+11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**.
+12. Select log options for your job. Check **Create log file**, and select **Automatically purge expired log files only**. Then, click **Next**.
 13. Select **Just exit from this wizard**, and click **Finish** to complete the configuration. The new job now appears under My Agent.
 
 
@@ -121,7 +121,7 @@ This task is completed through a series of interactions while you are logged in 
 3. In the workspace, right-click **My Agent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or another location to seed the backup job. Click **Next**.<br/>
-   For more information about multiple vaults, see [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault)
+   For more information about multiple vaults, see [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault).
    {:tip}
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
 7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup job. When the backup job is done, click **Close**.

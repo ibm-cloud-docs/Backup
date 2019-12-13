@@ -56,7 +56,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
    If you didn't log in to this server with this user name before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
    {:note}
 
-6. You are prompted to enter the password unless you set up [ssh](#x3574365){:term} keys for accessing this server before.
+6. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
 
 ## Updating the OS to prepare for the installation (RHEL only)
 
