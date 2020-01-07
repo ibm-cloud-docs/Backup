@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-14"
+lastupdated: "2020-01-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -14,9 +14,13 @@ subcollection: Backup
 {:note: .note}
 {:important: .important}
 {:shortdesc: .shortdesc}
+{:support: data-reuse='support'}
+{:help: data-hd-content-type='help'}
 
 # Reregistering a vault
 {: #reregister}
+{: help}
+{: support}
 
 Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:shortdesc}

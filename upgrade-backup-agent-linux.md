@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-13"
+lastupdated: "2020-01-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -14,9 +14,13 @@ subcollection: Backup
 {:note: .note}
 {:important: .important}
 {:shortdesc: .shortdesc}
+{:support: data-reuse='support'}
+{:help: data-hd-content-type='help'}
 
 # Upgrading backup software agent for Linux
 {: #UpgradeinLinux}
+{: help}
+{: support}
 
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
 {:tip}

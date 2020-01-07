@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-11-14"
+lastupdated: "2020-01-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -15,6 +15,8 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:support: data-reuse='support'}
+{:help: data-hd-content-type='help'}
 
 # Configuring simple file-level backups
 {: #configureFileBackup}
@@ -23,6 +25,8 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 
 ## Starting Cloud Backup Portal
 {: #startPortalconfigLin}
+{: help}
+{: support}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
 {:important}
@@ -36,6 +40,9 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {:tip}
 
 ## Configuring a backup job
+{: #configureBackupjob}
+{: help}
+{: support}
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
@@ -73,6 +80,9 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     {:important}
 
 ## Executing a backup job
+{: #runBackupjob}
+{: help}
+{: support}
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions** and click **Run Job**.
 2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
