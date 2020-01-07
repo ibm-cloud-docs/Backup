@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-10-31"
+lastupdated: "2020-01-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -13,9 +13,13 @@ subcollection: Backup
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:support: data-reuse='support'}
+{:help: data-hd-content-type='help'}
 
 # Upgrading backup software agent for Windows
 {: #UpgradeinWindows}
+{: help}
+{: support}
 
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
 {:tip}
