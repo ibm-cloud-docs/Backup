@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2020
+lastupdated: "2020-01-15"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -26,7 +26,7 @@ This article is deprecated because the content applies to our Federal environmen
 
 1. On the target server, open a browser session and enter the following URL to download the executable file.
    ```
-   http://downloads.service.softlayer.com/evault/
+   http://downloads.service.usgov.softlayer.com/evault/
    ```
    {:pre}
 2. Double-click the downloaded file, and click **Run** in the window that appears.
@@ -43,7 +43,7 @@ This article is deprecated because the content applies to our Federal environmen
 1. On the target server, open a browser session and enter the following URL to download the executable file.
 
    ```
-   http://downloads.service.softlayer.com/evault/CentralControl/
+   http://downloads.service.usgov.softlayer.com/evault/CentralControl/
    ```
    {:pre}
 
