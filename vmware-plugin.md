@@ -50,7 +50,7 @@ Ensure that power management is disabled on the server where you install the VRA
 
 After VRA is installed, you need to configure it in the Cloud Backup Portal.
 
-1. Log in to the Portal. For more information about how to access the Portal, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingCloud Backup Portal).
+1. Log in to the Portal. For more information about how to access the Portal, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#accessingCloud Backup Portal).
 2. On the Computers Tab, select the server that you want to back up.
 3. Configure your vault information.
 
@@ -95,12 +95,12 @@ After the successful vault registration, the vCenter Settings need to be configu
 ## Configuring a vSphere backup job
 {: #configvmwarebackup}
 
-For more information, see [Configure, schedule, and run a backup job](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA).
+For more information, see [Configure, schedule, and run a backup job](/docs/Backup?topic=Backup-ConfigureVRA#VConfigureVRA).
 
 ## Restoring vSphere data
 {: #restoringvSphereData}
 
-For more information, see [Restore vSphere data](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore).
+For more information, see [Restore vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).
 
 
 Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.

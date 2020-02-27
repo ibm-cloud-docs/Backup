@@ -43,7 +43,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 ## Installing the plug-in for Windows
 {: #installOracleWin}
 
-The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
+The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
@@ -62,7 +62,7 @@ Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} serv
 ## Installing the plug-in for Linux
 {: #installOracleLin}
 
-The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
+The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](/docs/Backup?topic=Backup-InstallinLinux).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 

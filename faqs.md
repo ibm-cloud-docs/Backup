@@ -27,11 +27,11 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.cloud}} also offers software agents for some of the more common software systems that are backed up, which include the following plug-ins.
 
-- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
-- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
-- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
-- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
-- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
+- [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
 The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle or VMware plug-ins. Each agent is available as an add-on to your backup service for free.
 
@@ -120,7 +120,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 {: faq}
 {: support}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 
@@ -184,7 +184,7 @@ You can either do a whole system restore, or you can pick individual files from 
 {: faq}
 {: support}
 
-BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](/docs/Backup?topic=Backup-MSSQLplugin) for the MSSQL plug-in installation instructions.
 
 <hr>
 

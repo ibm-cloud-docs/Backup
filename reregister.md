@@ -22,10 +22,10 @@ subcollection: Backup
 {: help}
 {: support}
 
-Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
+Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/Backup?topic=Backup-restorefromotherVSI).
 {:shortdesc}
 
-1. Start Cloud Backup Portal and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+1. Start Cloud Backup Portal and log in. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
 
    Remember, Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}

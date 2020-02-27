@@ -20,7 +20,7 @@ subcollection: Backup
 # Configuring BMR backup job
 {: #configureBMR}
 
-You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Learn about the Bare Metal Restore plug-in](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin).
+You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Learn about the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
 {:important}
 
 ## Starting Cloud Backup Portal
@@ -57,7 +57,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 13. Click **Create Job**. The View/Add Schedule window is loaded.
 14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily, Weekly, Monthly. Select the appropriate retention period and click **Save**.
 
-   For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
+   For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
    {:tip}
 
 
