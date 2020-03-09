@@ -22,7 +22,7 @@ subcollection: Backup
 # Restoring data from one server to another
 {: #restorefromotherVSI}
 
-Sometimes you might want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
+Sometimes you might want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
 {:shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
@@ -30,7 +30,7 @@ The process includes reregistering the backup agent on the second server to acce
 **Pre-requisites**
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in Cloud Backup Portal](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.

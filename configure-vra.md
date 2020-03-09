@@ -88,4 +88,4 @@ Scheduled backup jobs can also be executed immediately.
 To see the status of the last backup job that ran, click the Jobs tab. All job logs can be accessed from the action menu. Click **Action** and select **History/Logs**.
 {:tip}
 
-For more information about restoring VMs or Files and folders, see [Restoring vSphere data](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore).
+For more information about restoring VMs or Files and folders, see [Restoring vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).

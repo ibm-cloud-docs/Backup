@@ -21,7 +21,7 @@ subcollection: Backup
 # Getting started with {{site.data.keyword.backup_notm}}
 {: #getting-started}
 
-Backups ensure that your data is safely stored outside of your device and protected if it gets lost. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [MS Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [MS SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
+Backups ensure that your data is safely stored outside of your device and protected if it gets lost. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [MS Exchange](/docs/Backup?topic=Backup-Exchangeplugin), [MS SQL](/docs/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
 {:shortdesc}
 
 ## Before you begin
@@ -29,10 +29,10 @@ Backups ensure that your data is safely stored outside of your device and protec
 
 You must have a valid license to use {{site.data.keyword.backup_notm}}. You can purchase the service in two ways.
 
-- [Purchase backups when you Order a Server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
-- [Purchase backups as an Upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
+- [Purchase backups when you Order a Server](/docs/Backup?topic=Backup-ordering#purchasingwithserver).
+- [Purchase backups as an Upgrade](/docs/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-For more information about ordering, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+For more information about ordering, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-ordering).
 For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 
@@ -60,8 +60,8 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Ubuntu Linux 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the backup client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
-- [Installing the backup client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Installing the backup client in Linux](/docs/Backup?topic=Backup-InstallinLinux)
+- [Installing the backup client in Windows](/docs/Backup?topic=Backup-InstallinWindows)
 
 ## Accessing the Cloud Backup Portal
 {: #accessingPortal}
@@ -92,9 +92,9 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
     3. Add a password hint.
     4. Click **Configure automatically**.
 
-  - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
+  - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
-      For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
+      For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
       Archiving is not supported. When you create a retention scheme or modify an existing scheme, make sure that the Archiving option is **not** selected.
@@ -118,7 +118,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/infrastructure/Backup?topic=Backup-changePassword).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Getting more online help

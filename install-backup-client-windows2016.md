@@ -16,7 +16,7 @@ subcollection: Backup
 {:important: .important}
 {:deprecated: .deprecated}
 
-This article is deprecated because the content applies to our Federal environment only, all commercial customers can follow the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) for initial installation and configuration.
+This article is deprecated because the content applies to our Federal environment only, all commercial customers can follow the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) for initial installation and configuration.
 {:deprecated}
 
 # Configuring {{site.data.keyword.backup_notm}} on Windows 2016 in the Federal Environment
@@ -121,7 +121,7 @@ This task is completed through a series of interactions while you are logged in 
 3. In the workspace, right-click **My Agent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or another location to seed the backup job. Click **Next**.<br/>
-   For more information about multiple vaults, see [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault).
+   For more information about multiple vaults, see [Multi-vaulting](/docs/Backup?topic=Backup-multivault).
    {:tip}
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
 7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup job. When the backup job is done, click **Close**.

@@ -42,11 +42,11 @@ The plug-in is installed during the Windows Agent installation. The plug-in can 
 ## Configuring BMR backup job
 {: #configBMRplugin}
 
-For more information, see [Configuring BMR backup jobs](/docs/infrastructure/Backup?topic=Backup-configureBMR).
+For more information, see [Configuring BMR backup jobs](/docs/Backup?topic=Backup-configureBMR).
 
 ## Restoring a BMR system volume image
 {: #restoringBMimage}
-For more information, see [Restoring a BMR system volume image](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
+For more information, see [Restoring a BMR system volume image](/docs/Backup?topic=Backup-restoreBMR).
 
 ## Downloading the user guide
 {: #BMRUserGuide}

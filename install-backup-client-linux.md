@@ -89,7 +89,7 @@ This step is required for RHEL, but optional for other distributions.
 
 2. Enter your Cloud Backup Portal user name and password.
 
-   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/Backup?topic=Backup-getting-started#getting-started).
    {:tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -131,4 +131,4 @@ This step is required for RHEL, but optional for other distributions.
 
 **Next steps**
 
-Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
+Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).

@@ -60,4 +60,4 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 
 ## Configuring backup agents
 
-Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
