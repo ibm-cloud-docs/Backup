@@ -1,11 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" category="storage" audience="service" href="/docs/Backup?topic=Backup-getting-started#getting-started" product-page="https://www.ibm.com/cloud/backup" path="Backup"}
+{: .toc subcollection="Backup" category="storage" audience="service" href="/docs/Backup?topic=Backup-getting-started#getting-started" path="Backup"}
 IBM Cloud Backup
 
     {: .navgroup id="learn"}
     getting-started.md
+    [What is IBM Cloud Backup?](https://www.ibm.com/cloud/learn/backup-and-restore)
+    [Why IBM Cloud Backup?](https://www.ibm.com/cloud/block-storage)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
