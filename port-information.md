@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-04-29"
+lastupdated: "2020-05-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -22,9 +22,8 @@ subcollection: Backup
 
 The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the data center that the director resides in.
 
-* `ev-director01.service.softlayer.com TCP/2546`
-* `ev-director201.service.softlayer.com TCP/2546`
 * `ev-director301.service.softlayer.com TCP/2546`
+* `ev-vaultdal1201.service.softlayer.com TCP/2546`
 * `ev-vaultlon0201.service.softlayer.com TCP/2546`
 * `ev-vaulthkg0201.service.softlayer.com TCP/2546`
 
