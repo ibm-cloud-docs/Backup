@@ -1,0 +1,220 @@
+{
+    "what-backup": [
+        "applications can be used with Cloud backup",
+        "apps used with Cloud backup",
+        "kind of applications can be backed up",
+        "applications can be used with evault",
+        "type of software can be backed up with Evault",
+        "type of apps can be backed up using Cloud Backup",
+        "data can I backup using Evault",
+        "use evault to backup",
+        "what can evault be used to back up ",
+        "type program use with cloud backup",
+        "cloud backup use cases"
+    ],
+    "frequency": [
+        "how frequently can we back up data",
+        "Cloud Backup scheduling frequency",
+        "how often can cloud backup be used",
+        "maximum times cloud backup to be used",
+        "schedule cloud backup services",
+        "Cloud Backup Portal schedule",
+        "best practices for Cloud Backups"
+    ],
+    "retention": [
+        "retention schemes for cloud backup",
+        "retention schemes for evault",
+        "retention schedule in evault",
+        "archive scheme in cloud backup",
+        "archive schedule for cloud backup",
+        "archive scheme used in evault",
+        "default retention scheme for Cloud backup",
+        "daily data retention for cloud backup"
+    ],
+    "delta": [
+        "what's delta technology in cloud backup",
+        "explain seed backup cloud backup",
+        "seed backup for evault",
+        "deltapro in cloud backup",
+        "incremental backups in cloud backup",
+        "are backups incremental in evault",
+        "how do backups work in Cloud backup"
+    ],
+    "secure": [
+        "are backups secure for Cloud backup",
+        "IBM cloud backups secure",
+        "do backups get encrypted",
+        "are cloud backups securely encrypted",
+        "cloud backups securely saved",
+        "secure backups for evault",
+        "include backup encryption in Cloud Backup"
+    ],
+    "system-state": [
+        "whats stored with system state backups?",
+        "included with system state backups",
+        "is os file included in cloud backup",
+        "os application saved in cloud backup",
+        "user data file included in System state backup",
+        "cloud backup includes the system files",
+        "system state included in evault backup"
+    ],
+    "open-files": [
+        "happens to open files during backup process",
+        "open files running on O/S handled during backup",
+        "active files on ibm cloud backup",
+        "data open during the backup in evault",
+		    "file is locked during Cloud Backup",
+        "locked file with cloud backup"
+    ],
+    "vss": [
+        "Volume Shadow Copy Services in Evault",
+        "explain Volume Shadow Copy Services in Cloud backup",
+        "volume shadow copy service  used",
+        "volume backup using VSS",
+        "VSS image for Cloud backup",
+        "have multiple backups using VSS"
+    ],
+    "pricing": [
+        "pricing for cloud backup",
+        "pricing for evault",
+        "cost of cloud backup",
+        "the price of cloud backup",
+        "price for evault",
+        "how much does cloud backup cost",
+        "how much is evault",
+		    "is cloud back up free",
+		    "information about Backup pricing plans",
+        "amount for cloud backup",
+        "amount  for evault"
+    ],
+    "capacity": [
+        "IBM Cloud Backup capacity be increased",
+        "can Cloud Backup capacity be decreased",
+        "upgrade cloud backup",
+        "downgrading cloud backup",
+        "increase  cloud backup capactity",
+        "decrease the size of Cloud backup vault",
+        "expand capactity of Cloud backup",
+        "enhance evault capacity"
+    ],
+    "exceed-capacity": [
+        "backup capacity is exceeded in cloud backup",
+        "over my limit in cloud backup",
+        "charged extra for exceeding capacity in Cloud Backup",
+        "exceeded my cloud backup limit",
+        "Cloud Backup capacity is exceeded",
+        "whats the capacity limit in cloud backup",
+        "overage for cloud backup"
+    ],
+    "fail-alerts": [
+        "email notification for cloud backup",
+        "set up notifications for the Cloud Backup Portal",
+        "get email notice if backup fails",
+        "get notification for backup failure",
+        "set up notifications for Evault",
+        "mail notify when cloud backup fails"
+    ],
+    "bmr-move": [
+        "use the BMR plug-in in Cloud backup",
+        "get raid array with bmr plugin",
+        "use bmr drives in Evault",
+        "bmr plugin use in cloud backup",
+        "can I use raid array in Cloud backup",
+        "use of raid array for evault",
+        "use of BMR plug in in Cloud backup"
+    ],
+    "bmr-restore-size": [
+        "does bmr restore a larger volume size in cloud backup",
+        "bmr restore a larger volume size for evault",
+        "drive mismatch in cloud backup",
+        "disk mismatch for evault",
+        "volume mismatches in cloud backup",
+        "grow partition for cloud backup"
+    ],
+    "bmr-regular": [
+        "BMR be used for regular backup",
+        "bmr be used for IBM cloud backup",
+        "what is a BMR backup",
+        "BMR backup different from a regular backup",
+        "bare metal restore to a regular backup incloud backup",
+        "bmr replace a backup in cloud backup"
+    ],
+    "bmr-backups": [
+        "BMR be used for database backup",
+        "bmr be used for a database backup in cloud backup",
+        "BMR backup be used for database restore",
+        "BMR use VSS in Cloud backup",
+        "bare metal restore to a regular backup incloud backup",
+        "bmr replace a backup in cloud backup",
+        "BMR compatible for database backups",
+        "need SQL pugin for BMR backup"
+    ],
+    "bmr-restore": [
+        "kind of restore jobs can be run with BMR",
+        "bmr restore jobs used by evault",
+        "disaster recovery in cloud backup",
+        "bare metal restore of data in cloud backup",
+        "bmr restore data in cloud backup",
+        "complete restore for cloud backup",
+        "complete restore for evault"
+    ],
+    "bmr-open-backup": [
+        "bmr open file cloud backup",
+        "bmr open file evault",
+        "bmr active file cloud backup",
+        "bmr active file evault",
+        "bare metal restore open file cloud backup",
+        "bare metal restore open file evault",
+        "bare metal restore active file cloud backup",
+        "bare metal restore active file evault",
+        "bmr vss cloud backup",
+        "bmr vss evault"
+    ],
+    "bmr-restore-time": [
+        "disk space time bmr cloud backup",
+        "disk space time bmr evault",
+        "bmr speed cloud backup",
+        "bmr speed evault",
+        "bmr duration cloud backup",
+        "bmr duration evault",
+        "bmr size cloud backup",
+		    "how long to restore bmr in Backup",
+        "bmr size evault",
+        "bare metal restore disk space cloud backup",
+        "bare metal restore disk space evault"
+    ],
+    "evault": [
+        "32 bit cloud backup",
+        "32 bit evault",
+	    	"32-bit for the backup software agent",
+        "thirty two bit cloud backup",
+        "thirty two bit evault",
+        "thirty-two bit cloud backup",
+        "thirty-two bit evault",
+        "32-bit version cloud backup",
+	    	"32-bit version of EVault for Windows 8",
+        "32-bit  version evault",
+        "32 binary digits cloud backup",
+        "32 binary digits evault"
+    ],
+    "agent-offline": [
+        "why agent offline webcc",
+		    "agent showing the Availability as offline in WebCC",
+        "backup agent off line",
+        "agent availability offline",
+        "off line webcc",
+        "evault agent offline webcc"
+    ],
+    "agent-unconfigured": [
+        "why agent is unconfigured webcc",
+        "backup agent unconfigured",
+        "agent status unconfigured",
+	    	"backup agent not configured in webcc",
+        "webcc backup agent unconfigured",
+	    	"unconfigured status in webcc",
+		    "status of Unconfigured in the Portal",
+        "evault agent unconfigured webcc",
+        "back up job configuration",
+        "cloud backup config"
+    ]
+}
