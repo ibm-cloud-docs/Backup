@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2020
+lastupdated: "2020-06-04"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -226,13 +226,15 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 ## Why is my agent showing the Availability as offline in the WebCC?
 {: faq}
 {: #agent-offline}
+{: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC.  To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 
 <hr>
 
 ## Why is my agent Status showing as Unconfigured in the WebCC?
 {: faq}
 {: #agent-unconfigured}
+{: support}
 
 If the backup agent shows a Status of Unconfigured in the WebCC or Portal, make sure you set up the backup job for your server as described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).
