@@ -49,7 +49,7 @@ IBM Cloud Backup
         restore-vsphere.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference
+    {: .navgroup id="reference"}
     [Identity and Access Management](https://cloud.ibm.com/docs/iam?topic=iam-infrapermission)
     [Service Level Agreements (SLAs)](https://cloud.ibm.com/docs/overview?topic=overview-slas)"}
     {: .navgroup-end}
