@@ -14,6 +14,8 @@ IBM Cloud Backup
     {: .topicgroup}
     Provisioning
         index.md
+        expanding-capacity.md
+        canceling-backup-service.md
 
     {: .topicgroup}
     Plug-ins
@@ -47,9 +49,14 @@ IBM Cloud Backup
         restore-vsphere.md
     {: .navgroup-end}
 
+    {: .navgroup id="reference
+    [Identity and Access Management](https://cloud.ibm.com/docs/iam?topic=iam-infrapermission)
+    [Service Level Agreements (SLAs)](https://cloud.ibm.com/docs/overview?topic=overview-slas)"}
+    {: .navgroup-end}
+
     {: .navgroup id="help"}
     faqs.md
     change-password.md
-    expanding-capacity.md
-    canceling-backup-service.md
+    gethelp.md
+    feedback.md
     {: .navgroup-end}
