@@ -51,7 +51,7 @@ IBM Cloud Backup
 
     {: .navgroup id="reference"}
     [Identity and Access Management](https://cloud.ibm.com/docs/iam?topic=iam-infrapermission)
-    [Service Level Agreements (SLAs)](https://cloud.ibm.com/docs/overview?topic=overview-slas)"}
+    [Service Level Agreements (SLAs)](https://cloud.ibm.com/docs/overview?topic=overview-slas)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
