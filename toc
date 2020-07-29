@@ -47,6 +47,11 @@ IBM Cloud Backup
         restore-from-another-server-in-another-dc.md
         restore-bmr-system-volume-image.md
         restore-vsphere.md
+
+    {: .topicgroup}
+    Troubleshooting
+        offline-agent-linux.md
+        offline-agent-windows.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
