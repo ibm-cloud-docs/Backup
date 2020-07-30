@@ -22,7 +22,7 @@ subcollection: Backup
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 {:external: target="_blank" .external}
 
-# Why does my Linux Backup Agent show offline?
+# Why does my Linux Backup Agent appear offline?
 {: #troubleshoot-LinuxAgent}
 {: troubleshoot}
 {: support}

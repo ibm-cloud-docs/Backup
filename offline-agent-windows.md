@@ -23,7 +23,7 @@ subcollection: Backup
 {:external: target="_blank" .external}
 
 
-# Why does my Windows Backup Agent show offline?
+# Why does my Windows Backup Agent appear offline?
 {: #troubleshoot-WinAgent}
 {: troubleshoot}
 {: support}
