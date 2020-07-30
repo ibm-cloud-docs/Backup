@@ -36,7 +36,7 @@ Linux agent shows as offline in Portal.
 ## Possible firewall issue
 {: #ts-WinAgentFW}
 
-Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
+Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
 {: tsCauses}
 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
