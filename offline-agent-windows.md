@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2020
-lastupdated: "2020-07-29"
+lastupdated: "2020-07-30"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows Backup agent, troubleshooting Backup, Windows Backup agent offline
 
@@ -48,13 +48,13 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 
   * Open CMD and run `telnet` to validate the connection. If you do not already have TELNET installed, you can add the Telnet Client through the "Add Roles and Features".
     ```
-    telnet ibmcloudbackup.service.softlayer.com 8086
+    telnet cloudbackupregister.service.softlayer.com 8086
     ```
     {:pre}
 
     If the port is open, CMD shows a blank screen. If the port is not open, CMD return the following message.
     ```
-    Connecting to ibmcloudbackup.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
+    Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
     {:screen}
     If this is the case, you must contact your network team to update the firewall.
@@ -63,7 +63,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
     1. Open Powershell as Administrator.
     2. Enter the following:
        ```
-       test-netconnection ibmcloudbackup.service.softlayer.com -Port 8086
+       test-netconnection cloudbackupregister.service.softlayer.com -Port 8086
        ```
        If the port is open, the last line shows the following.
        ```
