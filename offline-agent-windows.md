@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2020
 lastupdated: "2020-07-30"
 
-keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows Backup agent, troubleshooting Backup, Windows Backup agent offline
+keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
 subcollection: Backup
 

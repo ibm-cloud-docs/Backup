@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2020
-lastupdated: "2020-07-29"
+lastupdated: "2020-07-30"
 
-keywords: troubleshoot for Backup Agent, troubleshooting for Linux, question about Backup agent, troubleshooting Backup, Backup agent offline
+keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
 subcollection: Backup
 
