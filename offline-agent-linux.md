@@ -80,7 +80,7 @@ If after a refresh of the Portal page, it still shows the Agent is offline, the 
 {: tsCauses}
 
 Registering an Agent to the Portal retains all existing jobs, schedules and configurations as-is. Navigate to the Agent install directory, then run the register command.
-: tsResolve}
+{: tsResolve}
 
 ```
 cd opt/BUAgent
