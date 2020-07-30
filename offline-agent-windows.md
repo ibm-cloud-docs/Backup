@@ -20,6 +20,7 @@ subcollection: Backup
 {:pre: .pre}
 {:note: .note}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
+{:external: target="_blank" .external}
 
 
 # Why does my Windows Backup Agent show offline?
@@ -95,10 +96,12 @@ If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG
    ```
    C:\Program Files\Carbonite Server Backup\Agent\
    ```
+
    or
    ```
    C:\Program Files\Evault Software\Agent\
    ```
+
 2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or Wordpad. You must open the file with the LogViewer.exe in the Bin32 folder of the Agent install.
 3. Right-click the most recent BUAgent-.XLOG and select **open with**.
 4. Click **More Apps**, then click **open with another application**.

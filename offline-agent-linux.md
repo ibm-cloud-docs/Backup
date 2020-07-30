@@ -20,6 +20,7 @@ subcollection: Backup
 {:pre: .pre}
 {:note: .note}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
+{:external: target="_blank" .external}
 
 # Why does my Linux Backup Agent show offline?
 {: #troubleshoot-LinuxAgent}
@@ -48,7 +49,7 @@ When `BUAgent` process is no longer active on the server, the Linux Agent appear
 {: tsCauses}
 
 Ensure that the BUAgent is running by executing the following command on the Linux system.
-: tsResolve}
+{: tsResolve}
 
 ```
 /etc/init.d/vvagent status
@@ -60,7 +61,6 @@ The output shows whether the BUAgent is running.
 VVAgent is running (PID: )
 BUAgent is running (PID: )
 ```
-{: screen}
 
 * If the BUAgent is not running, start it with the following command.
   ```
@@ -98,18 +98,23 @@ For more information about viewing or changing the Backup password, see [Changin
 If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to `opt/BUAgent`.
-```
-cd /opt/BUAgent
-```
+   ```
+   cd /opt/BUAgent
+   ```
+   {:pre}
+
 2.  List the contents and sort them by date.
-```
-ls -lrth
-```
+    ```
+    ls -lrth
+    ```
+    {:pre}
+
 3. Find the name of the most recent `BUAgent-x.XLOG` and open it with `/opt/BUAgent/xlogcat`. It can't be opened with `cat` or `vim`.
-```
-./xlogcat BUAgent-1.XLOG
-```
-{:pre}
+   ```
+   ./xlogcat BUAgent-1.XLOG
+   ```
+   {:pre}
+
 4. Review the log and determine the issue.
 
 If your service plan covers it, you can get help by creating a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
