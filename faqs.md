@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-06-04"
+lastupdated: "2020-07-30"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -223,12 +223,15 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 
 <hr>
 
-## Why is my agent showing the Availability as offline in the WebCC?
+## Why is my backup agent showing as offline in the WebCC?
 {: faq}
 {: #agent-offline}
 {: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the Troubleshooting section:
+
+* [Why does my Linux Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
+* [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
 
 <hr>
 
