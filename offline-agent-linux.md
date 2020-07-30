@@ -32,7 +32,7 @@ There are multiple reasons why the Linux backup agent might appear offline in th
 Linux agent shows as offline in Portal.
 {: tsSymptoms}
 
-## Check for firewall issues
+## Possible firewall issue
 {: #ts-LinuxAgentFW}
 
 Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
@@ -41,7 +41,7 @@ Currently, at minimum, your servers must allow access to the **10.200.86.0/24** 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 {: tsResolve}
 
-## Ensure that the BUAgent is running
+## BUAgent service isn't running
 {: #ts-LinuxAgentbua}
 
 When 'BUAgent' process is no longer active on the server, the Linux Agent appears offline in the Cloud Backup Portal.
@@ -68,13 +68,13 @@ BUAgent is running (PID: )
   ```
   {: pre}
 
-* If the BUAgent is running, restart the services with the following command.
+* If the BUAgent appears to be running, restart the service with the following command.
   ```
   /etc/init.d/vvagent restart
   ```
   {: pre}
 
-## Register agent to the Cloud Backup portal
+## Agent needs to be re-registered to the Cloud Backup portal
 
 If after a refresh of the Portal page, it still shows the Agent is offline, the Agent needs to be registered again to Portal.
 {: tsCauses}

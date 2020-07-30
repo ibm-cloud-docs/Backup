@@ -33,7 +33,7 @@ There are multiple reasons why the Windows backup agent might appear offline in 
 Linux agent shows as offline in Portal.
 {: tsSymptoms}
 
-## Check for firewall issues
+## Possible firewall issue
 {: #ts-WinAgentFW}
 
 Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
@@ -75,7 +75,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
        ```
        If this is the case, you must contact your network team to update the firewall.
 
-## Ensure that the BUAgent is running
+## BUAgent isn't running
 {: #ts-WinAgentbua}
 
 When 'BUAgent' process is no longer active on the server, the Window Agent appears offline in the Cloud Backup Portal.
