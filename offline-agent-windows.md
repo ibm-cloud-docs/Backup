@@ -90,6 +90,7 @@ Restart the Carbonite/Evault Server Backup BUAgent in Services.msc.
 2. Restart the BUAgent service.
 3. Refresh the page on the Portal webpage and see if the Agent now shows “Online”.
 
+
 If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to the backup Agent folder.
@@ -103,7 +104,7 @@ If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG
    ```
 
 2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or Wordpad. You must open the file with the LogViewer.exe in the Bin32 folder of the Agent install.
-3. Right-click the most recent BUAgent-.XLOG and select **open with**.
+3. Right-click the most recent `BUAgent-.XLOG` and select **open with**.
 4. Click **More Apps**, then click **open with another application**.
 5. Scroll down and click **Look for another app on this PC**.
 6. Select `LogViewer.exe` in the following Directory `C:\Program Files\Carbonite Server Backup\Agent\Bin32`. If this is an older Agent, the executable might be under `Program Files\Evault Software`.

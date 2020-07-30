@@ -94,6 +94,7 @@ Answer the following prompts.
 * What is the Web-Based Agent Console password? This is the password used to login to Portal.
 
 For more information about viewing or changing the Backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
+{:tip}
 
 If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
