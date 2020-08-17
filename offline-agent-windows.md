@@ -31,7 +31,7 @@ subcollection: Backup
 There are multiple reasons why the Windows backup agent might appear offline in the Cloud Backup Portal. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
 {:shortdesc}
 
-Linux agent shows as offline in Portal.
+Windows agent shows as offline in Portal.
 {: tsSymptoms}
 
 ## Possible firewall issue
@@ -46,13 +46,13 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 1. Establish Remote Desktop connection to the offline Agent machine.
 2. Then, run one of the following commands to check the ports.
 
-  * Open CMD and run `telnet` to validate the connection. If you do not already have TELNET installed, you can add the Telnet Client through the "Add Roles and Features".
+  * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
     ```
     telnet cloudbackupregister.service.softlayer.com 8086
     ```
     {:pre}
 
-    If the port is open, CMD shows a blank screen. If the port is not open, CMD return the following message.
+    If the port is open, CMD shows a blank screen. If the port is not open, CMD returns the following message.
     ```
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
@@ -103,7 +103,7 @@ If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG
    C:\Program Files\Evault Software\Agent\
    ```
 
-2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or Wordpad. You must open the file with the LogViewer.exe in the Bin32 folder of the Agent install.
+2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or WordPad. You must open the file with the LogViewer.exe in the Bin32 folder of the Agent install.
 3. Right-click the most recent `BUAgent-.XLOG` and select **open with**.
 4. Click **More Apps**, then click **open with another application**.
 5. Scroll down and click **Look for another app on this PC**.

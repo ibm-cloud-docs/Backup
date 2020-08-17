@@ -27,7 +27,7 @@ subcollection: Backup
 {: troubleshoot}
 {: support}
 
-There are multiple reasons why the Linux backup agent might appear offline in the Cloud Backup Portal. Follow the steps to rule out issues with firewall port settings, registration and the `buagent` process on the server.
+There are multiple reasons why the Linux backup agent might appear offline in the Cloud Backup Portal. Follow the steps to rule out issues with firewall port settings, registration, and the `buagent` process on the server.
 {:shortdesc}
 
 Linux agent shows as offline in Portal.
@@ -74,9 +74,9 @@ BUAgent is running (PID: )
   ```
   {: pre}
 
-## Agent needs to be re-registered to the Cloud Backup portal
+## Agent needs to be reregistered to the Cloud Backup portal
 
-If after a refresh of the Portal page, it still shows the Agent is offline, the Agent needs to be registered again to Portal.
+If it still shows that the Agent is offline after a refresh of the Portal page, then the Agent needs to be registered again to Portal.
 {: tsCauses}
 
 Registering an Agent to the Portal retains all existing jobs, schedules and configurations as-is. Navigate to the Agent install directory, then run the register command.
@@ -88,15 +88,15 @@ cd opt/BUAgent
 ```
 
 Answer the following prompts.
-* What is the Web-Based Agent Console address? `cloudbackupregister.service.softlayer.com`
-* What is the Web-Based Agent Console connection port [8086]? Hit enter, 8086 is the correct port.
-* What is the Web-Based Agent Console username? This is the username used to login to Portal.
-* What is the Web-Based Agent Console password? This is the password used to login to Portal.
+* What is the web-based Agent Console address? `cloudbackupregister.service.softlayer.com`
+* What is the web-based Agent Console connection port [8086]? Hit enter, 8086 is the correct port.
+* What is the web-based Agent Console username? This is the username that is used to log in to Portal.
+* What is the web-based Agent Console password? This is the password that is used to log in to Portal.
 
 For more information about viewing or changing the Backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
 {:tip}
 
-If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG.
+If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to `opt/BUAgent`.
    ```
