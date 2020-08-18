@@ -51,6 +51,6 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
    ```
    {:pre}
 
-6. Start answering the prompts by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the Portal address, {{site.data.keyword.backup_notm}} user id and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
+6. Start answering the prompts by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the Portal address, {{site.data.keyword.backup_notm}} user ID and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
 
 7. If the installation is successful, it is recorded in `/opt/BUAgent/Install.log`.
