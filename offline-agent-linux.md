@@ -79,7 +79,7 @@ BUAgent is running (PID: )
 If it still shows that the Agent is offline after a refresh of the Portal page, then the Agent needs to be registered again to Portal.
 {: tsCauses}
 
-Registering an Agent to the Portal retains all existing jobs, schedules and configurations as-is. Navigate to the Agent install directory, then run the register command.
+Registering an Agent to the Portal retains all existing jobs, schedules and configurations as-is. Navigate to the Agent installation directory, then run the register command.
 {: tsResolve}
 
 ```
@@ -89,7 +89,7 @@ cd opt/BUAgent
 
 Answer the following prompts.
 * What is the web-based Agent Console address? `cloudbackupregister.service.softlayer.com`
-* What is the web-based Agent Console connection port [8086]? Hit enter, 8086 is the correct port.
+* What is the web-based Agent Console connection port [8086]? Press enter, 8086 is the correct port.
 * What is the web-based Agent Console username? This is the username that is used to log in to Portal.
 * What is the web-based Agent Console password? This is the password that is used to log in to Portal.
 
