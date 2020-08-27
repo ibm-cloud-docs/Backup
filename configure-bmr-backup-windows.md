@@ -40,7 +40,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 ## Configuring a BMR backup job
 
 1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
-2. Click **Configure Manually**. This loads the vault settings page.
+2. Click **Configure Manually**. The vault settings page is loaded.
 3. Click **Add Vault**.
 4. Expand the Vault Profile menu and select the vault. All values auto-populate.
 5. Click **Save**.
