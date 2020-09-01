@@ -21,13 +21,13 @@ subcollection: Backup
 # Learn about the Oracle plug-in
 {: #Oracleplugin}
 
-The Oracle plug-in is an add-on and is installed with the Backup Agent on the Oracle database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
+The Oracle plug-in is an add-on and is installed with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.
 {:shortdesc}
 
 ## Capabilities provided
 {: #Oraclecapabilities}
 
-- Support for Oracle database backup and recovery.
+- Support for Oracle Database backup and recovery.
 - The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
 - Full and partial databases are restored through normal user-managed Oracle recovery mechanisms.
 
