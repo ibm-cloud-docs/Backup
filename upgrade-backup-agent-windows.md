@@ -33,7 +33,7 @@ Any agent that's older than the 8.32 version needs to be upgraded because they c
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
-3. Click the file that you want. (For example, Agent-Windows-x64-6-72-1072a.exe)
+3. Click the file that you want. (For example, Agent-Windows-x64-8-32-7901.exe)
 
    The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
    {:tip}
