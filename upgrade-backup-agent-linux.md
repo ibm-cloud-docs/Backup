@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2020-05-07"
+  years: 1994, 2020
+lastupdated: "2020-09-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -22,11 +22,11 @@ subcollection: Backup
 {: help}
 {: support}
 
+Any agent that's older than the 8.50 version needs to be upgraded as they cannot connect with the Backup portal due to outdated, unsupported TLS functionality. Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+{:shortdesc}
+
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
 {:tip}
-
-Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
-{:shortdesc}
 
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
