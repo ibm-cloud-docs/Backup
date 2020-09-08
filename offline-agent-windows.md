@@ -28,7 +28,7 @@ subcollection: Backup
 {: troubleshoot}
 {: support}
 
-There are multiple reasons why the Windows backup agent might appear offline in the Cloud Backup Portal. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
+The Windows backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
 {:shortdesc}
 
 Windows agent shows as offline in Portal.
@@ -37,7 +37,7 @@ Windows agent shows as offline in Portal.
 ## Possible firewall issue
 {: #ts-WinAgentFW}
 
-Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
+Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked and the agent cannot communicate with the Portal.
 {: tsCauses}
 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
@@ -57,7 +57,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
     {:screen}
-    If this is the case, you must contact your network team to update the firewall.
+    If so, you must contact your network team to update the firewall.
 
   * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
     1. Open Powershell as Administrator.
@@ -74,12 +74,12 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
        ```
        TcpTestSucceeded : False
        ```
-       If this is the case, you must contact your network team to update the firewall.
+       If so, you must contact your network team to update the firewall.
 
 ## BUAgent isn't running
 {: #ts-WinAgentbua}
 
-When 'BUAgent' process is no longer active on the server, the Window Agent appears offline in the Cloud Backup Portal.
+When 'BUAgent' process is no longer active on the server, the Window Agent appears offline in the Portal.
 {: tsCauses}
 
 Restart the Carbonite/Evault Server Backup BUAgent in Services.msc.
@@ -88,17 +88,17 @@ Restart the Carbonite/Evault Server Backup BUAgent in Services.msc.
 1. Establish Remote Desktop connection to the offline Agent machine.
 1. Open `Services.msc`.
 2. Restart the BUAgent service.
-3. Refresh the page on the Portal webpage and see if the Agent now shows “Online”.
+3. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
 
 
-If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG.
+If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to the backup Agent folder.
    ```
    C:\Program Files\Carbonite Server Backup\Agent\
    ```
 
-   or
+   Or
    ```
    C:\Program Files\Evault Software\Agent\
    ```
@@ -107,7 +107,7 @@ If the above steps don't work, pull up and review the most recent BUAgent-X.XLOG
 3. Right-click the most recent `BUAgent-.XLOG` and select **open with**.
 4. Click **More Apps**, then click **open with another application**.
 5. Scroll down and click **Look for another app on this PC**.
-6. Select `LogViewer.exe` in the following Directory `C:\Program Files\Carbonite Server Backup\Agent\Bin32`. If this is an older Agent, the executable might be under `Program Files\Evault Software`.
+6. Select `LogViewer.exe` in the following Directory `C:\Program Files\Carbonite Server Backup\Agent\Bin32`. In case of an older Agent, the executable might be under `Program Files\Evault Software`.
 7. Review the log and determine the issue.
 
 If your service plan covers it, you can get help by creating a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
