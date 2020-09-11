@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-05-01"
+lastupdated: "2020-09-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -32,7 +32,7 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 
 ## Recommended {{site.data.keyword.backup_notm}} Portal settings
 
-Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data centers location. TCP Port 8086, 8087 should have access to 10.0.0.0/8.
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 should have access to 10.0.0.0/8.
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 

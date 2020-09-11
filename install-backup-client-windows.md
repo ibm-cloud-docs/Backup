@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2020
+lastupdated: "2020-09-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -41,6 +41,9 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
   ```
   {:pre}
 
+  The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. (For example, Agent-Windows-x64-8-32-7901.exe.)
+  {:tip}
+
 2. Double-click the downloaded file.
 3. Click **Run**.
 
@@ -57,6 +60,9 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 3. Enter the password in the **password** field.
 6. Click **Next**.
 7. Click **Install** to complete the installation.
+
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 should have access to 10.0.0.0/8. For more information about port settings, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+{:tip}
 
 ## Configuring backup agents
 
