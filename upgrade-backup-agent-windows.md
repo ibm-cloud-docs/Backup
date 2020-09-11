@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-09-08"
+lastupdated: "2020-09-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -33,9 +33,9 @@ Any agent that's older than the 8.32 version needs to be upgraded because they c
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
-3. Click the file that you want. (For example, Agent-Windows-x64-8-32-7901.exe)
+3. Click the file that you want.
 
-   The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
+   The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. For example, Agent-Windows-x64-8-32-7901.exe.
    {:tip}
 4. Click **Run** at the download screen, and again after it is downloaded.
 5. Click **Yes** to upgrade **{{site.data.keyword.backup_notm}} Software Agent**.
