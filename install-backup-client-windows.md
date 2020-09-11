@@ -61,6 +61,9 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 6. Click **Next**.
 7. Click **Install** to complete the installation.
 
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 should have access to 10.0.0.0/8. For more information about port settings, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+{:tip}
+
 ## Configuring backup agents
 
 Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
