@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2020-01-07"
+lastupdated: "2020-09-21"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,6 +24,9 @@ subcollection: Backup
 
 Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/Backup?topic=Backup-restorefromotherVSI).
 {:shortdesc}
+
+The reregistration of the computer to the vault is not the same as registering the Backup agent to the portal. If you need to reregister the backup agent, follow the instructions in [Upgrading backup software agent for Linux](/docs/Backup?topic=Backup-UpgradeinLinux) (Step 6.).
+{:note}
 
 1. Start Cloud Backup Portal and log in. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
 
