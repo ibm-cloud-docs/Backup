@@ -23,13 +23,13 @@ subcollection: Backup
 # Installing the backup client in Linux
 {: #InstallinLinux}
 
-Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS.
+Installing the {{site.data.keyword.backup_full}} client on a Linux&reg;-based operating system can be done through a series of commands in the shell or the terminal within the OS.
 {:shortdesc}
 
 This procedure outlines the steps that are required to install the client on any of the following operating systems:
-* RHEL
+* Red Hat Enterprise Linux&reg;
 * CentOS
-* CloudLinux
+* CloudLinux&reg;
 
 After you completed the procedure, the automated process registers the Agent service with Cloud Backup Portal, then downloads and installs the files that are needed to run the service.
 

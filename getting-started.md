@@ -48,19 +48,19 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Windows Server 2008 R2
  - Windows Server 2008
 
-**Linux**
+**Linux&reg;**
  - CentOS 7.x
  - CentOS 6.x
- - Debian GNU/Linux 9.x
- - Debian GNU/Linux 8.x
- - Debian GNU/Linux 7.x
+ - Debian GNU/Linux&reg; 9.x
+ - Debian GNU/Linux&reg; 8.x
+ - Debian GNU/Linux&reg; 7.x
  - RHEL 7.x
  - RHEL 6.x
- - Ubuntu Linux 16.04
- - Ubuntu Linux 14.04
+ - Ubuntu Linux&reg; 16.04
+ - Ubuntu Linux&reg; 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the backup client in Linux](/docs/Backup?topic=Backup-InstallinLinux)
+- [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
 - [Installing the backup client in Windows](/docs/Backup?topic=Backup-InstallinWindows)
 
 ## Accessing the Cloud Backup Portal
