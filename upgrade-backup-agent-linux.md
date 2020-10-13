@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-09-08"
+lastupdated: "2020-10-13"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -31,18 +31,18 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-8.50.7245-x64.tar.gz
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.83.8124.tar.gz
    ```
    {:pre}
 
 3. Extract the contents of the downloaded file.
 
    ```
-   tar -xzvf Agent-Linux-8.50.7245-x64.tar.gz
+   tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
    ```
 4. Go to the recent installation directory.
    ```
-   cd Agent-Linux-8.50.7245-x64/
+   cd Agent-Linux-x64-8.83.8124/
    ```
 
 5. Run installation script.
