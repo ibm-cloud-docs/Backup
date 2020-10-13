@@ -62,7 +62,7 @@ Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} serv
 ## Installing the plug-in for Linux
 {: #installOracleLin}
 
-The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](/docs/Backup?topic=Backup-InstallinLinux).
+The Oracle plug-in is an add-on to the Linux&reg; Agent and is installed with the Agent on the database host. The Linux&reg; Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 
