@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2020
+lastupdated: "2020-11-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -41,14 +41,16 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
-**Windows**
+**Windows** (Oldest supported version 8.32)
+ - Windows Server 2019 (WebCC not supported, must use CentralControl)
  - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
  - Windows Server 2008
 
-**Linux&reg;**
+**Linux&reg;** (Oldest supported version 8.50)
+ - CentOS 8.x (BMR backups are not supported)
  - CentOS 7.x
  - CentOS 6.x
  - Debian GNU/Linux&reg; 9.x
