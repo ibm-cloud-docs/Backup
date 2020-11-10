@@ -50,7 +50,6 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 **Linux&reg;**
  - CentOS 7.x
- - CentOS 6.x
  - Debian GNU/Linux&reg; 9.x
  - Debian GNU/Linux&reg; 8.x
  - Debian GNU/Linux&reg; 7.x
