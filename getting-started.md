@@ -58,6 +58,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Debian GNU/Linux&reg; 7.x
  - RHEL 8.x (BMR backups are not supported)
  - RHEL 7.x
+ - Ubuntu Linux&reg; 18.04
  - Ubuntu Linux&reg; 16.04
  - Ubuntu Linux&reg; 14.04
 
