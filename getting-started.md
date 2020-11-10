@@ -52,10 +52,8 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 **Linux&reg;** (Oldest supported version 8.50)
  - CentOS 8.x (BMR backups are not supported)
  - CentOS 7.x
- - CentOS 6.x
  - Debian GNU/Linux&reg; 9.x
  - Debian GNU/Linux&reg; 8.x
- - Debian GNU/Linux&reg; 7.x
  - RHEL 8.x (BMR backups are not supported)
  - RHEL 7.x
  - Ubuntu Linux&reg; 18.04
