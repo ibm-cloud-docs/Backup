@@ -53,13 +53,13 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Windows Server 2008
 
 **Linux&reg;** (Oldest supported version of the backup agent is 8.50.)
- - CentOS 8.x (It requires backup agent version 8.63, BMR backups are not supported.)
+ - CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
  - CentOS 7.x
  - Debian GNU/Linux&reg; 9.x
  - Debian GNU/Linux&reg; 8.x
- - RHEL 8.x (It requires backup agent version 8.63, BMR backups are not supported.)
+ - RHEL 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
  - RHEL 7.x
- - Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.63 or newer.)
+ - Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
  - Ubuntu Linux&reg; 16.04
  - Ubuntu Linux&reg; 14.04
 
