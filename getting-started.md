@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2020
+lastupdated: "2020-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -41,21 +41,25 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
-**Windows**
+**Windows** (Oldest supported version of the backup agent is 8.32.)
+ - Windows Server 2019
+
+   Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent till the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before installing the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
+   {:tip}
  - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
  - Windows Server 2008
 
-**Linux&reg;**
+**Linux&reg;** (Oldest supported version of the backup agent is 8.50.)
+ - CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
  - CentOS 7.x
- - CentOS 6.x
  - Debian GNU/Linux&reg; 9.x
  - Debian GNU/Linux&reg; 8.x
- - Debian GNU/Linux&reg; 7.x
+ - RHEL 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
  - RHEL 7.x
- - RHEL 6.x
+ - Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
  - Ubuntu Linux&reg; 16.04
  - Ubuntu Linux&reg; 14.04
 
