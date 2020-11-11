@@ -43,6 +43,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 **Windows** (Oldest supported version 8.32)
  - Windows Server 2019
+ 
    Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent till the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before installing the Central Control application. .Net can be installed by using the “Add Roles and Features Wizard” from the Server Manager. Multiple.NET can be installed at the same time.
    {:tip}
 
