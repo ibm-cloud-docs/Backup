@@ -29,8 +29,8 @@ subcollection: Backup
 {{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.cloud}} also offers software agents for some of the more common software systems that are backed up, which include the following plug-ins.
 
 - [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin)
-- [Microsoft Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
-- [Microsoft SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Microsoft&reg; Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft&reg; SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
