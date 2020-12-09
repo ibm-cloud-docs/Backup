@@ -1,12 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2020
+  years: 1994, 2021
 lastupdated: "2020-11-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
+
+content-type: tutorial
+services:
+account-plan: paid
+completion-time: 2h
 
 ---
 {:external: target="_blank" .external}
@@ -20,24 +25,28 @@ subcollection: Backup
 
 # Getting started with {{site.data.keyword.backup_notm}}
 {: #getting-started}
+{: toc-content-type="tutorial"}
+{: toc-services=""}
+{: toc-completion-time="2h"}
 
 Backups ensure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [MS Exchange](/docs/Backup?topic=Backup-Exchangeplugin), [MS SQL](/docs/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
 {:shortdesc}
 
 ## Before you begin
 {: #prereqs}
+{: step}
 
 You must have a valid license to use {{site.data.keyword.backup_notm}}. You can obtain the service in two ways.
 
 - [Purchase backups when you Order a Server](/docs/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Purchase backups as an Upgrade](/docs/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-For more information about ordering, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-ordering).
 For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
 {: #installagentgettingstarted}
+{: step}
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
@@ -69,6 +78,7 @@ Follow the instructions appropriate for your OS,
 
 ## Accessing the Cloud Backup Portal
 {: #accessingPortal}
+{: step}
 
 Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. The Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
@@ -83,6 +93,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
 ## Configuring the backup agent and the backup schedule
 {: #configureagentschedule}
+{: step}
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
@@ -106,6 +117,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
 ## Running your first backup job
 {: #runfirstbackup}
+{: step}
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions**, and click **Run Job**.
 2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
@@ -114,6 +126,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
 {: #viewingdetailsinconsole}
+{: step}
 
 The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
@@ -127,5 +140,6 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 
 ## Getting more online help
 {: #onlinehelp}
+{: step}
 
 Cloud Backup Portal's systems are fully documented and support for the application is accessible within the Portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
