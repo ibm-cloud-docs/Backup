@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-10-13"
+  years: 1994, 2021
+lastupdated: "2021-01-19"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -51,6 +51,6 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
    ```
    {:pre}
 
-6. Start answering the prompts by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the Portal address, {{site.data.keyword.backup_notm}} user ID and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
+6. Start answering the prompts by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the [Portal address](/docs/Backup?topic=Backup-portinfo#commercial-portal-servers), {{site.data.keyword.backup_notm}} user ID and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
 
 7. If the installation is successful, it is recorded in `/opt/BUAgent/Install.log`.
