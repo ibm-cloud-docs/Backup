@@ -7,7 +7,6 @@ IBM Cloud Backup
     {: .navgroup id="learn"}
     getting-started.md
     [What is IBM Cloud Backup?](https://www.ibm.com/cloud/learn/backup-and-restore)
-    [Why IBM Cloud Backup?](https://www.ibm.com/cloud/backup)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
