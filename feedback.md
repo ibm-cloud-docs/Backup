@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2020
+  years: 2014, 2021
 lastupdated: "2020-06-29"
 
 keywords: IBM Cloud backup, EVault, new feature, ideas, feedback, issues

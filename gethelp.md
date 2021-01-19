@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2020
+  years: 2014, 2021
 lastupdated: "2020-08-20"
 
 keywords: IBM Cloud backup, EVault, issues, get support, how to request help, open a case, open a ticket
