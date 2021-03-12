@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2019
+  years: 1994, 2021
 lastupdated: "2019-11-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
@@ -38,13 +38,13 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
   - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.cloud_notm}} console
   - The KVM console of your IPMI card.
   Both of these ways work well.
-2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
-<br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> The license agreement for the software is displayed.
+2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the time zone and keyboard language of your choice and click **Next**.
+<br/>![Figure 1 - BMR time zone and keyboard language selections are displayed.](/images/bmr1.png)<br/> The license agreement for the software is displayed.
 3. If you accept the terms, select the check box, and click **Next** to continue. <br/> The main {{site.data.keyword.backup_notm}} system restore menu is presented.
 4. Select **Restore My System**.
-<br/>![Figure 2 - BMR Main menu](/images/bmr2.png)
+<br/>![Figure 2 - The BMR Main menu shows 4 options that are available to select.](/images/bmr2.png)
 5. The system restore wizard appears. Select **Next** to continue.
-<br/>![Figure 3 - BMR Wizard](/images/bmr3.png)
+<br/>![Figure 3 - BMR Wizard provides an overview of the 4 steps if the BMR restore process.](/images/bmr3.png)
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
 7. On the **backup location** screen, select the vault, and enter in the vault address, account number, the user name, and password. Then, click **Next** to continue.
 <br/>![Figure 4 - Choose backup location](/images/bmr4.png)
