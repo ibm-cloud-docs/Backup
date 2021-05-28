@@ -32,9 +32,9 @@ subcollection: Backup
 - [Microsoft&reg; Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
 - [Microsoft&reg; SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
-- [VMware VRA](/docs/Backup?topic=Backup-VRA#VRA)
+- [VMware&reg; VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware plug-ins. Each agent is available as an add-on to your backup service for free.
+The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service for free.
 
 <hr>
 
@@ -228,16 +228,16 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 {: #agent-offline}
 {: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the Troubleshooting section:
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the troubleshooting section:
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
 * [Why does my Windows&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
 
 <hr>
 
-## Why is my agent Status showing as Unconfigured in the WebCC?
+## Why is my agent Status showing as unconfigured in the WebCC?
 {: faq}
 {: #agent-unconfigured}
 {: support}
 
-If the backup agent shows a Status of Unconfigured in the WebCC or Portal, make sure you set up the backup job for your server as described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).
+If the backup agent shows the status of unconfigured in the WebCC or Portal, make sure you set up the backup job for your server as it is described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).

@@ -20,7 +20,7 @@ subcollection: Backup
 # Configuring VRA backup jobs
 {: #ConfigureVRA}
 
-After the VMware vSphere environment is added in the Cloud Backup Portal, you can create a backup job that specifies which virtual machines (VMs) to back up, and where to save the backup data. To back up the data, you can run the backup job manually or schedule the backup job to run.
+After the VMware&reg; vSphere environment is added in the Cloud Backup Portal, you can create a backup job that specifies which virtual machines (VMs) to back up, and where to save the backup data. To back up the data, you can run the backup job manually or schedule the backup job to run.
 {:shortdesc}
 
 You must configure vault settings and vCenter information before you can add a backup job.
@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 1. On the navigation, click **Computers**. The computers page shows the registered computers and environments.
 2. Click **Jobs**.
-3. In the Select job Task menu, click **Create New VMware vCenter Job**.
+3. In the Select job Task menu, click **Create New VMware&reg; vCenter Job**.
 4. Specify the following information.
    * In the **Name** field, type a name for the backup job.
    * In the **Description** field, optionally type a description for the backup job.

@@ -88,7 +88,7 @@ After the successful vault registration, the vCenter Settings need to be configu
    The user must have administrative access to the vCenter to perform this task successfully.
    {:note}
 
-3. Disable Change Block Tracking (CBT) by removing the check mark. CBT is a VMware feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
+3. Disable Change Block Tracking (CBT) by removing the check mark. CBT is a VMware&reg; feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
 4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, “The vCenter credentials have been validated successfully” message appears.
 5. Click **Save** to save the settings.
 
