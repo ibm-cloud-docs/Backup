@@ -17,7 +17,7 @@ subcollection: Backup
 This article is deprecated because the content applies to our Federal environment only. All commercial customers can follow the instructions in [Restoring from a backup](/docs/Backup?topic=Backup-simplerestore) or [Restoring data from one server to another](/docs/Backup?topic=Backup-restorefromotherVSI).
 {:deprecated}
 
-Use these steps to complete a file restore from another computer by using the Windows Central Control.
+Use these steps to complete a file restore from another computer by using the Windows&reg; Central Control.
 
 1. Remote control your Windows 2016 server through RDP.
 2. Open CentralControl.

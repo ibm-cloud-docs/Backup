@@ -20,7 +20,7 @@ subcollection: Backup
 # Restoring data from a backup
 {: #simplerestore}
 
-Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
+Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows&reg; BMR](/docs/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
 {:shortdesc}
 
 ## Starting Cloud Backup Portal

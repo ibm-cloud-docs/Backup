@@ -22,7 +22,7 @@ subcollection: Backup
 # Restoring data from one VSI to another in a different Data Center
 {: #restoreVSIotherlocation}
 
-Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
+Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows&reg; BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
 {:shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
