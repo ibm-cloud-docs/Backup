@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2020
-lastupdated: "2020-07-30"
+  years: 2020, 2021
+lastupdated: "2021-05-28"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -61,7 +61,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 
   * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
     1. Open Powershell as Administrator.
-    2. Enter the following:
+    2. Enter the following command.
        ```
        test-netconnection cloudbackupregister.service.softlayer.com -Port 8086
        ```
