@@ -54,7 +54,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
 ## Restoring files and folders
 {: #restoreFFVRA}
 
-You can restore file and folders from a protected Windows VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at same time. You can't restore files and folders from Linux&reg; VMs with VRA.
+You can restore file and folders from a protected Windows&reg; VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at same time. You can't restore files and folders from Linux&reg; VMs with VRA.
 {:important}
 
 During a files and folder restore, volumes from the selected VM are mounted as drives on the machine where the VRA is running. You can then share some or all of the mounted drives so that users can copy files and folders from the drives. You can also sign in to the VRA machine, and copy files and folders from the mounted drives.

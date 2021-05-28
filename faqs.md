@@ -34,7 +34,7 @@ subcollection: Backup
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle or VMware plug-ins. Each agent is available as an add-on to your backup service for free.
+The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware plug-ins. Each agent is available as an add-on to your backup service for free.
 
 <hr>
 
@@ -214,12 +214,12 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 
 <hr>
 
-## Is the 32-bit version of EVault for Windows 8 still supported?
+## Is the 32-bit version of EVault for Windows&reg; 8 still supported?
 {: faq}
 {: #evault}
 {: support}
 
-No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and Datacenter Editions in March 2017.
+No. The 32-bit version of the backup software agent was retired along with Windows&reg; Server 2008 Standard and Datacenter Editions in March 2017.
 
 <hr>
 
@@ -231,7 +231,7 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the Troubleshooting section:
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
-* [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
+* [Why does my Windows&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
 
 <hr>
 

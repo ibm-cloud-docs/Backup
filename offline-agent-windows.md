@@ -28,10 +28,10 @@ subcollection: Backup
 {: troubleshoot}
 {: support}
 
-The Windows backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
+The Windows&reg; backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
 {:shortdesc}
 
-Windows agent shows as offline in Portal.
+Windows&reg; agent shows as offline in Portal.
 {: tsSymptoms}
 
 ## Possible firewall issue

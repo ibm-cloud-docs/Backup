@@ -50,16 +50,16 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
-**Windows** (Oldest supported version of the backup agent is 8.32.)
- - Windows Server 2019
+**Windows**&reg; (Oldest supported version of the backup agent is 8.32.)
+ - Windows&reg; Server 2019
 
    Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent till the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before installing the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
    {:tip}
- - Windows Server 2016
- - Windows Server 2012 R2
- - Windows Server 2012
- - Windows Server 2008 R2
- - Windows Server 2008
+ - Windows&reg; Server 2016
+ - Windows&reg; Server 2012 R2
+ - Windows&reg; Server 2012
+ - Windows&reg; Server 2008 R2
+ - Windows&reg; Server 2008
 
 **Linux&reg;** (Oldest supported version of the backup agent is 8.50.)
  - CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
@@ -74,7 +74,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
 Follow the instructions appropriate for your OS,
 - [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
-- [Installing the backup client in Windows](/docs/Backup?topic=Backup-InstallinWindows)
+- [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
 
 ## Accessing the Cloud Backup Portal
 {: #accessingPortal}
@@ -97,7 +97,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-  - The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
+  - The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
 
     This job can be modified after it was configured.
     {:note}
