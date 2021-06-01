@@ -41,7 +41,6 @@ IBM Cloud Backup
     Restores
         restore-backup.md
         restore-from-another-computer.md
-        restore-from-another-computer-windows2016.md
         restore-from-another-server-in-another-dc.md
         restore-bmr-system-volume-image.md
         restore-vsphere.md
