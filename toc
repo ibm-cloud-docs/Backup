@@ -30,7 +30,6 @@ IBM Cloud Backup
         upgrade-backup-agent-linux.md
         install-backup-client-windows.md
         upgrade-backup-agent-windows.md
-        install-backup-client-windows2016.md
         port-information.md
         reregister.md
         multivaulting.md
