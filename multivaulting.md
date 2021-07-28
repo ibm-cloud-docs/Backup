@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-07-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -59,9 +59,9 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 ## Adding an Extra Vault in Cloud Backup Portal
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
-3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the WebCC link.
-4. Click the **WebCC Login** link to start the portal client in your browser.
+2. Click **Storage** > **Cloud Backup** to display the backup services.
+3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+4. Click **View backup portal** to start the portal in your browser.
 
    Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}

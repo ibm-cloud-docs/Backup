@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2020-11-11"
+lastupdated: "2021-07-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -87,9 +87,9 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
    Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the backup services.
-3. Select the username of the {{site.data.keyword.cloud_notm}} account. Click the expansion arrow to reveal the WebCC portal link.
-4. Click **WebCC** to start the portal in your browser.
+3. Click **Storage** > **Cloud Backup** to display the backup services.
+4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+5. Click **View backup portal** to start the portal in your browser.
 
 ## Configuring the backup agent and the backup schedule
 {: #configureagentschedule}
