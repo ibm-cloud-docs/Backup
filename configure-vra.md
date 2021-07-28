@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-07-28"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -33,9 +33,9 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
-3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the WebCC link.
-4. Click **WebCC** to start the portal client in your browser.
+2. Click **Storage** > **Cloud Backup** to display the backup services.
+3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+4. Click **View backup portal** to start the portal in your browser.
 
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {:tip}

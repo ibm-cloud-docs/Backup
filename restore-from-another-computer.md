@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-12-02"
+  years: 1994, 2021
+lastupdated: "2021-07-28"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -44,8 +44,8 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select Server2. Click the expansion arrow to reveal the WebCC link.
-4. Click **WebCC** to start the Portal in your browser.
+3. Click Server2.
+4. Click **View backup portal** to start the portal in your browser.
 
 
 ## Editing the vault information

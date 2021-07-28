@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-07-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -30,9 +30,9 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select the server where the files to be restored are located. Click the arrow to reveal the WebCC link.
-4. Click **WebCC** to start the Portal in your browser.
+2. Click **Storage** > **Cloud Backup** to display the backup services.
+3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+4. Click **View backup portal** to start the portal in your browser.
 
 ## Restoring your data
 
