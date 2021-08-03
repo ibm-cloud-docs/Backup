@@ -26,7 +26,7 @@ Use these steps to complete a File restore with {{site.data.keyword.backup_full}
 ## Starting Cloud Backup Portal
 {: #startPortalsimple}
 
-Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network. The Cloud Backup Portal link doesn't work otherwise.
+Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} connection to get access to the {{site.data.keyword.cloud}} private network. The Cloud Backup Portal link doesn't work otherwise.
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
