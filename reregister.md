@@ -30,7 +30,7 @@ The reregistration of the computer to the vault is not the same as registering t
 
 1. Start Cloud Backup Portal and log in. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
 
-   Remember, Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
+   Remember, Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}.
    {:tip}
 2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to second vault.
 3. Click **Vault Settings**.

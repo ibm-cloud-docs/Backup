@@ -63,7 +63,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
 4. Click **View backup portal** to start the portal in your browser.
 
-   Cloud Backup Portal is only accessible through {{site.data.keyword.BluVPN}}.
+   Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}.
    {:tip}
 5. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to a second vault.
 6. Click **Vault Settings**.
