@@ -26,7 +26,7 @@ Each {{site.data.keyword.backup_full}} service has an associated password that i
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
 {:shortdesc}
 
-## View the  backup user name and password
+## Viewing the  backup user name and password
 {: #viewBackupPW}
 {: help}
 {: support}
