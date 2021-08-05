@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-11"
+  years: 1994, 2021
+lastupdated: "2021-08-05"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -45,8 +45,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
   - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace <publicIpAddress> with the actual public IP address.
-4. Click the arrow to display more information about the device, including the user name and the password.
-  - If the password is not displayed, you can reveal it by clicking **Show Password**. The user name and password are used in the next step to log in to the test device. Replace `<user name>` with the actual user name.
+4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
 5. Log in to the target device by entering the following command from the command line.
    ```
    ssh <user name>@<publicIpAddress>
@@ -89,7 +88,7 @@ This step is required for RHEL, but optional for other distributions.
 
 2. Enter your Cloud Backup Portal user name and password.
 
-   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/Backup?topic=Backup-getting-started#getting-started).
+   For more information about viewing the user name or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
    {:tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
