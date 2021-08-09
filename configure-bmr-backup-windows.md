@@ -52,6 +52,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
   {: important}
+
 11. Click **Apply now** to confirm the backup sets.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
 13. Click **Create Job**. The View/Add Schedule window is loaded.
@@ -59,7 +60,6 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
    For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
    {: tip}
-
 
 ## Running a BMR backup job
 

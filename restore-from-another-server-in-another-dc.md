@@ -71,6 +71,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 
    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {: tip}
+
 2. From the Action menu, select **Restore**.
 3. Enter the encryption password.
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
@@ -78,6 +79,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
    {: note}
+
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
 13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.

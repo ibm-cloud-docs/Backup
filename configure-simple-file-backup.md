@@ -71,6 +71,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 
       You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
       {: important}
+
     11. Click **Apply now** to confirm the backup sets.
     12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
     13. Click **Create Job**. The View/Add Schedule window is loaded.

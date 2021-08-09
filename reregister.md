@@ -32,6 +32,7 @@ The reregistration of the computer to the vault is not the same as registering t
 
    Remember, Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}.
    {: tip}
+
 2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to second vault.
 3. Click **Vault Settings**.
 4. Click **Re-register**.
@@ -42,6 +43,7 @@ The reregistration of the computer to the vault is not the same as registering t
 
     "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]".
     {: tip}
+
   - User name
   - Password
 6. Click **Load Computers**.
@@ -51,4 +53,5 @@ The reregistration of the computer to the vault is not the same as registering t
 
    If the backup jobs were created with an encryption password, you must enter the encryption password to restore data, or continue with backups.
    {: important}
+
 10. Click **Close**.

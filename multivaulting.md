@@ -30,7 +30,6 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
 
 
-
 **{{site.data.keyword.backup_notm}} Vault Director locations**
 
 Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
@@ -65,6 +64,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
    Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}.
    {: tip}
+
 5. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to a second vault.
 6. Click **Vault Settings**.
 7. In the **Vault Settings** window, click **Add Vault**.
@@ -74,10 +74,12 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
      The vault name field has a 15 character limit.
      {: important}
+
   3. In the IP address field, add the address of the second {{site.data.keyword.backup_notm}} vault location.
 
      You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas,  you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
      {: tip}
+
   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
   5. Click **Save**.
 

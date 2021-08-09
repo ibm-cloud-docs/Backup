@@ -36,7 +36,6 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
    {: pre}
 
 3. Extract the contents of the downloaded file.
-
    ```
    tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
    ```

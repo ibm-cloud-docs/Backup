@@ -57,6 +57,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
     {: screen}
+
     If so, you must contact your network team to update the firewall.
 
   * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.

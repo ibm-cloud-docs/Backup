@@ -46,6 +46,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
    {: note}
+
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
 13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen.

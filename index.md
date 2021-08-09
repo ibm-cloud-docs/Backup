@@ -38,6 +38,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
       {: tip}
+
    2. Select location.
    3. Select Server configuration and OS Image type. You can also choose multiple add-ons.
    4. Under the **Storage Disks** section, click **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.

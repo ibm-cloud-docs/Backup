@@ -47,7 +47,6 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 2. Double-click the downloaded file.
 3. Click **Run**.
 
-
 ## Installing and Registering the Backup Agent
 
 1. Enter the Network address: <br />

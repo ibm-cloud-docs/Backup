@@ -36,15 +36,18 @@ As of 25 March 2021, full support of Windows&reg; 2019 is available in the Cloud
    http://downloads.service.softlayer.com/evault/
    ```
    {: pre}
+
 3. Click the file that you want.
 
    The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. For example, Agent-Windows-x64-8-32-7901.exe.
    {: tip}
+
 4. Click **Run** at the download screen, and again after it is downloaded.
 5. Click **Yes** to upgrade **{{site.data.keyword.backup_notm}} Software Agent**.
 
    The installer might disappear for a minute while it's loading.
    {: note}
+
 6. Select **Keep my current registration**, and click **next**.
 7. Click **next**. The agent begins the upgrade process. It can take a few minutes.
 8. At the completion screen, click **Finish**.

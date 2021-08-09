@@ -34,5 +34,6 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 
    You can cancel the service anytime. However, when a backup vault is deleted before the end of the monthly billing cycle, you do not receive a refund.
    {: important}
+
 5. Select **Continue**.
 6. Check that **I acknowledge that due to cancellation data loss may occur**. Then, select **Cancel {{site.data.keyword.backup_notm}}**.

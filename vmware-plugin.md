@@ -102,6 +102,5 @@ For more information, see [Configure, schedule, and run a backup job](/docs/Back
 
 For more information, see [Restore vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).
 
-
 Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 {: tip}

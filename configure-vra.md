@@ -83,6 +83,7 @@ Scheduled backup jobs can also be executed immediately.
 
    If multiple vaults and retention schemes are assigned to the job, these options can be changed in the Run job window by clicking the Destination and Retention Scheme menu options.
    {: note}
+
 2. Click **start Backup job** to execute the backup job immediately. The progress window shows you the status of backup job and when the job is finished the job status changes from "Never Run" to "Completed".
 
 To see the status of the last backup job that ran, click the Jobs tab. All job logs can be accessed from the action menu. Click **Action** and select **History/Logs**.
