@@ -46,7 +46,7 @@ The plug-ins that are listed here are only compatible with Windows&reg; servers,
 Within Cloud Backup Portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
 Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safe-sets to grow.
-{:note}
+{: note}
 
 <hr>
 
@@ -58,7 +58,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 {{site.data.keyword.backup_notm}} allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
 You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that you use the default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is not selected. Archiving is not supported.
-{:tip}
+{: tip}
 
 <hr>
 
@@ -79,7 +79,7 @@ The first backup is a "seed" (a complete, full backup), the next and subsequent 
 By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted format by using AES 256-bit.
 
 You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back.
-{:important}
+{: important}
 
 Compression ratios allow for zero compression to a maximum ratios compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
 
@@ -93,7 +93,7 @@ Compression ratios allow for zero compression to a maximum ratios compression th
 The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. By including the system files, you can recover from corrupted system files, or if you accidentally remove some service packs, or want to recover with a bare-metal restore. You can return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
 
 No user data file is included in System state backup. A system state backup job must be configured as a stand-alone job. There mustn't be any other data source that is included in the System State backup job.
-{:important}
+{: important}
 
 <hr>
 

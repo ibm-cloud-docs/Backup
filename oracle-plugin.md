@@ -22,7 +22,7 @@ subcollection: Backup
 {: #Oracleplugin}
 
 The Oracle plug-in is an add-on and is installed with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.
-{:shortdesc}
+{: shortdesc}
 
 ## Capabilities provided
 {: #Oraclecapabilities}
@@ -46,7 +46,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 The Oracle plug-in is installed with the 32-bit or 64-bit Windows&reg; Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
-{:tip}
+{: tip}
 
 1. Run the Agent installation package.
 2. At the language screen, click **OK**.
@@ -94,7 +94,7 @@ The Oracle plug-in installation kit is available in a tar.gz file.
 5. Follow the installation instructions on the screen.
 
 The Oracle plug-in performs an "inconsistent" whole database backup that requires that the database runs in ARCHIVELOG mode. The DBA needs to ensure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the User Guide.
-{:important}
+{: important}
 
 
 ## Downloading the user guide

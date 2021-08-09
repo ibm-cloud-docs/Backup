@@ -20,7 +20,7 @@ subcollection: Backup
 {: #VRARestore}
 
 When VMs are protected in vSphere environment, you can restore [vSphere VMs](#restoreVMs) and [restore files and folders](#restoreFFVRA)  with the vSphere Recovery Agent.
-{:shortdesc}
+{: shortdesc}
 
 ## Restoring vSphere VMs
 {: #restoreVMs}
@@ -41,7 +41,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the backed-up VM contains multiple VMDKs that resided on two or more datastores, and one or more of the datastores are unavailable, the entire VM is restored to the selected datastore.
 
    If you restore a VM or template to a vCenter, and the original VM is present, the VM is restored as a clone of the original with the following name: <VMname>-vra-restored-<Date>. The VM is restored as a clone if the original VM is powered on, off, or suspended. If the original VM is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned VM is powered on.
-   {:note}
+   {: note}
 
 13.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected datastore.
 14.	Select one of the following options for registering the restored VMs with the hosts you selected:
@@ -55,12 +55,12 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
 {: #restoreFFVRA}
 
 You can restore file and folders from a protected Windows&reg; VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at same time. You can't restore files and folders from Linux&reg; VMs with VRA.
-{:important}
+{: important}
 
 During a files and folder restore, volumes from the selected VM are mounted as drives on the machine where the VRA is running. You can then share some or all of the mounted drives so that users can copy files and folders from the drives. You can also sign in to the VRA machine, and copy files and folders from the mounted drives.
 
 Files and folders on the disks are accessible to anyone on the VRA system, including non-Admin users. If you're concerned about security, secure the Agent machine and prevent users from logging in to the machine locally.
-{:tip}
+{: tip}
 
 1. On the navigation bar, click **Computers**. The grid lists available computers.
 2. Find the vSphere environment with the VM that you want to restore, and expand its view by clicking the row.
@@ -75,7 +75,7 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
 9. In the **Idle Time field**, enter the number of minutes of inactivity after which the share drive is to automatically unshare. The Idle time can range 2 - 180 minutes.
 
   The drive does not unshare while new data is being copied. If you copy the same data from a shared drive more than once, the system could timeout because no new data is being read.
-  {:note}
+  {: note}
 
 10.	In **Performance options**, select Use all available bandwidth.
 11.	Click **Run Restore**.

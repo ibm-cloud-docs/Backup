@@ -24,7 +24,7 @@ subcollection: Backup
 {: #InstallinLinux}
 
 Installing the {{site.data.keyword.backup_full}} client on a Linux&reg;-based operating system can be done through a series of commands in the shell or the terminal within the OS.
-{:shortdesc}
+{: shortdesc}
 
 This procedure outlines the steps that are required to install the client on any of the following operating systems:
 * Red Hat Enterprise Linux&reg;
@@ -34,7 +34,7 @@ This procedure outlines the steps that are required to install the client on any
 After you completed the procedure, the automated process registers the Agent service with Cloud Backup Portal, then downloads and installs the files that are needed to run the service.
 
 If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: external} or the {{site.data.keyword.cloud_notm}} console, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
-{:tip}
+{: tip}
 
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.cloud_notm}} console, follow these steps to install the software.
 
@@ -53,14 +53,14 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
    {: pre}
 
    If you didn't log in to this server with this user name before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
-   {:note}
+   {: note}
 
 6. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
 
 ## Updating the OS to prepare for the installation (RHEL only)
 
 This step is required for RHEL, but optional for other distributions.
-{:tip}
+{: tip}
 
 - Run the following command at the server prompt.
   ```
@@ -89,12 +89,12 @@ This step is required for RHEL, but optional for other distributions.
 2. Enter your Cloud Backup Portal user name and password.
 
    For more information about viewing the user name or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
-   {:tip}
+   {: tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
 
    They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
-   {:note}
+   {: note}
 
 4. The installation is complete when the following messages appear.
 
@@ -126,7 +126,7 @@ This step is required for RHEL, but optional for other distributions.
    {: codeblock}
 
   The process IDs that are represented by `xxxxx` varies with each installation.
-  {:tip}
+  {: tip}
 
 **Next steps**
 

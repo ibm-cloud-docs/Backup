@@ -21,7 +21,7 @@ subcollection: Backup
 {: #restoreBMR}
 
 If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
-{:shortdesc}
+{: shortdesc}
 
 ## Initiating the BMR Rescue Kernel system
 
@@ -69,4 +69,4 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
   The restoration is now complete. <br/>
 
   The first time the server restarts you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot.
-  {:tip}
+  {: tip}

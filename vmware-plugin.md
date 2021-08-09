@@ -21,7 +21,7 @@ subcollection: Backup
 {: #VRA}
 
 The vSphere Recovery Agent (VRA) is a Windows&reg; application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a machine that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.
-{:shortdesc}
+{: shortdesc}
 
 In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up preferred VMs of that site. If a VM is moved to a different site (because of maintenance or failures), backup performance can be degraded but remain acceptable.
 
@@ -72,7 +72,7 @@ To configure the vault settings manually, click **Configure Manually**.
 1. Click **Vault Settings**.
 2. Click **Add Vault**. The Vault Settings window appears. From the **Vault Profile** options, select the appropriate vault.
    If the computer was previously registered with an {{site.data.keyword.backup_notm}} vault, then all information is auto-populated when the Vault is selected from the Vault Profile.
-   {:note}
+   {: note}
 
 3. Verify all the information in the Vault settings page, and click **Save**.
 4. When you save the vault settings, the vault information becomes visible in the **Vault Settings** Tab.
@@ -86,7 +86,7 @@ After the successful vault registration, the vCenter Settings need to be configu
 1. Click the **vCenter Settings** Tab.
 2. Provide the vCenter IP address, domain name, and credentials for the vCenter that you want to protect.
    The user must have administrative access to the vCenter to perform this task successfully.
-   {:note}
+   {: note}
 
 3. Disable Change Block Tracking (CBT) by removing the check mark. CBT is a VMware&reg; feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
 4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, “The vCenter credentials have been validated successfully” message appears.
@@ -104,4 +104,4 @@ For more information, see [Restore vSphere data](/docs/Backup?topic=Backup-VRARe
 
 
 Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
-{:tip}
+{: tip}

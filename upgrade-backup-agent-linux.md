@@ -23,17 +23,17 @@ subcollection: Backup
 {: support}
 
 Any agent that's older than the 8.63 version needs to be upgraded as they cannot connect with the Backup portal due to outdated, unsupported TLS functionality. Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
-{:shortdesc}
+{: shortdesc}
 
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
-{:tip}
+{: tip}
 
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
    ```
    wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.83.8124.tar.gz
    ```
-   {:pre}
+   {: pre}
 
 3. Extract the contents of the downloaded file.
 
@@ -49,7 +49,7 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
    ```
    ./install.sh
    ```
-   {:pre}
+   {: pre}
 
 6. Answer the first prompt by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the [Portal address](/docs/Backup?topic=Backup-portinfo#commercial-portal-servers), {{site.data.keyword.backup_notm}} user ID and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
 

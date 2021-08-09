@@ -23,7 +23,7 @@ subcollection: Backup
 {: #restoreVSIotherlocation}
 
 Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows&reg; BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
-{:shortdesc}
+{: shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
@@ -34,13 +34,13 @@ The process includes reregistering the backup agent on the second server to acce
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.
-{:important}
+{: important}
 
 ## Starting Cloud Backup Portal of Server2
 {: #startPortalotherDC}
 
 Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
-{:tip}
+{: tip}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
@@ -50,7 +50,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
  Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
- {:note}
+ {: note}
 
  If a current backup vault is registered to Server2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
 
@@ -70,14 +70,14 @@ If current backup jobs are registered for Server2, they must be removed. You can
 1. Click **Jobs**.
 
    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
-   {:tip}
+   {: tip}
 2. From the Action menu, select **Restore**.
 3. Enter the encryption password.
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
-   {:note}
+   {: note}
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
 13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.

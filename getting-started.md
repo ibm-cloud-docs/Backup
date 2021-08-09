@@ -30,7 +30,7 @@ completion-time: 2h
 {: toc-completion-time="2h"}
 
 Backups ensure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.cloud}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like [MS Exchange](/docs/Backup?topic=Backup-Exchangeplugin), [MS SQL](/docs/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere&reg;](/docs/Backup?topic=Backup-VRA), and enable users to complete a [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin#BMRplugin), when necessary.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #prereqs}
@@ -54,7 +54,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
  - Windows&reg; Server 2019
 
    Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
-   {:tip}
+   {: tip}
  - Windows&reg; Server 2016
  - Windows&reg; Server 2012 R2
  - Windows&reg; Server 2012
@@ -85,7 +85,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 1. Access the Private Network over VPN.
 
    Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
-   {:important}
+   {: important}
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 3. Click **Storage** > **Cloud Backup** to display the backup services.
 4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
@@ -100,7 +100,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
   - The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or ./ <root> directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
 
     This job can be modified after it was configured.
-    {:note}
+    {: note}
 
     1. Create a password.
     2. Confirm the password.
@@ -110,10 +110,10 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
   - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
       For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
-      {:tip}
+      {: tip}
 
       Archiving is not supported. When you create a retention scheme or modify an existing scheme, make sure that the Archiving option is **not** selected.
-      {:important}
+      {: important}
 
 ## Running your first backup job
 {: #runfirstbackup}
@@ -136,7 +136,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
-{:important}
+{: important}
 
 ## Getting more online help
 {: #onlinehelp}

@@ -21,13 +21,13 @@ subcollection: Backup
 {: #simplerestore}
 
 Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows&reg; BMR](/docs/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
-{:shortdesc}
+{: shortdesc}
 
 ## Starting Cloud Backup Portal
 {: #startPortalsimple}
 
 Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} connection to get access to the {{site.data.keyword.cloud}} private network. The Cloud Backup Portal link doesn't work otherwise.
-{:important}
+{: important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
@@ -45,7 +45,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
-   {:note}
+   {: note}
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
 13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen.
