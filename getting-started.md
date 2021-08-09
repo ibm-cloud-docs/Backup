@@ -55,6 +55,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 
    Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
    {: tip}
+
  - Windows&reg; Server 2016
  - Windows&reg; Server 2012 R2
  - Windows&reg; Server 2012
@@ -86,6 +87,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
    Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
    {: important}
+
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 3. Click **Storage** > **Cloud Backup** to display the backup services.
 4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
