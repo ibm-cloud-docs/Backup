@@ -30,25 +30,26 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
 
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
-   ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.83.8124.tar.gz
-   ```
-   {: pre}
+    ```
+    wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.83.8124.tar.gz
+    ```
+    {: pre}
 
 3. Extract the contents of the downloaded file.
-   ```
-   tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
-   ```
+    ```
+    tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
+    ```
+
 4. Go to the recent installation directory.
-   ```
-   cd Agent-Linux-x64-8.83.8124/
-   ```
+    ```
+    cd Agent-Linux-x64-8.83.8124/
+    ```
 
 5. Run installation script.
-   ```
-   ./install.sh
-   ```
-   {: pre}
+    ```
+    ./install.sh
+    ```
+    {: pre}
 
 6. Answer the first prompt by selecting your language. Then, if the current agent is registered in the Backup portal, select `N` for not registering the computer as a new host. If the current agent is not registered in the Backup portal, select `Y` complete the registration and provide the [Portal address](/docs/Backup?topic=Backup-portinfo#commercial-portal-servers), {{site.data.keyword.backup_notm}} user ID and password. Lastly, select `A` to encrypt data by using the Integrated encryption method.
 

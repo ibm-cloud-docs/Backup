@@ -62,8 +62,8 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
 1. On the **Computer** tab, click **Jobs**.
 
-   You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
-   {: tip}
+    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
+    {: tip}
 
 2. From the Action menu, select **Restore from Another Computer**.
 3. Select the Vault, Computer, and Job from the drop-down menus.
@@ -71,8 +71,8 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
-   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
-   {: note}
+    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
+    {: note}
 
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
@@ -84,10 +84,10 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
 1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
-  ```
-  ls -la
-  ```
-  {: pre}
+    ```
+    ls -la
+    ```
+    {: pre}
 
 3. Compare the output.
 
