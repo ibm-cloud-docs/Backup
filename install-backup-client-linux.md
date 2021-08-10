@@ -47,13 +47,13 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
   - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace <publicIpAddress> with the actual public IP address.
 4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
 5. Log in to the target device by entering the following command from the command line.
-   ```
-   ssh <user name>@<publicIpAddress>
-   ```
-   {: pre}
+    ```
+    ssh <user name>@<publicIpAddress>
+    ```
+    {: pre}
 
-   If you didn't log in to this server with this user name before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
-   {: note}
+    If you didn't log in to this server with this user name before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
+    {: note}
 
 6. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
 
@@ -88,45 +88,45 @@ This step is required for RHEL, but optional for other distributions.
 
 2. Enter your Cloud Backup Portal user name and password.
 
-   For more information about viewing the user name or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
-   {: tip}
+    For more information about viewing the user name or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
+    {: tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
 
-   They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
-   {: note}
+    They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
+    {: note}
 
 4. The installation is complete when the following messages appear.
 
-   ```
-   Starting VVAgent: [ OK ]
-   Starting buagent: [ OK ]
-   ```
-   {: codeblock}
+    ```
+    Starting VVAgent: [ OK ]
+    Starting buagent: [ OK ]
+    ```
+    {: codeblock}
 
 ## Verifying that the installation succeeded
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
-   ```
-   grep 'Registered' /opt/BUAgent/Install.log
-   ```
-   {: pre}
+    ```
+    grep 'Registered' /opt/BUAgent/Install.log
+    ```
+    {: pre}
 
 2. Run the following command and observe the output.
-   ```
-   service vvagent status
-   ```
-   {: pre}
+    ```
+    service vvagent status
+    ```
+    {: pre}
 
-   The following messages are displayed.
-   ```
-   VVAgent is running (PID xxxxx).
-   buagent is running (PID xxxxx).
-   ```
-   {: codeblock}
+    The following messages are displayed.
+    ```
+    VVAgent is running (PID xxxxx).
+    buagent is running (PID xxxxx).
+    ```
+    {: codeblock}
 
-  The process IDs that are represented by `xxxxx` varies with each installation.
-  {: tip}
+   The process IDs that are represented by `xxxxx` varies with each installation.
+   {: tip}
 
 **Next steps**
 
