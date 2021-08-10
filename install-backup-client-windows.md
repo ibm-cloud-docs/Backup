@@ -36,13 +36,13 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 ## Downloading the backup client
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client. <br/>
-  ```
-  http://downloads.service.softlayer.com/evault/
-  ```
-  {: pre}
+   ```
+   http://downloads.service.softlayer.com/evault/
+   ```
+   {: pre}
 
-  The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. (For example, Agent-Windows-x64-8-32-7901.exe.)
-  {: tip}
+   The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. (For example, Agent-Windows-x64-8-32-7901.exe.)
+   {: tip}
 
 2. Double-click the downloaded file.
 3. Click **Run**.
