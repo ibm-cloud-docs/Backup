@@ -46,7 +46,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-  - The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or ./ <root> directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
+- The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or ./ <root> directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
 
     This job can be modified after it was configured.
     {: note}
@@ -56,7 +56,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     3. Add a password hint.
     4. Click **Configure automatically**.
 
-  - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
+- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
 
     1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
     2. Click **Configure Manually**. The vault settings page loads.
@@ -69,8 +69,8 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     9. Select the files and folders you want to include in the backup.
     10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-      You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
-      {: important}
+        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+        {: important}
 
     11. Click **Apply now** to confirm the backup sets.
     12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
