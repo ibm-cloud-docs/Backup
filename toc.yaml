@@ -16,75 +16,75 @@ toc:
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
     - navgroup:
-      id: learn
-      topics:
-      -  getting-started.md
-      - link:
-        label: What is IBM Cloud Backup?
-        href: https://www.ibm.com/cloud/learn/backup-and-restore
+        id: learn
+        topics:
+        -  getting-started.md
+        - link:
+            label: What is IBM Cloud Backup?
+            href: https://www.ibm.com/cloud/learn/backup-and-restore
 
     - navgroup:
-      id: howto
-      topics:
-      - topic-3.md
-      - topicgroup:
-        label: Provisioning
+        id: howto
         topics:
-        - index.md
-        - expanding-capacity.md
-        - canceling-backup-service.md
-      - topicgroup:
-        label: Plug-ins
-        topics:
-        - bmr-plugin.md
-        - exchange-plugin.md
-        - mssql-plugin.md
-        - oracle-plugin.md
-        - vmware-plugin.md
-      - topicgroup:
-        label: Configuration
-        topics:
-        - install-backup-client-linux.md
-        - upgrade-backup-agent-linux.md
-        - install-backup-client-windows.md
-        - upgrade-backup-agent-windows.md
-        - port-information.md
-        - reregister.md
-        - multivaulting.md
-        - configure-simple-file-backup.md
-        - configure-bmr-backup-windows.md
-        - configure-vra.md
-      - topicgroup:
-        label: Restores
-        topics:
-        - restore-backup.md
-        - restore-from-another-computer.md
-        - restore-from-another-server-in-another-dc.md
-        - restore-bmr-system-volume-image.md
-        - restore-vsphere.md
+        - topic-3.md
+        - topicgroup:
+            label: Provisioning
+            topics:
+            - index.md
+            - expanding-capacity.md
+            - canceling-backup-service.md
+         - topicgroup:
+            label: Plug-ins
+            topics:
+            - bmr-plugin.md
+            - exchange-plugin.md
+            - mssql-plugin.md
+            - oracle-plugin.md
+            - vmware-plugin.md
+        - topicgroup:
+            label: Configuration
+            topics:
+            - install-backup-client-linux.md
+            - upgrade-backup-agent-linux.md
+            - install-backup-client-windows.md
+            - upgrade-backup-agent-windows.md
+            - port-information.md
+            - reregister.md
+            - multivaulting.md
+            - configure-simple-file-backup.md
+            - configure-bmr-backup-windows.md
+            - configure-vra.md
+        - topicgroup:
+            label: Restores
+            topics:
+            - restore-backup.md
+            - restore-from-another-computer.md
+            - restore-from-another-server-in-another-dc.md
+            - restore-bmr-system-volume-image.md
+            - restore-vsphere.md
 
     - navgroup:
-      id: reference
-      topics:
-      - link:
-        label: Identity and Access Management
-        href: https://{Domainlabel}/docs/iam?topic=iam-infrapermission
-      - link:
-        label: Service Level Agreements
-        href: https://{Domainlabel}/docs/overview?topic=overview-slas
+        id: reference
+        topics:
+        - link:
+            label: Identity and Access Management
+            href: https://{Domainlabel}/docs/iam?topic=iam-infrapermission
+        - link:
+            label: Service Level Agreements
+            href: https://{Domainlabel}/docs/overview?topic=overview-slas
 
     - navgroup:
-      id: help
-      topics:
-      - topicgroup:
-        label: FAQs
+        id: help
         topics:
-        - faqs.md
-        - change-password.md
-        - gethelp.md
-        - feedback.md
-      - topicgroup:
-        label: Troubleshooting
-        topics:
-        - offline-agent-linux.md
-        - offline-agent-windows.md
+        - topicgroup:
+            label: FAQs
+            topics:
+            - faqs.md
+            - change-password.md
+            - gethelp.md
+            - feedback.md
+        - topicgroup:
+            label: Troubleshooting
+            topics:
+            - offline-agent-linux.md
+            - offline-agent-windows.md
