@@ -28,7 +28,7 @@ subcollection: Backup
 {: support}
 
 The Linux&reg; backup agent might appear offline in the portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, registration, and the `buagent` process on the server.
-{:shortdesc}
+{: shortdesc}
 
 Linux&reg; agent shows as offline in Portal.
 {: tsSymptoms}
@@ -94,7 +94,7 @@ Answer the following prompts.
 * What is the web-based Agent Console password? This is the same password that is used to log in to Portal.
 
 For more information about viewing or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
-{:tip}
+{: tip}
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
@@ -102,19 +102,19 @@ If the previous steps don't work, pull up and review the most recent BUAgent-X.X
    ```
    cd /opt/BUAgent
    ```
-   {:pre}
+   {: pre}
 
 2.  List the contents and sort them by date.
     ```
     ls -lrth
     ```
-    {:pre}
+    {: pre}
 
 3. Find the name of the most recent `BUAgent-x.XLOG` and open it with `/opt/BUAgent/xlogcat`. It can't be opened with `cat` or `vim`.
    ```
    ./xlogcat BUAgent-1.XLOG
    ```
-   {:pre}
+   {: pre}
 
 4. Review the log and determine the issue.
 

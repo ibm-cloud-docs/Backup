@@ -22,7 +22,7 @@ subcollection: Backup
 {: #expandcapacity}
 
 Current {{site.data.keyword.cloud}} users are able to expand the size of their vault up to 4000 GB. They don't need to create a duplicate or manually migrate data to a larger volume. The limit increase process does not cause any outage or lack of access.
-{:shortdesc}
+{: shortdesc}
 
 ## Ordering an increase
 
@@ -37,4 +37,4 @@ Current {{site.data.keyword.cloud}} users are able to expand the size of their v
 Billing for the volume is automatically updated to add the pro-rated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
 
 The same process can be used to downsize your {{site.data.keyword.backup_notm}}.
-{:tip}
+{: tip}

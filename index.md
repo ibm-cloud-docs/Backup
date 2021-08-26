@@ -24,10 +24,10 @@ subcollection: Backup
 You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 * [Purchase backups when you order a server](#purchasingwithserver).
 * [Purchase backups as an upgrade](#purchasingasupgrade).
-{:shortdesc}
+{: shortdesc}
 
 {{site.data.keyword.backup_notm}} usage is billed based on the vault size on a monthly basis. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
-{:important}
+{: important}
 
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}
@@ -37,7 +37,8 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
    1. Select quantity, billing option. Enter host and domain names. You can choose any hostname and domain that you like.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
-      {:tip}
+      {: tip}
+
    2. Select location.
    3. Select Server configuration and OS Image type. You can also choose multiple add-ons.
    4. Under the **Storage Disks** section, click **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
@@ -47,7 +48,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 5. Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
    You can also save this order without purchasing by clicking **Save as Quote**.
-   {:tip}
+   {: tip}
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud_notm}} console.
 
@@ -84,6 +85,6 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 2. Inspect the {{site.data.keyword.backup_notm}} section and verify that the size that was selected during the purchase process is displayed.
 
    If the backup storage size continues to show a capacity of zero, a second page refresh might be needed.
-   {:tip}
+   {: tip}
 
 When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the Cloud Backup Portal. For more information, see [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).

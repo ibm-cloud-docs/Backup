@@ -28,7 +28,7 @@ The {{site.data.keyword.backup_full}} agent that is installed on your server nee
 * `ev-vaulthkg0201.service.softlayer.com TCP/2546`
 
 Always register agents to the Cloud Backup Portal and the directors by using the FQDN because the IP addresses for these services might change.
-{:important}
+{: important}
 
 ## Recommended {{site.data.keyword.backup_notm}} Portal settings
 
@@ -41,7 +41,7 @@ cloudbackupregister.service.softlayer.com TCP Port 8086.
 ```
 
 If you need to use more restrictive firewall rules, you might lose access to the Cloud Backup Portal as the infrastructure is expanded.
-{:important}
+{: important}
 
 ## Minimum Port Requirements
 
@@ -61,7 +61,7 @@ Cloud Backup Portal Agent Registration
 The following list contains all of the current AMP proxy servers.
 
 Agents must have connectivity to all proxy servers. New proxy servers might be added to the subnet 10.2.118.0/24 without notification.
-{:note}
+{: note}
 
 * `evwebamp0901.service.softlayer.com [10.2.118.12] TCP 8087`
 * `evwebamp0902.service.softlayer.com [10.2.118.13] TCP 8087`
@@ -86,4 +86,4 @@ The agent must allow the TCP port 2548 inbound on the private network. This sett
 The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows&reg; operating systems.
 
 When it comes to connection settings, the difference between desktop Central Control and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the desktop-utilized Central Control connects to your server, by using its address and the server's credentials to access it.
-{:tip}
+{: tip}

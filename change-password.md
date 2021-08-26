@@ -24,7 +24,7 @@ subcollection: Backup
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
-{:shortdesc}
+{: shortdesc}
 
 ## Viewing the  backup user name and password
 {: #viewBackupPW}
@@ -48,5 +48,5 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
    {: note}
 5. Enter the new password in the **Password** field.
    The password must be: 8 - 12 characters in length, include at least 1 upper case letter, include at least 1 lower case letter, include at least 1 numeric character, include at least 1 of these special characters: `\!@\#%\^` and contain only letters, numerals, and these special characters: `\!@\#%\^`
-   {:important}
+   {: important}
 6. Press Enter to update the password.

@@ -21,13 +21,13 @@ subcollection: Backup
 {: #configureBMR}
 
 You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows&reg; Bare Metal Servers. No BMR option is available for VSI. For more information, see [Learn about the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
-{:important}
+{: important}
 
 ## Starting Cloud Backup Portal
 {: #startPortalBMR}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{:important}
+{: important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 3. Click **Storage** > **Cloud Backup** to display the backup services.
@@ -35,7 +35,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 5. Click **View backup portal** to start the portal in your browser.
 
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
-   {:tip}
+   {: tip}
 
 ## Configuring a BMR backup job
 
@@ -51,15 +51,15 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
-  {:important}
+  {: important}
+
 11. Click **Apply now** to confirm the backup sets.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
 13. Click **Create Job**. The View/Add Schedule window is loaded.
 14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily, Weekly, Monthly. Select the appropriate retention period and click **Save**.
 
    For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
-   {:tip}
-
+   {: tip}
 
 ## Running a BMR backup job
 

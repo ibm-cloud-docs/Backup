@@ -29,7 +29,7 @@ subcollection: Backup
 {: support}
 
 The Windows&reg; backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
-{:shortdesc}
+{: shortdesc}
 
 Windows&reg; agent shows as offline in Portal.
 {: tsSymptoms}
@@ -50,13 +50,14 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
     ```
     telnet cloudbackupregister.service.softlayer.com 8086
     ```
-    {:pre}
+    {: pre}
 
     If the port is open, CMD shows a blank screen. If the port is not open, CMD returns the following message.
     ```
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
-    {:screen}
+    {: screen}
+
     If so, you must contact your network team to update the firewall.
 
   * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
