@@ -70,4 +70,4 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
      ```
      This will remove jobs, settings, etc. (y/[N])
      ```
-5. After uninstalling the Backup Agent, we advise you to reboot the Server.
+5. Reboot your server at your earliest convenience to ensure that the software is completely removed.
