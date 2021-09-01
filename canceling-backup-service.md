@@ -41,10 +41,10 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 5. Select **Continue**.
 6. Check that **I acknowledge that due to cancellation data loss may occur**. Then, select **Cancel {{site.data.keyword.backup_notm}}**.
 
-## Uninstall the Backup Agent from your servers
+## Uninstall the Backup Agent from your server
 {: #uninstallbackupagent}
 
-### Uninstall the Backup Agent from a Windows&reg; Server
+### Removing the Backup Agent from a Windows&reg; Server
 {: #uninstallbackupagentWin}
 
 1. Establish a remote desktop session to your server.
@@ -55,7 +55,7 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 6. Select the "Total Uninstall" option and confirm by clicking "Next >".
 7. Reboot your server at your earliest convenience to ensure that the software is completely removed.
 
-### Uninstall the Backup Agent from a Linux Server
+### Removing the Backup Agent from a Linux Server
 {: #uninstallbackupagentLin}
 
 1. Establish secure shell connection (SSH) to your server.
