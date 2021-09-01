@@ -251,5 +251,5 @@ If the backup agent shows the status of unconfigured in the WebCC or Portal, mak
 
 You can remove the backup agent either through the Command line on a Linux server or through the Control Panel of a Windows&reg; server.
 For more information, see
-- [Uninstalling the Backup Agent from a Windows&reg; Server](docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
-- [Uninstalling the Backup Agent from a Linux Server](docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
+- [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
+- [Uninstalling the Backup Agent from a Linux Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
