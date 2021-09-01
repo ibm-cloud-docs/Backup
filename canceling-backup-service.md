@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2020-01-07"
+  years: 1994, 2021
+lastupdated: "2021-09-01"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -27,6 +27,9 @@ subcollection: Backup
 You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to the Cloud Backup Portal with the canceled credentials.
 {: shortdesc}
 
+## Cancel the service in the UI
+{: #cancelbackupUI}
+
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select **Actions** > **Cancel {{site.data.keyword.backup_notm}}**.
@@ -37,3 +40,34 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 
 5. Select **Continue**.
 6. Check that **I acknowledge that due to cancellation data loss may occur**. Then, select **Cancel {{site.data.keyword.backup_notm}}**.
+
+## Uninstall the Backup Agent from your servers
+{: #uninstallbackupagent}
+
+### Uninstall the Backup Agent from a Windows&reg; Server
+{: #uninstallbackupagentWin}
+
+1. Establish a remote desktop session to your server.
+2. Go to Start, and click Control Panel.
+3. Select the "Programs and Features" option.
+4. Right-click the "EVault Software Agent" Agent and confirm the removal by using the "Unistall" button.
+5. In the dialog box that appears, click "Yes".
+6. Select the "Total Uninstall" option and confirm by clicking "Next >".
+7. Reboot your server at your earliest convenience to ensure that the software is completely removed.
+
+### Uninstall the Backup Agent from a Linux Server
+{: #uninstallbackupagentLin}
+
+1. Establish secure shell connection (SSH) to your server.
+2. From the command line, execute the following command:
+    ```
+    /opt/BUAgent/uninstall.sh
+    ```
+3. When prompted by the following question, press Y, then press Enter.
+    ```
+    VVAgent is still running. Do you wish to stop it? ([Y]/n)
+4. At the next prompt, press Y, then, press Enter again.
+     ```
+     This will remove jobs, settings, etc. (y/[N])
+     ```
+5. After uninstalling the Backup Agent, we advise you to reboot the Server.
