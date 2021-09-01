@@ -26,13 +26,11 @@ toc:
     - navgroup:
         id: howto
         topics:
-        - topic-3.md
         - topicgroup:
             label: Provisioning
             topics:
             - index.md
             - expanding-capacity.md
-            - canceling-backup-service.md
          - topicgroup:
             label: Plug-ins
             topics:
@@ -81,6 +79,7 @@ toc:
             topics:
             - faqs.md
             - change-password.md
+            - canceling-backup-service.md
             - gethelp.md
             - feedback.md
         - topicgroup:

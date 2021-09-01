@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-07-30"
+lastupdated: "2021-09-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -241,3 +241,15 @@ If you registered the backup agent to the WebCC but it shows as offline within t
 {: support}
 
 If the backup agent shows the status of unconfigured in the WebCC or Portal, make sure you set up the backup job for your server as it is described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).
+
+<hr>
+
+## I made a mistake in the agent installation process. How can I remove the Backup Agent from the server?
+{: faq}
+{: #agent-uninstall}
+{: support}
+
+You can remove the backup agent either through the Command line on a Linux server or through the Control Panel of a Windows&reg; server.
+For more information, see
+- [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
+- [Uninstalling the Backup Agent from a Linux Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
