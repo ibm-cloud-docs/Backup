@@ -47,6 +47,6 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
    The IBM Cloud Backup username is displayed in the upper-left corner of the page.
    {: note}
 5. Enter the new password in the **Password** field.
-   The password must be: 8 - 12 characters in length, include at least 1 upper case letter, include at least 1 lower case letter, include at least 1 numeric character, include at least 1 of these special characters: `\!@\#%\^` and contain only letters, numerals, and these special characters: `\!@\#%\^`
+   The password must be: 8 - 12 characters in length, include at least 1 uppercase letter, include at least 1 lowercase letter, include at least 1 numeric character, include at least 1 of these special characters: `\!@\#%\^` and contain only letters, numerals, and these special characters: `\!@\#%\^`
    {: important}
 6. Press Enter to update the password.
