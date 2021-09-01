@@ -14,7 +14,6 @@ IBM Cloud Backup
     Provisioning
         index.md
         expanding-capacity.md
-        canceling-backup-service.md
 
     {: .topicgroup}
     Plug-ins
@@ -59,6 +58,7 @@ IBM Cloud Backup
     {: .navgroup id="help"}
     faqs.md
     change-password.md
+    canceling-backup-service.md
     gethelp.md
     feedback.md
     {: .navgroup-end}
