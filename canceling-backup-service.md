@@ -49,10 +49,10 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 
 1. Establish a remote desktop session to your server.
 2. Go to Start, and click Control Panel.
-3. Select the "Programs and Features" option.
-4. Right-click the "EVault Software Agent" Agent and confirm the removal by using the "Unistall" button.
-5. In the dialog box that appears, click "Yes".
-6. Select the "Total Uninstall" option and confirm by clicking "Next >".
+3. Select Programs and Features.
+4. Right-click the EVault Software Agent Agent and confirm the removal by clicking Uninstall.
+5. In the dialog box that appears, click Yes.
+6. Select Total Uninstall and confirm by clicking Next >.
 7. Reboot your server at your earliest convenience to ensure that the software is completely removed.
 
 ### Removing the Backup Agent from a Linux Server
