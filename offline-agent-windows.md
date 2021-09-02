@@ -83,7 +83,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 When 'BUAgent' process is no longer active on the server, the Window Agent appears offline in the Portal.
 {: tsCauses}
 
-Restart the Carbonite/Evault Server Backup BUAgent in Services.msc.
+Restart the Carbonite eVault Server Backup BUAgent in Services.msc.
 {: tsResolve}
 
 1. Establish Remote Desktop connection to the offline Agent machine.
@@ -108,7 +108,7 @@ If the previous steps don't work, pull up and review the most recent BUAgent-X.X
 3. Right-click the most recent `BUAgent-.XLOG` and select **open with**.
 4. Click **More Apps**, then click **open with another application**.
 5. Scroll down and click **Look for another app on this PC**.
-6. Select `LogViewer.exe` in the following Directory `C:\Program Files\Carbonite Server Backup\Agent\Bin32`. In case of an older Agent, the executable might be under `Program Files\Evault Software`.
+6. Select `LogViewer.exe` in the following Directory `C:\Program Files\Carbonite Server Backup\Agent\Bin32`. If it's an older Agent, the file might be under `Program Files\Evault Software`.
 7. Review the log and determine the issue.
 
 If your service plan covers it, you can get help by creating a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
