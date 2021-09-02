@@ -66,8 +66,9 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 3. When prompted by the following question, press Y, then press Enter.
     ```
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
+    ````
 4. At the next prompt, press Y, then, press Enter again.
-     ```
-     This will remove jobs, settings, etc. (y/[N])
-     ```
+    ```
+    This will remove jobs, settings, etc. (y/[N])
+    ```
 5. Reboot your server at your earliest convenience to ensure that the software is completely removed.
