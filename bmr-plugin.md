@@ -46,6 +46,7 @@ For more information, see [Configuring BMR backup jobs](/docs/Backup?topic=Backu
 
 ## Restoring a BMR system volume image
 {: #restoringBMimage}
+
 For more information, see [Restoring a BMR system volume image](/docs/Backup?topic=Backup-restoreBMR).
 
 ## Downloading the user guide
