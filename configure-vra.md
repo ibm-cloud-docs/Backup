@@ -73,6 +73,7 @@ After the backup job is created, you can add one or more schedules for running t
 
    By default Daily retention is selected for the job. Retention and Job schedule can be changed in this window, and multiple Retention schemes can also be assigned to the backup job.
    {: note}
+
 2. Click **Save** to save the new schedule. The new job shows up under the Computers tab in Jobs section. The Last backup status shows that the job never ran. The scheduled backup job runs automatically at the scheduled time.
 
 ## Running a scheduled job

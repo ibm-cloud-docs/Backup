@@ -39,11 +39,13 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
     ```
     tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
     ```
+    {: pre}
 
 4. Go to the recent installation directory.
     ```
     cd Agent-Linux-x64-8.83.8124/
     ```
+    {: pre}
 
 5. Run installation script.
     ```

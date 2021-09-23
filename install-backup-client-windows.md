@@ -49,7 +49,7 @@ The version number is in the file name. Choose the most recent. <br/>{{site.data
 
 ## Installing and Registering the Backup Agent
 
-1. Enter the Network address: <br />
+1. Enter the Network address:
   ```
   cloudbackupregister.service.softlayer.com
   ```

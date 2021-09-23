@@ -178,7 +178,7 @@ BMR backup isn't a disk image, but a system volume image backup system. The syst
 
 <hr>
 
-##Can BMR be used for database backups?
+## Can BMR be used for database backups?
 {: faq}
 {: #bmr-backups}
 {: support}

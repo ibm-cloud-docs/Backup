@@ -46,7 +46,9 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
    The IBM Cloud Backup username is displayed in the upper-left corner of the page.
    {: note}
+
 5. Enter the new password in the **Password** field.
    The password must be: 8 - 12 characters in length, include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
    {: important}
+
 6. Press Enter to update the password.

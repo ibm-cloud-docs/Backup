@@ -33,6 +33,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 
 ## Limitations
 {: #Oraclelimitations}
+
 - Only local, single-instance, disk-based databases are backed up.
 - Database clusters are not backed up.
 - Raw devices are not backed up.
