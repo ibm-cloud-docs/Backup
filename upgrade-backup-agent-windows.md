@@ -32,10 +32,10 @@ As of 25 March 2021, full support of Windows&reg; 2019 is available in the Cloud
 
 1. Remote control your {{site.data.keyword.cloud}} server that is in need of an {{site.data.keyword.backup_notm}} upgrade.
 2. Open a browser, and go to the following address.
-    ```
-    http://downloads.service.softlayer.com/evault/
-    ```
-    {: pre}
+     ```zsh
+     http://downloads.service.softlayer.com/evault/
+     ```
+     {: pre}
 
 3. Click the file that you want.
 
