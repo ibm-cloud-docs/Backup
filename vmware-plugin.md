@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -42,6 +42,9 @@ Ensure that power management is disabled on the server where you install the VRA
     * In the **Network address** field, type `cloudbackupregister.service.softlayer.com`.
     * In the **Port** field, type `8086`.
     * In **Username** field, type the {{site.data.keyword.backup_notm}} user name for managing the VRA.
+      For more information about viewing the user name, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+      {: tip}
+
     * In **Password** field, type the password of the specified {{site.data.keyword.backup_notm}} user.
 7.	Click **Next**. When the installation is complete, click **Finish**.
 
@@ -54,8 +57,10 @@ After VRA is installed, you need to configure it in the Cloud Backup Portal.
 2. On the Computers Tab, select the server that you want to back up.
 3. Configure your vault information.
 
-    Vault information can be configured in two ways: **Automatically** or **Manually**.<br/>If the agent is being configured for the first time, then it can be configured by using the [Automatic configuration](#VRAautoconfig) option.<br/>If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
-    {: tip}
+     Vault information can be configured in two ways: **Automatically** or **Manually**.
+     If the agent is being configured for the first time, then it can be configured by using the [Automatic configuration](#VRAautoconfig) option.
+     If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
+     {: tip}
 
 4. Configure the [vCenter Settings](#vCenterSettingsconfig).   
 
