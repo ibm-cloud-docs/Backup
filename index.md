@@ -55,11 +55,11 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 ### Confirming the {{site.data.keyword.backup_notm}} purchase
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Device** > **Device List**.
-2. Locate the new server that you ordered.
-  - If you see a clock icon next to the url, you need to wait to continue with the {{site.data.keyword.backup_notm}} purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the purchase.
-  - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page.
-3. Click the **Storage** tab to display the {{site.data.keyword.backup_notm}} information.
-4. Inspect the information, and verify that the size that was selected during the purchase process is displayed.
+3. Locate the new server that you ordered.
+    - If you see a clock icon next to the url, you need to wait to continue with the {{site.data.keyword.backup_notm}} purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the purchase.
+    - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page.
+4. Click the **Storage** tab to display the {{site.data.keyword.backup_notm}} information.
+5. Inspect the information, and verify that the size that was selected during the purchase process is displayed.
 
 ## Purchasing {{site.data.keyword.backup_notm}} as an upgrade
 {: #purchasingasupgrade}
@@ -78,7 +78,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 5. Enter the **Promo Code** if you have one, and click **Recalculate**.
 6. Review your order, and click the link to read the terms and conditions.
 7. Click the check box if you agree with the terms and conditions.
-7. Click **Place Order**.
+8. Click **Place Order**.
 
 ### Confirming the {{site.data.keyword.backup_notm}} upgrade purchase
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.

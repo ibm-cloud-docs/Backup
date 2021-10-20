@@ -60,15 +60,15 @@ You can cancel your {{site.data.keyword.backup_full}} service at any time. The c
 
 1. Establish a Secure Shell connection (SSH) to your server.
 2. From the command line, execute the following command:
-    ```
+    ```zsh
     /opt/BUAgent/uninstall.sh
     ```
 3. When prompted by the following question, press Y, then press Enter.
-    ```
+    ```zsh
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
     ````
 4. At the next prompt, press Y, then, press Enter again.
-    ```
+    ```zsh
     This will remove jobs, settings, etc. (y/[N])
     ```
 5. Reboot your server at your earliest convenience to ensure that the software is removed completely.

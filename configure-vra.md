@@ -51,16 +51,15 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    * In the **Destination** list, select the vault where you want to save the backup data.
    * In the **Password** and **Confirm Password** fields, type an encryption password. You can also type a password hint in the Password Hint field.
 
-   A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.<br/>
+   A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.
    For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
    {: note}
 
 5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the VMs that you want to include in the backup job.
-
-   * To add specific VMs to the backup job, select each VM, and then click **Include**.
-   * To exclude specific VMs from the backup job, select each VM, and then click **Exclude**.
-   * To add VMs to the backup job by name, check the Virtual Machines box, and then click **Include**.
-   * To remove an inclusion or exclusion record from the Backup Set box, click **Delete** next to the record.
+    * To add specific VMs to the backup job, select each VM, and then click **Include**.
+    * To exclude specific VMs from the backup job, select each VM, and then click **Exclude**.
+    * To add VMs to the backup job by name, check the Virtual Machines box, and then click **Include**.
+    * To remove an inclusion or exclusion record from the Backup Set box, click **Delete** next to the record.
 
 6. Click **Apply Now** to consolidate and simplify records in the Backup Set box, if changes need to be applied.
 7. Click **Create Job**.

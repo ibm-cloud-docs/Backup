@@ -27,7 +27,8 @@ Sometimes you might want to restore data to a different server in the same data 
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
-**Pre-requisites**
+## Pre-requisites
+{: prereqsrestore1}
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
 - Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
@@ -53,30 +54,28 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
 1. Click **Computers**, and click the server name to display its information.
 2. Click **Vault Settings** and from the Action menu, select **Edit**.
-2. Enter the Vault Name, which is the same as the unique vault name of Server1.
-3. Enter credentials for Server1 to log in to the vault.
-4. Click **Save**.
+3. Enter the Vault Name, which is the same as the unique vault name of Server1.
+4. Enter credentials for Server1 to log in to the vault.
+5. Click **Save**.
 
 ## Running the backup job from Server1 as the restore job on Server2
 {: #runbackuprestore}
 
 1. On the **Computer** tab, click **Jobs**.
-
-    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
-    {: tip}
+   You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
+   {: tip}
 
 2. From the Action menu, select **Restore from Another Computer**.
 3. Select the Vault, Computer, and Job from the drop-down menus.
-3. Enter the encryption password.
-4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
-9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+4. Enter the encryption password.
+5. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
+6. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
+   {: note}
 
-    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
-    {: note}
-
-10. When your restore set is configured the way that you want it, click **Apply Now**.
-12. Then, click **Run Restore**.
-13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
+7. When your restore set is configured the way that you want it, click **Apply Now**.
+8. Then, click **Run Restore**.
+9. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 
 
 ## Verifying the restore
@@ -84,7 +83,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
 1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
-    ```
+    ```zsh
     ls -la
     ```
     {: pre}

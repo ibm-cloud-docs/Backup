@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-05-28"
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -35,14 +35,15 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 
 ## Downloading the backup client
 
-1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client. <br/>
-   ```
+1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client.
+   ```zsh
    http://downloads.service.softlayer.com/evault/
    ```
    {: pre}
 
-The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. (For example, Agent-Windows-x64-8-32-7901.exe.)
-{: tip}
+   The version number is in the file name. Choose the most recent. 
+   {{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. (For example, Agent-Windows-x64-8-32-7901.exe.)
+   {: tip}
 
 2. Double-click the downloaded file.
 3. Click **Run**.
@@ -50,15 +51,18 @@ The version number is in the file name. Choose the most recent. <br/>{{site.data
 ## Installing and Registering the Backup Agent
 
 1. Enter the Network address:
-  ```
-  cloudbackupregister.service.softlayer.com
-  ```
-  {: pre}
+   ```zsh
+   cloudbackupregister.service.softlayer.com
+   ```
+   {: pre}
 
 2. Enter the user name in the **user name** field.
+   For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+   {: tip}
+
 3. Enter the password in the **password** field.
-6. Click **Next**.
-7. Click **Install** to complete the installation.
+4. Click **Next**.
+5. Click **Install** to complete the installation.
 
 Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to 10.0.0.0/8. For more information about port settings, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 {: tip}

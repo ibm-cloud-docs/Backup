@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2020-09-21"
+  years: 1994, 2021
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -37,15 +37,15 @@ The reregistration of the computer to the vault is not the same as registering t
 3. Click **Vault Settings**.
 4. Click **Re-register**.
 5. Complete the form.
-  - Vault name
-  - Vault address
-  - Account
+   - Vault name
+   - Vault address
+   - Account
 
-    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]".
+    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
-  - User name
-  - Password
+   - User name
+   - Password
 6. Click **Load Computers**.
 7. Click the computer name and click **Save**. A confirmation window appears, click **Yes** to confirm the reregistration of the computer.
 8. Refresh the website to see the backup jobs associated with the computer.

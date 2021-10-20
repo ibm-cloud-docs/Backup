@@ -68,26 +68,26 @@ The Oracle plug-in is an add-on to the Linux&reg; Agent and is installed with th
 The Oracle plug-in installation kit is available in a tar.gz file.
 
 1. On the host, download the installation package.
-   ```
+   ```zsh
    http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
    ```
    {: pre}
 
 2. Extract the files from the package.
-   ```
+   ```zsh
    # cd /tmp
    # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
    ```
    {: pre}
 
 3. Go to the folder.
-   ```
+   ```zsh
    # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
    ```
    {: pre}
 
 4. Run the installation script.
-   ```
+   ```zsh
    # ./install.sh
    ```
    {: pre}

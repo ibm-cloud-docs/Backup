@@ -27,7 +27,8 @@ Sometimes you want to restore data to a different server. This procedure applies
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
-**Pre-requisites**
+## Pre-requisites
+{: prereqsrestore2}
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
 - Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the Backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
@@ -75,21 +76,21 @@ If current backup jobs are registered for Server2, they must be removed. You can
 2. From the Action menu, select **Restore**.
 3. Enter the encryption password.
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
-9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+5. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
     Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
     {: note}
 
-10. When your restore set is configured the way that you want it, click **Apply Now**.
-12. Then, click **Run Restore**.
-13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
+6. When your restore set is configured the way that you want it, click **Apply Now**.
+7. Then, click **Run Restore**.
+8. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 
 ## Verifying the restore
 {: #verifyrestoreotherDC}
 
 1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
-    ```
+    ```zsh
     ls -la
     ```
     {: pre}

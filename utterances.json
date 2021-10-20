@@ -326,5 +326,13 @@
     "wrong credentials",
     "wrong password",
     "need new password"
+  ],
+  "nfs-share-backup": [
+    "how to backup a share",
+    "backup a share",
+    "backup NFS",
+    "how to backup NFS",
+    "how to backup file share",
+    "backing up File share"
   ]
-}
+} 

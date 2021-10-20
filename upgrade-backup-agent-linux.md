@@ -30,25 +30,25 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
 
 1. Log in to your host at root level.
 2. Download the latest version of the agent.
-    ```
+    ```zsh
     wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.83.8124.tar.gz
     ```
     {: pre}
 
 3. Extract the contents of the downloaded file.
-    ```
+    ```zsh
     tar -xzvf Agent-Linux-x64-8.83.8124.tar.gz
     ```
     {: pre}
 
 4. Go to the recent installation directory.
-    ```
+    ```zsh
     cd Agent-Linux-x64-8.83.8124/
     ```
     {: pre}
 
 5. Run installation script.
-    ```
+    ```zsh
     ./install.sh
     ```
     {: pre}

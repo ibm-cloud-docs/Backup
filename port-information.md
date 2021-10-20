@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-09-11"
+  years: 1994, 2021
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -36,7 +36,7 @@ Your servers must communicate with the Cloud Backup Portal and all AMP proxy ser
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 
-```
+```zsh
 cloudbackupregister.service.softlayer.com TCP Port 8086.
 ```
 
@@ -77,8 +77,7 @@ Agents must have connectivity to all proxy servers. New proxy servers might be a
 
 ## Federal Portal Servers
 
-*Cloud Backup Portal and AMP proxy*
-
+Cloud Backup Portal and AMP proxy:
 - `webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087`
 
 The agent must allow the TCP port 2548 inbound on the private network. This setting allows Central Control and Cloud Backup Portal to connect into the agent to manage it. Older versions of EVault used port 808.
