@@ -107,19 +107,19 @@ This step is required for RHEL, but optional for other distributions.
 ## Verifying that the installation succeeded
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
-    ```zhs
+    ```zsh
     grep 'Registered' /opt/BUAgent/Install.log
     ```
     {: pre}
 
 2. Run the following command and observe the output.
-    ```zhs
+    ```zsh
     service vvagent status
     ```
     {: pre}
 
     The following messages are displayed.
-    ```zhs
+    ```zsh
     VVAgent is running (PID xxxxx).
     buagent is running (PID xxxxx).
     ```

@@ -45,34 +45,33 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 
 1. Establish Remote Desktop connection to the offline Agent machine.
 2. Then, run one of the following commands to check the ports.
-
-  * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
-    ```
+   * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
+    ```zsh
     telnet cloudbackupregister.service.softlayer.com 8086
     ```
     {: pre}
 
     If the port is open, CMD shows a blank screen. If the port is not open, CMD returns the following message.
-    ```
+    ```zsh
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
     {: screen}
 
     If so, you must contact your network team to update the firewall.
 
-  * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
-    1. Open Powershell as Administrator.
-    2. Enter the following command.
-       ```
+   * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
+     1. Open Powershell as Administrator.
+     2. Enter the following command.
+       ```zsh
        test-netconnection cloudbackupregister.service.softlayer.com -Port 8086
        ```
        If the port is open, the last line shows the following.
-       ```
+       ```zsh
        TcpTestSucceeded : True
        ```
 
        If the port is not open, TcpTestSucceeded equals “False”.
-       ```
+       ```zsh
        TcpTestSucceeded : False
        ```
        If so, you must contact your network team to update the firewall.
@@ -87,20 +86,20 @@ Restart the Carbonite eVault Server Backup BUAgent in Services.msc.
 {: tsResolve}
 
 1. Establish Remote Desktop connection to the offline Agent machine.
-1. Open `Services.msc`.
-2. Restart the BUAgent service.
-3. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
+2. Open `Services.msc`.
+3. Restart the BUAgent service.
+4. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
 
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to the backup Agent folder.
-   ```
+   ```zsh
    C:\Program Files\Carbonite Server Backup\Agent\
    ```
 
    Or
-   ```
+   ```zsh
    C:\Program Files\Evault Software\Agent\
    ```
 

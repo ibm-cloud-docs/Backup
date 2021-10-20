@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -23,8 +23,7 @@ subcollection: Backup
 The Exchange plug-in is installed with the Windows&reg; Agent on the host. Through the Cloud Backup Portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
 {: shortdesc}
 
-**Capabilities provided**
-
+The plug-in provides the following capabilities:
 - Ability to back up and restore MS Exchange databases.
 
 ## Installing the plug-in
