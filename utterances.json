@@ -308,5 +308,23 @@
     "evault agent unconfigured webcc",
     "back up job configuration",
     "cloud backup config"
+  ],
+  "backup-username": [
+    "where to find user name",
+    "what's my user name",
+    "what's my login",
+    "backup user name",
+    "where login credentials",
+    "where backup username",
+    "backup credentials"
+  ],
+  "change-pw": [
+    "where to change password",
+    "how to change password",
+    "can't login",
+    "incorrect password",
+    "wrong credentials",
+    "wrong password",
+    "need new password"
   ]
 }

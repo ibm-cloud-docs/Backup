@@ -31,7 +31,7 @@ toc:
             topics:
             - index.md
             - expanding-capacity.md
-         - topicgroup:
+        - topicgroup:
             label: Plug-ins
             topics:
             - bmr-plugin.md
