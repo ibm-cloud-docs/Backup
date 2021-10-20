@@ -249,4 +249,15 @@ If the backup agent shows the status of unconfigured in the WebCC or Portal, mak
 You can remove the backup agent either through the Command line on a Linux server or through the Control Panel of a Windows&reg; server.
 For more information, see the following topics.
 - [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
-- [Uninstalling the Backup Agent from a Linux Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
+- [Uninstalling the Backup Agent from a Linux&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
+
+## Can I backup NFS File Shares?
+{: faq}
+{: #nfs-share-backup}
+{: support}
+
+Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm){: external}.
+
+NFS servers must share their exports in order to make them available to client systems. If you want to perform a mount-point backup or restore, the NFS server must be available, and it must provide sufficient privileges to your client system. Also, the NFS must be mounted on your client system at the time of the backup or restore.
+{: important}
+
