@@ -30,10 +30,10 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
-3. Click **Storage** > **Cloud Backup** to display the backup services.
-4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
-5. Click **View backup portal** to start the portal in your browser.
-
+2. Click **Storage** > **Cloud Backup** to display the backup services.
+3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+4. Click **View backup portal** to start the portal in your browser.
+ 
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {: tip}
 
@@ -49,9 +49,8 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 8. In the Create New Job window, enter a Job Name and a Job Description.
 9. Select the files and folders you want to include in the backup.
 10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
-
-  You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
-  {: important}
+   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+   {: important}
 
 11. Click **Apply now** to confirm the backup sets.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
@@ -63,5 +62,5 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 ## Running a BMR backup job
 
-  - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
-  - If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**. <br/> As with time-based jobs, you can choose the **Retention Scheme** and the **Advanced backup options**. After you made your configuration choices, click **Start backup** to start the job.
+- If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
+- If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**. <br/> As with time-based jobs, you can choose the **Retention Scheme** and the **Advanced backup options**. After you made your configuration choices, click **Start backup** to start the job.
