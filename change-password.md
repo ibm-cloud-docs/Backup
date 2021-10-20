@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-08-05"
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
