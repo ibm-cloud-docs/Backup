@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-07-28"
+lastupdated: "2021-10-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -24,18 +24,18 @@ subcollection: Backup
 Multi-vaulting is the ability for a client to connect a server to more than one vault location. It provides redundancy and peace of mind because backups are available even if one site fails.
 {: shortdesc}
 
-**Key points**
+- **Key points**
 
-1. Multiple vaults can be managed through the same Cloud Backup Portal and they are handled the same way. The only difference is that you have different vault choices.
-2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
+   1. Multiple vaults can be managed through the same Cloud Backup Portal and they are handled the same way. The only difference is that you have different vault choices.
+   2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
 
 
-**{{site.data.keyword.backup_notm}} Vault Director locations**
+- **{{site.data.keyword.backup_notm}} Vault Director locations**
 
-Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
+   Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
 
-Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
-{: note}
+   Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
+   {: note}
 
 ## Adding a Remote Vault to an Account
 
@@ -69,18 +69,21 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 6. Click **Vault Settings**.
 7. In the **Vault Settings** window, click **Add Vault**.
 8. In the **New Vault** window,
-  1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
-  2. The vault name can't be the same as the other vault name. Try adding a `-2` tag to the end of it. <br/>
+   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
+   2. The vault name can't be the same as the other vault name. Try adding a `-2` tag to the end of it.
+ 
+       The vault name field has a 15 character limit.
+       {: important}
 
-     The vault name field has a 15 character limit.
-     {: important}
+   3. In the IP address field, add the address of the second {{site.data.keyword.backup_notm}} vault location.
 
-  3. In the IP address field, add the address of the second {{site.data.keyword.backup_notm}} vault location.
+       You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas,  you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
+      {: tip}
 
-     You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas,  you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
-     {: tip}
-
-  4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
-  5. Click **Save**.
+   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault. 
+      For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+      {: tip}
+      
+   5. Click **Save**.
 
 In a few seconds, the new vault is usable. If you get a connection failure, check your settings, and try again. Keep in mind that adding an extra vault presents you with an extra destination to choose for a job. It doesn't automatically run jobs against both vaults. You need to set up jobs to use the extra vault. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
