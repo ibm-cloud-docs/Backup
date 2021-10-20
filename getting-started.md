@@ -51,26 +51,26 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
 **Windows**&reg; (Oldest supported version of the backup agent is 8.32.)
- - Windows&reg; Server 2019
- - Windows&reg; Server 2016
- - Windows&reg; Server 2012 R2
- - Windows&reg; Server 2012
- - Windows&reg; Server 2008 R2
- - Windows&reg; Server 2008
+- Windows&reg; Server 2019
+- Windows&reg; Server 2016
+- Windows&reg; Server 2012 R2
+- Windows&reg; Server 2012
+- Windows&reg; Server 2008 R2
+- Windows&reg; Server 2008
 
 Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
 {: tip}
 
 **Linux&reg;** (Oldest supported version of the backup agent is 8.50.)
- - CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
- - CentOS 7.x
- - Debian GNU/Linux&reg; 9.x
- - Debian GNU/Linux&reg; 8.x
- - RHEL 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
- - RHEL 7.x
- - Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
- - Ubuntu Linux&reg; 16.04
- - Ubuntu Linux&reg; 14.04
+- CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
+- CentOS 7.x
+- Debian GNU/Linux&reg; 9.x
+- Debian GNU/Linux&reg; 8.x
+- RHEL 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
+- RHEL 7.x
+- Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
+- Ubuntu Linux&reg; 16.04
+- Ubuntu Linux&reg; 14.04
 
 Follow the instructions appropriate for your OS,
 - [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
@@ -94,7 +94,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-- The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or ./ <root> directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
+- The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or `./ <root>` directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
 
 This job can be modified after it was configured.
 {: note}
@@ -128,10 +128,10 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage**, and select **Backup** from the list.
-2. Click anywhere on the row of the vault you want to view its storage details. From this view, the password isn't visible.
-3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
+3. Click anywhere on the row of the vault you want to view its storage details. From this view, the password isn't visible.
+4. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: important}
 
 ## Getting more online help

@@ -19,7 +19,7 @@ subcollection: Backup
 {:support: data-reuse='support'}
 {:help: data-hd-content-type='help'}
 
-# Managing user name and password for the backup service
+# Managing user name and password for the Cloud Backup service
 {: #changePassword}
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.

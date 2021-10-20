@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2020
-lastupdated: "2020-07-30"
+  years: 2020, 2021
+lastupdated: "2021-10-20"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -51,28 +51,28 @@ When `BUAgent` process is no longer active on the server, the Linux&reg; Agent a
 Ensure that the BUAgent is running by executing the following command on the Linux&reg; system.
 {: tsResolve}
 
-```
+```zsh
 /etc/init.d/vvagent status
 ```
 {: pre}
 
 The output shows whether the BUAgent is running.
-```
+```zsh
 VVAgent is running (PID: )
 BUAgent is running (PID: )
 ```
 
 * If the BUAgent is not running, start it with the following command.
-  ```
-  /etc/init.d/vvagent start
-  ```
-  {: pre}
+   ```zsh
+   /etc/init.d/vvagent start
+   ```
+   {: pre}
 
 * If the BUAgent appears to be running, restart the service with the following command.
-  ```
-  /etc/init.d/vvagent restart
-  ```
-  {: pre}
+   ```zsh
+   /etc/init.d/vvagent restart
+   ```
+   {: pre}
 
 ## Agent needs to be reregistered to the Cloud Backup portal
 
@@ -82,7 +82,7 @@ If it still shows that the Agent is offline after a refresh of the Portal page, 
 Registering an Agent to the Portal retains all existing jobs, schedules, and configurations as-is. Navigate to the Agent installation directory, then run the register command.
 {: tsResolve}
 
-```
+```zsh
 cd opt/BUAgent
 ./register
 ```
@@ -93,25 +93,25 @@ Answer the following prompts.
 * What is the web-based Agent Console username? This is the same username that is used to log in to Portal.
 * What is the web-based Agent Console password? This is the same password that is used to log in to Portal.
 
-For more information about viewing or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
+For more information about viewing or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: tip}
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Navigate to `opt/BUAgent`.
-   ```
+   ```zsh
    cd /opt/BUAgent
    ```
    {: pre}
 
 2.  List the contents and sort them by date.
-    ```
+    ```zsh
     ls -lrth
     ```
     {: pre}
 
 3. Find the name of the most recent `BUAgent-x.XLOG` and open it with `/opt/BUAgent/xlogcat`. It can't be opened with `cat` or `vim`.
-   ```
+   ```zsh
    ./xlogcat BUAgent-1.XLOG
    ```
    {: pre}

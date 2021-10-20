@@ -44,10 +44,10 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
-  - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace <publicIpAddress> with the actual public IP address.
+   - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace `<publicIpAddress>` with the actual public IP address.
 4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
 5. Log in to the target device by entering the following command from the command line.
-    ```
+    ```zsh
     ssh <user name>@<publicIpAddress>
     ```
     {: pre}
@@ -63,32 +63,32 @@ This step is required for RHEL, but optional for other distributions.
 {: tip}
 
 - Run the following command at the server prompt.
-  ```
-  yum update
-  ```
-  {: pre}
+   ```zsh
+   yum update
+   ```
+   {: pre}
 
-  If you're prompted, confirm that the download size is okay. The update proceeds and displays a "Complete" message when it finishes.
+   If you're prompted, confirm that the download size is okay. The update proceeds and displays a "Complete" message when it finishes.
 
 ## Getting the installation script
 
 - Run the following command at the server prompt.
-  ```
-  wget -N http://downloads.service.softlayer.com/evault/evault_manual.sh
-  ```
-  {: pre}
+   ```zsh
+   wget -N http://downloads.service.softlayer.com/evault/evault_manual.sh
+   ```
+   {: pre}
 
 ## Running the installation Script
 
 1. Run the following command at the server prompt.
-   ```
+   ```zsh
    sh ./evault_manual.sh
    ```
    {: pre}
 
 2. Enter your Cloud Backup Portal user name and password.
 
-    For more information about viewing the user name or changing the backup password, see [Changing the password for the backup service](/docs/Backup?topic=Backup-changePassword).
+    For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -98,7 +98,7 @@ This step is required for RHEL, but optional for other distributions.
 
 4. The installation is complete when the following messages appear.
 
-    ```
+    ```zsh
     Starting VVAgent: [ OK ]
     Starting buagent: [ OK ]
     ```
@@ -107,19 +107,19 @@ This step is required for RHEL, but optional for other distributions.
 ## Verifying that the installation succeeded
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
-    ```
+    ```zhs
     grep 'Registered' /opt/BUAgent/Install.log
     ```
     {: pre}
 
 2. Run the following command and observe the output.
-    ```
+    ```zhs
     service vvagent status
     ```
     {: pre}
 
     The following messages are displayed.
-    ```
+    ```zhs
     VVAgent is running (PID xxxxx).
     buagent is running (PID xxxxx).
     ```
@@ -128,6 +128,7 @@ This step is required for RHEL, but optional for other distributions.
    The process IDs that are represented by `xxxxx` varies with each installation.
    {: tip}
 
-**Next steps**
+## Next steps
+{: #afterinstalllin}
 
 Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
