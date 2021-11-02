@@ -28,7 +28,7 @@ Sometimes you might want to restore data to a different server in the same data 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
 ## Pre-requisites
-{: prereqsrestore1}
+{: #prereqsrestore1}
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
 - Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
