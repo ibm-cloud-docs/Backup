@@ -47,8 +47,8 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 4. After you reviewed the terms and conditions, check the **I have read and agree to the Third-Party Service Agreements** box.
 5. Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
-   You can also save this order without purchasing by clicking **Save as Quote**.
-   {: tip}
+You can also save this order without purchasing by clicking **Save as Quote**.
+{: tip}
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud_notm}} console.
 
