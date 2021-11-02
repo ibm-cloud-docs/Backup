@@ -24,6 +24,7 @@ If you need to restore a Bare Metal image backup from {{site.data.keyword.backup
 {: shortdesc}
 
 ## Initiating the BMR Rescue Kernel system
+{: #initiateBMR}
 
 You can access the BMR Rescue Kernel system through the {{site.data.keyword.cloud_notm}} console.
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
@@ -33,6 +34,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 
 
 ## Restoring from the BMR Rescue Kernel
+{: #restorefromBMR}
 
 1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
    - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.cloud_notm}} console

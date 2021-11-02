@@ -38,6 +38,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: tip}
 
 ## Configuring a BMR backup job
+{: #configBRMjob}
 
 1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
 2. Click **Configure Manually**. The vault settings page is loaded.
@@ -61,6 +62,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: tip}
 
 ## Running a BMR backup job
+{: #runningBMRjob}
 
 - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
 - If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**. 

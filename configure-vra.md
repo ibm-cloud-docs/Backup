@@ -41,6 +41,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: tip}
 
 ## Adding a vSphere backup job
+{: #addvrajob}
 
 1. On the navigation, click **Computers**. The computers page shows the registered computers and environments.
 2. Click **Jobs**.
@@ -65,6 +66,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 7. Click **Create Job**.
 
 ## Setting up a schedule
+{: #setvraschedule}
 
 After the backup job is created, you can add one or more schedules for running the job automatically.
 
@@ -76,6 +78,7 @@ After the backup job is created, you can add one or more schedules for running t
 2. Click **Save** to save the new schedule. The new job shows up under the Computers tab in Jobs section. The Last backup status shows that the job never ran. The scheduled backup job runs automatically at the scheduled time.
 
 ## Running a scheduled job
+{: #runvrajob}
 
 Scheduled backup jobs can also be executed immediately.
 

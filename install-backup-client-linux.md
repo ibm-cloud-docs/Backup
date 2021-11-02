@@ -58,6 +58,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 6. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
 
 ## Updating the OS to prepare for the installation (RHEL only)
+{: #updateOSRHEL}
 
 This step is required for RHEL, but optional for other distributions.
 {: tip}
@@ -71,6 +72,7 @@ This step is required for RHEL, but optional for other distributions.
    If you're prompted, confirm that the download size is okay. The update proceeds and displays a "Complete" message when it finishes.
 
 ## Getting the installation script
+{: #downloadscript}
 
 - Run the following command at the server prompt.
    ```zsh
@@ -79,6 +81,7 @@ This step is required for RHEL, but optional for other distributions.
    {: pre}
 
 ## Running the installation Script
+{: #executescript}
 
 1. Run the following command at the server prompt.
    ```zsh
@@ -105,6 +108,7 @@ This step is required for RHEL, but optional for other distributions.
     {: codeblock}
 
 ## Verifying that the installation succeeded
+{: #verifyinstall}
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
     ```zsh

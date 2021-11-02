@@ -35,6 +35,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 4. Click **View backup portal** to start the portal in your browser.
 
 ## Restoring your data
+{: #simplyrestore}
 
 1. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the server that you want to restore to a previous state.
 2. Click **Jobs** to load the job options.

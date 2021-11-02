@@ -53,6 +53,8 @@ You can also save this order without purchasing by clicking **Save as Quote**.
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud_notm}} console.
 
 ### Confirming the {{site.data.keyword.backup_notm}} purchase
+{: #confirmpurchase1}
+
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Device** > **Device List**.
 3. Locate the new server that you ordered.
@@ -65,12 +67,15 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 {: #purchasingasupgrade}
 
 ### Select a server on which to install {{site.data.keyword.backup_notm}}
+{: #selectbaseserver}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add the backup service.
 3. Click the Device name to go to the **Device Details** page.
 
 ### Adding (purchasing) {{site.data.keyword.backup_notm}} service
+{: #addbackupservice}
+
 1. Click the **Storage** tab, and scroll down to locate the {{site.data.keyword.backup_notm}} section.
 2. Click the **Add** link.
 3. In the window, select a location, and select a size.
@@ -81,6 +86,8 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 8. Click **Place Order**.
 
 ### Confirming the {{site.data.keyword.backup_notm}} upgrade purchase
+{: #confirmpurchase2}
+
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
 2. Inspect the {{site.data.keyword.backup_notm}} section and verify that the size that was selected during the purchase process is displayed.
 
