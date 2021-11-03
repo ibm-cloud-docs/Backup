@@ -75,6 +75,7 @@ BUAgent is running (PID: )
    {: pre}
 
 ## Agent needs to be reregistered to the Cloud Backup portal
+{: #reregistagentinportal}
 
 If it still shows that the Agent is offline after a refresh of the Portal page, then the Agent needs to be registered again.
 {: tsCauses}

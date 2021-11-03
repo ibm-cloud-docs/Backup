@@ -38,6 +38,7 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
    {: note}
 
 ## Adding a Remote Vault to an Account
+{: #addremotevault}
 
 You must add the new remote vault to the account before a new backup location can be added in the Cloud Backup Portal.
 {: important}
@@ -56,6 +57,7 @@ The newly ordered vault is automatically added to the account. If not, contact S
 When the ordering process is complete, go to the **Storage** > **Backup** page to see the new vault.
 
 ## Adding an Extra Vault in Cloud Backup Portal
+{: #addanothervault}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.

@@ -34,6 +34,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 5. Log in to the target device by using Remote Desktop Connection.
 
 ## Downloading the backup client
+{: #downloadclient}
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client.
    ```zsh
@@ -49,6 +50,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 3. Click **Run**.
 
 ## Installing and Registering the Backup Agent
+{: #registeragent}
 
 1. Enter the Network address:
    ```zsh
@@ -68,5 +70,6 @@ Your servers must communicate with the Cloud Backup Portal and all AMP proxy ser
 {: tip}
 
 ## Configuring backup agents
+{: #configureagent}
 
 Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).

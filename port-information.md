@@ -30,7 +30,8 @@ The {{site.data.keyword.backup_full}} agent that is installed on your server nee
 Always register agents to the Cloud Backup Portal and the directors by using the FQDN because the IP addresses for these services might change.
 {: important}
 
-## Recommended {{site.data.keyword.backup_notm}} Portal settings
+## Recommended {{site.data.keyword.backup_notm}} Port settings
+{: #recommendedportsettings}
 
 Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 should have access to 10.0.0.0/8.
 
@@ -44,10 +45,12 @@ If you need to use more restrictive firewall rules, you might lose access to the
 {: important}
 
 ## Minimum Port Requirements
+{: #minportreq}
 
 Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. Other subnets might be used in the future as needed.
 
 ## Commercial Portal Servers
+{: #commercialportalservers}
 
 Cloud Backup Portal website
 - `ibmcloudbackup.service.softlayer.com [10.200.86.22] TCP 443`
@@ -57,6 +60,7 @@ Cloud Backup Portal Agent Registration
 
 
 ## Commercial AMP Proxy Servers
+{: #commercialAMPservers}
 
 The following list contains all of the current AMP proxy servers.
 
@@ -76,6 +80,7 @@ Agents must have connectivity to all proxy servers. New proxy servers might be a
 
 
 ## Federal Portal Servers
+{: #fedservers}
 
 Cloud Backup Portal and AMP proxy:
 - `webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087`

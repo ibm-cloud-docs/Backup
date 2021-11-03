@@ -25,6 +25,7 @@ Current {{site.data.keyword.cloud}} users are able to expand the size of their v
 {: shortdesc}
 
 ## Ordering an increase
+{: #increasevault}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
@@ -33,6 +34,7 @@ Current {{site.data.keyword.cloud}} users are able to expand the size of their v
 5. On the next screen, select the new size and click **Upgrade**.
 
 ## Billing
+{: #changeinbilling}
 
 Billing for the volume is automatically updated to add the pro-rated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
 
