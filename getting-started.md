@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2021
-lastupdated: "2021-08-10"
+lastupdated: "2021-12-03"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -43,6 +43,8 @@ You must have a valid license to use {{site.data.keyword.backup_notm}}. You can 
 
 For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
+Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
+{: important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
 {: #installagentgettingstarted}
