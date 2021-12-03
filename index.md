@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 1994, 2021
+lastupdated: "2021-12-03"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -25,6 +25,9 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 * [Purchase backups when you order a server](#purchasingwithserver).
 * [Purchase backups as an upgrade](#purchasingasupgrade).
 {: shortdesc}
+
+Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
+{: important}
 
 {{site.data.keyword.backup_notm}} usage is billed based on the vault size on a monthly basis. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 {: important}
