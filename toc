@@ -48,6 +48,7 @@ IBM Cloud Backup
     Troubleshooting
         offline-agent-linux.md
         offline-agent-windows.md
+        missingServer0PW.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
