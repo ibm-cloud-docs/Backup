@@ -22,7 +22,7 @@ subcollection: Backup
 {:troubleshoot: data-hd-content-type='troubleshoot'}
 {:external: target="_blank" .external}
 
-# Why does my backup fail with a missing Server0. Password message?
+# Why does my backup fail with a missing value for Server0.Password message?
 {: #troubleshoot-missingServer0password}
 {: troubleshoot}
 {: support}
