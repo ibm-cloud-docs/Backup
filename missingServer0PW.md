@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021,
+  years: 2021, 2021
 lastupdated: "2021-12-10"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152 
