@@ -310,21 +310,17 @@
     "cloud backup config"
   ],
   "backup-username": [
-    "where to find user name",
-    "what's my user name",
-    "what's my login",
+    "where to find user name for Cloud Backup",
     "backup user name",
-    "where login credentials",
     "where backup username",
+    "what's my user name for Cloud Backup",
     "backup credentials"
   ],
   "change-pw": [
-    "where to change password",
-    "how to change password",
-    "can't login",
+    "where to change backup password",
+    "how to change password for backup",
     "incorrect password",
-    "wrong credentials",
-    "wrong password",
+    "wrong password for Cloud Backup",
     "need new password"
   ],
   "nfs-share-backup": [
