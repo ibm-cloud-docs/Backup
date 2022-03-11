@@ -52,6 +52,7 @@ toc:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
             - configure-vra.md
+            - configure-OracleDDB-backup.md
         - topicgroup:
             label: Restores
             topics:
