@@ -99,10 +99,10 @@ To add an Oracle database backup job:
 9. Click **Save**.
 
 
-## Logfile Options
+## Log file Options
 {: #ODBLogfile}
 
-When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list:
+When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list.
 - Files — This setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
 - Directory — This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
 - Summary — This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
