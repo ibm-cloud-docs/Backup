@@ -42,7 +42,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: tip}
 
 ## Configuring a backup job
-{: #configureBackupjob}
+{: #configureBackupjobODB}
 {: help}
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more Oracle databases. The backup job specifies which databases to back up, and where to save the backup data. When you create an Oracle database backup job, you must specify credentials for the {{site.data.keyword.backup_notm}} Agent to use to connect to the Oracle server.
