@@ -20,10 +20,10 @@ subcollection: Backup
 # Configuring Oracle DB backups
 {: #configureOracleBackup}
 
-To protect Oracle&reg; databases, install the Oracle&reg; Plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The Plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary tablespaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
+To protect Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary tablespaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
 {: shortdesc}
 
-The Oracle Plug-in performs what Oracle Corporation deems an “inconsistent” whole database backup, that requires that the database be run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator should ensure that the database is in ARCHIVELOG mode.
+The Oracle plug-in performs what Oracle Corporation deems an “inconsistent” whole database backup, that requires that the database be run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator should ensure that the database is in ARCHIVELOG mode.
 {: important}
 
 ## Starting Cloud Backup Portal
@@ -49,7 +49,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 
 To add an Oracle database backup job:
 1. On the navigation bar, click **Computers**. The Computers page shows registered computers.
-2. Find a computer with the Oracle Plug-in, and expand its view by clicking the computer row.
+2. Find a computer with the Oracle plug-in, and expand its view by clicking the computer row.
 3. Click the **Jobs** tab.
    
    If the server doesn't have a valid vault connection, then you can't access the Jobs tab.
