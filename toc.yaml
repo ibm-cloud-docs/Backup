@@ -51,7 +51,7 @@ toc:
             - multivaulting.md
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
-             - configure-OracleDDB-backup.md
+            - configure-OracleDDB-backup.md
             - configure-vra.md
         - topicgroup:
             label: Restores
