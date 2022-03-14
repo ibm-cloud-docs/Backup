@@ -20,7 +20,7 @@ subcollection: Backup
 # Restoring Oracle DB
 {: #restoreOracleBackup}
 
-After backing up an Oracle database using the Oracle Plug-in, you can restore the database. An Oracle restore process is performed by a Database Administrator. Briefly, the steps are:
+After backing up an Oracle&reg; database using the Oracle&reg; Plug-in, you can restore the database. An Oracle&reg; restore process is performed by a Database Administrator. Briefly, the steps are:
 1. Shut down the database.
 2. Restore the files.
 3. If necessary, reset the control information for the database.
@@ -31,22 +31,22 @@ The Plug-in does not do table-level restores.
 
 You might also need to recover the entire system, by performing a “bare metal restore” (installing the OS, applications, and then the full database (plus any transaction logs) onto a new system).
 
-If there is an Oracle backup and a full-system backup:
+If there is an Oracle&reg; backup and a full-system backup:
 1. Restore the system (putting back the contents of ORACLE_HOME – specifically the database installation). If you'd like, you can exclude the data files and archive logs that are backed up by the plug-in.
-2. Restore the Oracle backup, and then copy the required components to the appropriate directories. Follow the standard user-managed Oracle recovery procedure from the Oracle backup and recovery guide (available from Oracle) that is appropriate for the operating system.
+2. Restore the Oracle&reg; backup, and then copy the required components to the appropriate directories. Follow the standard user-managed Oracle&reg; recovery procedure from the Oracle&reg; backup and recovery guide (available from Oracle) that is appropriate for the operating system.
 
 ## Restoring an Oracle database
 {: #restoreODB}
 
 
 1. On the navigation bar, click Computers. A grid lists available computers.
-2. Find the computer with the Oracle database that you want to restore, and expand its view by clicking the row for the computer.
+2. Find the computer with the Oracle&reg; database that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
 4. Find the job with the database that you want to restore, and click Restore in the Select Action menu for the job. The Restore dialog box shows the most recent safeset for the job.
 5. To restore the database from an older safeset, or from SSI (safeset image) files, do one of the following:
    - To restore data from an older safeset, click the calendar button. In the calendar that appears, click the date of the safeset from which you want to restore. To the right of the calendar, click the specific safeset that you want to use.
    - To restore data from SSI (safeset image) files on disk, select Directory on disk from the Source Device list. Click the folder. In the Select Folder dialog box, select the directory where the files are located, and click Okay. 
-   SSI files are full backups exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. You cannot restore from backups to disk (SSI files) until the safeset is imported into the vault and the IBM Cloud Backup Agent is synchronized with the vault.
+   SSI files are full backups exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. You cannot restore from backups to disk (SSI files) until the safeset is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
    {: note}
 
 6. In the Files to Restore box, select the items that you want to restore.
@@ -72,24 +72,26 @@ If there is an Oracle backup and a full-system backup:
 When you restore Oracble data, you can specify the following options.
 
 ### Log Options
+{: #ODBRestoreLog}
 
 Select one of the following job logging levels from the list:
 - Files — Provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
 - Directory — Provides less detail than the Files logging level. Provides information about folders that are backed up.
-- Summary — Provides high-level information, including the vault and IBM Cloud Backup Agent version, and backup sizes.
-- Minimal — Provides high-level information, including the vault and IBM Cloud Backup Agent version.
+- Summary — Provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
+- Minimal — Provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 Changing the logging level only affects log files that are created from that point and after. It does not affect previously-created log files.
 
 ### Performance Options
+{: #ODBRestorePerform}
 
-Bandwidth throttling settings specify the amount of bandwidth consumed by an IBM Cloud Backup Agent for backups. For example, you might want to restrict the amount of bandwidth used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
+Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include:
-- Maximum bandwidth (upper limit), in megabits per second, to be consumed by the IBM Cloud Backup Agent for all backups and restores
+- Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores
 - Period of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
 - Days of the week that throttling is in effect
 If the bandwidth throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
-If you edit an IBM Cloud Backup Agent’s bandwidth settings while a backup is running, the new IBM Cloud Backup Agent settings do not affect the backup that is running. Bandwidth settings are applied when a backup starts, and are not applied to backups that are already running.
+If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new {{site.data.keyword.backup_notm}} Agent settings do not affect the backup that is running. Bandwidth settings are applied when a backup starts, and are not applied to backups that are already running.
 
 
 
