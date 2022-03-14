@@ -20,10 +20,10 @@ subcollection: Backup
 # Configuring Oracle DB backups
 {: #configureOracleBackup}
 
-To protect Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary tablespaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
+To protect Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary tablespaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
 {: shortdesc}
 
-The Oracle plug-in performs what Oracle Corporation deems an “inconsistent” whole database backup, that requires that the database be run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator should ensure that the database is in ARCHIVELOG mode.
+The Oracle plug-in performs what the Oracle Corporation deems an “inconsistent” whole database backup that requires that the database is run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator must ensure that the database is in ARCHIVELOG mode.
 {: important}
 
 ## Starting Cloud Backup Portal
@@ -66,7 +66,7 @@ To add an Oracle database backup job:
    - In the Description box, optionally type a description for the backup job.
    - In the Destination list, select the vault where you want to save the backup data.
 
-     A vault only appears in the list if it is assigned to the user, or if the user added it on the computer’s Vault Settings tab.
+     A vault appears in the list if it is assigned to the user, or if the user added it in the computer’s Vault Settings.
      {: tip}
 
    - In the Log File Options list, select the level of detail for job logging. For more information, see [Log file options](#ODBLogfile).
@@ -114,7 +114,7 @@ Changing the logging level only affects log files that are created at that point
 ## Encryption settings and password
 {: #ODBEncrypt}
 
-Encryption settings specify the encryption type for backup data at rest on the vault. AES 256 bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
+Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
 You can also enter a password hint. When you want to restore data, you can view the password hint to remind you of the encryption password for this job.
 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.
