@@ -98,8 +98,10 @@ To add an Oracle database backup job:
 8. To run the job on the specified schedule, select the Enable check box near the end of the row.
 9. Click **Save**.
 
+## Advanced Settings
+{: #ODBBackupAdvanced}
 
-## Log file Options
+### Log file Options
 {: #ODBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list.
@@ -111,7 +113,7 @@ When you create or edit a backup job, you can specify the level of detail for jo
 Changing the logging level only affects log files that are created at that point and after. It does not affect previously created log files.
 {: important}
 
-## Encryption settings and password
+### Encryption settings and password
 {: #ODBEncrypt}
 
 Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
@@ -119,6 +121,21 @@ You can also enter a password hint. When you want to restore data, you can view 
 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.
 {: important}
+
+### Performance Options
+{: #ODBBackupPerform}
+
+Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
+
+Bandwidth settings include:
+- Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
+- Period of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
+- Days of the week that throttling is in effect.
+
+If the bandwidth throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
+
+If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new {{site.data.keyword.backup_notm}} Agent settings do not affect the backup that is running because bandwidth settings are applied when a backup starts, not during its operation.
+
 
 ## Downloading the user guide
 {: #OracleConfigUserGuide}

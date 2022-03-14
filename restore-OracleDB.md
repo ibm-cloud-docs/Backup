@@ -38,7 +38,6 @@ If there is an Oracle&reg; backup and a full-system backup, then the following s
 ## Restoring an Oracle database
 {: #restoreODB}
 
-
 1. On the navigation bar, click Computers. A grid lists available computers.
 2. Find the computer with the Oracle&reg; database that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
@@ -69,34 +68,6 @@ If there is an Oracle&reg; backup and a full-system backup, then the following s
    For a full disaster recovery (in which the full database instance is restored), be careful when you recover the database because the plug-in does not back up TEMPORARY tablespaces.
    {: note}
 
-## Advanced Restore Options
-{: #advancedODBRestoreOpt}
-
-When you restore Oracble data, you can specify the following options.
-
-### Log Options
-{: #ODBRestoreLog}
-
-Select one of the following job logging levels from the list.
-- Files: This option provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory: This option provides less detail than the Files logging level. Provides information about folders that are backed up.
-- Summary: This option provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
-- Minimal: This option provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
-Changing the logging level only affects log files that are created from that point and after. It does not affect previously-created log files.
-
-### Performance Options
-{: #ODBRestorePerform}
-
-Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
-
-Bandwidth settings include:
-- Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
-- Period of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
-- Days of the week that throttling is in effect.
-
-If the bandwidth throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
-
-If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new {{site.data.keyword.backup_notm}} Agent settings do not affect the backup that is running because bandwidth settings are applied when a backup starts, not during its operation.
 
 
 
