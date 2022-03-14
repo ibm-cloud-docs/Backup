@@ -103,8 +103,8 @@ To add an Oracle database backup job:
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list:
 - Files — Provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
 - Directory — Provides less detail than the Files logging level. Provides information about folders that are backed up.
-- Summary — Provides high-level information, including the vault and IBM Cloud Backup Agent version, and backup sizes.
-- Minimal — Provides high-level information, including the vault and IBM Cloud Backup Agent version.
+- Summary — Provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
+- Minimal — Provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 
 Changing the logging level only affects log files that are created from that point and after. It does not affect previously-created log files.
 {: important}
