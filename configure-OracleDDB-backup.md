@@ -48,20 +48,20 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more Oracle databases. The backup job specifies which databases to back up, and where to save the backup data. When you create an Oracle database backup job, you must specify credentials for the {{site.data.keyword.backup_notm}} Agent to use to connect to the Oracle server.
 
 To add an Oracle database backup job:
-1. On the navigation bar, click **Computers**. The Computers page shows registered computers.
-2. Find a computer with the Oracle plug-in, and expand its view by clicking the computer row.
+1. On the navigation bar, click **Computers**. The Computers page shows registered servers.
+2. Find a server with the Oracle plug-in, and expand its view by clicking the computer row.
 3. Click the **Jobs** tab.
    
    If the server doesn't have a valid vault connection, then you can't access the Jobs tab.
    {: note}
 
 4. In the Select Job Task menu, click **Create New Oracle Job**.
-5. In the Connect to Oracle Server dialog box, specify the following information:
+5. In the Connect to Oracle Server dialog box, provide the following information.
    - In the Database Service Name box, type the database instance.
    - In the User Name box, type the name of a user who has sysdba privileges.
    - In the Password box, type the password for the specified user.
 6. Click **Connect**.
-7. In the Create New Job dialog box, specify the following information:
+7. In the Create New Job dialog box, specify the following information.
    - In the Name box, type a name for the backup job.
    - In the Description box, optionally type a description for the backup job.
    - In the Destination list, select the vault where you want to save the backup data.
@@ -82,17 +82,17 @@ To add an Oracle database backup job:
 1. In the View/Add Schedule dialog box, click **Add Schedule**.
 2. In the new schedule row, in the Retention list, click a retention type.
 3. In the Schedule box, click the arrow.
-4. In the Configure Job Schedule dialog box, do one of the following:
+4. In the Configure Job Schedule dialog box, choose one of the following options.
      - To run the backup on specific days each week, in the Schedule View list, click **Days of Week**. Select the days when you want to run the job. Then, use the At field to specify the time when you want to run the job.
      -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the dates when you want to run the job. Then, use the At field to specify the time when you want to run the job.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 5. Click **Okay**. The schedule appears in the Schedule box.
 6. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
-7. Deferring: do one of the following:
+7. Deferring: select one of the following options.
     - To allow the backup job to run without a time limit, click None in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
     
-    When deferring is used, the backup job does not back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
+    When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
     {: note}
 
 8. To run the job on the specified schedule, select the Enable check box near the end of the row.
@@ -103,12 +103,12 @@ To add an Oracle database backup job:
 {: #ODBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list.
-- Files — This setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory — This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
-- Summary — This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
-- Minimal — This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
+- Files: This setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
+- Directory: This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
+- Summary: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
+- Minimal: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 
-Changing the logging level only affects log files that are created at that point and after. It does not affect previously-created log files.
+Changing the logging level only affects log files that are created at that point and after. It does not affect previously created log files.
 {: important}
 
 ## Encryption settings and password
