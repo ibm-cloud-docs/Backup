@@ -61,6 +61,7 @@ toc:
             - restore-from-another-server-in-another-dc.md
             - restore-bmr-system-volume-image.md
             - restore-OracleDB.md
+            - restore-SQLDB.md
             - restore-vsphere.md
 
     - navgroup:
