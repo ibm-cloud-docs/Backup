@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-10-31"
+  years: 2019, 2022
+lastupdated: "2022-03-15"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -70,7 +70,17 @@ Review the Release Notes to ensure that the Backup agent version is compatible w
 10. When installed, check to ensure that both services are enabled and running.
 11. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
-## Downloading the user guide
-{: #SQLUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+## Configuring an MSSQL DB backup job
+{: #configSQLDBbackup}
+
+For more information, see [Configuring SQL DB backups](/docs/Backup?topic=Backup-TBD).
+
+## Restoring an MSSQL DB
+{: #restoringSQLDBBbackup}
+
+After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to a SQL Server instance, or restore databases to flat files. When you want to restore a SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
+For more information, see [Restoring MSSQL Database](/docs/Backup?topic=Backup-restoreMSSQLDB).
+
+Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guides in PDF format from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+{: tip}
