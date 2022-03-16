@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-03-14"
+lastupdated: "2022-03-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -26,8 +26,10 @@ After you backeed up an Oracle&reg; database by using the Oracle&reg; plug-in, y
 3. If necessary, reset the control information for the database.
 4. Start and recover the database.
 5. Reopen the database for use.
-The plug-in does not do table-level restores. 
 {: shortdesc}
+
+The plug-in does not do table-level restores. 
+{: note}
 
 You might also need to recover the entire system, by performing a [bare metal restore](/docs/Backup?topic=Backup-restoreBMR) (installing the OS, applications, and then the full database (plus any transaction logs) on to a new system).
 
@@ -53,6 +55,7 @@ If there is an Oracle&reg; backup and a full-system backup, then the following s
 7. Select a Restore Destination option.
    - To restore files and folders to the location where they were backed up, select Restore files to their original location.
    - To restore files and folders to a different location, select Restore files to an alternate location. Click the folder. In the Select Folder dialog box, select the location where you want to restore, and click Okay.
+
 8. Select a File Overwrite option. This option specifies how to restore a file to a location where a file with the same name already exists.
    - To overwrite existing files with restored files, select Overwrite existing files.
 
@@ -61,13 +64,10 @@ If there is an Oracle&reg; backup and a full-system backup, then the following s
 
    - To add a numeric extension (for example, .0001) to a restored file name, select Do not overwrite existing files. For example, if you restore a file named “filename.txt” to a location where there is a file with the same name, an extension is added to the restored file name (“filename.txt.0001”).
    - To add a numeric extension (for example, .0001) to an existing file name, select Rename existing files. For example, if you restore a file named “filename.txt” to a location where there is a file with the same name, an extension is added to the existing file name (“filename.txt.0001”). The name of the restored file continues to be “filename.txt”.
+   
 9. To change the log detail level or bandwidth settings, click Advanced Restore Options. Specify settings in the Advanced Restore Options dialog box, and click Okay. See [Advanced restore options](#advancedODBRestoreOp).
 10. Click Run Restore. The Process Details dialog box shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog box. See View current process information for a job.
 11. To close the Process Details dialog box, click Close. Closing the window does not affect the restore process.
 
    For a full disaster recovery (in which the full database instance is restored), be careful when you recover the database because the plug-in does not back up TEMPORARY tablespaces.
    {: note}
-
-
-
-
