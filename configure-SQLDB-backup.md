@@ -109,20 +109,20 @@ To add an MSSQL database backup job:
 ## Scheduling the SQL backup job
 {: #SQLDBSchedulejob}
 
-After creating a backup job, you can add one or more schedules for running the job automatically.
-You can create complex schedules for a job by creating multiple schedules. For example, you can schedule a backup job to run at midnight every Friday, and schedule the job to run at 8 pm on the first day of every month.
-When scheduling multiple SQL Server database jobs in the same instance, it is good practice to schedule the jobs so that their running times do not overlap. Simultaneous backups are supported, but are not recommended.
-If a job is scheduled to start at exactly the same time by multiple schedules, the job only runs once at the scheduled time. If the jobs have different retention types, the retention type of the schedule that is highest in the list is applied to the resulting safeset. For example, in the following screenshot, the job is scheduled to run at 12 AM each Saturday with the Weekly retention type, and every day at 12 AM with the Daily retention type. On Saturdays, the job runs only once at 12 AM. Because the schedule with the Weekly retention type is higher in the list than the schedule with the Daily retention type, the Weekly retention type is applied to the safeset.
-Note: If a job is scheduled to run at slightly different times, the {{site.data.keyword.backup_notm}} Agentattempts to run the job according to each schedule. For example, if a job is scheduled to run at 11 PM by one schedule and 11:01 PM by another schedule, the {{site.data.keyword.backup_notm}} Agentwill attempt to run the job twice. Try to avoid overlapping schedules; problems can occur if a job is scheduled to run twice in a short period of time. In particular, try to avoid overlapping schedules for SQL Server database jobs in the same instance. Simultaneous backups in the same SQL Server instance are supported, but are not recommended.
+After creating a backup job, you can add one or more schedules for running the job automatically. You can create complex schedules for a job by creating multiple schedules. For example, you can schedule a backup job to run at midnight every Friday, and schedule the job to run at 8 pm on the first day of every month. When scheduling multiple SQL Server database jobs in the same instance, it's good practice to schedule the jobs so that their running times do not overlap. Simultaneous backups are supported, but are not recommended.
+
+If a job is scheduled to start at exactly the same time by multiple schedules, the job only runs once at the scheduled time. If the jobs have different retention types, the retention type of the schedule that is highest in the list is applied to the resulting safeset. For example, the job is scheduled to run at 12 AM each Saturday with the Weekly retention type, and every day at 12 AM with the Daily retention type. On Saturdays, the job runs once at 12 AM. Because the schedule with the Weekly retention type is higher in the list than the schedule with the Daily retention type, the Weekly retention type is applied to the safeset.
+
+If a job is scheduled to run at slightly different times, the {{site.data.keyword.backup_notm}} Agent attempts to run the job according to each schedule. For example, if a job is scheduled to run at 11 PM by one schedule and 11:01 PM by another schedule, the {{site.data.keyword.backup_notm}} agent attempts to run the job twice. Try to avoid overlapping schedules. Problems can occur if a job is scheduled to run twice in a short period of time. In particular, try to avoid overlapping schedules for SQL Server database jobs in the same instance. Simultaneous backups in the same SQL Server instance are supported, but are not recommended.
 
 1. In the View/Add Schedule dialog box, click **Add Schedule**.
 2. In the new schedule row, in the Retention list, click a retention type.
 3. Select thhe Backup Type:
    - To back up each database from the point in time when the backup starts, click Full.
    - To back up each database and its transaction logs from the point in time when the backup starts, click Full with transaction logs.
-   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When Transaction Logs only is selected, the entire database and its transaction logs will be backed up when the job first runs. In subsequent backups, only the transaction logs will be backed up.
+   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When Transaction Logs only is selected, the entire database and its transaction logs is backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
 
-   After a transaction log backup, logs are marked for truncation. If you also back up databases using another tool (e.g., native SQL Server backup), use only one tool for truncating logs. Transaction logs can only be backed up for databases that use the full or bulk-logged recovery model.
+   After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can only be backed up for databases that use the full or bulk-logged recovery model.
    {: note}
 
 4. In the Schedule box, click the arrow.
@@ -132,7 +132,7 @@ Note: If a job is scheduled to run at slightly different times, the {{site.data.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 6. Click **Okay**. The schedule appears in the Schedule box.
 7. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
-8. Deferring: select one of the following options.
+8. For deferring, select one of the following options.
     - To allow the backup job to run without a time limit, click None in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
     
@@ -141,7 +141,7 @@ Note: If a job is scheduled to run at slightly different times, the {{site.data.
 
 9. To run the job on the specified schedule, select the Enable check box near the end of the row.
 
-   If tmore than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules lower in the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the retention type of the schedule that is highest in the priority list.
+   If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules lower in the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the retention type of the schedule that is highest in the priority list.
    {: note}
 
 10. Click **Save**.
