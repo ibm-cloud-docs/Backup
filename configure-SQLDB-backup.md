@@ -48,7 +48,11 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: #configureBackupjobSQLDB}
 {: help}
 
-Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more MSSQL databases. The backup job specifies which databases to back up, and where to save the backup data. When you create an MSSQL database backup job, you must specify credentials for the {{site.data.keyword.backup_notm}} Agent to use to connect to the MSSQL server.
+Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in a SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with a SQL Server plug-in job. However, an SQL Server plug-in job cannot include databases from multiple SQL Server instances.
+
+When you create a SQL Server database backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where you are backing up databases.
+
+To back up the data, you can run the backup job manually or schedule the job to run. When scheduling or running a job, you can specify whether to back up the database, the transaction logs, or both.
 
 To add an MSSQL database backup job:
 1. On the navigation bar, click **Computers**. The Computers page shows registered servers.
@@ -58,11 +62,14 @@ To add an MSSQL database backup job:
    If the server doesn't have a valid vault connection, then you can't access the Jobs tab.
    {: note}
 
-4. In the Select Job Task menu, click **Create New MSSQL Job**.
-5. In the Connect to MSSQL Server dialog box, provide the following information.
-   - In the Database Service Name box, type the database instance.
-   - In the User Name box, type the name of a user who has sysdba privileges.
-   - In the Password box, type the password for the specified user.
+4. In the Select Job Task menu, click **Create New SQL Server Job**.
+5. In the Connect to SQL Server dialog box, provide the following information.
+   - In the Instance list, select the SQL Server instance where you want to back up databases.
+   - To connect to the instance using a Windows administrator account, select Windows&reg; authentication.
+   - To connect to the instance using a SQL Server administrator account, select SQL authentication.
+   - In the User Name box, type the user name for connecting to the instance.
+   - In the Password box, type the password of the specified user.
+   - If you selected Windows&reg; authentication, in the Domain box, type the domain of the specified account.
 6. Click **Connect**.
 7. In the Create New Job dialog box, specify the following information.
    - In the Name box, type a name for the backup job.
@@ -75,8 +82,28 @@ To add an MSSQL database backup job:
    - In the Log File Options list, select the level of detail for job logging. For more information, see [Log file options](#SQLDBLogfile).
    - For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods. For more information, see [Encryption settings](#SQLDBEncrypt).
    - In the Password and Confirm Password boxes, enter an encryption password. You can also enter a password hint in the Password Hint box.
-8. In the Include in Backup box, select the database that you want to back up.
-9. Click **Save**. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
+8. In the Select Databases for Backup box, select the database that you want to back up.
+   - To add specific databases to the backup job, select the check box for each database, and then click Include. The included databases appear in the Backup Set box.
+   - To back up all databases in the selected SQL Server instance, select the check box for the instance, and then click Include. The included instances appear in the Backup Set box.
+   
+   When the job runs, newly-added databases in the selected instance are automatically backed up.
+   {: note}
+
+   - To back up databases with names that match a filter when the job runs, select the check box for the SQL Server instance, and then click Include. An inclusion record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to include. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?`) as wildcard characters. Filters are applied when the backup job runs. New databases that match the specified filters are automatically backed up when the job runs.
+   
+   For example, to back up databases with names that end with “Management” or include the word “database” followed by a single character, enter the following filter: `*management, database?`.
+   {: tip}
+
+9. To exclude databases from the backup job, do one or more of the following in the Select Databases for Backup box:
+   - To exclude specific databases from the backup job, select the check box for each database, and then click Exclude. The excluded databases appear in the Backup Set box.
+   - To exclude databases with names that match a filter when the backup job runs, select the check box for the SQL Server instance, and then click Exclude. A record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to exclude. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?)` as wildcard characters. For example, to exclude databases if their names begin with “M”, enter the following filter: `m*`.
+   
+   Filters are applied when the backup job runs. New databases that match the specified filters are automatically excluded when the backup job runs. Filters are not case-sensitive.
+   {: note}
+
+10. To remove an inclusion or exclusion record from the Backup Set box, click the Delete button beside the record.
+11. Click Apply Now to consolidate and simplify records in the Backup Set box, if changes need to be applied.
+12. Click Create Job. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
 
 
 ## Scheduling the backup job
@@ -100,6 +127,35 @@ To add an MSSQL database backup job:
 
 8. To run the job on the specified schedule, select the Enable check box near the end of the row.
 9. Click **Save**.
+
+## Procting SQL databases in AlwaysOn Availability Groups
+{: #configureBackupAlwaysOn}
+
+You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows IBM Cloud Backup Agentand SQL Server plug-in.
+If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft only supports copy-only backups of secondary databases (see http://msdn.microsoft.com/en-us/library/hh245119.aspx).
+Note: If a backup job includes secondary databases and databases that are not in a secondary replica, a copy-only backup will be performed for all databases in the job. Do not include a secondary database in the same job as a standalone database.
+To protect SQL Server databases in AlwaysOn Availability Groups, do one of the following:
+ Install the Windows IBM Cloud Backup Agentand plug-in on the server where the primary replica is hosted. You can run a full backup of the primary databases, followed by full or transaction log backups. If the primaryreplica becomes a secondary replica after a failover, the IBM Cloud Backup Agentautomatically runs copy-only database backups instead of full backups. Transaction log backups remain the same.
+ Install the Windows IBM Cloud Backup Agentand plug-in on a server where a secondary replica is hosted. This backup strategy offloads backup processing to a non-primary server. You can run a copy-only backup of the secondary database, followed by copy-only or transaction log backups. If the secondary replica becomes the primary replica after a failover, the IBM Cloud Backup Agentautomatically runs full backups instead of copy-only backups. Transaction log backups remain the same.
+Note: If the availability mode of the secondary replica is asynchronous-commit, transaction logs on the secondary database could lag behind the primary replica database. If the secondary database is being backed up, data loss could occur.
+ Install the Windows IBM Cloud Backup Agentand plug-in on the primary replica server and on secondary replica servers. This strategy ensures that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
+If a SQL database in an AlwaysOn Availability Group is hosted on a SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in and Cluster plug-in on each physical node, and configure jobs on the virtual node. Full backups will run if the database is a primary database, and copy-only backups will run if the database is a secondary database.
+For information
+
+
+## Protecting SQL Server Clusters
+{: #configureBackupSQLCluster}
+
+
+To protect a SQL Server cluster, you must install the Windows IBM Cloud Backup Agentwith the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. In Portal, you can then register a virtual server for the SQL Server role in Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and will not reseed after a failover.
+To fully protect a SQL Server cluster, you must back up:
+ the quorum disk
+ each physical node in the cluster
+ cluster volumes
+ the SQL Server databases to provide point-in-time database recovery.
+When a cluster is fully protected, you can recover the cluster if components are lost, are corrupted or fail.
+
+
 
 ## Advanced Settings
 {: #SQLDBBackupAdvanced}
