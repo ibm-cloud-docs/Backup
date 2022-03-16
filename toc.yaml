@@ -52,6 +52,7 @@ toc:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
             - configure-OracleDDB-backup.md
+            - configure-SQLDB-backup.md
             - configure-vra.md
         - topicgroup:
             label: Restores
