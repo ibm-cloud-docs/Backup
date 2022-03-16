@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {: tip}
 
-## Configuring a backup job
+## Configuring an SQL backup job
 {: #configureBackupjobSQLDB}
 {: help}
 
@@ -106,7 +106,7 @@ To add an MSSQL database backup job:
 12. Click Create Job. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
 
 
-## Scheduling the backup job
+## Scheduling the SQL backup job
 {: #SQLDBSchedulejob}
 
 After creating a backup job, you can add one or more schedules for running the job automatically.
@@ -146,7 +146,7 @@ Note: If a job is scheduled to run at slightly different times, the {{site.data.
 
 10. Click **Save**.
 
-## Procting SQL databases in AlwaysOn Availability Groups
+## Protecting SQL databases in AlwaysOn Availability Groups
 {: #configureBackupAlwaysOn}
 
 You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows&reg; {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in.
@@ -181,7 +181,7 @@ To fully protect an SQL Server cluster, you must back up:
 
 When a cluster is fully protected, you can recover the cluster if components are lost, are corrupted or fail.
 
-## Advanced Settings
+## Advanced settings
 {: #SQLDBBackupAdvanced}
 
 ### Log file Options
