@@ -97,8 +97,8 @@ To restore a SQL Server database to flat files:
 11. To change the log detail level, bandwidth throttling setting or hard recovery option, click Advanced Restore Options. In the dialog box, you can do the following:
     - In the Log Level Detail list, select the level of detail for job logging.
     - Select or clear the Use all available bandwidth option.
-12. Click Run Restore.
-The Process Details dialog box shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog box. To close the Process Details dialog box, click Close. Closing the window does not affect the restore process.
+
+12. Click Run Restore. The Process Details dialog box shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog box. To close the Process Details dialog box, click Close. Closing the window does not affect the restore process.
 
 
 ## Restoring databases in AlwaysOn Availability groups
@@ -122,7 +122,6 @@ After restoring a database to the primary replica and adding the database back i
 1. If you didn't delete the database from all secondary replicas when you restored the primary database, remove the secondary database from the AlwaysOn Availability Group.
 2. On a secondary replica server where the IBM Cloud Backup Agent and plug-in are installed, restore the database by running a Restore From Another Computer by using the No Recovery option.
 3. Add the restored secondary database to the AlwaysOn Availability Group using the Join option.
-
 
 ## Restoring items from an SQL server or SharePoint database
 {: #restoreSQLDBitems}
