@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-03-15"
+lastupdated: "2022-03-16"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -74,7 +74,7 @@ Review the Release Notes to ensure that the Backup agent version is compatible w
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}
 
-For more information, see [Configuring SQL DB backups](/docs/Backup?topic=Backup-TBD).
+The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
 
 ## Restoring an MSSQL DB
 {: #restoringSQLDBBbackup}
