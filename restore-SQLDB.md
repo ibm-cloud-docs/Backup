@@ -27,9 +27,9 @@ After backing up SQL Server databases by using the SQL Server plug-in, you can r
 {: #restoreDBSQLdirect}
 
 After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
-If transaction logs have been backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
+If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
 When restoring system databases, the master database must be restored first, by itself. Other system databases can then be restored.
-You must specify a Windows or SQL Server administrator account for connecting to SQL Server during a restore.
+You must specify a Winddows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
 After restoring an SQL Server 2016 database that is stretched to Microsoft Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. See “Restore the connection between the SQL Server database and the remote Azure database” on the Microsoft Developer Network website: https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect
 
 To restore a database directly to SQL Server:
@@ -40,7 +40,7 @@ To restore a database directly to SQL Server:
 5. In the Choose how to restore dialog box, select Restore database to an SQL Server instance.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
 7. Connect to the instance by using one of the following methods. 
-   - To connect to the instance by using a Windows administrator account, select Windows authentication. Enter the user name, password, and domain in the appropriate fields.
+   - To connect to the instance by using a Winddows&reg; administrator account, select Winddows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
 9. To restore data from an older safeset, or from SSI (safeset image) files, take one of the following steps.
@@ -62,7 +62,7 @@ To restore a database directly to SQL Server:
 13. Select the appropriate setting for overwrites.
     - To overwrite the existing database if you restore a database with the same name as the existing database, select Overwrite existing databases.
     - To fail the restore if a database with the same name already exists, clear Overwrite existing databases. If Overwrite existing databases is not selected, and you are restoring multiple databases, the restore fails for all databases if even one database has the same name as an existing database.
-14. To restore the database in restoring state, select Restore using No Recovery option. If this option is selected, and transaction logs have been backed up by using an alternative method (for example, a native SQL Server backup), you can apply transaction logs to the database after it is restored.
+14. To restore the database in restoring state, select Restore using No Recovery option. If this option is selected, and transaction logs were backed up by using an alternative method (for example, a native SQL Server backup), you can apply transaction logs to the database after it is restored.
 15. To specify an alternate location for database files, select Alternate Path. Click the folder button. In the Select Folder dialog box, select the alternate file location, and click Okay.
 
     The alternate file location is only used if the original location for database files is not available.
@@ -104,8 +104,8 @@ To restore an SQL Server database to flat files:
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If a Windows {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed before restoring the database.
-After restoring a database to the primary replica and adding the database back into the AlwaysOn Availability Group, it will be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If a Winddows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed before restoring the database.
+After restoring a database to the primary replica and adding the database back into the AlwaysOn Availability Group, it will be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Winddows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}
