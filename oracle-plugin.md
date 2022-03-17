@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-03-14"
+lastupdated: "2022-03-17"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
