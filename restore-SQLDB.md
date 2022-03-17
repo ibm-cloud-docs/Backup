@@ -26,8 +26,8 @@ After backing up SQL Server databases by using the SQL Server plug-in, you can r
 ## Restoring databases directly to an SQL Server.
 {: #restoreDBSQLdirect}
 
-After backing up SQL Server databases using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
-If transaction logs have been backed up using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
+After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
+If transaction logs have been backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
 When restoring system databases, the master database must be restored first, by itself. Other system databases can then be restored.
 You must specify a Windows or SQL Server administrator account for connecting to SQL Server during a restore.
 After restoring an SQL Server 2016 database that is stretched to Microsoft Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. See “Restore the connection between the SQL Server database and the remote Azure database” on the Microsoft Developer Network website: https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect
@@ -40,8 +40,8 @@ To restore a database directly to SQL Server:
 5. In the Choose how to restore dialog box, select Restore database to an SQL Server instance.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
 7. Connect to the instance by using one of the following methods. 
-   - To connect to the instance using a Windows administrator account, select Windows authentication. Enter the user name, password, and domain in the appropriate fields.
-   - To connect to the instance using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
+   - To connect to the instance by using a Windows administrator account, select Windows authentication. Enter the user name, password, and domain in the appropriate fields.
+   - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
 9. To restore data from an older safeset, or from SSI (safeset image) files, take one of the following steps.
    - To restore data from an older safeset, click the calendar button. In the calendar that appears, click the date of the safeset from which you want to restore. To the right of the calendar, click the specific safeset that you want to use.
@@ -76,7 +76,7 @@ To restore a database directly to SQL Server:
 ## Restoring databases to Flat Files
 {: #restoreSQLDBFlatFile}
 
-After backing up SQL Server databases using the SQL Server plug-in, you can restore an SQL Server database to flat files. SQL Server tools can then be used to bring the data into a database.
+After backing up SQL Server databases by using the SQL Server plug-in, you can restore an SQL Server database to flat files. SQL Server tools can then be used to bring the data into a database.
 To restore an SQL Server database to flat files:
 1. On the navigation bar, click Computers. A grid lists available servers.
 2. Find the computer with the SQL Server database backup that you want to restore, and expand its view by clicking the row for the computer.
@@ -113,20 +113,20 @@ After restoring a database to the primary replica and adding the database back i
 1. If the {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, fail over to the secondary database instance where the {{site.data.keyword.backup_notm}} Agent is installed. The formerly secondary replica where you backed up the database becomes the primary replica.
 2. Remove the primary database from the AlwaysOn Availability Group.
 3. Delete the database from all secondary replicas.
-4. Restore the primary database to the original database name using the Overwrite Existing Databases option.
-5. Add the restored primary database to the AlwaysOn Availability Group using the Full Synchronization option. After restoring an SQL Server database to the primary replica, to reduce the amount of required replication traffic, you can restore the database to secondary replica servers.
+4. Restore the primary database to the original database name by using the Overwrite Existing Databases option.
+5. Add the restored primary database to the AlwaysOn Availability Group by using the Full Synchronization option. After restoring an SQL Server database to the primary replica, to reduce the amount of required replication traffic, you can restore the database to secondary replica servers.
 
 ### Restoring a secondary database in an AlwaysOn Availability Group
 {: #restoreSecondaryAAG}
 
 1. If you didn't delete the database from all secondary replicas when you restored the primary database, remove the secondary database from the AlwaysOn Availability Group.
 2. On a secondary replica server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed, restore the database by running a Restore From Another Computer by using the No Recovery option.
-3. Add the restored secondary database to the AlwaysOn Availability Group using the Join option.
+3. Add the restored secondary database to the AlwaysOn Availability Group by using the Join option.
 
 ## Restoring items from an SQL server or SharePoint database
 {: #restoreSQLDBitems}
 
-If a Microsoft SharePoint 2010 or 2013 database is backed up using the SQL Server plug-in, you can restore items such as site collections, websites, lists and documents from the backup. If a Microsoft SQL Server database is backed up using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
+If a Microsoft SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists and documents from the backup. If a Microsoft SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
 
 To restore items from a database backup, you must first use Portal to expose the safeset as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for Microsoft SharePoint. To restore items from an SQL Server database backup, use Granular Restore for Microsoft Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 

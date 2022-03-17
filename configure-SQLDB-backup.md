@@ -65,8 +65,8 @@ To add an MSSQL database backup job:
 4. In the Select Job Task menu, click **Create New SQL Server Job**.
 5. In the Connect to SQL Server dialog box, provide the following information.
    - In the Instance list, select the SQL Server instance where you want to back up databases.
-   - To connect to the instance using a Windows&reg; administrator account, select Windows&reg; authentication.
-   - To connect to the instance using an SQL Server administrator account, select SQL authentication.
+   - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication.
+   - To connect to the instance by using an SQL Server administrator account, select SQL authentication.
    - In the User Name box, type the user name for connecting to the instance.
    - In the Password box, type the password of the specified user.
    - If you selected Windows&reg; authentication, in the Domain box, type the domain of the specified account.
