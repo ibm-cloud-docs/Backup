@@ -114,7 +114,7 @@ After you restored a database to the primary replica and adding the database bac
 2. Remove the primary database from the AlwaysOn Availability Group.
 3. Delete the database from all secondary replicas.
 4. Restore the primary database to the original database name by using the Overwrite Existing Databases option.
-5. Add the restored primary database to the AlwaysOn Availability Group by using the Full Synchronization option. After you restored an SQL Server database to the primary replica, to reduce the amount of required replication traffic, you can restore the database to secondary replica servers.
+5. Add the restored primary database to the AlwaysOn Availability Group by using the Full Synchronization option. After you restored an SQL Server database to the primary replica, you can restore the database to secondary replica servers to reduce the amount of required replication traffic.
 
 ### Restoring a secondary database in an AlwaysOn Availability Group
 {: #restoreSecondaryAAG}
@@ -126,7 +126,7 @@ After you restored a database to the primary replica and adding the database bac
 ## Restoring items from an SQL server or SharePoint database
 {: #restoreSQLDBitems}
 
-If a  Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists and documents from the backup. If a  Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
+If a  Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a  Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
 
 To restore items from a database backup, you must first use Portal to expose the safeset as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for  Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for  Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 
