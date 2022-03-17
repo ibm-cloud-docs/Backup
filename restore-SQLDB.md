@@ -30,9 +30,9 @@ After backing up SQL Server databases by using the SQL Server plug-in, you can r
 If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
 When you restore system databases, the master database must be restored first, by itself. Other system databases can then be restored later.
 You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
-After you restored an SQL Server 2016 database that is stretched to  Microsoft&reg; Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. See “Restore the connection between the SQL Server database and the remote Azure database” on the  Microsoft&reg; Developer Network website: https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect
+After you restored an SQL Server 2016 database that is stretched to  Microsoft&reg; Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, See [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect){: external}.
 
-To restore a database directly to SQL Server:
+To restore a database directly to SQL Server, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available computers.
 2. Find the server with the SQL Server database backup that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
@@ -77,7 +77,8 @@ To restore a database directly to SQL Server:
 {: #restoreSQLDBFlatFile}
 
 After backing up SQL Server databases by using the SQL Server plug-in, you can restore an SQL Server database to flat files. SQL Server tools can then be used to bring the data into a database.
-To restore an SQL Server database to flat files:
+
+To restore an SQL Server database to flat files, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available servers.
 2. Find the computer with the SQL Server database backup that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
@@ -130,7 +131,7 @@ If a  Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the 
 
 To restore items from a database backup, you must first use Portal to expose the safeset as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for  Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for  Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 
-To restore items from an SQL Server or SharePoint database:
+To restore items from an SQL Server or SharePoint database, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available servers.
 2. Find the computer with the safeset with SharePoint or SQL Server data that you want to restore, and expand its view by clicking the computer row.
 3. Click the Jobs tab.
