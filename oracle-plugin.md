@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-11-14"
+  years: 2019, 2022
+lastupdated: "2022-03-17"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -97,8 +97,15 @@ The Oracle plug-in installation kit is available in a tar.gz file.
 The Oracle plug-in performs an "inconsistent" whole database backup that requires that the database runs in ARCHIVELOG mode. The DBA needs to ensure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the User Guide.
 {: important}
 
+## Configuring an Oracle DB backup job
+{: #configODBbackup}
 
-## Downloading the user guide
-{: #OracleUserGuide}
+For more information, see [Configuring Oracle DB backups](/docs/Backup?topic=Backup-configureOracleBackup).
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+## Restoring an Oracle DB
+{: #restoringODBbackup}
+
+For more information, see [Restoring Oracle DB](/docs/Backup?topic=Backup-restoreOracleDB).
+
+Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guides in PDF format from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+{: tip}

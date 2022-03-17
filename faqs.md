@@ -28,7 +28,7 @@ subcollection: Backup
 
 The user name and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the user name is in the upper-left corner. The Portal Password is on the Overview tab.
 
-You can also see the user name and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view user names and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The IBM Cloud Backup service is listed in the Software Name column as "Base Client".
+You can also see the user name and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view user names and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
 Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate user names and passwords. The service name is listed as "Base Client".
 
@@ -42,7 +42,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
 
-   The IBM Cloud Backup username is displayed in the upper-left corner of the page.
+   The {{site.data.keyword.backup_notm}} username is displayed in the upper-left corner of the page.
    {: note}
 
 5. Enter the new password in the **Password** field.
@@ -140,7 +140,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 {: faq}
 {: support}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
@@ -256,7 +256,7 @@ For more information, see the following topics.
 {: #nfs-share-backup}
 {: support}
 
-Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm?TocPath=Server%2520Backup%2520User%2520Guide%257CAdd%2520and%2520edit%2520backup%2520jobs%257C_____10){: external}.
+Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm){: external}.
 
 Network/NFS Backups are not supported in Windows.
 {: important}

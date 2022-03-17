@@ -51,6 +51,8 @@ toc:
             - multivaulting.md
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
+            - configure-OracleDDB-backup.md
+            - configure-SQLDB-backup.md
             - configure-vra.md
         - topicgroup:
             label: Restores
@@ -59,6 +61,8 @@ toc:
             - restore-from-another-computer.md
             - restore-from-another-server-in-another-dc.md
             - restore-bmr-system-volume-image.md
+            - restore-OracleDB.md
+            - restore-SQLDB.md
             - restore-vsphere.md
 
     - navgroup:
