@@ -54,7 +54,7 @@ When you create an SQL Server database backup job, you must specify the Windows&
 
 To back up the data, you can run the backup job manually or schedule the job to run. When scheduling or running a job, you can specify whether to back up the database, the transaction logs, or both.
 
-To add an MSSQL database backup job:
+To add an MSSQL database backup job, complete the following tasks.
 1. On the navigation bar, click **Computers**. The Computers page shows registered servers.
 2. Find a server with the MSSQL plug-in, and expand its view by clicking the computer row.
 3. Click the **Jobs** tab.
@@ -160,8 +160,8 @@ To protect SQL Server databases in AlwaysOn Availability Groups, you can choose 
 
 - Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on a server where a secondary replica is hosted. This backup strategy offloads backup processing to a non-primary server. You can run a copy-only backup of the secondary database, followed by copy-only or transaction log backups. If the secondary replica becomes the primary replica after a failover, the {{site.data.keyword.backup_notm}} Agent automatically runs full backups instead of copy-only backups. Transaction log backups remain the same.
 
-If the availability mode of the secondary replica is asynchronous-commit, transaction logs on the secondary database could lag behind the primary replica database. If the secondary database is being backed up, data loss could occur.
-{: note}
+   If the availability mode of the secondary replica is asynchronous-commit, transaction logs on the secondary database could lag behind the primary replica database. If the secondary database is being backed up, data loss could occur.
+   {: note}
 
 - Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy ensures that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
 
