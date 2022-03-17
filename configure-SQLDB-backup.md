@@ -20,7 +20,7 @@ subcollection: Backup
 # Configuring MSSQL database backups
 {: #configureMSSQLBackup}
 
-To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows&reg; {{site.data.keyword.backup_notm}} Agent on the machine where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
+To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows&reg; {{site.data.keyword.backup_full}} Agent on the machine where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 {: shortdesc}
 
 You can only back up transaction logs for databases that use the full or bulk-logged recovery model.
@@ -48,9 +48,9 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: #configureBackupjobSQLDB}
 {: help}
 
-Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in a SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with a SQL Server plug-in job. However, an SQL Server plug-in job cannot include databases from multiple SQL Server instances.
+Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in an SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with an SQL Server plug-in job. However, an SQL Server plug-in job cannot include databases from multiple SQL Server instances.
 
-When you create a SQL Server database backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where you are backing up databases.
+When you create an SQL Server database backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where you are backing up databases.
 
 To back up the data, you can run the backup job manually or schedule the job to run. When scheduling or running a job, you can specify whether to back up the database, the transaction logs, or both.
 
@@ -66,7 +66,7 @@ To add an MSSQL database backup job:
 5. In the Connect to SQL Server dialog box, provide the following information.
    - In the Instance list, select the SQL Server instance where you want to back up databases.
    - To connect to the instance using a Windows&reg; administrator account, select Windows&reg; authentication.
-   - To connect to the instance using a SQL Server administrator account, select SQL authentication.
+   - To connect to the instance using an SQL Server administrator account, select SQL authentication.
    - In the User Name box, type the user name for connecting to the instance.
    - In the Password box, type the password of the specified user.
    - If you selected Windows&reg; authentication, in the Domain box, type the domain of the specified account.
@@ -165,13 +165,13 @@ If the availability mode of the secondary replica is asynchronous-commit, transa
 
 - Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy ensures that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
 
-If a SQL database in an AlwaysOn Availability Group is hosted on a SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in and Cluster plug-in on each physical node, and configure jobs on the virtual node. Full backups will run if the database is a primary database, and copy-only backups run if the database is a secondary database.
+If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in and Cluster plug-in on each physical node, and configure jobs on the virtual node. Full backups will run if the database is a primary database, and copy-only backups run if the database is a secondary database.
 {: tip}
 
 ## Protecting SQL Server Clusters
 {: #configureBackupSQLCluster}
 
-To protect a SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
+To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
 
 To fully protect an SQL Server cluster, you must back up:
 - the quorum disk,
