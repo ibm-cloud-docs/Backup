@@ -29,7 +29,7 @@ After backing up SQL Server databases by using the SQL Server plug-in, you can r
 After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
 If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
 When you restore system databases, the master database must be restored first, by itself. Other system databases can then be restored later.
-You must specify a Winddows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
+You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
 After you restored an SQL Server 2016 database that is stretched to  Microsoft&reg; Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. See “Restore the connection between the SQL Server database and the remote Azure database” on the  Microsoft&reg; Developer Network website: https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect
 
 To restore a database directly to SQL Server:
@@ -40,7 +40,7 @@ To restore a database directly to SQL Server:
 5. In the Choose how to restore dialog box, select Restore database to an SQL Server instance.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
 7. Connect to the instance by using one of the following methods. 
-   - To connect to the instance by using a Winddows&reg; administrator account, select Winddows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
+   - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
 9. To restore data from an older safeset, or from SSI (safeset image) files, take one of the following steps.
@@ -68,7 +68,7 @@ To restore a database directly to SQL Server:
     The alternate file location is only used if the original location for database files is not available.
     {: note}
 
-16. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, select the following:
+16. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, select the following options:
     - In the Log Level Detail list, select the level of detail for job logging.
     - Select or clear the Use all available bandwidth option.
 17. Click Run Restore. The Process Details dialog shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog window. To close the Process Details screen, click Close. Closing the window does not affect the restore process.
@@ -94,7 +94,7 @@ To restore an SQL Server database to flat files:
 8. In the Database Selection, select the check box for each database that you want to restore.
 9. In the Encryption Password field, enter the data encryption password. To view the password hint, click the Hint button.
 10. Under Restore Destination, enter a path for the destination, or click the folder button. In the Select Folder dialog box, select the location where you want to restore, and click Okay.
-11. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, you can do the following:
+11. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, you can select the  options:
     - In the Log Level Detail list, select the level of detail for job logging.
     - Select or clear the Use all available bandwidth option.
 
@@ -104,8 +104,8 @@ To restore an SQL Server database to flat files:
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If a Winddows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed before you attempt to restore the database.
-After you restored a database to the primary replica and adding the database back into the AlwaysOn Availability Group, it will be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Winddows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If a Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed before you attempt to restore the database.
+After you restored a database to the primary replica and adding the database back into the AlwaysOn Availability Group, it will be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}
@@ -138,7 +138,7 @@ To restore items from an SQL Server or SharePoint database:
 5. Select Restore items to a SharePoint or SQL Server database, and click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
 6. To restore data from an older safeset, click the calendar button. In the calendar, click the date of the safeset from which you want to restore. Then, click the specific safeset that you want to use.
 7. In the Encryption Password field, enter the data encryption password. To view the password hint, click the Hint button.
-8. In the Idle Time field, enter the number of minutes of inactivity after which the share should automatically stop. The value can range from 2 to 180 minutes.
+8. In the Idle Time field, enter the number of minutes of inactivity after which the share has to automatically stop. The value can range 2-180 minutes.
 9. Select or clear the Use all available bandwidth option.
 10. Click Share. The Process Details dialog shows the status of the share process. When the share is available, the share path appears next to the dialog box.
 11. Click the Copy Path to Clipboard button. The path is now available for you to paste into the Granular Restore application.
