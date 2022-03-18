@@ -42,12 +42,12 @@ To restore a database directly to SQL Server, complete the following tasks.
 7. Connect to the instance by using one of the following methods. 
    - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
-8. Click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
-9. To restore data from an older safeset, or from SSI (safeset image) files, take one of the following steps.
-   - To restore data from an older safeset, click the calendar button. In the calendar that appears, click the date of the safeset from which you want to restore. To the right of the calendar, click the specific safeset that you want to use.
-   - To restore data from SSI (safeset image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog box, select the directory where the files are located, and click Okay.
+8. Click Continue. The SQL Server Restore dialog box shows the most recent  safe set for the job.
+9. To restore data from an older  safe set, or from SSI ( safe set image) files, take one of the following steps.
+   - To restore data from an older  safe set, click the calendar button. In the calendar that appears, click the date of the  safe set from which you want to restore. To the right of the calendar, click the specific  safe set that you want to use.
+   - To restore data from SSI ( safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog box, select the directory where the files are located, and click Okay.
 
-   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the safeset is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
+   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the  safe set is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
    {: note}
 
 10. In the Database Selection box, select the check box for each database that you want to restore.
@@ -84,12 +84,12 @@ To restore an SQL Server database to flat files, complete the following tasks.
 3. Click the Jobs tab.
 4. Find the job with the database that you want to restore, and click Restore in the Select Action menu for the job.
 5. In the Choose how to restore dialog, select Restore to folder.
-6. Click Continue. The SQL Server Restore dialog shows the most recent safeset for the job.
-7. To restore data from an older safeset, or from SSI (safeset image) files, take one of the following steps.
-   - To restore data from an older safeset, click the calendar button. In the calendar that appears, click the date of the safeset from which you want to restore. To the right of the calendar, click the specific safeset that you want to use.
-   - To restore data from SSI (safeset image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog, select the directory where the files are located, and click Okay.
+6. Click Continue. The SQL Server Restore dialog shows the most recent  safe set for the job.
+7. To restore data from an older  safe set, or from SSI ( safe set image) files, take one of the following steps.
+   - To restore data from an older  safe set, click the calendar button. In the calendar that appears, click the date of the  safe set from which you want to restore. To the right of the calendar, click the specific  safe set that you want to use.
+   - To restore data from SSI ( safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog, select the directory where the files are located, and click Okay.
 
-   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the safeset is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
+   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the  safe set is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
    {: note}
 
 8. In the Database Selection, select the check box for each database that you want to restore.
@@ -129,15 +129,15 @@ After you restored a database to the primary replica and adding the database bac
 
 If a  Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a  Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
 
-To restore items from a database backup, you must first use Portal to expose the safeset as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for  Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for  Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
+To restore items from a database backup, you must first use Portal to expose the  safe set as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for  Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for  Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 
 To restore items from an SQL Server or SharePoint database, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available servers.
-2. Find the computer with the safeset with SharePoint or SQL Server data that you want to restore, and expand its view by clicking the computer row.
+2. Find the computer with the  safe set with SharePoint or SQL Server data that you want to restore, and expand its view by clicking the computer row.
 3. Click the Jobs tab.
 4. Find the job with the SharePoint data that you want to restore, and click Restore in the Select Action menu for the job. The Choose how to restore dialog box appears.
-5. Select Restore items to a SharePoint or SQL Server database, and click Continue. The SQL Server Restore dialog box shows the most recent safeset for the job.
-6. To restore data from an older safeset, click the calendar button. In the calendar, click the date of the safeset from which you want to restore. Then, click the specific safeset that you want to use.
+5. Select Restore items to a SharePoint or SQL Server database, and click Continue. The SQL Server Restore dialog box shows the most recent  safe set for the job.
+6. To restore data from an older  safe set, click the calendar button. In the calendar, click the date of the  safe set from which you want to restore. Then, click the specific  safe set that you want to use.
 7. In the Encryption Password field, enter the data encryption password. To view the password hint, click the Hint button.
 8. In the Idle Time field, enter the number of minutes of inactivity after which the share has to automatically stop. The value can range 2-180 minutes.
 9. Select or clear the Use all available bandwidth option.
@@ -146,6 +146,6 @@ To restore items from an SQL Server or SharePoint database, complete the followi
 12. Launch the granular restore.
     - To restore SharePoint items, launch the Granular Restore for  Microsoft&reg; SharePoint application on a SharePoint 2010 or 2013 system.
     - To restore SQL Server database items, launch the Granular Restore for  Microsoft&reg; Exchange and SQL application on an SQL Server system.
-13. Paste the path for the SQL safeset share into the Granular Restore application.
+13. Paste the path for the SQL  safe set share into the Granular Restore application.
 14. Select and restore your data.
-15. When you no longer need to share the safeset, click Stop. When you click Stop or the share idle time is reached, the Process Details dialog shows that the share is no longer available.
+15. When you no longer need to share the  safe set, click Stop. When you click Stop or the share idle time is reached, the Process Details dialog shows that the share is no longer available.

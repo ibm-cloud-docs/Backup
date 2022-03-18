@@ -75,7 +75,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 
 2. From the Action menu, select **Restore**.
 3. Enter the encryption password.
-4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
+4. The Restore window appears. By default, it displays the most recent  safe set. To choose a different date, click the Calendar icon, and view other  safe sets.
 5. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
     Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
