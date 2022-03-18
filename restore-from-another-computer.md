@@ -68,7 +68,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 2. From the Action menu, select **Restore from Another Computer**.
 3. Select the Vault, Computer, and Job from the drop-down menus.
 4. Enter the encryption password.
-5. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
+5. The Restore window appears. By default, it displays the most recent  safe set. To choose a different date, click the Calendar icon, and view other  safe sets.
 6. Select the files and directories that you want to include. Then, click **Include** to save your choices.
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
    {: note}

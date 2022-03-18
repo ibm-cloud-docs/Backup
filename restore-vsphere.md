@@ -32,7 +32,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
 5.	In the **Choose what you want to restore** dialog box, select **Virtual machines**.
 6.	Click **Continue**. The Restore dialog shows the most recent safe-set for the job.
     * To restore data from another source, click a source (vault) in the **Source Device** List.
-    * To restore from an older safe-set, click the **Browse Safesets** button. In the calendar that appears, click the date of safe-sets from which you want to restore.
+    * To restore from an older safe-set, click the **Browse  safe sets** button. In the calendar that appears, click the date of safe-sets from which you want to restore.
 7.	In the **Items to Restore** panel, select each VM that you want to restore.
 8.	In the **Encryption Password** field, type the data encryption password.
 9.	In the **Destination Datastore** list, click the datastore for the restored VMs.
@@ -69,7 +69,7 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
 5. In the **Choose what you want to restore** dialog, select **Files and Folders**.
 6. Click **Continue**. The restore dialog shows the most recent safe-set for the job.
     * To restore data from another resource, click source in the Source Device list (Vault).
-    * To restore from an older safe-set, click the Browse Safesets button. In the calendar that appears, click the date of the safe-set from which you want to restore. Then, click the specific safe-set from which you want to restore.
+    * To restore from an older safe-set, click the Browse  safe sets button. In the calendar that appears, click the date of the safe-set from which you want to restore. Then, click the specific safe-set from which you want to restore.
 7. In the **Items to Restore** panel, select the VM with the files or folders that you want to restore.
 8. In the **Encryption Password** field, enter the data encryption password.
 9. In the **Idle Time field**, enter the number of minutes of inactivity after which the share drive is to automatically unshare. The Idle time can range 2 - 180 minutes.
