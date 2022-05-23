@@ -337,5 +337,10 @@
     "how to remove data from vault",
     "how to delete safeset",
     "how to free up space in vault"
+  ],
+  "offlineagentdatacheck": [
+    "How to see all Cloud Backup data sent to vault",
+    "where can I see what is backed up",
+    "how to see completed backup info"
   ]
 } 
