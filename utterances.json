@@ -330,5 +330,12 @@
     "how to backup NFS",
     "how to backup file share",
     "backing up File share"
+  ],
+  "deletesafeset": [
+    "how can I delete data from vault",
+    "how can I erase a safeset",
+    "how to remove data from vault",
+    "how to delete safeset",
+    "how to free up space in vault"
   ]
 } 
