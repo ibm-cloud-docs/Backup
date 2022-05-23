@@ -322,9 +322,5 @@ backup history of test/
 Customers cannot delete the backup safesets. If you want to remove a specific safeset, please create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
 
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
-{: important}
-
 WARNING: Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
 {: important}
-
-
