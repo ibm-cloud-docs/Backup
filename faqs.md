@@ -299,7 +299,7 @@ backup history of test/
 11-May 19:30:36 -0500 BKUP-I-04129 elapsed time 00:00:10 ...
 ```
 
-You can use the following syntaxt to show only backup data size.
+You can use the following syntax to show only backup data size.
 ```zsh
 for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} ; | grep -A 1 "deltized bytes processed"; done
 
