@@ -251,7 +251,7 @@ For more information, see the following topics.
 - [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
 - [Uninstalling the Backup Agent from a Linux&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
 
-## Can I backup NFS File Shares?
+## Can I back up NFS File Shares?
 {: faq}
 {: #nfs-share-backup}
 {: support}
