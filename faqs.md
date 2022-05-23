@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2021-10-20"
+  years: 1994, 2022
+lastupdated: "2022-05-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -251,7 +251,7 @@ For more information, see the following topics.
 - [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
 - [Uninstalling the Backup Agent from a Linux&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
 
-## Can I backup NFS File Shares?
+## Can I back up NFS File Shares?
 {: faq}
 {: #nfs-share-backup}
 {: support}
@@ -259,6 +259,72 @@ For more information, see the following topics.
 Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm){: external}.
 
 Network/NFS Backups are not supported in Windows.
+{: important}
+
+## Can I see what is backed up and sent to the vault when my agent is offline?
+{: faq}
+{: #offlineagentdatacheck}
+{: support}
+
+Yes. Backup job results can be obtained from the `/opt/BUAgent/xlogcat utility`.
+
+First, go to the directory of the Backup Agent.
+
+```zsh
+cd /opt/BUAgent
+```
+
+Then, use the following syntax to show all backup job results.
+
+```zsh
+for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} \; | grep -A 17 "errors encountered"; done 
+ 
+backup history of test/ 
+11-May 19:30:36 -0500 BKUP-I-00001 errors encountered: 0 11-May 19:30:36 -0500 BKUP-I-00002 warnings encountered: 0 
+11-May 19:30:36 -0500 BKUP-I-00003 files/directories examined: 108 
+11-May 19:30:36 -0500 BKUP-I-00004 files/directories filtered: 104 
+11-May 19:30:36 -0500 BKUP-I-00006 files/directories deferred: 0 
+11-May 19:30:36 -0500 BKUP-I-00007 files/directories backed-up: 4 
+11-May 19:30:36 -0500 BKUP-I-00008 files backed-up: 2 
+11-May 19:30:36 -0500 BKUP-I-00009 directories backed-up: 2 
+11-May 19:30:36 -0500 BKUP-I-00010 data stream bytes processed: 146 (146 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00011 all stream bytes processed: 864 (864 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00012 pre-delta bytes processed: 345 (345 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00015 approximate bytes deferred: 0 (0 bytes) 
+11-May 19:30:36 -0500 BKUP-I-00016 reconnections on recv fail: 0 
+11-May 19:30:36 -0500 BKUP-I-00017 reconnections on send fail: 0 
+11-May 19:30:36 -0500 BKUP-I-04128 job completed at 11-May-2022 19:30:36 -0500 
+11-May 19:30:36 -0500 BKUP-I-04129 elapsed time 00:00:10 ...
+```
+
+You can use the following syntax to show only backup data size.
+```zsh
+for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} ; | grep -A 1 "deltized bytes processed"; done
+
+backup history of AgtUpgd.backup/
+backup history of Languages/
+backup history of test/
+13-May 19:30:31 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes)
+13-May 19:30:31 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
+11-May 19:30:36 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes)
+11-May 19:30:36 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
+10-May 19:30:15 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes)
+10-May 19:30:15 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
+```
+
+## I'd like to free up space in my vault, how can I remove a specific safeset?
+{: faq}
+{: #deletesafeset}
+{: support}
+
+Customers cannot delete the backup safesets. If you want to remove a specific safeset, please create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
+
+When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
+{: important}
+
+WARNING: Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
 {: important}
 
 
