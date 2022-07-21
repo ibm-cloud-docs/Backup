@@ -41,7 +41,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 ## Logging in to the target device server
 {: #logintargetLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
    - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace `<publicIpAddress>` with the actual public IP address.

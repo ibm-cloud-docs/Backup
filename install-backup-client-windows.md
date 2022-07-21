@@ -27,7 +27,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 ## Logging in to the target device server
 {: #logintargetWin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Select **Devices** > **Device List** from the main menu to see the list of available servers.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make note of its public IP address.
 4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
