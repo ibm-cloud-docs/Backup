@@ -37,7 +37,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 {: #change-pw}
 {: support}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the list of backup services.
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.

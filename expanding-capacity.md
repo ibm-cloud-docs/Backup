@@ -27,7 +27,7 @@ Current {{site.data.keyword.cloud}} users are able to expand the size of their v
 ## Ordering an increase
 {: #increasevault}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational menu, select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select the vault that you want to extend.
 4. Click **Actions**, and select **Modify {{site.data.keyword.backup_notm}}**.
