@@ -63,12 +63,12 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
 Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
 {: tip}
 
-**Linux&reg;** (Oldest supported version of the backup agent is 8.50.)
-- CentOS 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
+**Linux&reg;** (Oldest supported version of the backup agent is 8.50. BMR backups are not supported)
+- CentOS 8.x (It requires backup agent version 8.83.)
 - CentOS 7.x
 - Debian GNU/Linux&reg; 9.x
 - Debian GNU/Linux&reg; 8.x
-- RHEL 8.x (It requires backup agent version 8.83, BMR backups are not supported.)
+- RHEL 8.x (It requires backup agent version 8.83.)
 - RHEL 7.x
 - Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
 - Ubuntu Linux&reg; 16.04
