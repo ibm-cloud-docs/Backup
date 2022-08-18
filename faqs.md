@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-08-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -324,3 +324,12 @@ Customers cannot delete the backup safesets. If you want to remove a specific sa
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
 WARNING: Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
 {: important}
+
+## What happens to backups when the Backup service is canceled? Can you keep the backups for later use and restore to another server?
+{: faq}
+{: #canceledbackup}
+{: support}
+
+No. When the Backup service is canceled, your vault with the backed-up data is deleted. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
+
+
