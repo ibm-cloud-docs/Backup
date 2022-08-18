@@ -27,7 +27,7 @@ subcollection: Backup
 You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to the Cloud Backup Portal with the canceled credentials either.
 {: shortdesc}
 
-If you cancel the virtual or the bare metal server that the {{site.data.keyword.backup_notm}] was provisioned for, your {{site.data.keyword.backup_notm}} is also canceled. Your vault with the backed-up data is deleted automatically. You cannot keep your backups to be used with a different server at a later time.
+If you cancel the virtual or the bare metal server that the {{site.data.keyword.backup_notm}} was provisioned for, your {{site.data.keyword.backup_notm}} is also canceled. Your vault with the backed-up data is deleted automatically. You cannot keep your backups to be used with a different server at a later time.
 {: note}
 
 ## Cancel the service in the UI
