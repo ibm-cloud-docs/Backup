@@ -19,7 +19,7 @@ subcollection: Backup
 {:support: data-reuse='support'}
 {:help: data-hd-content-type='help'}
 
-# Canceling an {{site.data.keyword.backup_notm}} service
+# Canceling the {{site.data.keyword.backup_notm}} service
 {: #cancelBackup}
 {: help}
 {: support}
