@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-09-01"
+  years: 1994, 2022
+lastupdated: "2022-08-18"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -19,13 +19,16 @@ subcollection: Backup
 {:support: data-reuse='support'}
 {:help: data-hd-content-type='help'}
 
-# Canceling an {{site.data.keyword.backup_notm}} service
+# Canceling the {{site.data.keyword.backup_notm}} service
 {: #cancelBackup}
 {: help}
 {: support}
 
-You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to the Cloud Backup Portal with the canceled credentials.
+You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to the Cloud Backup Portal with the canceled credentials either.
 {: shortdesc}
+
+If you cancel the virtual or the bare metal server that the {{site.data.keyword.backup_notm}} was provisioned for, the {{site.data.keyword.backup_notm}} service is also canceled. Your vault with the backed-up data is deleted automatically. You cannot keep your backups to be used with a different server at a later time.
+{: note}
 
 ## Cancel the service in the UI
 {: #cancelbackupUI}
