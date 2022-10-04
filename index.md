@@ -9,14 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise back
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Provisioning {{site.data.keyword.backup_notm}}
 {: #ordering}

@@ -14,14 +14,8 @@ account-plan: paid
 completion-time: 2h
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:term: .term}
+
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting started with {{site.data.keyword.backup_notm}}
 {: #getting-started}
@@ -85,7 +79,7 @@ Follow the instructions appropriate for your OS,
 Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. The Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
 1. Access the Private Network over [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}. The Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 3. Click **Storage** > **Cloud Backup** to display the backup services.
 4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
 5. Click **View backup portal** to start the portal in your browser.
@@ -126,9 +120,9 @@ Archiving is not supported. When you create a retention scheme or modify an exis
 {: #viewingdetailsinconsole}
 {: step}
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage**, and select **Backup** from the list.
 3. Click anywhere on the row of the vault you want to view its storage details. From this view, the password isn't visible.
 4. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.

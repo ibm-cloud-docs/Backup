@@ -9,13 +9,7 @@ keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
+{{site.data.keyword.attribute-definition-list}}
 
 # Learn about the vSphere Recovery Agent
 {: #VRA}
@@ -62,7 +56,7 @@ After VRA is installed, you need to configure it in the Cloud Backup Portal.
      If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
      {: tip}
 
-4. Configure the [vCenter Settings](#vCenterSettingsconfig).   
+4. Configure the [vCenter Settings](#vCenterSettingsconfig).
 
 ### Configuring the Vault Automatically
 {: #VRAautoconfig}
@@ -73,7 +67,7 @@ To configure the vault settings automatically, click **Configure Automatically**
 ### Configuring the Vault Manually
 {: #VRAmanualconfig}
 
-To configure the vault settings manually, click **Configure Manually**.   
+To configure the vault settings manually, click **Configure Manually**.
 1. Click **Vault Settings**.
 2. Click **Add Vault**. The Vault Settings window appears. From the **Vault Profile** options, select the appropriate vault.
 

@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-i
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring BMR backup job
 {: #configureBMR}
@@ -33,7 +27,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 2. Click **Storage** > **Cloud Backup** to display the backup services.
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
 4. Click **View backup portal** to start the portal in your browser.
- 
+
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {: tip}
 
@@ -65,5 +59,5 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: #runningBMRjob}
 
 - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
-- If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**. 
+- If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**.
    As with time-based jobs, you can choose the **Retention Scheme** and the **Advanced backup options**. After you made your configuration choices, click **Start backup** to start the job.

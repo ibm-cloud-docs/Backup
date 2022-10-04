@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring MSSQL database backups
 {: #configureMSSQLBackup}
@@ -58,7 +52,7 @@ To add an MSSQL database backup job, complete the following tasks.
 1. On the navigation bar, click **Computers**. The Computers page shows registered servers.
 2. Find a server with the MSSQL plug-in, and expand its view by clicking the computer row.
 3. Click the **Jobs** tab.
-   
+
    If the server doesn't have a valid vault connection, then you can't access the Jobs tab.
    {: note}
 
@@ -85,19 +79,19 @@ To add an MSSQL database backup job, complete the following tasks.
 8. In the Select Databases for Backup box, select the database that you want to back up.
    - To add specific databases to the backup job, select the check box for each database, and then click Include. The included databases appear in the Backup Set box.
    - To back up all databases in the selected SQL Server instance, select the check box for the instance, and then click Include. The included instances appear in the Backup Set box.
-   
+
    When the job runs, newly added databases in the selected instance are automatically backed up.
    {: note}
 
    - To back up databases with names that match a filter when the job runs, select the check box for the SQL Server instance, and then click Include. An inclusion record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to include. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?`) as wildcard characters. Filters are applied when the backup job runs. New databases that match the specified filters are automatically backed up when the job runs.
-   
+
    For example, to back up databases with names that end with “Management” or include the word “database” followed by a single character, enter the following filter: `*management, database?`.
    {: tip}
 
 9. To exclude databases from the backup job, do one or more of the following in the Select Databases for Backup box:
    - To exclude specific databases from the backup job, select the check box for each database, and then click Exclude. The excluded databases appear in the Backup Set box.
    - To exclude databases with names that match a filter when the backup job runs, select the check box for the SQL Server instance, and then click Exclude. A record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to exclude. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?)` as wildcard characters. For example, to exclude databases if their names begin with “M”, enter the following filter: `m*`.
-   
+
    Filters are applied when the backup job runs. New databases that match the specified filters are automatically excluded when the backup job runs. Filters are not case-sensitive.
    {: note}
 
@@ -135,7 +129,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 8. For deferring, select one of the following options.
     - To allow the backup job to run without a time limit, click None in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
-    
+
     When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
     {: note}
 

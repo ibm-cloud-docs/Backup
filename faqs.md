@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-{:help: data-hd-content-type='help'}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # FAQs
@@ -37,7 +31,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 {: #change-pw}
 {: support}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the list of backup services.
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
@@ -277,25 +271,25 @@ cd /opt/BUAgent
 Then, use the following syntax to show all backup job results.
 
 ```zsh
-for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} \; | grep -A 17 "errors encountered"; done 
- 
-backup history of test/ 
-11-May 19:30:36 -0500 BKUP-I-00001 errors encountered: 0 11-May 19:30:36 -0500 BKUP-I-00002 warnings encountered: 0 
-11-May 19:30:36 -0500 BKUP-I-00003 files/directories examined: 108 
-11-May 19:30:36 -0500 BKUP-I-00004 files/directories filtered: 104 
-11-May 19:30:36 -0500 BKUP-I-00006 files/directories deferred: 0 
-11-May 19:30:36 -0500 BKUP-I-00007 files/directories backed-up: 4 
-11-May 19:30:36 -0500 BKUP-I-00008 files backed-up: 2 
-11-May 19:30:36 -0500 BKUP-I-00009 directories backed-up: 2 
-11-May 19:30:36 -0500 BKUP-I-00010 data stream bytes processed: 146 (146 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00011 all stream bytes processed: 864 (864 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00012 pre-delta bytes processed: 345 (345 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00015 approximate bytes deferred: 0 (0 bytes) 
-11-May 19:30:36 -0500 BKUP-I-00016 reconnections on recv fail: 0 
-11-May 19:30:36 -0500 BKUP-I-00017 reconnections on send fail: 0 
-11-May 19:30:36 -0500 BKUP-I-04128 job completed at 11-May-2022 19:30:36 -0500 
+for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} \; | grep -A 17 "errors encountered"; done
+
+backup history of test/
+11-May 19:30:36 -0500 BKUP-I-00001 errors encountered: 0 11-May 19:30:36 -0500 BKUP-I-00002 warnings encountered: 0
+11-May 19:30:36 -0500 BKUP-I-00003 files/directories examined: 108
+11-May 19:30:36 -0500 BKUP-I-00004 files/directories filtered: 104
+11-May 19:30:36 -0500 BKUP-I-00006 files/directories deferred: 0
+11-May 19:30:36 -0500 BKUP-I-00007 files/directories backed-up: 4
+11-May 19:30:36 -0500 BKUP-I-00008 files backed-up: 2
+11-May 19:30:36 -0500 BKUP-I-00009 directories backed-up: 2
+11-May 19:30:36 -0500 BKUP-I-00010 data stream bytes processed: 146 (146 bytes)
+11-May 19:30:36 -0500 BKUP-I-00011 all stream bytes processed: 864 (864 bytes)
+11-May 19:30:36 -0500 BKUP-I-00012 pre-delta bytes processed: 345 (345 bytes)
+11-May 19:30:36 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes)
+11-May 19:30:36 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
+11-May 19:30:36 -0500 BKUP-I-00015 approximate bytes deferred: 0 (0 bytes)
+11-May 19:30:36 -0500 BKUP-I-00016 reconnections on recv fail: 0
+11-May 19:30:36 -0500 BKUP-I-00017 reconnections on send fail: 0
+11-May 19:30:36 -0500 BKUP-I-04128 job completed at 11-May-2022 19:30:36 -0500
 11-May 19:30:36 -0500 BKUP-I-04129 elapsed time 00:00:10 ...
 ```
 
@@ -331,5 +325,3 @@ WARNING: Backup data deletion is permanent. After the data is deleted from vault
 {: support}
 
 No. When the Backup service is canceled, your vault with the backed-up data is deleted. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
-
-

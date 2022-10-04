@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbon
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
+{{site.data.keyword.attribute-definition-list}}
 
 # Learn about the SQL Server plug-in
 {: #MSSQLplugin}

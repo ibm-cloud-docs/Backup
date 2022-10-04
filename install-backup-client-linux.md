@@ -9,16 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 subcollection: Backup
 
 ---
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Installing the backup client in Linux
 {: #InstallinLinux}

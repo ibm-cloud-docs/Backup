@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
 {: #portinfo}

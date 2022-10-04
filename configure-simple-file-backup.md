@@ -9,14 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:support: data-reuse='support'}
-{:help: data-hd-content-type='help'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring simple file-level backups
 {: #configureFileBackup}

@@ -9,15 +9,7 @@ keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:support: data-reuse='support'}
-{:help: data-hd-content-type='help'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Canceling the {{site.data.keyword.backup_notm}} service
 {: #cancelBackup}
