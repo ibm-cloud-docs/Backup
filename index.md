@@ -28,8 +28,8 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}
 
-1. Log in to the [IBM Cloud catalog](https://{DomainName}/catalog){: external}.
-2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](https://{DomainName}/docs/bare-metal?topic=bare-metal-ordering-baremetal-server){: external}.
+1. Log in to the [IBM Cloud catalog](/catalog){: external}.
+2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server){: external}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any hostname and domain that you like.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.

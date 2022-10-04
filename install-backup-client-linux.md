@@ -24,7 +24,7 @@ This procedure outlines the steps that are required to install the client on any
 
 After you completed the procedure, the automated process registers the Agent service with Cloud Backup Portal, then downloads and installs the files that are needed to run the service.
 
-If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: external} or the {{site.data.keyword.cloud_notm}} console, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
+If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](/catalog){: external} or the {{site.data.keyword.cloud_notm}} console, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {: tip}
 
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.cloud_notm}} console, follow these steps to install the software.
@@ -32,7 +32,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 ## Logging in to the target device server
 {: #logintargetLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
    - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace `<publicIpAddress>` with the actual public IP address.
