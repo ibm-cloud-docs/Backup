@@ -9,18 +9,12 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
 {: #portinfo}
 
-The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the data center that the director resides in.
+The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the data center that the director resides in.
 
 * `ev-director301.service.softlayer.com TCP/2546`
 * `ev-vaultdal1201.service.softlayer.com TCP/2546`

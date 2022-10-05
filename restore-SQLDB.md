@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Restoring MSSQL Database
 {: #restoreMSSQLDB}
@@ -39,7 +33,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 4. Find the job with the database that you want to restore. In the job’s Select Action menu, click Restore.
 5. In the Choose how to restore dialog box, select Restore database to an SQL Server instance.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
-7. Connect to the instance by using one of the following methods. 
+7. Connect to the instance by using one of the following methods.
    - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent  safe set for the job.
@@ -55,7 +49,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 12. Select a database name.
     - To restore one or more databases with their original names, select Original Database Names.
     - To restore one database with a new name, select Alternate Database Name. In the field that appears, enter the new name for the restored database.
-   
+
     You can only restore one database if Alternate Database Name is selected.
     {: note}
 

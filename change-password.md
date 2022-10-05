@@ -9,15 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:support: data-reuse='support'}
-{:help: data-hd-content-type='help'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing user name and password for the Cloud Backup service
 {: #changePassword}

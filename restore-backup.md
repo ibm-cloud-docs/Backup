@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
+{{site.data.keyword.attribute-definition-list}}
 
 # Restoring data from a backup
 {: #simplerestore}

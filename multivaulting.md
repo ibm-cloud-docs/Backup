@@ -9,14 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:term: .term}
+{{site.data.keyword.attribute-definition-list}}{{site.data.keyword.attribute-definition-list}}
 
 # Multi-vaulting
 {: #multivault}
@@ -73,7 +66,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 8. In the **New Vault** window,
    1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
    2. The vault name can't be the same as the other vault name. Try adding a `-2` tag to the end of it.
- 
+
        The vault name field has a 15 character limit.
        {: important}
 
@@ -82,10 +75,10 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
        You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas,  you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
       {: tip}
 
-   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault. 
+   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
       For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
-      
+
    5. Click **Save**.
 
 In a few seconds, the new vault is usable. If you get a connection failure, check your settings, and try again. Keep in mind that adding an extra vault presents you with an extra destination to choose for a job. It doesn't automatically run jobs against both vaults. You need to set up jobs to use the extra vault. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).

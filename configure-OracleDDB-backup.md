@@ -9,13 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring Oracle DB backups
 {: #configureOracleBackup}
@@ -51,7 +45,7 @@ To add an Oracle database backup job, complete the following tasks.
 1. On the navigation bar, click **Computers**. The Computers page shows registered servers.
 2. Find a server with the Oracle plug-in, and expand its view by clicking the computer row.
 3. Click the **Jobs** tab.
-   
+
    If the server doesn't have a valid vault connection, then you can't access the Jobs tab.
    {: note}
 
@@ -91,7 +85,7 @@ To add an Oracle database backup job, complete the following tasks.
 7. Deferring: select one of the following options.
     - To allow the backup job to run without a time limit, click None in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
-    
+
     When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
     {: note}
 
