@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-08-18"
+lastupdated: "2022-11-28"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to the Cloud Backup Portal with the canceled credentials either.
 {: shortdesc}
 
-If you cancel the virtual or the bare metal server that the {{site.data.keyword.backup_notm}} was provisioned for, the {{site.data.keyword.backup_notm}} service is also canceled. Your vault with the backed-up data is deleted automatically. You cannot keep your backups to be used with a different server at a later time.
+If you cancel the virtual or the bare metal server that the {{site.data.keyword.backup_notm}} was provisioned for, the {{site.data.keyword.backup_notm}} service is also canceled. Your vault with the backed-up data is deleted automatically. You cannot keep your backups to be used with a different server later.
 {: note}
 
 ## Cancel the service in the UI
@@ -45,9 +45,9 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
 1. Establish a remote desktop session to your server.
 2. Go to Start, and click Control Panel.
 3. Select Programs and Features.
-4. Right-click the EVault Software Agent and confirm the removal by clicking Uninstall.
+4. Right-click the EVault Software Agent and confirm the removal by clicking uninstall.
 5. In the dialog box that appears, click Yes.
-6. Select Total Uninstall and confirm by clicking Next >.
+6. Select Total uninstall and confirm by clicking Next >.
 7. Reboot your server at your earliest convenience to ensure that the software is removed completely.
 
 ### Removing the Backup Agent from a Linux&reg; Server
@@ -62,7 +62,7 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
     ```zsh
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
     ````
-4. At the next prompt, press Y, then, press Enter again.
+4. At the next prompt, press Y. Then, press Enter again.
     ```zsh
     This will remove jobs, settings, etc. (y/[N])
     ```

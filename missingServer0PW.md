@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2021
-lastupdated: "2021-12-10"
+  years: 2021, 2022
+lastupdated: "2022-11-28"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -12,7 +12,7 @@ subcollection: Backup
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why does my backup fail with a message about a missing value for Server0.Password?
+# Why does my backup fail with a message about a missing value for Server0 Password?
 {: #troubleshoot-missingServer0password}
 {: troubleshoot}
 {: support}
@@ -24,7 +24,7 @@ A backup fails immediately after startup with the following message in the log f
 A configuration file (global.vvc) is missing the hash value for the vault password. Without this entry, the agent cannot authenticate to the vault system.
 {: tsCauses}
 
-Store the Vault password in the Backup Portal again, to do this go to "Vault Settings" and edit the existing configuration.
+Store the Vault password in the Backup Portal again. To do this, go to "Vault Settings" and edit the existing configuration.
 {: tsResolve}
 
 1. In the Backup Portal, click Computers, and click the server name to display its information.

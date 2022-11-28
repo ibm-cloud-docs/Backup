@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-03-17"
+lastupdated: "2022-11-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -104,13 +104,13 @@ When you create or edit a backup job, you can specify the level of detail for jo
 - Summary: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
 - Minimal: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 
-Changing the logging level only affects log files that are created at that point and after. It does not affect previously created log files.
+Changing the logging level affects only the log files that are created at that point and after. It does not affect previously created log files.
 {: important}
 
 ### Encryption settings and password
 {: #ODBEncrypt}
 
-Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
+Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type that is available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
 You can also enter a password hint. When you want to restore data, you can view the password hint to remind you of the encryption password for this job.
 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.
@@ -119,7 +119,7 @@ If you forget the encryption password, you lose access to the data. You cannot r
 ### Performance Options
 {: #ODBBackupPerform}
 
-Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
+Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include:
 - Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
