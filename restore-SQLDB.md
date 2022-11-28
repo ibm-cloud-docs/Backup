@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-03-17"
+lastupdated: "2022-11-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -14,17 +14,17 @@ subcollection: Backup
 # Restoring MSSQL Database
 {: #restoreMSSQLDB}
 
-After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance, or restore databases to flat files. When you want to restore an SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
+After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance, or restore databases to flat files. When you want to restore an SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
 {: shortdesc}
 
 ## Restoring databases directly to an SQL Server.
 {: #restoreDBSQLdirect}
 
-After backing up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
+After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
 If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
 When you restore system databases, the master database must be restored first, by itself. Other system databases can then be restored later.
 You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
-After you restored an SQL Server 2016 database that is stretched to  Microsoft&reg; Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, See [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect){: external}.
+After you restored an SQL Server 2016 database that is stretched to  Microsoft&reg; Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect){: external}.
 
 To restore a database directly to SQL Server, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available computers.
@@ -37,9 +37,9 @@ To restore a database directly to SQL Server, complete the following tasks.
    - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the user name, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the user name and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent  safe set for the job.
-9. To restore data from an older  safe set, or from SSI ( safe set image) files, take one of the following steps.
+9. To restore data from an older safe set, or from SSI (safe set image) files, take one of the following steps.
    - To restore data from an older  safe set, click the calendar button. In the calendar that appears, click the date of the  safe set from which you want to restore. To the right of the calendar, click the specific  safe set that you want to use.
-   - To restore data from SSI ( safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog box, select the directory where the files are located, and click Okay.
+   - To restore data from SSI (safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog box, select the directory where the files are located, and click Okay.
 
    SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the  safe set is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
    {: note}
@@ -50,7 +50,7 @@ To restore a database directly to SQL Server, complete the following tasks.
     - To restore one or more databases with their original names, select Original Database Names.
     - To restore one database with a new name, select Alternate Database Name. In the field that appears, enter the new name for the restored database.
 
-    You can only restore one database if Alternate Database Name is selected.
+    You can restore only one database if Alternate Database Name is selected.
     {: note}
 
 13. Select the appropriate setting for overwrites.
@@ -70,7 +70,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 ## Restoring databases to Flat Files
 {: #restoreSQLDBFlatFile}
 
-After backing up SQL Server databases by using the SQL Server plug-in, you can restore an SQL Server database to flat files. SQL Server tools can then be used to bring the data into a database.
+After you back up SQL Server databases by using the SQL Server plug-in, you can restore an SQL Server database to flat files. SQL Server tools can then be used to bring the data into a database.
 
 To restore an SQL Server database to flat files, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available servers.
@@ -79,9 +79,9 @@ To restore an SQL Server database to flat files, complete the following tasks.
 4. Find the job with the database that you want to restore, and click Restore in the Select Action menu for the job.
 5. In the Choose how to restore dialog, select Restore to folder.
 6. Click Continue. The SQL Server Restore dialog shows the most recent  safe set for the job.
-7. To restore data from an older  safe set, or from SSI ( safe set image) files, take one of the following steps.
+7. To restore data from an older  safe set, or from SSI (safe set image) files, take one of the following steps.
    - To restore data from an older  safe set, click the calendar button. In the calendar that appears, click the date of the  safe set from which you want to restore. To the right of the calendar, click the specific  safe set that you want to use.
-   - To restore data from SSI ( safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog, select the directory where the files are located, and click Okay.
+   - To restore data from SSI (safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder button. In the Select Folder dialog, select the directory where the files are located, and click Okay.
 
    SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore, than to restore data from a vault in a remote datacenter. Note: You cannot restore from backups to disk (SSI files) until the  safe set is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
    {: note}
@@ -133,7 +133,7 @@ To restore items from an SQL Server or SharePoint database, complete the followi
 5. Select Restore items to a SharePoint or SQL Server database, and click Continue. The SQL Server Restore dialog box shows the most recent  safe set for the job.
 6. To restore data from an older  safe set, click the calendar button. In the calendar, click the date of the  safe set from which you want to restore. Then, click the specific  safe set that you want to use.
 7. In the Encryption Password field, enter the data encryption password. To view the password hint, click the Hint button.
-8. In the Idle Time field, enter the number of minutes of inactivity after which the share has to automatically stop. The value can range 2-180 minutes.
+8. In the Idle Time field, enter the number of minutes of inactivity after which the share has to automatically stop. The value can range 2 - 180 minutes.
 9. Select or clear the Use all available bandwidth option.
 10. Click Share. The Process Details dialog shows the status of the share process. When the share is available, the share path appears next to the dialog box.
 11. Click the Copy Path to Clipboard button. The path is now available for you to paste into the Granular Restore application.
