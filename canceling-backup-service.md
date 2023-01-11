@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2022
+  years: 1994, 2023
 lastupdated: "2022-11-28"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
@@ -48,13 +48,13 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
 4. Right-click the EVault Software Agent and confirm the removal by clicking uninstall.
 5. In the dialog box that appears, click Yes.
 6. Select Total uninstall and confirm by clicking Next >.
-7. Reboot your server at your earliest convenience to ensure that the software is removed completely.
+7. Restart your server at your earliest convenience to ensure that the software is removed completely.
 
 ### Removing the Backup Agent from a Linux&reg; Server
 {: #uninstallbackupagentLin}
 
 1. Establish a Secure Shell connection (SSH) to your server.
-2. From the command line, execute the following command:
+2. From the command line, issue the following command:
     ```zsh
     /opt/BUAgent/uninstall.sh
     ```
@@ -66,4 +66,4 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
     ```zsh
     This will remove jobs, settings, etc. (y/[N])
     ```
-5. Reboot your server at your earliest convenience to ensure that the software is removed completely.
+5. Restart your server at your earliest convenience to ensure that the software is removed completely.

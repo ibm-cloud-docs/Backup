@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-07-28"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -64,7 +64,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 After the backup job is created, you can add one or more schedules for running the job automatically.
 
-1. When you click **Create Job**, the Schedule window appears and gives you an option to set up a custom schedule for the backup job.
+1. When you click **Create Job**, the Schedule window appears and gives you an option to create a custom schedule for the backup job.
 
    By default Daily retention is selected for the job. Retention and Job schedule can be changed in this window, and multiple Retention schemes can also be assigned to the backup job.
    {: note}
@@ -74,14 +74,14 @@ After the backup job is created, you can add one or more schedules for running t
 ## Running a scheduled job
 {: #runvrajob}
 
-Scheduled backup jobs can also be executed immediately.
+Scheduled backup jobs can also be run immediately.
 
 1. Click **Select Action**, and select **Run Job**. The Run Job window appears and gives you information about the Destination Vault and Retention schemes that are assigned to the job.
 
    If multiple vaults and retention schemes are assigned to the job, these options can be changed in the Run job window by clicking the Destination and Retention Scheme menu options.
    {: note}
 
-2. Click **start Backup job** to execute the backup job immediately. The progress window shows you the status of backup job and when the job is finished the job status changes from "Never Run" to "Completed".
+2. Click **start Backup job** to issue the backup job immediately. The progress window shows you the status of backup job and when the job is finished the job status changes from "Never Run" to "Completed".
 
 To see the status of the last backup job that ran, click the Jobs tab. All job logs can be accessed from the action menu. Click **Action** and select **History/Logs**.
 {: tip}

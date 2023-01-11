@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-07-28"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -40,7 +40,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
 4. Click **View backup portal** to start the portal in your browser.
 
-If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
+If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
  Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
  {: note}
@@ -67,10 +67,10 @@ If current backup jobs are registered for Server2, they must be removed. You can
 
 2. From the Action menu, select **Restore**.
 3. Enter the encryption password.
-4. The Restore window appears. By default, it displays the most recent  safe set. To choose a different date, click the Calendar icon, and view other  safe sets.
+4. The Restore window appears. By default, it displays the most recent safe set. To choose a different date, click the Calendar icon, and view other safe sets.
 5. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
-    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternate restore location can be selected from Restore Destination options.
+    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternative restore location can be selected from Restore Destination options.
     {: note}
 
 6. When your restore set is configured the way that you want it, click **Apply Now**.

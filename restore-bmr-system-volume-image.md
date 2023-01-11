@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-10-20"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -37,7 +37,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the time zone and keyboard language of your choice and click **Next**.
    ![Figure 1 - BMR time zone and keyboard language selections are displayed.](/images/bmr1.png){: caption="Figure 1. BMR time zone and keyboard language selections are displayed." caption-side="bottom"}
    The license agreement for the software is displayed.
-3. If you accept the terms, select the check box, and click **Next** to continue. The main {{site.data.keyword.backup_notm}} system restore menu is presented.
+3. If you accept the terms, select the checkbox, and click **Next** to continue. The main {{site.data.keyword.backup_notm}} system restore menu is presented.
 4. Select **Restore My System**.
 
    ![Figure 2 - The BMR Main menu shows 4 options that are available to select.](/images/bmr2.png){: caption="Figure 2. The BMR Main menu shows 4 options that are available to select." caption-side="bottom"}
