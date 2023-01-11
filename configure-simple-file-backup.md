@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-04"
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -73,7 +73,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     Multiple retention schedules can be set up for same job but it’s important they are NOT be run at same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
     {: important}
 
-## Executing a backup job
+## Running a backup job
 {: #runBackupjob}
 {: help}
 {: support}

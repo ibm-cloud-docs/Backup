@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2022
-lastupdated: "2022-03-17"
+  years: 2019, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -21,7 +21,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 {: #Oraclecapabilities}
 
 - Support for Oracle Database backup and recovery.
-- The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
+- The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
 - Full and partial databases are restored through normal user-managed Oracle recovery mechanisms.
 
 ## Limitations
@@ -37,7 +37,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 ## Installing the plug-in for Windows
 {: #installOracleWin}
 
-The Oracle plug-in is installed with the 32-bit or 64-bit Windows&reg; Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
+The Oracle plug-in is installed with the 32-bit or 64-bit Windows&reg; Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-11-28"
+  years: 2021, 2023
+lastupdated: "2023-01-11"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -24,14 +24,14 @@ A backup fails immediately after startup with the following message in the log f
 A configuration file (global.vvc) is missing the hash value for the vault password. Without this entry, the agent cannot authenticate to the vault system.
 {: tsCauses}
 
-Store the Vault password in the Backup Portal again. To do this, go to "Vault Settings" and edit the existing configuration.
+Store the Vault password in the Backup Portal again. To do so, go to "Vault Settings" and edit the existing configuration.
 {: tsResolve}
 
 1. In the Backup Portal, click Computers, and click the server name to display its information.
 2. Click Vault Settings and from the Action menu, select Edit.
 3. Enter the Vault Name.
 4. Enter credentials.
-   "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+   "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
    {: tip}
 
 5. Click Save.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-08-05"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -36,14 +36,14 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
    - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace `<publicIpAddress>` with the actual public IP address.
-4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
+4. Click Passwords to display the Password manager, and see the usernames and the passwords that are associated with the account.
 5. Log in to the target device by entering the following command from the command line.
     ```zsh
     ssh <user name>@<publicIpAddress>
     ```
     {: pre}
 
-    If you didn't log in to this server with this user name before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
+    If you didn't log in to this server with this username before, you are presented a message about the authenticity of the host. You are also asked whether you want to continue. Reply with **yes** to continue.
     {: note}
 
 6. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
@@ -80,12 +80,12 @@ This step is required for RHEL, but optional for other distributions.
    ```
    {: pre}
 
-2. Enter your Cloud Backup Portal user name and password.
+2. Enter your Cloud Backup Portal username and password.
 
-    For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
-3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
+3. After the username and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
 
     They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
     {: note}

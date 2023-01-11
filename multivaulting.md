@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-06-29"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -43,7 +43,7 @@ You must add the new remote vault to the account before a new backup location ca
 5. When the Storage section opens up, scroll down to **{{site.data.keyword.backup_notm}}**, and click **Add**.
 6. In the **Order {{site.data.keyword.backup_notm}}** window, select the remote vault location.
 7. Select the size of the storage, then click **Continue**.
-8. Click the check box to show that you agree with the terms and conditions, and click **Place Order**.
+8. Click the checkbox to show that you agree with the terms and conditions, and click **Place Order**.
 
 The newly ordered vault is automatically added to the account. If not, contact Sales for help.
 

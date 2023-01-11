@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-11-28"
+  years: 2021, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring Oracle DB backups
 {: #configureOracleBackup}
 
-To protect Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary tablespaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
+To protect Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. You can then add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary table spaces and instance parameter files are automatically backed up. Full and partial databases are restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
 {: shortdesc}
 
 The Oracle plug-in performs what the Oracle Corporation deems an “inconsistent” whole database backup that requires that the database is run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator must ensure that the database is in ARCHIVELOG mode.
@@ -52,7 +52,7 @@ To add an Oracle database backup job, complete the following tasks.
 4. In the Select Job Task menu, click **Create New Oracle Job**.
 5. In the Connect to Oracle Server dialog box, provide the following information.
    - In the Database Service Name box, type the database instance.
-   - In the User Name box, type the name of a user who has sysdba privileges.
+   - In the username box, type the name of a user who has sysdba privileges.
    - In the Password box, type the password for the specified user.
 6. Click **Connect**.
 7. In the Create New Job dialog box, specify the following information.
@@ -89,7 +89,7 @@ To add an Oracle database backup job, complete the following tasks.
     When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
     {: note}
 
-8. To run the job on the specified schedule, select the Enable check box near the end of the row.
+8. To run the job on the specified schedule, select the Enable checkbox near the end of the row.
 9. Click **Save**.
 
 ## Advanced Settings
@@ -119,7 +119,7 @@ If you forget the encryption password, you lose access to the data. You cannot r
 ### Performance Options
 {: #ODBBackupPerform}
 
-Bandwidth throttling settings specify the amount of bandwidth that is consumed by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
+Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include:
 - Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.

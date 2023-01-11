@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-10-20"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -23,7 +23,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Select **Devices** > **Device List** from the main menu to see the list of available servers.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make note of its public IP address.
-4. Click Passwords to display the Password manager, and see the user names and the passwords that are associated with the account.
+4. Click Passwords to display the Password manager, and see the usernames and the passwords that are associated with the account.
 5. Log in to the target device by using Remote Desktop Connection.
 
 ## Downloading the backup client
@@ -51,15 +51,15 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
    ```
    {: pre}
 
-2. Enter the user name in the **user name** field.
-   For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+2. Enter the username in the **user name** field.
+   For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
    {: tip}
 
 3. Enter the password in the **password** field.
 4. Click **Next**.
 5. Click **Install** to complete the installation.
 
-Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to 10.0.0.0/8. For more information about port settings, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to `10.0.0.0/8`. For more information about port settings, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 {: tip}
 
 ## Configuring backup agents

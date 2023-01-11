@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-07-22"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -125,7 +125,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage**, and select **Backup** from the list.
 3. Click anywhere on the row of the vault you want to view its storage details. From this view, the password isn't visible.
-4. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
+4. Click the **Show** checkbox next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: important}

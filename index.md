@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-12-03"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -78,7 +78,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 4. Select Payment type, and click **Continue**.
 5. Enter the **Promo Code** if you have one, and click **Recalculate**.
 6. Review your order, and click the link to read the terms and conditions.
-7. Click the check box if you agree with the terms and conditions.
+7. Click the checkbox if you agree with the terms and conditions.
 8. Click **Place Order**.
 
 ### Confirming the {{site.data.keyword.backup_notm}} upgrade purchase

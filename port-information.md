@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-10-20"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
 {: #portinfo}
 
-The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. The following list provides some examples, and the host name depends on the data center that the director resides in.
+The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. The following list provides some examples, and the hostname depends on the data center that the director resides in.
 
 * `ev-director301.service.softlayer.com TCP/2546`
 * `ev-vaultdal1201.service.softlayer.com TCP/2546`
@@ -27,7 +27,7 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 ## Recommended {{site.data.keyword.backup_notm}} Port settings
 {: #recommendedportsettings}
 
-Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 should have access to 10.0.0.0/8.
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to `10.0.0.0/8`.
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 
@@ -41,7 +41,7 @@ If you need to use more restrictive firewall rules, you might lose access to the
 ## Minimum Port Requirements
 {: #minportreq}
 
-Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. Other subnets might be used in the future as needed.
+Currently, at minimum, your servers must allow access to the `10.200.86.0/24` and `10.2.118.0/24` subnets for TCP ports **8086**, **8087**. Other subnets might be used in the future as needed.
 
 ## Commercial Portal Servers
 {: #commercialportalservers}
@@ -58,7 +58,7 @@ Cloud Backup Portal Agent Registration
 
 The following list contains all of the current AMP proxy servers.
 
-Agents must have connectivity to all proxy servers. New proxy servers might be added to the subnet 10.2.118.0/24 without notification.
+Agents must have connectivity to all proxy servers. New proxy servers might be added to the subnet `10.2.118.0/24` without notification.
 {: note}
 
 * `evwebamp0901.service.softlayer.com [10.2.118.12] TCP 8087`

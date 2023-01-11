@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-08-18"
+  years: 1994, 2023
+lastupdated: "2023-01-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -15,16 +15,16 @@ subcollection: Backup
 # FAQs
 {: #faqs}
 
-## Where can I find my user name for the service?
+## Where can I find my username for the service?
 {: faq}
 {: #backup-username}
 {: support}
 
-The user name and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the user name is in the upper-left corner. The Portal Password is on the Overview tab.
+The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left corner. The Portal Password is on the Overview tab.
 
-You can also see the user name and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view user names and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
+You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
-Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate user names and passwords. The service name is listed as "Base Client".
+Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
 
 ## How can I change my password for the service?
 {: faq}
@@ -142,7 +142,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 {: #capacity}
 {: support}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 
 ## What happens when the {{site.data.keyword.backup_notm}} capacity is exceeded?
@@ -216,7 +216,7 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 {: #evault}
 {: support}
 
-No. The 32-bit version of the backup software agent was retired along with Windows&reg; Server 2008 Standard and Datacenter Editions in March 2017.
+No. The 32-bit version of the backup software agent was retired along with Windows&reg; Server 2008 Standard and data center Editions in March 2017.
 
 ## Why is my backup agent showing as offline in the WebCC?
 {: faq}
@@ -313,7 +313,7 @@ backup history of test/
 {: #deletesafeset}
 {: support}
 
-Customers cannot delete the backup safesets. If you want to remove a specific safeset, please create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
+Customers cannot delete the backup safesets. If you want to remove a specific safeset, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
 
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
 WARNING: Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.

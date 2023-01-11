@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-05-28"
+  years: 2020, 2023
+lastupdated: "2023-01-11"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -26,13 +26,13 @@ Windows&reg; agent shows as offline in Portal.
 ## Possible firewall issue
 {: #ts-WinAgentFW}
 
-Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked and the agent cannot communicate with the Portal.
+Currently, at minimum, your servers must allow access to the `10.200.86.0/24` and `10.2.118.0/24` subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked, and the agent cannot communicate with the Portal.
 {: tsCauses}
 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 {: tsResolve}
 
-1. Establish Remote Desktop connection to the offline Agent machine.
+1. Establish Remote Desktop connection to the offline Agent server.
 2. Then, run one of the following commands to check the ports.
    * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
     ```zsh
@@ -54,6 +54,8 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
        ```zsh
        test-netconnection cloudbackupregister.service.softlayer.com -Port 8086
        ```
+       {: pre}
+
        If the port is open, the last line shows the following.
        ```zsh
        TcpTestSucceeded : True
@@ -63,18 +65,19 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
        ```zsh
        TcpTestSucceeded : False
        ```
+
        If so, you must contact your network team to update the firewall.
 
 ## BUAgent isn't running
 {: #ts-WinAgentbua}
 
-When 'BUAgent' process is no longer active on the server, the Window Agent appears offline in the Portal.
+When `BUAgent` process is no longer active on the server, the Window Agent appears offline in the Portal.
 {: tsCauses}
 
-Restart the Carbonite eVault Server Backup BUAgent in Services.msc.
+Restart the Carbonite EVault Server Backup BUAgent in Services.msc.
 {: tsResolve}
 
-1. Establish Remote Desktop connection to the offline Agent machine.
+1. Establish Remote Desktop connection to the offline Agent server.
 2. Open `Services.msc`.
 3. Restart the BUAgent service.
 4. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
@@ -82,7 +85,7 @@ Restart the Carbonite eVault Server Backup BUAgent in Services.msc.
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
-1. Navigate to the backup Agent folder.
+1. Go to the backup Agent folder.
    ```zsh
    C:\Program Files\Carbonite Server Backup\Agent\
    ```
