@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring MSSQL database backups
 {: #configureMSSQLBackup}
 
-To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows&reg; {{site.data.keyword.backup_full}} Agent on the machine where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
+To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows&reg; {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 {: shortdesc}
 
 You can back up transaction logs for databases only when they use the full or bulk-logged recovery model.
@@ -114,7 +114,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 3. Select the Backup Type:
    - To back up each database from the point in time when the backup starts, click Full.
    - To back up each database and its transaction logs from the point in time when the backup starts, click Full with transaction logs.
-   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When Transaction Logs only is selected, the entire database and its transaction logs is backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
+   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When Transaction Logs only is selected, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
 
    After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can be backed up for databases only when they use the full or bulk-logged recovery model.
    {: note}

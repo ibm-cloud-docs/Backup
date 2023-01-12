@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 8. In the Create New Job window, enter a Job Name and a Job Description.
 9. Select the files and folders that you want to include in the backup.
 10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
-   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup, and there's no way to recover a lost password.
+   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. Lost password cannot be recovered in any way.
    {: important}
 
 11. Click **Apply now** to confirm the backup sets.

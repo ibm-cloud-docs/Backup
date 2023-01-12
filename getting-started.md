@@ -54,7 +54,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
 - Windows&reg; Server 2008 R2
 - Windows&reg; Server 2008
 
-Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functionality was tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
+Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functions were tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
 {: tip}
 
 **Linux&reg;** (Oldest supported version of the backup agent is 8.50. BMR backups are not supported)
@@ -124,14 +124,14 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage**, and select **Backup** from the list.
-3. Click anywhere on the row of the vault you want to view its storage details. From this view, the password isn't visible.
+3. Click anywhere on the row of the vault that you want to view its storage details. From this view, the password isn't visible.
 4. Click the **Show** checkbox next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: important}
 
 ## Getting more online help
 {: #onlinehelp}
 {: step}
 
-Cloud Backup Portal's systems are fully documented and support for the application is accessible within the Portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
+Cloud Backup Portal's systems are fully documented and support for the application is accessible within the Portal. Click the question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.

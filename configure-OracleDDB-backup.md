@@ -122,7 +122,7 @@ If you forget the encryption password, you lose access to the data. You cannot r
 Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include:
-- Maximum bandwidth (upper limit), in megabits per second, to be consumed by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
+- Maximum bandwidth, in megabits per second, to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
 - Lwnght of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
 - Days of the week that throttling is in effect.
 

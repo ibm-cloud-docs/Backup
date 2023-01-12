@@ -22,7 +22,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
 
-{{site.data.keyword.backup_notm}} usage is billed based on the vault size on a monthly basis. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+{{site.data.keyword.backup_notm}} usage is billed based on the vault size monthly. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 {: important}
 
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
@@ -90,4 +90,4 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
    If the backup storage size continues to show a capacity of zero, a second page refresh might be needed.
    {: tip}
 
-When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the Cloud Backup Portal. For more information, see [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
+When you're ready, install the software agent on the server and set up your backup schedule in the Cloud Backup Portal. For more information, see [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
