@@ -62,7 +62,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     9. Select the files and folders that you want to include and exclude in the backup. To exclude files, you must add an exclusions record. Select the directory that contains the file that you want to exclude and click **Exclude**. This action adds the file to the Backup Set with a red minus sign. From here, you can filter out a directory or specific file name from that directory that you want skipped during backup.
     10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. Lost password cannot be recovered in any way.
         {: important}
 
     11. Click **Apply now** to confirm the backup sets.

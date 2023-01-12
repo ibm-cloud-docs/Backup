@@ -25,7 +25,7 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 
 - **{{site.data.keyword.backup_notm}} Vault Director locations**
 
-   Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
+   Multi-vaulting is available across all data centers without any geographical limitations in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
 
    Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
    {: note}
@@ -72,11 +72,11 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
    3. In the IP address field, add the address of the second {{site.data.keyword.backup_notm}} vault location.
 
-       You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas,  you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
+       You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas, you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
       {: tip}
 
-   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
-      For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} username for the selected vault, and the password for the selected vault.
+      For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 
    5. Click **Save**.

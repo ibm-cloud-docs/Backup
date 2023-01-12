@@ -49,7 +49,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
 Before you install the MSSQL plug-in for your Microsoft&reg; Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
-Review the Release Notes to ensure that the Backup agent version is compatible with the SQL version of your database.
+Review the Release Notes to ensure that the Backup agent is compatible with the SQL version of your database.
 {: tip}
 
 1. Run the Agent installation package.

@@ -26,7 +26,7 @@ Linux&reg; agent shows as offline in Portal.
 ## Possible firewall issue
 {: #ts-LinuxAgentFW}
 
-Currently, at minimum, your servers must allow access to the **10.200.86.0/24** and **10.2.118.0/24** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked and the agent cannot communicate with the Cloud Backup Portal.
+Currently, at minimum, your servers must allow access to the **`10.200.86.0/24`** and **`10.2.118.0/24`** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked, and the agent cannot communicate with the Cloud Backup Portal.
 {: tsCauses}
 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
@@ -38,7 +38,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 When `BUAgent` process is no longer active on the server, the Linux&reg; Agent appears offline in the Cloud Backup Portal.
 {: tsCauses}
 
-Ensure that the BUAgent is running by executing the following command on the Linux&reg; system.
+Ensure that the BUAgent is running by issuing the following command on the Linux&reg; system.
 {: tsResolve}
 
 ```zsh
@@ -70,7 +70,7 @@ BUAgent is running (PID: )
 If it still shows that the Agent is offline after a refresh of the Portal page, then the Agent needs to be registered again.
 {: tsCauses}
 
-Registering an Agent to the Portal retains all existing jobs, schedules, and configurations as-is. Navigate to the Agent installation directory, then run the register command.
+Registering an Agent to the Portal retains all existing jobs, schedules, and configurations as-is. Go to the Agent installation directory, then run the register command.
 {: tsResolve}
 
 ```zsh
@@ -81,15 +81,15 @@ cd opt/BUAgent
 Answer the following prompts.
 * What is the web-based Agent Console address? `cloudbackupregister.service.softlayer.com`
 * What is the web-based Agent Console connection port [8086]? Press enter, 8086 is the correct port.
-* What is the web-based Agent Console username? This is the same username that is used to log in to Portal.
-* What is the web-based Agent Console password? This is the same password that is used to log in to Portal.
+* What is the web-based Agent Console username? This entry is the same username that is used to log in to Portal.
+* What is the web-based Agent Console password? This entry is the same password that is used to log in to Portal.
 
-For more information about viewing or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+For more information about viewing or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: tip}
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
-1. Navigate to `opt/BUAgent`.
+1. Go to `opt/BUAgent`.
    ```zsh
    cd /opt/BUAgent
    ```

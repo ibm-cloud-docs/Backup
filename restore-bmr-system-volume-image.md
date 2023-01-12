@@ -40,18 +40,18 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 3. If you accept the terms, select the checkbox, and click **Next** to continue. The main {{site.data.keyword.backup_notm}} system restore menu is presented.
 4. Select **Restore My System**.
 
-   ![Figure 2 - The BMR Main menu shows 4 options that are available to select.](/images/bmr2.png){: caption="Figure 2. The BMR Main menu shows 4 options that are available to select." caption-side="bottom"}
+   ![Figure 2 - The BMR main menu shows four options that are available to select.](/images/bmr2.png){: caption="Figure 2. The BMR Main menu shows 4 options that are available to select." caption-side="bottom"}
 
 5. The system restore wizard appears. Select **Next** to continue.
 
-   ![Figure 3 - BMR Wizard provides an overview of the 4 steps if the BMR restore process.](/images/bmr3.png){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
+   ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restore process.](/images/bmr3.png){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
 
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
-7. On the **backup location** screen, select the vault, and enter in the vault address, account number, the user name, and password. Then, click **Next** to continue.
+7. On the **backup location** screen, select the vault, and enter in the vault address, account number, the username, and password. Then, click **Next** to continue.
 
    ![Figure 4 - Choose backup location.](/images/bmr4.png){: caption="Figure 4. Choose backup location." caption-side="bottom"}
 
-   For more information about viewing the user name or changing the backup password, see [Managing user name and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+   For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
    {: tip}
 
 8. The next screen displays your system in the list. Make sure it is highlighted and click **Next**.

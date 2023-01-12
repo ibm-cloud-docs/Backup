@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring vSphere data
 {: #VRARestore}
 
-When VMs are protected in vSphere environment, you can restore [vSphere VMs](#restoreVMs) and [restore files and folders with the vSphere Recovery Agent.
+When VMs are protected in vSphere environment, you can restore [vSphere VMs,](#restoreVMs) and [restore files and folders with the vSphere Recovery Agent.
 {: shortdesc}
 
 ## Restoring vSphere VMs
@@ -27,18 +27,18 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs](#re
 5.	In the **Choose what you want to restore** dialog box, select **Virtual machines**.
 6.	Click **Continue**. The Restore dialog shows the most recent safe-set for the job.
     * To restore data from another source, click a source (vault) in the **Source Device** List.
-    * To restore from an older safe-set, click **Browse  safe sets**. In the calendar that appears, click the date of safe-sets from which you want to restore.
+    * To restore from an older safe-set, click **Browse safe sets**. In the calendar that appears, click the date of safe-sets from which you want to restore.
 7.	In the **Items to Restore** panel, select each VM that you want to restore.
 8.	In the **Encryption Password** field, type the data encryption password.
-9.	In the **Destination Datastore** list, click the datastore for the restored VMs.
-10.	Select one of the following options for restoring VMs to the datastore that you selected:
+9.	In the **Destination Datastore** list, click the VMware datastore for the restored VMs.
+10.	Select one of the following options for restoring VMs to the VMware datastore that you selected:
     * **Restore all selected Virtual Machines to the selected datastore only.**
-    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the backed-up VM contains multiple VMDKs that resided on two or more datastores, and one or more of the datastores are unavailable, the entire VM is restored to the selected datastore.
+    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the backed-up VM contains multiple VMDKs that resided on two or more VMware datastores, and one or more of the VMware datastores are unavailable, the entire VM is restored to the selected VMware datastore.
 
     If you restore a VM or template to a vCenter, and the original VM is present, the VM is restored as a clone of the original with the following name: `<VMname>-vra-restored-<Date>`. The VM is restored as a clone if the original VM is powered on, off, or suspended. If the original VM is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned VM is powered on.
     {: note}
 
-11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected datastore.
+11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected VMware datastore.
 12.	Select one of the following options for registering the restored VMs with the hosts that you selected:
     * **Register all selected Virtual Machines with the selected hosts only.**
     * **Register with the selected hosts only when a Virtual Machine’s original hosts is not available.**

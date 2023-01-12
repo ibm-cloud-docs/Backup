@@ -27,7 +27,7 @@ The plug-in does not do table-level restores.
 
 You might also need to recover the entire system, by performing a [bare metal restore](/docs/Backup?topic=Backup-restoreBMR) (installing the OS, applications, and then the full database (plus any transaction logs) on to a new system).
 
-If there is an Oracle&reg; backup and a full-system backup, then the following steps apply.
+If an Oracle&reg; backup and a full-system backup are available, then the following steps apply.
 1. Restore the system (putting back the contents of ORACLE_HOME – specifically the database installation). If you'd like, you can exclude the data files and archive logs that are backed up by the plug-in.
 2. Restore the Oracle&reg; backup, and then copy the required components to the appropriate directories. Follow the standard user-managed Oracle&reg; recovery procedure from the Oracle&reg; backup and recovery guide (available from Oracle) that is appropriate for the operating system.
 
@@ -53,7 +53,7 @@ If there is an Oracle&reg; backup and a full-system backup, then the following s
 8. Select a File Overwrite option. This option specifies how to restore a file to a location where a file with the same name exists.
    - To overwrite existing files with restored files, select Overwrite existing files.
 
-   If you try to restore multiple files with the same name to an alternate location and select Overwrite existing files, only the last file remains. Other files with the same name are overwritten.
+   If you try to restore multiple files with the same name to an alternative location and select Overwrite existing files, only the last file remains. Other files with the same name are overwritten.
    {: note}
 
    - To add a numeric extension (for example, .0001) to a restored file name, select Do not overwrite existing files. For example, if you restore a file named “filename.txt” to a location where a file with the same name resides, an extension is added to the restored file name (“filename.txt.0001”).

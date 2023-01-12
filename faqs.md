@@ -20,7 +20,7 @@ subcollection: Backup
 {: #backup-username}
 {: support}
 
-The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left corner. The Portal Password is on the Overview tab.
+The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left area of the UI. The Portal Password is on the Overview tab.
 
 You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
@@ -36,7 +36,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
 
-   The {{site.data.keyword.backup_notm}} username is displayed in the upper-left corner of the page.
+   The {{site.data.keyword.backup_notm}} username is displayed in the upper-left area of the page.
    {: note}
 
 5. Enter the new password in the **Password** field.
@@ -218,7 +218,7 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 
 No. The 32-bit version of the backup software agent was retired along with Windows&reg; Server 2008 Standard and data center Editions in March 2017.
 
-## Why is my backup agent showing as offline in the WebCC?
+## Why does my backup agent show as offline in the WebCC?
 {: faq}
 {: #agent-offline}
 {: support}
@@ -252,8 +252,8 @@ For more information, see the following topics.
 
 Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm){: external}.
 
-Network/NFS Backups are not supported in Windows.
-{: important}
+NFS Backups are not supported in Windows.
+{: attention}
 
 ## Can I see what is backed up and sent to the vault when my agent is offline?
 {: faq}

@@ -16,7 +16,7 @@ subcollection: Backup
 {: help}
 {: support}
 
-Any agent that's older than the 8.63 version needs to be upgraded as they cannot connect with the Backup portal due to outdated, unsupported TLS version Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+Any agent that's older than the 8.63 version needs to be upgraded. Agents that are older than the 8.63 version cannot connect with the Backup portal due to outdated, unsupported TLS version. Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
 {: shortdesc}
 
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
