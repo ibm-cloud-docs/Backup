@@ -119,7 +119,7 @@ If you forget the encryption password, you lose access to the data. You cannot r
 ### Performance Options
 {: #ODBBackupPerform}
 
-Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
+Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected. At the same time, you might allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include the following parameters.
 - Maximum bandwidth, in megabits per second, to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
@@ -128,7 +128,7 @@ Bandwidth settings include the following parameters.
 
 If the bandwidth-throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth-throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
 
-If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new {{site.data.keyword.backup_notm}} Agent settings do not affect the backup that is running because bandwidth settings are applied when a backup starts, not during its operation.
+If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new {{site.data.keyword.backup_notm}} Agent settings do not affect the backup that is running. Bandwidth settings are applied when a backup starts, not during its operation.
 
 
 ## Downloading the user guide
