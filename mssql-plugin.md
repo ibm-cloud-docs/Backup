@@ -49,7 +49,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
 Before you install the MSSQL plug-in for your Microsoft&reg; Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
-Review the Release Notes to ensure that the Backup agent is compatible with the SQL version of your database.
+Review the Release Notes to ensure that the Backup agent is compatible with SQL of your database.
 {: tip}
 
 1. Run the Agent installation package.
@@ -68,7 +68,7 @@ Review the Release Notes to ensure that the Backup agent is compatible with the 
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}
 
-The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
+The SQL Server plug-in can back up databases that span volumes, databases that have TDE enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
 
 ## Restoring an MSSQL DB
 {: #restoringSQLDBBbackup}

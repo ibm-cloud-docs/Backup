@@ -40,7 +40,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 3. If you accept the terms, select the checkbox, and click **Next** to continue. The main {{site.data.keyword.backup_notm}} system restore menu is presented.
 4. Select **Restore My System**.
 
-   ![Figure 2 - The BMR main menu shows four options that are available to select.](/images/bmr2.png){: caption="Figure 2. The BMR Main menu shows 4 options that are available to select." caption-side="bottom"}
+   ![Figure 2 - The BMR main menu shows four options that are available to select.](/images/bmr2.png){: caption="Figure 2. The System Restore main menu shows 4 options that are available to select." caption-side="bottom"}
 
 5. The system restore wizard appears. Select **Next** to continue.
 
