@@ -22,7 +22,7 @@ After you back up SQL Server databases by using the SQL Server plug-in, you can 
 
 After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
 If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
-When you restore system databases, the master database must be restored first, by itself. Other system databases can then be restored later.
+When you restore system databases, the primary database must be restored first, by itself. Other system databases can then be restored later.
 You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
 After you restored an SQL Server 2016 database that is stretched to Microsoft® Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect){: external}.
 
