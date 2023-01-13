@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2022-11-28"
+lastupdated: "2023-01-13"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -34,7 +34,7 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
    {: important}
 
 5. Select **Continue**.
-6. Check that **I acknowledge that due to cancellation data loss may occur**. Then, select **Cancel {{site.data.keyword.backup_notm}}**.
+6. Acknowledge that cancellation might cause data loss in the future by checking the box. Then, select **Cancel {{site.data.keyword.backup_notm}}**.
 
 ## Uninstall the Backup Agent from your server
 {: #uninstallbackupagent}
