@@ -99,10 +99,10 @@ To add an Oracle database backup job, complete the following tasks.
 {: #ODBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list.
-- Files: this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory: This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
-- Summary: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
-- Minimal: This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
+- Files - this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
+- Directory - This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
+- Summary - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
+- Minimal - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 
 Changing the logging level affects only the log files that are created at that point and after. It does not affect previously created log files.
 {: important}
@@ -121,9 +121,9 @@ If you forget the encryption password, you lose access to the data. You cannot r
 
 Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected, and allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
-Bandwidth settings include:
+Bandwidth settings include the following parameters.
 - Maximum bandwidth, in megabits per second, to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
-- Lwnght of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
+- Length of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
 - Days of the week that throttling is in effect.
 
 If the bandwidth-throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth-throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
