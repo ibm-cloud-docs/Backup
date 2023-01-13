@@ -20,7 +20,7 @@ We value your opinion and want to hear it.
 ## Share your ideas
 {: #feedback-ideas-portal}
 
-To share ideas or suggest new features for the {{site.data.keyword.backup_full}} service, go to the [{{site.data.keyword.cloud_notm}} - Structured Ideas portal](https://ibmcloud.ideas.ibm.com/){: external}.
+To share ideas or suggest new features for the {{site.data.keyword.backup_full}} service, go to the [{{site.data.keyword.cloud}} Structured Ideas portal](https://ibmcloud.ideas.ibm.com/){: external}.
 
 ## Did the documentation help?
 {: #feedback-doc}
