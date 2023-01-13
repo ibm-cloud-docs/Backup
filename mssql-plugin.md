@@ -68,7 +68,7 @@ Review the Release Notes to ensure that the Backup agent is compatible with SQL 
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}
 
-The SQL Server plug-in can back up databases that span volumes, databases that have TDE enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
+The SQL Server plug-in can back up databases that span volumes, databases with TDE and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
 
 ## Restoring an MSSQL DB
 {: #restoringSQLDBBbackup}
