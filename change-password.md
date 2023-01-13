@@ -23,7 +23,7 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 {: help}
 {: support}
 
-The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left corner. The Portal Password is on the Overview tab.
+The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left part of the screen. The Portal Password is on the Overview tab.
 
 You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The IBM Cloud Backup service is listed in the Software Name column as "Base Client".
 
