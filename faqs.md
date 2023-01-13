@@ -41,7 +41,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 
 5. Enter the new password in the **Password** field.
 
-   The password must be: 8 - 12 characters in length, include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
+   The password must be 8 - 12 characters in length, include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
    {: important}
 
 6. Press Enter to update the password.
@@ -233,14 +233,14 @@ If you registered the backup agent to the WebCC but it shows as offline within t
 {: #agent-unconfigured}
 {: support}
 
-If the backup agent shows the status of unconfigured in the WebCC or Portal, make sure you set up the backup job for your server as it is described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).
+If the backup agent appears as `unconfigured` in the WebCC or Portal, confirm that you set up the backup job for your server as it is described in [Configuring simple file-level backups](/docs/Backup?topic=Backup-configureFileBackup).
 
 ## I made a mistake in the agent installation process. How can I remove the Backup Agent from the server?
 {: faq}
 {: #agent-uninstall}
 {: support}
 
-You can remove the backup agent either through the Command line on a Linux server or through the Control Panel of a Windows&reg; server.
+You can remove the backup agent either through the command line on a Linux server or through the Control Panel of a Windows&reg; server.
 For more information, see the following topics.
 - [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
 - [Uninstalling the Backup Agent from a Linux&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
@@ -316,8 +316,10 @@ backup history of test/
 Customers cannot delete the backup safesets. If you want to remove a specific safeset, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
 
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
-WARNING: Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
 {: important}
+
+Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
+{: attention}
 
 ## What happens to backups when the Backup service is canceled? Can you keep the backups for later use and restore to another server?
 {: faq}
