@@ -39,7 +39,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 - Alternate restore option supports restore to files, which allows the database administrator to mount the databases through the SQL System Manager.
 - Alternate restore includes the ability to direct the restore of one database into another even when the logical database names are not matching. For mismatched objects, the plug-in creates databases in the default database location for the instance.
 - Support for Transparent Data Encryption (TDE) with 64-bit SQL Server 2008 R2 (SP1) and SQL Server 2012.
-- If an SQL Server host is lost, the SQL Server software can be installed, and the database can be restored. (The Master database must be restored first.)
+- If an SQL Server host is lost, the SQL Server software can be installed, and the database can be restored. (The primary database must be restored first.)
 - When the backup starts, the backup occurs with or without running database services.
 - Restores are supported to original database names (with or without overwrite existing databases), restore over an existing database, or to files on disk.
 
@@ -68,7 +68,7 @@ Review the Release Notes to ensure that the Backup agent is compatible with SQL 
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}
 
-The SQL Server plug-in can back up databases that span volumes, databases that have TDE enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
+The SQL Server plug-in can back up databases that span volumes, databases with TDE and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
 
 ## Restoring an MSSQL DB
 {: #restoringSQLDBBbackup}
