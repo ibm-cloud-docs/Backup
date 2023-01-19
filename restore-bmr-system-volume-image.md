@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-01-19"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -14,17 +14,20 @@ subcollection: Backup
 # Restoring a BMR system volume image
 {: #restoreBMR}
 
-If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
+If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable Windows&reg; operating system. It's useful when the OS is no longer usable or the drives in the server were replaced.
 {: shortdesc}
+
+BMR is available only for Windows&reg; Bare Metal Servers. No BMR option is available for VSI.
+{: attention}
 
 ## Initiating the BMR Rescue Kernel system
 {: #initiateBMR}
 
-You can access the BMR Rescue Kernel system through the {{site.data.keyword.cloud_notm}} console.
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+You can access the BMR Rescue Kernel system through the {{site.data.keyword.cloud}} console.
+1. Log in to the [{{site.data.keyword.cloud_notm}} UI](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Click the **Arrow** next to the vault.
-4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed here. You're going to be emailed when the system completes the boot process.
+4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed in the next section. You're going to be emailed when the system completes the boot process.
 
 
 ## Restoring from the BMR Rescue Kernel
