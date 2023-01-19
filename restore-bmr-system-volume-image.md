@@ -27,7 +27,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 1. Log in to the [{{site.data.keyword.cloud_notm}} UI](/login}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Click the **Arrow** next to the vault.
-4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed here. You're going to be emailed when the system completes the boot process.
+4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed in the next section. You're going to be emailed when the system completes the boot process.
 
 
 ## Restoring from the BMR Rescue Kernel
