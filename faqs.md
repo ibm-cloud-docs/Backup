@@ -250,7 +250,7 @@ For more information, see the following topics.
 {: #nfs-share-backup}
 {: support}
 
-Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm){: external}.
+Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm?TocPath=Server%2520Backup%2520User%2520Guide%257CAdd%2520and%2520edit%2520backup%2520jobs%257C_____10){: external}.
 
 NFS Backups are not supported in Windows.
 {: attention}
