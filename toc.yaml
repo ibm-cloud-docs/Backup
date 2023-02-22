@@ -89,10 +89,9 @@ toc:
             - change-password.md
             - canceling-backup-service.md
             - gethelp.md
-            - feedback.md
         - topicgroup:
             label: Troubleshooting
             topics:
+            - missingServer0PW.md
             - offline-agent-linux.md
             - offline-agent-windows.md
-            - missingServer0PW.md

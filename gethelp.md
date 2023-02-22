@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-02-22"
 
 keywords: IBM Cloud backup, EVault, issues, get support, how to request help, open a case, open a ticket
 
@@ -11,14 +11,15 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting help
-{: #gethelp}
+# Getting help and support for {{site.data.keyword.backup_notm}}
+{: #help-and-support}
 
-Get help with solving issues that you encounter while you use the product.
+If you experience an issue or have questions when you use {{site.data.keyword.backup_full}}, you can use the following resources before you open a support case.
 {: shortdesc}
 
-First, check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external} to see whether a known incident is in progress.
+* Review the [FAQs](/docs/Backup?topic=Backup-faqs) in the product documentation.
+* Review the [troubleshooting documentation](/docs/Backup?topic=Backup-troubleshoot-missingServer0password) to troubleshoot and resolve common issues.
+* Check the status of the {{site.data.keyword.cloud}} platform and resources by going to the [Status page](/status){: external}.
+* Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `service-Name`, so it can be seen by the {{site.data.keyword.cloud_notm}} development teams.
 
-Review the topics in the **How to** section to see whether you can find a quick solution. For more information about frequently asked questions, see the [FAQs](/docs/Backup?topic=Backup-faqs).
-
-If your service plan covers it, you can get help by creating a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}. For more information about opening a support case or case severities and response times, see [Viewing support cases](/docs/get-support?topic=get-support-managing-support-cases) or [Escalating support cases](/docs/get-support?topic=get-support-escalation).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
