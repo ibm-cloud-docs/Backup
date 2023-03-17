@@ -82,7 +82,7 @@ To add an Oracle database backup job, complete the following tasks.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 5. Click **Okay**. The schedule appears in the Schedule box.
 6. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
-7. Deferring: select one of the following options.
+7. For Deferring, select one of the following options.
     - To allow the backup job to run without a time limit, click None in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
 
