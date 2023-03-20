@@ -75,7 +75,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/
 
 1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
-    ```zsh
+    ```sh
     ls -la
     ```
     {: pre}

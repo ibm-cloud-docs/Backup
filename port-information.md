@@ -31,7 +31,7 @@ Your servers must communicate with the Cloud Backup Portal and all AMP proxy ser
 
 {{site.data.keyword.backup_notm}} Portal Registration Service:
 
-```zsh
+```sh
 cloudbackupregister.service.softlayer.com TCP Port 8086.
 ```
 
