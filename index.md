@@ -28,7 +28,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}
 
-1. Log in to the [IBM Cloud catalog](/catalog){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](/catalog){: external}.
 2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server){: external}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any hostname and domain that you like.
 
@@ -40,7 +40,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
    4. Under the **Storage Disks** section, click **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
    5. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
 3. Next, review your order summary.
-4. After you reviewed the terms and conditions, check the **I have read and agree to the Third-Party Service Agreements** box.
+4. Review your order, and read the service agreements. If you agree with the terms, check the box.
 5. Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
 You can also save the order without purchasing by clicking **Save as Quote**.
