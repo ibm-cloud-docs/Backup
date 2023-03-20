@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-03-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -21,7 +21,7 @@ After you back up SQL Server databases by using the SQL Server plug-in, you can 
 {: #restoreDBSQLdirect}
 
 After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
-If transaction logs were backed up by using an alternative method (for example, native SQL Server backup), you can restore a database in the restoring state so that you can apply transaction logs to the database after the restore.
+If transaction logs were backed up by using an alternative method, you can restore a database in the restoring state so that you can apply transaction logs to the database later.
 When you restore system databases, the primary database must be restored first, by itself. Other system databases can then be restored later.
 You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
 After you restored an SQL Server 2016 database that is stretched to Microsoft® Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://msdn.microsoft.com/en-us/library/mt733205.aspx#reconnect){: external}.
@@ -56,7 +56,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 13. Select the appropriate setting for overwrites.
     - To overwrite the existing database if you restore a database with the same name as the existing database, select Overwrite existing databases.
     - To fail the restore if a database with the same name exists, clear Overwrite existing databases. If Overwrite existing databases is not selected, and you are restoring multiple databases, the restore fails for all databases if even one database has the same name as an existing database.
-14. To restore the database in restoring state, select Restore using No Recovery option. If this option is selected, and transaction logs were backed up by using an alternative method (for example, a native SQL Server backup), you can apply transaction logs to the database after it is restored.
+14. To restore the database in restoring state, select Restore using No Recovery option. If this option is selected, you can apply transaction logs to the database after it is restored. The transaction logs must be backed up by using an alternative method (for example, a native SQL Server backup) first.
 15. To specify an alternative location for database files, select Alternate Path. Click the folder. In the Select Folder dialog box, select the alternative file location, and click Okay.
 
     The alternate file location is only used if the original location for database files is not available.
@@ -99,8 +99,8 @@ To restore an SQL Server database to flat files, complete the following tasks.
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If a Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the {{site.data.keyword.backup_notm}} Agent and plug-in are installed before you attempt to restore the database.
-After you restored a database to the primary replica and adding the database back into the AlwaysOn Availability Group, it will be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the agent and plug-in are installed before you can attempt to restore the database.
+After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}
@@ -121,7 +121,7 @@ After you restored a database to the primary replica and adding the database bac
 ## Restoring items from an SQL server or SharePoint database
 {: #restoreSQLDBitems}
 
-If a Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a  Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
+If a Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
 
 To restore items from a database backup, you must first use Portal to expose the safe set as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 
