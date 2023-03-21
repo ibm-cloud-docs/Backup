@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring Oracle DB
 {: #restoreOracleDB}
 
-After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restore process is performed by a Database Administrator. The following steps are included.
+After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restore process is performed by a Database Administrator. The following steps are included in the restore process.
 1. Shut down the database.
 2. Restore the files.
 3. If necessary, reset the control information for the database.
