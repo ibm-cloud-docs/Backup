@@ -82,7 +82,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 
 1. Connect to the root of Server2 through ssh.
 2. List the files and all directory entries in a long format.
-    ```zsh
+    ```sh
     ls -la
     ```
     {: pre}

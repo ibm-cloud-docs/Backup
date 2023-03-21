@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-02-15"
+lastupdated: "2023-03-20"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -33,37 +33,41 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.clou
 ## Restoring from the BMR Rescue Kernel
 {: #restorefromBMR}
 
-1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
+1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways. Both of these ways work well.
    - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.cloud_notm}} console.
    - The KVM console of your IPMI card.
-    Both of these ways work well.
+   
 2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the time zone and keyboard language of your choice and click **Next**.
+
    ![Figure 1 - BMR time zone and keyboard language selections are displayed.](/images/bmr1.svg){: caption="Figure 1. BMR time zone and keyboard language selections are displayed." caption-side="bottom"}
    The license agreement for the software is displayed.
+
 3. If you accept the terms, select the checkbox, and click **Next** to continue. The main {{site.data.keyword.backup_notm}} system restore menu is presented.
+
 4. Select **Restore My System**.
 
-   ![Figure 2 - The BMR main menu shows four options that are available to select.](/images/bmr2.svg){: caption="Figure 2. The System Restore main menu shows 4 options that are available to select." caption-side="bottom"}
+    ![Figure 2 - The BMR main menu shows four options that are available to select.](/images/bmr2.svg){: caption="Figure 2. The System Restore main menu shows four options that are available to select." caption-side="bottom"}
 
 5. The system restore wizard appears. Select **Next** to continue.
 
-   ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restore process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
+    ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restore process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
 
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
+
 7. On the **backup location** screen, select the vault, and enter in the vault address, account number, the username, and password. Then, click **Next** to continue.
 
-   ![Figure 4 - Choose backup location.](/images/bmr4.svg){: caption="Figure 4. Choose backup location." caption-side="bottom"}
+    ![Figure 4 - Choose backup location.](/images/bmr4.svg){: caption="Figure 4. Choose backup location." caption-side="bottom"}
 
-   For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
-   {: tip}
+    For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    {: tip}
 
 8. The next screen displays your system in the list. Make sure it is highlighted and click **Next**.
 
-   ![Figure 5 - Choose your system](/images/bmr5.svg){: caption="Figure 5. Choose your system.]" caption-side="bottom"}
+    ![Figure 5 - Choose your system](/images/bmr5.svg){: caption="Figure 5. Choose your system.]" caption-side="bottom"}
 
 9. On the **backup job selection** screen, select the Job that you want to restore from and click **Next**.
 
-   ![Figure 6 - Choose your Restore point](/images/bmr6.svg){: caption="Figure 6. Choose your Restore point." caption-side="bottom"}
+    ![Figure 6 - Choose your Restore point](/images/bmr6.svg){: caption="Figure 6. Choose your Restore point." caption-side="bottom"}
 
 10. From the **Select Restore Point** menu, select the restore point that you want and click **Next**.
 

@@ -41,25 +41,25 @@ When `BUAgent` process is no longer active on the server, the Linux&reg; Agent a
 Ensure that the BUAgent is running by issuing the following command on the Linux&reg; system.
 {: tsResolve}
 
-```zsh
+```sh
 /etc/init.d/vvagent status
 ```
 {: pre}
 
 The output shows whether the BUAgent is running.
-```zsh
+```sh
 VVAgent is running (PID: )
 BUAgent is running (PID: )
 ```
 
 * If the BUAgent is not running, start it with the following command.
-   ```zsh
+   ```sh
    /etc/init.d/vvagent start
    ```
    {: pre}
 
 * If the BUAgent appears to be running, restart the service with the following command.
-   ```zsh
+   ```sh
    /etc/init.d/vvagent restart
    ```
    {: pre}
@@ -73,7 +73,7 @@ If it still shows that the Agent is offline after a refresh of the Portal page, 
 Registering an Agent to the Portal retains all existing jobs, schedules, and configurations as-is. Go to the Agent installation directory, then run the register command.
 {: tsResolve}
 
-```zsh
+```sh
 cd opt/BUAgent
 ./register
 ```
@@ -90,19 +90,19 @@ For more information about viewing or changing the backup password, see [Managin
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Go to `opt/BUAgent`.
-   ```zsh
+   ```sh
    cd /opt/BUAgent
    ```
    {: pre}
 
 2.  List the contents and sort them by date.
-    ```zsh
+    ```sh
     ls -lrth
     ```
     {: pre}
 
 3. Find the name of the most recent `BUAgent-x.XLOG` and open it with `/opt/BUAgent/xlogcat`. It can't be opened with `cat` or `vim`.
-   ```zsh
+   ```sh
    ./xlogcat BUAgent-1.XLOG
    ```
    {: pre}

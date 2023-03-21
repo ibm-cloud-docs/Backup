@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-03-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -41,7 +41,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 
 5. Enter the new password in the **Password** field.
 
-   The password must be 8 - 12 characters in length, include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
+   The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
    {: important}
 
 6. Press Enter to update the password.
@@ -59,7 +59,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware&reg; VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service for free.
+The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service at no cost.
 
 ## How frequently can we back up the data?
 {: faq}
@@ -142,7 +142,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 {: #capacity}
 {: support}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 
 ## What happens when the {{site.data.keyword.backup_notm}} capacity is exceeded?
@@ -250,7 +250,7 @@ For more information, see the following topics.
 {: #nfs-share-backup}
 {: support}
 
-Yes. After a Linux&reg; system is added in the Backup Portal, you can create a backup job for files and folders that are saved on the NFS shares that are mounted on this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm?TocPath=Server%2520Backup%2520User%2520Guide%257CAdd%2520and%2520edit%2520backup%2520jobs%257C_____10){: external}.
+Yes. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Adding an NFS backup job](https://onlinehelp.evault.com/#HelpFiles/LinuxAgent/10676.htm?TocPath=Server%2520Backup%2520User%2520Guide%257CAdd%2520and%2520edit%2520backup%2520jobs%257C_____10){: external}.
 
 NFS Backups are not supported in Windows.
 {: attention}
@@ -264,13 +264,13 @@ Yes. Backup job results can be obtained from the `/opt/BUAgent/xlogcat utility`.
 
 First, go to the directory of the Backup Agent.
 
-```zsh
+```sh
 cd /opt/BUAgent
 ```
 
 Then, use the following syntax to show all backup job results.
 
-```zsh
+```sh
 for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} \; | grep -A 17 "errors encountered"; done
 
 backup history of test/
@@ -294,7 +294,7 @@ backup history of test/
 ```
 
 You can use the following syntax to show only backup data size.
-```zsh
+```sh
 for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} ; | grep -A 1 "deltized bytes processed"; done
 
 backup history of AgtUpgd.backup/

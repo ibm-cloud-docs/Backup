@@ -55,15 +55,15 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
 
 1. Establish a Secure Shell connection (SSH) to your server.
 2. From the command line, issue the following command:
-    ```zsh
+    ```sh
     /opt/BUAgent/uninstall.sh
     ```
 3. When prompted by the following question, press Y, then press Enter.
-    ```zsh
+    ```sh
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
     ````
 4. At the next prompt, press Y. Then, press Enter again.
-    ```zsh
+    ```sh
     This will remove jobs, settings, etc. (y/[N])
     ```
 5. Restart your server at your earliest convenience to ensure that the software is removed completely.

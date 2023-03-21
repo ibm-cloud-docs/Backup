@@ -35,13 +35,13 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 1. Establish Remote Desktop connection to the offline Agent server.
 2. Then, run one of the following commands to check the ports.
    * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
-    ```zsh
+    ```sh
     telnet cloudbackupregister.service.softlayer.com 8086
     ```
     {: pre}
 
     If the port is open, CMD shows a blank screen. If the port is not open, CMD returns the following message.
-    ```zsh
+    ```sh
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
     {: screen}
@@ -51,18 +51,18 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
    * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
      1. Open Powershell as Administrator.
      2. Enter the following command.
-       ```zsh
+       ```sh
        test-netconnection cloudbackupregister.service.softlayer.com -Port 8086
        ```
        {: pre}
 
        If the port is open, the last line shows the following.
-       ```zsh
+       ```sh
        TcpTestSucceeded : True
        ```
 
        If the port is not open, TcpTestSucceeded equals “False”.
-       ```zsh
+       ```sh
        TcpTestSucceeded : False
        ```
 
@@ -86,12 +86,12 @@ Restart the Carbonite EVault Server Backup BUAgent in Services.msc.
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Go to the backup Agent folder.
-   ```zsh
+   ```sh
    C:\Program Files\Carbonite Server Backup\Agent\
    ```
 
    Or
-   ```zsh
+   ```sh
    C:\Program Files\Evault Software\Agent\
    ```
 

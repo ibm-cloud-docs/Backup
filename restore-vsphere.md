@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-03-20"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring vSphere data
 {: #VRARestore}
 
-When VMs are protected in vSphere environment, you can restore [vSphere VMs,](#restoreVMs) and [restore files and folders with the vSphere Recovery Agent.
+When VMs are protected in vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders]( #restoreFFVRA) with the vSphere Recovery Agent.
 {: shortdesc}
 
 ## Restoring vSphere VMs
@@ -33,7 +33,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere VMs,](#r
 9.	In the **Destination Datastore** list, click the VMware datastore for the restored VMs.
 10.	Select one of the following options for restoring VMs to the VMware datastore that you selected:
     * **Restore all selected Virtual Machines to the selected datastore only.**
-    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the backed-up VM contains multiple VMDKs that resided on two or more VMware datastores, and one or more of the VMware datastores are unavailable, the entire VM is restored to the selected VMware datastore.
+    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the VM's backup contains multiple VMDKs that resided on multiple VMware datastores, and not all of the datastores are available, the entire VM is restored to the selected VMware datastore.
 
     If you restore a VM or template to a vCenter, and the original VM is present, the VM is restored as a clone of the original with the following name: `<VMname>-vra-restored-<Date>`. The VM is restored as a clone if the original VM is powered on, off, or suspended. If the original VM is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned VM is powered on.
     {: note}

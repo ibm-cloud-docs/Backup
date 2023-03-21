@@ -38,7 +38,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
    - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace `<publicIpAddress>` with the actual public IP address.
 4. Click Passwords to display the Password manager, and see the usernames and the passwords that are associated with the account.
 5. Log in to the target device by entering the following command from the command line.
-    ```zsh
+    ```sh
     ssh <user name>@<publicIpAddress>
     ```
     {: pre}
@@ -55,7 +55,7 @@ This step is required for RHEL, but optional for other distributions.
 {: tip}
 
 - Run the following command at the server prompt.
-   ```zsh
+   ```sh
    yum update
    ```
    {: pre}
@@ -66,7 +66,7 @@ This step is required for RHEL, but optional for other distributions.
 {: #downloadscript}
 
 - Run the following command at the server prompt.
-   ```zsh
+   ```sh
    wget -N http://downloads.service.softlayer.com/evault/evault_manual.sh
    ```
    {: pre}
@@ -75,7 +75,7 @@ This step is required for RHEL, but optional for other distributions.
 {: #executescript}
 
 1. Run the following command at the server prompt.
-   ```zsh
+   ```sh
    sh ./evault_manual.sh
    ```
    {: pre}
@@ -92,7 +92,7 @@ This step is required for RHEL, but optional for other distributions.
 
 4. The installation is complete when the following messages appear.
 
-    ```zsh
+    ```sh
     Starting VVAgent: [ OK ]
     Starting buagent: [ OK ]
     ```
@@ -102,19 +102,19 @@ This step is required for RHEL, but optional for other distributions.
 {: #verifyinstall}
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
-    ```zsh
+    ```sh
     grep 'Registered' /opt/BUAgent/Install.log
     ```
     {: pre}
 
 2. Run the following command and observe the output.
-    ```zsh
+    ```sh
     service vvagent status
     ```
     {: pre}
 
     The following messages are displayed.
-    ```zsh
+    ```sh
     VVAgent is running (PID xxxxx).
     buagent is running (PID xxxxx).
     ```

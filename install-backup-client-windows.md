@@ -30,7 +30,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 {: #downloadclient}
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client.
-   ```zsh
+   ```sh
    http://downloads.service.softlayer.com/evault/
    ```
    {: pre}
@@ -46,7 +46,7 @@ Installing the {{site.data.keyword.backup_full}} client is completed through a s
 {: #registeragent}
 
 1. Enter the Network address:
-   ```zsh
+   ```sh
    cloudbackupregister.service.softlayer.com
    ```
    {: pre}
