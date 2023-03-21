@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-20"
+lastupdated: "2023-03-21"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -14,7 +14,10 @@ subcollection: Backup
 # Restoring Oracle DB
 {: #restoreOracleDB}
 
-After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restore process is performed by a Database Administrator. The following steps are included in the restore process.
+After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restore process is performed by a Database Administrator. 
+{: shortdesc}
+
+The following steps are included in the restore process.
 1. Shut down the database.
 2. Restore the files.
 3. If necessary, reset the control information for the database.
