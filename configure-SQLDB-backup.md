@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-03-22"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -20,8 +20,8 @@ To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in w
 You can back up transaction logs for databases only when they use the full or bulk-logged recovery model.
 {: note}
 
-In addition to the permissions that are required for the Windows&reg; Agent, the account that was specified during the {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in installation must have the public server role to perform full SQL Server backups. The account must have the "sysadmin" role to perform transaction log backups.
-{: important}
+The account that was specified during the {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in installation must have the public server role to perform full SQL Server backups. The account must have the "sysadmin" role to perform transaction log backups.
+{: requirement}
 
 ## Starting Cloud Backup Portal
 {: #startPortalconfigSQLDB}
@@ -42,9 +42,9 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: #configureBackupjobSQLDB}
 {: help}
 
-Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in an SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with an SQL Server plug-in job. However, an SQL Server plug-in job cannot include databases from multiple SQL Server instances.
+Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in an SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with the SQL Server plug-in. However, an SQL Server backup job cannot include databases from multiple SQL Server instances.
 
-When you create an SQL Server database backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where you are backing up databases.
+When you create the backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where the databases reside.
 
 To back up the data, you can run the backup job manually or schedule the job to run. When you schedule or run a job, you can specify whether to back up the database, the transaction logs, or both.
 
@@ -95,7 +95,7 @@ To add an MSSQL database backup job, complete the following tasks.
    Filters are applied when the backup job runs. New databases that match the specified filters are automatically excluded when the backup job runs. Filters are not case-sensitive.
    {: note}
 
-10. To remove an inclusion or exclusion record from the Backup Set box, click the Delete button next to the record.
+10. To remove an inclusion or exclusion record from the Backup Set box, click Delete next to the record.
 11. Click Apply Now to consolidate and simplify records in the Backup Set box, if changes need to be applied.
 12. Click Create Job. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
 
@@ -105,16 +105,16 @@ To add an MSSQL database backup job, complete the following tasks.
 
 After you created a backup job, you can add one or more schedules for running the job automatically. You can create complex schedules for a job by creating multiple schedules. For example, you can schedule a backup job to run at midnight every Friday, and schedule the job to run at 8 PM on the first day of every month. When you schedule multiple SQL Server database jobs in the same instance, it's good practice to schedule the jobs so that their running times do not overlap. Simultaneous backups are supported, but are not recommended.
 
-If a job is scheduled to start at the same time by multiple schedules, the job runs only once at the scheduled time. If the jobs have different retention types, the retention type of the schedule that is highest in the list is applied to the resulting  safe set. For example, the job is scheduled to run at midnight each Saturday with the Weekly retention type, and every day at 12 midnight with the Daily retention type. On Saturdays, the job runs once at 12 midnight. Because the schedule with the Weekly retention type is higher in the list than the schedule with the Daily retention type, the Weekly retention type is applied to the safe set.
+If a job is scheduled to start at the same time by multiple schedules, the job runs only once at the scheduled time. If the jobs have different retention types, the retention type of the schedule that is highest in the list is applied to the resulting safe set. For example, the job is scheduled to run at midnight each Saturday with the Weekly retention type, and every day at 12 midnight with the Daily retention type. On Saturdays, the job runs once at 12 midnight. Because the schedule with the Weekly retention type is higher in the list than the schedule with the Daily retention type, the Weekly retention type is applied to the safe set.
 
 If a job is scheduled to run at slightly different times, the {{site.data.keyword.backup_notm}} Agent attempts to run the job according to each schedule. For example, if a job is scheduled to run at 11 PM by one schedule and 11:01 PM by another schedule, the {{site.data.keyword.backup_notm}} agent attempts to run the job twice. Try to avoid overlapping schedules. Problems can occur if a job is scheduled to run twice in a short period. In particular, try to avoid overlapping schedules for SQL Server database jobs in the same instance. Simultaneous backups in the same SQL Server instance are supported, but are not recommended.
 
 1. In the View/Add Schedule dialog box, click **Add Schedule**.
 2. In the new schedule row, in the Retention list, click a retention type.
 3. Select the Backup Type:
-   - To back up each database from the point in time when the backup starts, click Full.
-   - To back up each database and its transaction logs from the point in time when the backup starts, click Full with transaction logs.
-   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When Transaction Logs only is selected, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
+   - To back up each database from the point in time when the backup starts, click **Full**.
+   - To back up each database and its transaction logs from the point in time when the backup starts, click **Full with transaction logs**.
+   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When **Transaction Logs only** is selected, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
 
    After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can be backed up for databases only when they use the full or bulk-logged recovery model.
    {: note}
@@ -135,7 +135,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 
 9. To run the job on the specified schedule, select the Enable checkbox near the end of the row.
 
-   If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules lower in the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the retention type of the schedule that is highest in the priority list.
+   If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules toward the end of the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the retention type of the schedule that is highest in the priority list.
    {: note}
 
 10. Click **Save**.
@@ -159,7 +159,7 @@ To protect SQL Server databases in AlwaysOn Availability Groups, you can choose 
 
 - Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy ensures that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
 
-If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in and Cluster plug-in on each physical node, and configure jobs on the virtual node. Full backups run if the database is a primary database, and copy-only backups run if the database is a secondary database.
+If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in, and Cluster plug-in on each physical node. Then, configure the jobs on the virtual node. Full backups run if the database is a primary database. Copy-only backups run if the database is a secondary database.
 {: tip}
 
 ## Protecting SQL Server Clusters
@@ -181,7 +181,7 @@ When a cluster is fully protected, you can recover the cluster if components are
 ### Log file options
 {: #SQLDBLogfile}
 
-When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following job logging levels from the list.
+When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following logging levels from the list.
 - Files - this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
 - Directory - This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
 - Summary - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
