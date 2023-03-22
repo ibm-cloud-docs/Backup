@@ -67,7 +67,7 @@ To add an Oracle database backup job, complete the following tasks.
    - For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods. For more information, see [Encryption settings](#ODBEncrypt).
    - In the Password and Confirm Password boxes, enter an encryption password. You can also enter a password hint in the Password Hint box.
 8. In the Include in Backup box, select the database that you want to back up.
-9. Click **Save**. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
+9. Click **Save**. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click **Cancel** if you don't want to create a schedule now.
 
 
 ## Scheduling the backup job
