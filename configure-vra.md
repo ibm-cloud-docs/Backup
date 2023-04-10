@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-03-16"
+lastupdated: "2023-04-10"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -76,12 +76,12 @@ After the backup job is created, you can add one or more schedules for running t
 
 Scheduled backup jobs can also be run immediately.
 
-1. Click **Select Action**, and select **Run Job**. The Run Job window appears and gives you information about the Destination Vault and Retention schemes that are assigned to the job.
+1. Click **Select Action**, and select **Run Job**. A new window appears and you can see information about the Destination Vault and Retention schemes that are assigned to the job.
 
-   If multiple vaults and retention schemes are assigned to the job, these options can be changed in the Run job window by clicking the Destination and Retention Scheme menu options.
+   If multiple vaults and retention schemes are assigned to the job, these options can be changed in this window by clicking the Destination and Retention Scheme menu options.
    {: note}
 
-2. Click **start Backup job** to issue the backup job immediately. The progress window shows you the status of backup job and when the job is finished the job status changes from "Never Run" to "Completed".
+2. Click **start Backup job** to issue the backup job immediately. In the progress window, you can see the status of backup job and when the job is finished the job status changes from "Never Run" to "Completed".
 
 To see the status of the last backup job that ran, click the Jobs tab. All job logs can be accessed from the action menu. Click **Action** and select **History/Logs**.
 {: tip}
