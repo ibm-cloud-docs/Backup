@@ -24,7 +24,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere virtual 
 2.	Find the vSphere environment with the VM that you want to restore, and expand its view by clicking the row.
 3.	Click **Jobs**.
 4.	Find the backup job with the VM that you want to restore, and click **Restore** in the job’s **Select Action** menu.
-5.	In the **Choose what you want to restore** dialog box, select **Virtual machines**.
+5.	In the **Choose what you want to restore** dialog box, select **virtual machines**.
 6.	Click **Continue**. The Restore dialog shows the most recent safe-set for the job.
     * To restore data from another source, click a source (vault) in the **Source Device** List.
     * To restore from an older safe-set, click **Browse safe sets**. In the calendar that appears, click the date of safe-sets from which you want to restore.
