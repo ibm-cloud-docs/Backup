@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-03-20"
+lastupdated: "2023-04-10"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -32,16 +32,16 @@ When VMs are protected in vSphere environment, you can restore [vSphere virtual 
 8.	In the **Encryption Password** field, type the data encryption password.
 9.	In the **Destination Datastore** list, click the VMware datastore for the restored VMs.
 10.	Select one of the following options for restoring VMs to the VMware datastore that you selected:
-    * **Restore all selected Virtual Machines to the selected datastore only.**
-    * **Restore to the selected datastore only when a Virtual Machine’s original datastore is not available.** If the VM's backup contains multiple VMDKs that resided on multiple VMware datastores, and not all of the datastores are available, the entire VM is restored to the selected VMware datastore.
+    * **Restore all selected virtual machines to the selected datastore only.**
+    * **Restore to the selected datastore only when a virtual machine’s original datastore is not available.** If the VM's backup contains multiple VMDKs that resided on multiple VMware datastores, and not all of the datastores are available, the entire VM is restored to the selected VMware datastore.
 
     If you restore a VM or template to a vCenter, and the original VM is present, the VM is restored as a clone of the original with the following name: `<VMname>-vra-restored-<Date>`. The VM is restored as a clone if the original VM is powered on, off, or suspended. If the original VM is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned VM is powered on.
     {: note}
 
 11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected VMware datastore.
 12.	Select one of the following options for registering the restored VMs with the hosts that you selected:
-    * **Register all selected Virtual Machines with the selected hosts only.**
-    * **Register with the selected hosts only when a Virtual Machine’s original hosts is not available.**
+    * **Register all selected virtual machines with the selected hosts only.**
+    * **Register with the selected hosts only when a virtual machine’s original hosts is not available.**
 13.	To power on the VMs after they are restored, select **Power VMs on after restoring**.
 14.	In **Performance options**, keep the default setting.
 15.	Click **Run Restore**.
