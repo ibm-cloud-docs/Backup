@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-20"
+lastupdated: "2023-04-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -56,7 +56,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 13. Select the appropriate setting for overwrites.
     - To overwrite the existing database if you restore a database with the same name as the existing database, select Overwrite existing databases.
     - To fail the restore if a database with the same name exists, clear Overwrite existing databases. If Overwrite existing databases is not selected, and you are restoring multiple databases, the restore fails for all databases if even one database has the same name as an existing database.
-14. To restore the database in restoring state, select Restore using No Recovery option. If this option is selected, you can apply transaction logs to the database after it is restored. The transaction logs must be backed up by using an alternative method (for example, a native SQL Server backup) first.
+14. To restore the database in restoring state, select **Restore by using No Recovery**. If this option is selected, you can apply transaction logs to the database after it is restored. The transaction logs must be backed up by using an alternative method (for example, a native SQL Server backup) first.
 15. To specify an alternative location for database files, select Alternate Path. Click the folder. In the Select Folder dialog box, select the alternative file location, and click Okay.
 
     The alternate file location is only used if the original location for database files is not available.
@@ -99,7 +99,9 @@ To restore an SQL Server database to flat files, complete the following tasks.
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the agent and plug-in are installed before you can attempt to restore the database.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed before you attempt the restore.
+{: requirement}
+
 After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
