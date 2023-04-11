@@ -142,7 +142,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 {: #capacity}
 {: support}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 
 ## What happens when the {{site.data.keyword.backup_notm}} capacity is exceeded?
