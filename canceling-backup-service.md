@@ -25,7 +25,7 @@ If you cancel the virtual or the bare metal server that the {{site.data.keyword.
 ## Cancel the service in the UI
 {: #cancelbackupUI}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Select **Actions** > **Cancel {{site.data.keyword.backup_notm}}**.
 4. Choose to cancel **Immediately** or on the **Anniversary Date**.

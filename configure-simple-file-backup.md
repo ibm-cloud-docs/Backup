@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-04-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -24,7 +24,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
 {: important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
 4. Click **View backup portal** to start the portal in your browser.
@@ -67,8 +67,8 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 
     11. Click **Apply now** to confirm the backup sets.
     12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
-    13. Click **Create Job**. The View/Add Schedule window is loaded.
-    14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. Select the appropriate retention period and click **Save**.
+    13. Click **Create Job**.
+    14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
 
     Multiple retention schedules can be set up for same job but it’s important they are NOT be run at same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
     {: important}
