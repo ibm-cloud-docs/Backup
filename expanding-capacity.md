@@ -42,7 +42,6 @@ Use the `ibm_storage_evault` resource to update your {{site.data.keyword.backup_
 resource "ibm_storage_evault" "test" {
   datacenter          = "dal13"
   capacity            = "100"
-  virtual_instance_id = "137028172"
 }
 ```
 {: codeblock}
