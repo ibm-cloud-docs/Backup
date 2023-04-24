@@ -22,6 +22,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} account. One {{s
 
 ## Provisioning {{site.data.keyword.backup_notm}} in the UI
 {: #ordering-ui}
+{: ui}
 
 You can provision {{site.data.keyword.backup_notm}} service in two ways in the console.
 * [Provision backup space when you order a server](#purchasingwithserver).
@@ -29,7 +30,6 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
 
 ### Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver-ui}
-{: ui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](/catalog){: external}.
 2. Order a monthly Bare Metal Server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server){: external}.
@@ -64,7 +64,6 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 ### Purchasing {{site.data.keyword.backup_notm}} as an upgrade
 {: #purchasingasupgradeui}
-{: ui}
 
 #### Select a server on which to install {{site.data.keyword.backup_notm}}
 {: #selectbaseserver}
