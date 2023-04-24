@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-04-24"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -30,12 +30,7 @@ Backups ensure that your data is safely stored outside of your device and stays 
 {: #prereqs}
 {: step}
 
-You must have a valid license to use {{site.data.keyword.backup_notm}}. You can obtain the service in two ways.
-
-- [Purchase backups when you Order a Server](/docs/Backup?topic=Backup-ordering#purchasingwithserver).
-- [Purchase backups as an Upgrade](/docs/Backup?topic=Backup-ordering#purchasingasupgrade).
-
-For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+You must have a valid license to use {{site.data.keyword.backup_notm}}. You can provision the service when you order a server or you can provision the service as an upgrade. For more information, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-ordering).
 
 Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
