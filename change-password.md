@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-03-20"
+lastupdated: "2023-04-24"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -11,25 +11,41 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Managing username and password for the Cloud Backup service
+# Managing username and password for the {{site.data.keyword.backup_notm}} service
 {: #changePassword}
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
 {: shortdesc}
 
-## Viewing the backup username and password
-{: #viewBackupPW}
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
+{: important}
+
+## Viewing the backup username and password in the UI
+{: #viewBackupPW-ui}
 {: help}
 {: support}
+{: ui}
 
-The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left part of the screen. The Portal Password is on the Overview tab.
+The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page in the console. The username is in the upper-left part of the screen. The Portal Password is on the Overview tab.
 
 You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The IBM Cloud Backup service is listed in the Software Name column as "Base Client".
 
 Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
 
-## Changing the backup password
+## Viewing the backup username and password with Terraform
+{: #viewBackupPW-terraform}
+{: help}
+{: support}
+{: terraform}
+
+To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started).
+{: requirement}
+
+Use the `ibm_storage_evault` resource to create or update your {{site.data.keyword.backup_full}} instance. After the backup vault is provisioned, you can access the `username`and`password` attributes.
+
+For more information about arguments and attributes, see [ibm_storage_evault](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault){: external}.
+
+## Changing the backup password in the UI
 {: #changeBackupPW}
 {: help}
 {: support}
