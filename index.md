@@ -20,9 +20,6 @@ Backups ensure that your data is safely stored outside of your device and stays 
 Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
 
-{{site.data.keyword.backup_notm}} usage is billed based on the vault size monthly. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
-{: important}
-
 ## Provisioning {{site.data.keyword.backup_notm}} in the UI
 {: #ordering-ui}
 
