@@ -165,7 +165,7 @@ If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server 
 ## Protecting SQL Server Clusters
 {: #configureBackupSQLCluster}
 
-To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
+To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a Virtual Server for the SQL Server role in the Portal and create and run backup jobs on the Virtual Server. Backup jobs on a Virtual Server are automatically directed to the active cluster node and do not reseed after a failover.
 
 To fully protect an SQL Server cluster, you must back up:
 - The quorum disk,
