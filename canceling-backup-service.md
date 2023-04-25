@@ -48,6 +48,8 @@ terraform destroy --target ibm_storage_evault.example.id
 ```
 {: codeblock}
 
+For more information, see [terraform destroy](https://developer.hashicorp.com/terraform/cli/commands/destroy){: external}.
+
 ## Uninstall the Backup Agent from your server
 {: #uninstallbackupagent}
 
