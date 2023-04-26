@@ -32,7 +32,7 @@ Backups ensure that your data is safely stored outside of your device and stays 
 
 You must have a valid license to use {{site.data.keyword.backup_notm}}. You can provision the service when you order a server or you can provision the service as an upgrade. For more information, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-ordering).
 
-Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
+Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
