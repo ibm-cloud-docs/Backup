@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-24"
+lastupdated: "2023-04-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -49,6 +49,7 @@ For more information about arguments and attributes, see [ibm_storage_evault](ht
 {: #changeBackupPW}
 {: help}
 {: support}
+{: ui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the list of backup services.

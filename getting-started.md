@@ -76,7 +76,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 1. Access the Private Network over [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external}. The Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 3. Click **Storage** > **Cloud Backup** to display the backup services.
-4. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+4. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 5. Click **View backup portal** to start the portal in your browser.
 
 ## Configuring the backup agent and the backup schedule

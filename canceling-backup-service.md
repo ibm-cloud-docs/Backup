@@ -68,7 +68,7 @@ For more information, see [terraform destroy](https://developer.hashicorp.com/te
 {: #uninstallbackupagentLin}
 
 1. Establish a Secure Shell connection (SSH) to your server.
-2. From the command line, issue the following command:
+2. From the command line, issue the following command.
     ```sh
     /opt/BUAgent/uninstall.sh
     ```

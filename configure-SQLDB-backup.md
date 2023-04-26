@@ -32,7 +32,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.
-3. Select the instance name of the {{site.data.keyword.cloud_notm}} account.
+3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 4. Click **View backup portal** to start the portal in your browser.
 
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
@@ -165,7 +165,7 @@ If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server 
 ## Protecting SQL Server Clusters
 {: #configureBackupSQLCluster}
 
-To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
+To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a Virtual Server for the SQL Server role in the Portal and create and run backup jobs on the Virtual Server. Backup jobs on a Virtual Server are automatically directed to the active cluster node and do not reseed after a failover.
 
 To fully protect an SQL Server cluster, you must back up:
 - The quorum disk,
@@ -202,4 +202,4 @@ If you forget the encryption password, you lose access to the data. You cannot r
 ## Downloading the user guide
 {: #MSSQLConfigUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/documentation/){: external}.

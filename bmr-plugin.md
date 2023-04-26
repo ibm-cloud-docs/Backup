@@ -17,7 +17,7 @@ subcollection: Backup
 Bare Metal Restore is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
 {: shortdesc}
 
-BMR is a Windows&reg;-only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux&reg; distributions aren't supported.
+BMR is a Windows&reg;-only product on physical servers. It is not available for Virtual Servers. Bare Metal Restores for Linux&reg; distributions aren't supported.
 {: important}
 
 ## Capabilities provided
@@ -46,4 +46,4 @@ For more information, see [Restoring a BMR system volume image](/docs/Backup?top
 ## Downloading the user guide
 {: #BMRUserGuide}
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/documentation/){: external}.
