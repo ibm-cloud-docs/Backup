@@ -17,7 +17,7 @@ subcollection: Backup
 Backups ensure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. You can provision your {{site.data.keyword.backup_full}} instance in the UI, from the CLI, with the API, or Terraform.
 {: shortdesc}
 
-Each server must have its own {{site.data.keyword.backup_notm}} account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
+Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
 
 ## Provisioning {{site.data.keyword.backup_notm}} in the UI
