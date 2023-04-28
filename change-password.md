@@ -41,7 +41,7 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started).
 {: requirement}
 
-Use the `ibm_storage_evault` resource to create or update your {{site.data.keyword.backup_full}} instance. After the backup vault is provisioned, you can access the `username`and`password` attributes.
+Use the `ibm_storage_evault` resource to create or update your {{site.data.keyword.backup_full}} instance. After the backup vault is provisioned, you can access the `username` and `password` attributes.
 
 For more information about arguments and attributes, see [ibm_storage_evault](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault){: external}.
 
