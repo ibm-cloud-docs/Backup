@@ -31,7 +31,7 @@ Store the Vault password in the Backup Portal again. To do so, go to "Vault Sett
 2. Click Vault Settings and from the Action menu, select Edit.
 3. Enter the Vault Name.
 4. Enter credentials.
-   "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+   "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
    {: tip}
 
 5. Click Save.

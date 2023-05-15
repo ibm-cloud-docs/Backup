@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-24"
+lastupdated: "2023-05-12"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -41,7 +41,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{s
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
-**Windows**&reg; (Oldest supported version of the backup agent is 8.32.)
+[Windows]{: tag-windows} - Oldest supported version of the backup agent is 8.32.
 - Windows&reg; Server 2019
 - Windows&reg; Server 2016
 - Windows&reg; Server 2012 R2
@@ -52,7 +52,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{s
 Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functions were tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
 {: tip}
 
-**Linux&reg;** (Oldest supported version of the backup agent is 8.50. BMR backups are not supported)
+[Linux]{: tag-linux} - Oldest supported version of the backup agent is 8.50. BMR backups are not supported.
 - CentOS 8.x (It requires backup agent version 8.83.)
 - CentOS 7.x
 - Debian GNU/Linux&reg; 9.x
@@ -64,8 +64,8 @@ Windows 2019 does successfully back up with the Windows agent version 8.60. Howe
 - Ubuntu Linux&reg; 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
-- [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
+- [Linux]{: tag-linux} [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
+- [Windows]{: tag-windows} [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
 
 ## Accessing the Cloud Backup Portal
 {: #accessingPortal}
@@ -115,7 +115,7 @@ Archiving is not supported. When you create a retention scheme or modify an exis
 {: #viewingdetailsinconsole}
 {: step}
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage**, and select **Backup** from the list.

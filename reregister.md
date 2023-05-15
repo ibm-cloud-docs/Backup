@@ -35,7 +35,7 @@ The reregistration of the computer to the vault is not the same as registering t
    - Vault address
    - Account
 
-    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
    - User name
