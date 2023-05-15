@@ -115,7 +115,7 @@ Archiving is not supported. When you create a retention scheme or modify an exis
 {: #viewingdetailsinconsole}
 {: step}
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage**, and select **Backup** from the list.

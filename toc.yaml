@@ -9,7 +9,7 @@ toc:
     audience: service
     href: /docs/Backup?topic=Backup-getting-started#getting-started
     console-page: /cloud/backup
-    product-page: /classic/storage/backup
+    product-page: /cloud-storage/backup
     path: Backup
     label: IBM Cloud Backup
 
