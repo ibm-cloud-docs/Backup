@@ -43,7 +43,7 @@ For more
 ### Computers
 {: #portalcomputers}
 
-On the Computers page, you can view server information, configure backup jobs, run jobs, and restore data. For more information about how to configure backupjobs, see [Configuring the backup agent and the backup schedule](/docs/Backup?topic=Backup-getting-started#configureagentschedule). For more information about how to run jobs, see [Running your first backup job](/docs/Backup?topic=Backup-getting-started#runfirstbackup)
+On the Computers page, you can view server information, configure backup jobs, run jobs, and restore data. For more information about how to configure backupjobs, see [Configuring the backup agent and the backup schedule](/docs/Backup?topic=Backup-getting-started#configureagentschedule). For more information about how to run jobs, see [running your first backup job](/docs/Backup?topic=Backup-getting-started#runfirstbackup). For more information about restoring data, see [Restoring data from a backup](/docs/Backup?topic=Backup-simplerestore).
 
 ### Monitor
 {: #portalmonitor}
