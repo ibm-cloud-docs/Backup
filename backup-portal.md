@@ -36,16 +36,17 @@ Portal includes a series of pages where you can perform various tasks for managi
 ### Dashboard
 {: #portaldashboard}
 
-The Dashboard in Portal provides notifications and summary information about computers, backups, restores andactivity in your site.
+The Dashboard provides notifications and summary information about servers, backups, restores, and activity in your site. In the What’s new section, you can see the newest {{site.data.keyword.backup_full}} Announcements along with unconfigured agent information. Such a {{site.data.keyword.backup_notm}} agent can be configured by clicking the Configure Now link or by clicking the computers tab.
 
+For more
 
 ### Computers
 {: #portalcomputers}
 
-On the Computers page in Portal, you can view computers, configure backup jobs, run jobs, and restore data.
-
+On the Computers page, you can view server information, configure backup jobs, run jobs, and restore data. For more information about how to configure backupjobs, see [Configuring the backup agent and the backup schedule](/docs/Backup?topic=Backup-getting-started#configureagentschedule). For more information about how to run jobs, see [Running your first backup job](/docs/Backup?topic=Backup-getting-started#runfirstbackup)
 
 ### Monitor
 {: #portalmonitor}
 
-On the Monitor page in Portal, you can view the most recent backup statuses for your jobs, monitor processes and view logs.
+On the Monitor page, you can view the most recent backup statuses for your jobs, monitor processes, and view logs. You can go from information on the Monitor page to related information on the Computers page or in the Logs window. If you click an online computer name or job name, you can view the computer’s record on the Computers page. If you click a job’s last backup status, you can view the job’s logs in a separate window.
+
