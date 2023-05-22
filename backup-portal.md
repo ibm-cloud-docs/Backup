@@ -18,7 +18,7 @@ The Backup Portal provides a central access point for managing backups and resto
 {: shortdesc}
 
 ## Starting Cloud Backup Portal
-{: #startPortalsimple}
+{: #startPortaloverview}
 
 Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} connection to get access to the {{site.data.keyword.cloud}} private network. The Cloud Backup Portal link doesn't work otherwise.
 {: requirement}
