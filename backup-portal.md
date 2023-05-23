@@ -48,5 +48,5 @@ On the Computers page, you can view server information, configure backup jobs, r
 ### Monitor
 {: #portalmonitor}
 
-On the Monitor page, you can view the most recent backup statuses for your jobs, monitor processes, and view logs. You can go from information on the Monitor page to related information on the Computers page or in the Logs window. If you click an online computer name or job name, you can view the computer’s record on the Computers page. If you click a job’s last backup status, you can view the job’s logs in a separate window.
+On the Monitor page, you can view the most recent backup statuses for your jobs, monitor processes, and view logs. You can go from information on the Monitor page to related information on the Computers page or in the Logs window. If you click an online computer name or job name, you can view the computer’s record on the Computers page. If you click a job’s last backup status, you can view the job’s past logs in a separate window.
 
