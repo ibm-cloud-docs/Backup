@@ -49,7 +49,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     3. Add a password hint.
     4. Click **Configure automatically**.
 
-- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored, and you can specify the folders and files to be retained with a retention scheme of your choice.
+- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be retained with a retention scheme of your choice.
 
     1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
     2. Click **Configure Manually**. The vault settings page loads.
