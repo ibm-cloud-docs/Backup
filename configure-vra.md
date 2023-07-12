@@ -53,7 +53,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the VMs that you want to include in the backup job.
     * To add specific VMs to the backup job, select each VM, and then click **Include**.
     * To exclude specific VMs from the backup job, select each VM, and then click **Exclude**.
-    * To add VMs to the backup job by name, check the Virtual Machines box, and then click **Include**.
+    * To add VMs to the backup job by name, check the virtual machines box, and then click **Include**.
     * To remove an inclusion or exclusion record from the Backup Set box, click **Delete** next to the record.
 
 6. Click **Apply Now** to consolidate and simplify records in the Backup Set box, if changes need to be applied.

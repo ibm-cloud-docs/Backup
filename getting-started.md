@@ -95,7 +95,7 @@ This job can be modified after it was configured.
 3. Add a password hint.
 4. Click **Configure automatically**.
 
-- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
 For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
 {: tip}
