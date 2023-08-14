@@ -34,7 +34,8 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](/catalog){: external}.
 2. Order a monthly virtual server. For more information about {{site.data.keyword.BluVirtServers}}, see [Provisioning a virtual server](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial#provisioning-a-virtual-server-getting-started){: external}.
    1. Enter host and domain names. You can choose any hostname and domain that you like.
-   1. Select quantity, billing option. 
+   1. Select quantity, billing option.
+
        {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
        {: tip}
 
@@ -43,6 +44,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
    1. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
    1. In the **Storage Disks** section, specify the size of the boot volume and add more disks if you want to.
    1. Under **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
+   
       The first 10 GB of vault space is provided at no cost to you. If you don't know how much backup storage you need, provision 10 GB, you can add more storage later.
       {: tip}
 
