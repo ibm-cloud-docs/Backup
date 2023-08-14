@@ -43,6 +43,9 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
    1. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
    1. In the **Storage Disks** section, specify the size of the boot volume and add more disks if you want to.
    1. Under **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
+      The first 10 GB of vault space is provided at no cost to you. If you don't know how much backup storage you need, provision 10 GB, you can add more storage later.
+      {: tip}
+
 3. Review your order, and read the service agreements. If you agree with the terms, check the box.
 4. Click **Create**. The Device list is displayed and in a few minutes your virtual server is ready for use.
 5. When your virtual server is provisioned, click the hostname to display the Device details page.
