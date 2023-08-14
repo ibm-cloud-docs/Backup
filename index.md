@@ -49,7 +49,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
       {: tip}
 
 3. Review your order, and read the service agreements. If you agree with the terms, check the box.
-4. Click **Create**. The Device list is displayed and in a few minutes your virtual server is ready for use.
+4. Click **Create**. The Device list is displayed and in a few minutes, your virtual server is ready for use.
 5. When your virtual server is provisioned, click the hostname to display the Device details page.
 6. In the side navigation, click **Storage**. Then, scroll to {{site.data.keyword.backup_notm}} to see the details.
 
