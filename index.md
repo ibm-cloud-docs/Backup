@@ -37,7 +37,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
    1. Select quantity, billing option.
 
        {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
-       {: tip}
+       {: note}
 
    1. Select location.
    1. Select Server profile and OS Image type. You can also choose multiple add-ons.
