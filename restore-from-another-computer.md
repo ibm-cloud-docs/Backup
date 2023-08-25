@@ -32,7 +32,7 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 ## Starting Cloud Backup Portal of Server2
 {: #startPortal}
 
-Remember to start your [{{site.data.keyword.BluVPN}}](https://www.ibm.com/cloud/vpn-access){: external} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
+Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
 {: tip}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
