@@ -134,7 +134,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 {: faq}
 {: support}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+For more information, see [Backup storage](https://www.ibm.com/topics/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
