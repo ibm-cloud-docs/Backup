@@ -90,7 +90,7 @@ To add an MSSQL database backup job, complete the following tasks.
 
 9. To exclude databases from the backup job, do one or more of the following in the Select Databases for Backup box:
    - To exclude specific databases from the backup job, select the checkbox for each database, and then click Exclude. The excluded databases appear in the Backup Set box with a minus sign.
-   - To exclude databases with names that match a filter when the backup job runs, select the checkbox for the SQL Server instance, and then click Exclude. A record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to exclude. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?)` as wildcard characters. For example, to exclude databases if their names begin with “M”, enter the following filter: `m*`.
+   - To exclude databases with names that match a filter when the backup job runs, select the checkbox for the SQL Server instance, and then click Exclude. A record with an asterisk (`*`) appears in the Backup Set box. In the Database Filter box, enter the names of databases to exclude. Separate multiple names with commas, and use asterisks (`*`) and question marks (`?`) as wildcard characters. For example, to exclude databases if their names begin with “M”, enter the following filter: `m*`.
 
    Filters are applied when the backup job runs. New databases that match the specified filters are automatically excluded when the backup job runs. Filters are not case-sensitive.
    {: note}
