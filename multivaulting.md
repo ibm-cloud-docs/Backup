@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -76,7 +76,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
       {: tip}
 
    4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} username for the selected vault, and the password for the selected vault.
-      For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+      For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 
    5. Click **Save**.

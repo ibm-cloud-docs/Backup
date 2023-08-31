@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-28"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -17,7 +17,7 @@ subcollection: Backup
 The vSphere Recovery Agent (VRA) is a Windows&reg; application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.
 {: shortdesc}
 
-In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up preferred VMs of that site. If a VM is moved to a different site (because of maintenance or failures), backup performance can be degraded but remain acceptable.
+In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up the preferred VMs of that site. If a VM is moved to a different site (because of maintenance or failures), backup performance can be degraded but remain acceptable.
 
 ## Installing the plug-in
 {: #installVRAPlugin}
@@ -31,15 +31,15 @@ Ensure that power management is disabled on the server where you install the VRA
 4. On the End-User-License Agreement page, read the license agreement. If you agree to the terms, click the checkbox, and then click **Next**.
 5. On the Destination Folder page, take one of the following actions.
     * To install the VRA in the default location, click **Next**.
-    * To install the VRA in another location, click **Change**. In the Change destination folder dialog box, browse to the new installation folder, or type it in the Folder name box. Click **OK**. On the Destination Folder page, click **Next**.
+    * To install the VRA in another location, click **Change**. In the Change the destination folder dialog box, browse to the new installation folder, or type it in the Folder name box. Click **OK**. On the Destination Folder page, click **Next**.
 6. On the Register Agent with Portal Page, specify the following information.
     * In the **Network address** field, type `cloudbackupregister.service.softlayer.com`.
     * In the **Port** field, type `8086`.
-    * In **username** field, type the {{site.data.keyword.backup_notm}} username for managing the VRA.
-      For more information about viewing the username, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    * In the **username** field, type the {{site.data.keyword.backup_notm}} username for managing the VRA.
+      For more information about viewing the username, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 
-    * In **Password** field, type the password of the specified {{site.data.keyword.backup_notm}} user.
+    * In the **Password** field, type the password of the specified {{site.data.keyword.backup_notm}} user.
 7.	Click **Next**. When the installation is complete, click **Finish**.
 
 ## Configuring the vSphere Recovery Agent
@@ -61,7 +61,7 @@ After VRA is installed, you need to configure it in the Cloud Backup Portal.
 ### Configuring the Vault Automatically
 {: #VRAautoconfig}
 
-To configure the vault settings automatically, click **Configure Automatically**. The configuration wizard runs and configures the Vault settings for you. When it is completed, click **Go To Agent** to verify the information in **Vault Settings** Tab.
+To configure the vault settings automatically, click **Configure Automatically**. The configuration wizard runs and configures the Vault settings for you. When it is completed, click **Go To Agent** to verify the information in the **Vault Settings** Tab.
 
 
 ### Configuring the Vault Manually
@@ -89,7 +89,7 @@ After the successful vault registration, the vCenter Settings need to be configu
     {: note}
 
 3. Disable Change Block Tracking (CBT) by removing the checkmark. CBT is a VMware&reg; feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
-4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, `The vCenter credentials have been validated successfully` message appears.
+4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, a `The vCenter credentials have been validated successfully` message appears.
 5. Click **Save** to save the settings.
 
 ## Configuring a vSphere backup job

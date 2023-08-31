@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-03-22"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -68,7 +68,7 @@ The plug-ins that are listed here are only compatible with Windows&reg; servers,
 
 Within Cloud Backup Portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
-Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safe-sets to grow.
+Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because the backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safe-sets to grow.
 {: note}
 
 ## How do the retention schemes work?
@@ -100,7 +100,7 @@ By default all encryption over the wire (OTW) is encrypted with AES 256-bit encr
 You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back.
 {: important}
 
-Compression ratios allow for zero compression to a maximum ratios compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
+Compression ratios allow for zero compression to a maximum ratio compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
 
 ## What information is stored with system state backups?
 {: faq}
@@ -109,7 +109,7 @@ Compression ratios allow for zero compression to a maximum ratios compression th
 
 The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. By including the system files, you can recover from corrupted system files, or if you accidentally remove some service packs, or want to recover with a bare-metal restore. You can return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
 
-No user data file is included in System state backup. A system state backup job must be configured as a stand-alone job. There mustn't be any other data source that is included in the System State backup job.
+No user data file is included in System state backup. A system-state backup job must be configured as a stand-alone job. There mustn't be any other data source that is included in the System State backup job.
 {: important}
 
 
@@ -134,7 +134,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 {: faq}
 {: support}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+The pricing information for your system resources is shown on the side of the provisioning window, and it shows all of your resource costs. To view the cost estimates for your organization on a per user basis, use the [pricing calculator](https://cloud.ibm.com/cloud-storage/backup/order).
 
 
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
@@ -194,7 +194,7 @@ Database backups must be made separately with the normal {{site.data.keyword.bac
 {: #bmr-restore}
 {: support}
 
-You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current files backup job. The restore process is done inside the OS, just like a traditional backup job.
+You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current file backup job. The restore process is done inside the OS, just like a traditional backup job.
 
 ## Does BMR have open file back up capabilities?
 {: faq}
@@ -293,7 +293,7 @@ backup history of test/
 11-May 19:30:36 -0500 BKUP-I-04129 elapsed time 00:00:10 ...
 ```
 
-You can use the following syntax to show only backup data size.
+You can use the following syntax to show only the backup data size.
 ```sh
 for i in $(ls -d /); do echo "backup history of $i"; find $i -name ".XLOG" ! -name "Agent" -print -exec /opt/BUAgent/xlogcat {} ; | grep -A 1 "deltized bytes processed"; done
 

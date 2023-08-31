@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -82,7 +82,7 @@ This step is required for RHEL, but optional for other distributions.
 
 2. Enter your Cloud Backup Portal username and password.
 
-    For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
 3. After the username and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -126,4 +126,4 @@ This step is required for RHEL, but optional for other distributions.
 ## Next steps
 {: #afterinstalllin}
 
-Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-05-12"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -95,7 +95,7 @@ This job can be modified after it was configured.
 3. Add a password hint.
 4. Click **Configure automatically**.
 
-- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
 For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
 {: tip}
@@ -108,7 +108,7 @@ Archiving is not supported. When you create a retention scheme or modify an exis
 {: step}
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions**, and click **Run Job**.
-2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
+2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, and the backup job keeps running in the background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
@@ -122,7 +122,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 3. Click anywhere on the row of the vault that you want to view its storage details. From this view, the password isn't visible.
 4. Click the **Show** checkbox next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: important}
 
 ## Getting more online help

@@ -59,18 +59,18 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     6. Click the **Jobs** tab.
     7. From the Select Job Task menu, select **Create New Local System Job**.
     8. In the Create New Job window, enter a Job Name and a Job Description.
-    9. Select the files and folders that you want to include and exclude in the backup. To exclude files, you must add an exclusions record. Select the directory that contains the file that you want to exclude and click **Exclude**. This action adds the file to the Backup Set with a red minus sign. From here, you can filter out a directory or specific file name from that directory that you want skipped during backup.
+    9. Select the files and folders that you want to include and exclude in the backup. To exclude files, you must add an exclusion record. Select the directory that contains the file that you want to exclude and click **Exclude**. This action adds the file to the Backup Set with a red minus sign. From here, you can filter out a directory or specific file name from that directory that you want skipped during backup.
     10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. Lost password cannot be recovered in any way.
+        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. The lost password cannot be recovered in any way.
         {: important}
 
-    11. Click **Apply now** to confirm the backup sets.
+    11. Click **Apply now** to confirm the backup set.
     12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
     13. Click **Create Job**.
     14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
 
-    Multiple retention schedules can be set up for same job but it’s important they are NOT be run at same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
+    Multiple retention schedules can be set up for same job but it’s important that they are NOT be run at the same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
     {: important}
 
 ## Running a backup job
@@ -79,5 +79,5 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 {: support}
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions** and click **Run Job**.
-2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
+2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, and the backup job keeps running in the background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.

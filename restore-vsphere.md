@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-10"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring vSphere data
 {: #VRARestore}
 
-When VMs are protected in vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders]( #restoreFFVRA) with the vSphere Recovery Agent.
+When VMs are protected in a vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders]( #restoreFFVRA) with the vSphere Recovery Agent.
 {: shortdesc}
 
 ## Restoring vSphere VMs
@@ -41,7 +41,7 @@ When VMs are protected in vSphere environment, you can restore [vSphere virtual 
 11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected VMware datastore.
 12.	Select one of the following options for registering the restored VMs with the hosts that you selected:
     * **Register all selected virtual machines with the selected hosts only.**
-    * **Register with the selected hosts only when a virtual machine’s original hosts is not available.**
+    * **Register with the selected hosts only when a virtual machine’s original host is not available.**
 13.	To power on the VMs after they are restored, select **Power VMs on after restoring**.
 14.	In **Performance options**, keep the default setting.
 15.	Click **Run Restore**.
@@ -49,10 +49,10 @@ When VMs are protected in vSphere environment, you can restore [vSphere virtual 
 ## Restoring files and folders
 {: #restoreFFVRA}
 
-You can restore file and folders from a protected Windows&reg; VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at same time. You can't restore files and folders from Linux&reg; VMs with VRA.
+You can restore files and folders from a protected Windows&reg; VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at the same time. You can't restore files and folders from Linux&reg; VMs with VRA.
 {: important}
 
-During a files and folder restore, volumes from the selected VM are mounted as drives on the server where the VRA is running. You can then share some or all of the mounted drives so that users can copy files and folders from the drives. You can also sign in to the VRA server, and copy files and folders from the mounted drives.
+During a file and folder restore, volumes from the selected VM are mounted as drives on the server where the VRA is running. You can then share some or all of the mounted drives so that users can copy files and folders from the drives. You can also sign in to the VRA server, and copy files and folders from the mounted drives.
 
 Files and folders on the disks are accessible to anyone on the VRA system, including non-Admin users. If you're concerned about security, secure the Agent server and prevent users from logging in to the server locally.
 {: tip}
@@ -67,7 +67,7 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
     * To restore from an older safe-set, click Browse safe sets. In the calendar that appears, click the date of the safe-set from which you want to restore. Then, click the specific safe-set from which you want to restore.
 7. In the **Items to Restore** panel, select the VM with the files or folders that you want to restore.
 8. In the **Encryption Password** field, enter the data encryption password.
-9. In the **Idle Time field**, enter the number of minutes of inactivity after which the share drive is to automatically unshare. The Idle time can range 2 - 180 minutes.
+9. In the **Idle Time field**, enter the number of minutes of inactivity after which the share drive is to automatically unshare. The Idle time can range from 2 - 180 minutes.
 
     The drive does not unshare while new data is being copied. If you copy the same data from a shared drive more than once, the system might timeout because no new data is being read.
     {: note}

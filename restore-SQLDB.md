@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-04-10"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -65,7 +65,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 16. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, select the following options:
     - In the Log Level Detail list, select the level of detail for job logging.
     - Select or clear the Use all available bandwidth option.
-17. Click Run Restore. The Process Details dialog shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog window. To close the Process Details screen, click Close. Closing the window does not affect the restore process.
+17. Click Run Restore. The Process Details dialog shows the restoration progress and indicates when the restoration is complete. Other recent job processes might also be listed in the dialog window. To close the Process Details screen, click Close. Closing the window does not affect the restoration process.
 
 ## Restoring databases to Flat Files
 {: #restoreSQLDBFlatFile}
@@ -93,7 +93,7 @@ To restore an SQL Server database to flat files, complete the following tasks.
     - In the Log Level Detail list, select the level of detail for job logging.
     - Select or clear the Use all available bandwidth option.
 
-12. Click Run Restore. The Process Details dialog shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog. To close the Process Details screen, click Close. Closing the window does not affect the restore process.
+12. Click Run Restore. The Process Details dialog shows the restoration progress and indicates when the restoration is complete. Other recent job processes might also be listed in the dialog. To close the Process Details screen, click Close. Closing the window does not affect the restoration process.
 
 
 ## Restoring databases in AlwaysOn Availability groups
@@ -107,7 +107,7 @@ After you restored a database to the primary replica and added the database back
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}
 
-1. If the {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, fail over to the secondary database instance where the {{site.data.keyword.backup_notm}} Agent is installed. The formerly secondary replica where you backed up the database becomes the primary replica.
+1. If the {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, fail over to the secondary database instance where the {{site.data.keyword.backup_notm}} Agent is installed. The former secondary replica where you backed up the database becomes the primary replica.
 2. Remove the primary database from the AlwaysOn Availability Group.
 3. Delete the database from all secondary replicas.
 4. Restore the primary database to the original database name by using the Overwrite Existing Databases option.
@@ -135,7 +135,7 @@ To restore items from an SQL Server or SharePoint database, complete the followi
 5. Select Restore items to a SharePoint or SQL Server database, and click Continue. The SQL Server Restore dialog box shows the most recent safe set for the job.
 6. To restore data from an older safe set, click the calendar. In the calendar, click the date of the safe set from which you want to restore. Then, click the specific safe set that you want to use.
 7. In the Encryption Password field, enter the data encryption password. To view the password hint, click Hint.
-8. In the Idle Time field, enter the number of minutes of inactivity after which the share must automatically stop. The value can range 2 - 180 minutes.
+8. In the Idle Time field, enter the number of minutes of inactivity after which the share must automatically stop. The value can range from 2 - 180 minutes.
 9. Select or clear the Use all available bandwidth option.
 10. Click Share. The Process Details dialog shows the status of the share process. When the share is available, the share path appears next to the dialog box.
 11. Click Copy Path to Clipboard. The path is now available for you to paste into the Granular Restore application.

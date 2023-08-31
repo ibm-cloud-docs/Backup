@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-22"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -122,7 +122,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 4. In the Schedule box, click the arrow.
 5. In the Configure Job Schedule dialog box, choose one of the following options.
      - To run the backup on specific days each week, in the Schedule View list, click **Days of Week**. Select the days when you want to run the job. Then, use the At field to specify the time when you want to run the job.
-     -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the dates when you want to run the job. Then, use the At field to specify the time when you want to run the job.
+     -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the date when you want to run the job. Then, use the At field to specify the time when you want to run the job.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 6. Click **Okay**. The schedule appears in the Schedule box.
 7. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
@@ -182,8 +182,8 @@ When a cluster is fully protected, you can recover the cluster if components are
 {: #SQLDBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following logging levels from the list.
-- Files - this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory - This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
+- Files - this setting provides the most detailed information, and is typically used for troubleshooting. It provides information about files that are backed up.
+- Directory - This setting provides less detail than the Files logging level. It provides information about folders that are backed up.
 - Summary - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
 - Minimal - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 

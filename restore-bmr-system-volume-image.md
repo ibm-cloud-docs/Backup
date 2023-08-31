@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -26,7 +26,7 @@ BMR is available only for Windows&reg; Bare Metal Servers. No BMR option is avai
 You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 1. Log in to the [{{site.data.keyword.cloud_notm}} UI](/login){: external}. From the menu ![menu icon](../icons/icon_hamburger.svg "menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Click the instance name to display the details of the Backp instance.
+3. Click the instance name to display the details of the Backup instance.
 4. In the Installed plug-ins section, click **Initiate Bare Metal Restore**.
 5. You're prompted to confirm the action. To proceed, click *Initiate Bare Metal Restore**. The transaction takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed in the next section. You're going to be emailed when the system completes the boot process.
 
@@ -50,15 +50,15 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 
 5. The system restore wizard appears. Select **Next** to continue.
 
-    ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restore process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
+    ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restoration process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
 
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
 
 7. On the **backup location** screen, select the vault, and enter in the vault address, account number, the username, and password. Then, click **Next** to continue.
 
-    ![Figure 4 - Choose backup location.](/images/bmr4.svg){: caption="Figure 4. Choose backup location." caption-side="bottom"}
+    ![Figure 4 - Choose a backup location.](/images/bmr4.svg){: caption="Figure 4. Choose a backup location." caption-side="bottom"}
 
-    For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
 8. The next screen displays your system in the list. Make sure it is highlighted and click **Next**.
@@ -77,7 +77,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 
     ![Figure 8 - Select Source and Destination Volumes](/images/bmr9.svg){: caption="Figure 8. Select Source and Destination Volumes." caption-side="bottom"}
 
-12. On the format or merge data confirmation box, you can select from two options. Select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
+12. In the format or merge data confirmation box, you can select from two options. Select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
 
     ![Figure 9 - Choose Merge](/images/bmr10.svg){: caption="Figure 9. Choose Merge." caption-side="bottom"}
 
@@ -90,7 +90,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 
     ![Figure 11 - Restore Progress](/images/bmr12.svg){: caption="Figure 11. Restore in Progress." caption-side="bottom"}
 
-16. When complete, you receive a notification window that states that the restore was completed successfully. Click **OK**.
+16. When complete, you receive a notification window that states that the restoration was completed successfully. Click **OK**.
 17. On the restore progress screen. Click **Next**.
 18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image.
     The restoration is now complete.

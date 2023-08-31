@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-05-24"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -15,7 +15,7 @@ subcollection: Backup
 # Expanding vault capacity
 {: #expandcapacity}
 
-Current {{site.data.keyword.cloud}} users are able to expand the size of their vault up to 12000 GB. They don't need to create a duplicate or manually migrate data to a larger volume. The limit increase process does not cause any outage or lack of access.
+The first 10 GB of vault space is provided at no cost to you. When you need to increase the vault capacity, you can expand the size of your vault up to 12,000 GB. You don't need to create a duplicate or manually migrate data to a larger volume. The limit increase process does not cause any outage or lack of access.
 {: shortdesc}
 
 ## Ordering an increase in the UI
@@ -52,7 +52,7 @@ For more information about arguments and attributes, see [ibm_storage_evault](ht
 ## Billing
 {: #changeinbilling}
 
-Billing for the volume is automatically updated to add the pro-rated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
+Billing for the volume is automatically updated to add the prorated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
 
 The same process can be used to downsize your {{site.data.keyword.backup_notm}}.
 {: tip}

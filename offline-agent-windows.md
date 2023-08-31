@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -32,7 +32,7 @@ Currently, at minimum, your servers must allow access to the `10.200.86.0/24` an
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
 {: tsResolve}
 
-1. Establish Remote Desktop connection to the offline Agent server.
+1. Establish a Remote Desktop connection to the offline Agent server.
 2. Then, run one of the following commands to check the ports.
    * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
     ```sh
@@ -40,7 +40,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
     ```
     {: pre}
 
-    If the port is open, CMD shows a blank screen. If the port is not open, CMD returns the following message.
+    If the port is open, the CMD shows a blank screen. If the port is not open, CMD returns the following message.
     ```sh
     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
     ```
@@ -71,13 +71,13 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 ## BUAgent isn't running
 {: #ts-WinAgentbua}
 
-When `BUAgent` process is no longer active on the server, the Window Agent appears offline in the Portal.
+When the `BUAgent` process is no longer active on the server, the Window Agent appears offline in the Portal.
 {: tsCauses}
 
 Restart the Carbonite EVault Server Backup BUAgent in Services.msc.
 {: tsResolve}
 
-1. Establish Remote Desktop connection to the offline Agent server.
+1. Establish a Remote Desktop connection to the offline Agent server.
 2. Open `Services.msc`.
 3. Restart the BUAgent service.
 4. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
@@ -95,7 +95,7 @@ If the previous steps don't work, pull up and review the most recent BUAgent-X.X
    C:\Program Files\Evault Software\Agent\
    ```
 
-2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or WordPad. You must open the file with the LogViewer.exe in the Bin32 folder of the Agent install.
+2. Find the name of the most recent `BUAgent-x.XLOG`. The file doesn't open with Notepad or WordPad. You must open the file with the `LogViewer.exe` in the `Bin32` folder of the Agent install.
 3. Right-click the most recent `BUAgent-.XLOG` and select **open with**.
 4. Click **More Apps**, then click **open with another application**.
 5. Scroll down and click **Look for another app on this PC**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-25"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Managing username and password for the {{site.data.keyword.backup_notm}} service
+# Managing the username and password for the {{site.data.keyword.backup_notm}} service
 {: #changePassword}
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.
