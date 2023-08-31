@@ -62,7 +62,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 4. Enter the encryption password.
 5. The Restore window appears. By default, it displays the most recent safe set. To choose a different date, click the Calendar icon, and view other safe sets.
 6. Select the files and directories that you want to include. Then, click **Include** to save your choices.
-   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and alternative restore location can be selected from Restore Destination options.
+   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
    {: note}
 
 7. When your restore set is configured the way that you want it, click **Apply Now**.

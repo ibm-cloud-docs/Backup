@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "22023-08-31"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -27,7 +27,7 @@ The reregistration of the computer to the vault is not the same as registering t
    Remember, Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external}.
    {: tip}
 
-2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to second vault.
+2. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer that you want to back up to the second vault.
 3. Click **Vault Settings**.
 4. Click **Re-register**.
 5. Complete the form.

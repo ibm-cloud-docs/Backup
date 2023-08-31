@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -22,7 +22,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 
 - You can run full database backups, full database with transaction logs backups, or transaction logs only backup.
 - You can run multiple backups at the same time.
-- You can restore SQL databases to the same SQL instance or to a different SQL instance,
+- You can restore SQL databases to the same SQL instance or to a different SQL instance.
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
 
 ## Main features

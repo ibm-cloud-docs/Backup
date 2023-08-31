@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "22023-08-31"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 

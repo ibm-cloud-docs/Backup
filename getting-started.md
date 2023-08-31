@@ -95,7 +95,7 @@ This job can be modified after it was configured.
 3. Add a password hint.
 4. Click **Configure automatically**.
 
-- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
 For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
 {: tip}
@@ -108,7 +108,7 @@ Archiving is not supported. When you create a retention scheme or modify an exis
 {: step}
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions**, and click **Run Job**.
-2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
+2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, and the backup job keeps running in the background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console

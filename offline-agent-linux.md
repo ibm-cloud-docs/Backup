@@ -35,7 +35,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 ## BUAgent service isn't running
 {: #ts-LinuxAgentbua}
 
-When `BUAgent` process is no longer active on the server, the Linux&reg; Agent appears offline in the Cloud Backup Portal.
+When the `BUAgent` process is no longer active on the server, the Linux&reg; Agent appears offline in the Cloud Backup Portal.
 {: tsCauses}
 
 Ensure that the BUAgent is running by issuing the following command on the Linux&reg; system.
@@ -64,7 +64,7 @@ BUAgent is running (PID: )
    ```
    {: pre}
 
-## Agent needs to be reregistered to the Cloud Backup portal
+## The agent needs to be reregistered to the Cloud Backup portal
 {: #reregistagentinportal}
 
 If it still shows that the Agent is offline after a refresh of the Portal page, then the Agent needs to be registered again.

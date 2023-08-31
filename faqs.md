@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-28"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -194,7 +194,7 @@ Database backups must be made separately with the normal {{site.data.keyword.bac
 {: #bmr-restore}
 {: support}
 
-You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current files backup job. The restore process is done inside the OS, just like a traditional backup job.
+You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current file backup job. The restore process is done inside the OS, just like a traditional backup job.
 
 ## Does BMR have open file back up capabilities?
 {: faq}

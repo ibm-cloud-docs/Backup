@@ -126,4 +126,4 @@ This step is required for RHEL, but optional for other distributions.
 ## Next steps
 {: #afterinstalllin}
 
-Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/Backup?topic=Backup-getting-started#getting-started) and [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
