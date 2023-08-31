@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "22023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -35,7 +35,7 @@ The reregistration of the computer to the vault is not the same as registering t
    - Vault address
    - Account
 
-    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
    - User name

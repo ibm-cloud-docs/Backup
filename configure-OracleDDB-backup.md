@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-04-11"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -80,7 +80,7 @@ To add an Oracle database backup job, complete the following tasks.
 3. In the Schedule box, click the arrow.
 4. In the Configure Job Schedule dialog box, choose one of the following options.
      - To run the backup on specific days each week, in the Schedule View list, click **Days of Week**. Select the days when you want to run the job. Then, use the At field to specify the time when you want to run the job.
-     -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the dates when you want to run the job. Then, use the At field to specify the time when you want to run the job.
+     -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the date when you want to run the job. Then, use the At field to specify the time when you want to run the job.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 5. Click **Okay**. The schedule appears in the Schedule box.
 6. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
@@ -101,8 +101,8 @@ To add an Oracle database backup job, complete the following tasks.
 {: #ODBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following levels from the list.
-- Files - this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory - This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
+- Files - this setting provides the most detailed information, and is typically used for troubleshooting. It provides information about files that are backed up.
+- Directory - This setting provides less detail than the Files logging level. It provides information about folders that are backed up.
 - Summary - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
 - Minimal - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 

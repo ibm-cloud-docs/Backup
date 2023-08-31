@@ -31,7 +31,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 ## Pages in the Portal
 {: #pagesinportal}
 
-Portal includes a series of pages where you can perform various tasks for managing backups and restores.
+The portal includes a series of pages where you can perform various tasks for managing backups and restores.
 
 ### Dashboard
 {: #portaldashboard}
@@ -43,7 +43,7 @@ For more
 ### Computers
 {: #portalcomputers}
 
-On the Computers page, you can view server information, configure backup jobs, run jobs, and restore data. For more information about how to configure backupjobs, see [Configuring the backup agent and the backup schedule](/docs/Backup?topic=Backup-getting-started#configureagentschedule). For more information about how to run jobs, see [running your first backup job](/docs/Backup?topic=Backup-getting-started#runfirstbackup). For more information about restoring data, see [Restoring data from a backup](/docs/Backup?topic=Backup-simplerestore).
+On the Computers page, you can view server information, configure backup jobs, run jobs, and restore data. For more information about how to configure backup jobs, see [Configuring the backup agent and the backup schedule](/docs/Backup?topic=Backup-getting-started#configureagentschedule). For more information about how to run jobs, see [running your first backup job](/docs/Backup?topic=Backup-getting-started#runfirstbackup). For more information about restoring data, see [Restoring data from a backup](/docs/Backup?topic=Backup-simplerestore).
 
 ### Monitor
 {: #portalmonitor}

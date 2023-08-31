@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -22,14 +22,14 @@ The process includes reregistering the backup agent on the second server to acce
 ## Pre-requisites
 {: #prereqsrestore2}
 
-- Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the Backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
-- A backup job for Server1 that produced a backup to Server1's vault location.
+- Server 1 and Server 2 must have the same Operating System. Cross-platform restores aren't supported.
+- Server 1 and Server 2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the Backup agent in Cloud Backup Portal](/docs/Backup?topic=Backup-getting-started#getting-started).
+- A backup job for Server 1 that produced a backup to Server 1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.
 {: important}
 
-## Starting Cloud Backup Portal of Server2
+## Starting Cloud Backup Portal of Server 2
 {: #startPortalotherDC}
 
 Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} connection to get access to the {{site.data.keyword.cloud}} private network or the Cloud Backup Portal link doesn't work.
@@ -40,29 +40,29 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 4. Click **View backup portal** to start the portal in your browser.
 
-If current backup jobs are registered for Server2, they must be removed. You can delete existing jobs on the Computers > Jobs page by selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
+If current backup jobs are registered for Server 2, they must be removed. You can delete existing jobs on the Computers > Jobs page by selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
  Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
  {: note}
 
- If a current backup vault is registered to Server2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
+ If a current backup vault is registered to Server 2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
 
 ## Reregistering the vault
 {: #reregistervaultotherDC}
 
 1. When the Vault Settings tab is blank, click **Re-register**. On the next screen, for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
-2. Enter the Vault Name, which is the same as the vault name of Server1.
-3. Enter credentials for Server1 to log in to the vault for Server1.
+2. Enter the Vault Name, which is the same as the vault name of Server 1.
+3. Enter credentials for Server 1 to log in to the vault for Server 1.
 4. Click **Load Computers**, this action displays the servers that are attached to the vault location.
 5. Click **Save**.
 6. When prompted, click **Yes** to confirm the reregistration of the vault.
 
-## Running the backup job from Server1 as the restore job on Server2
+## Running the backup job from Server 1 as the restore job on Server 2
 {: #runbackuprestoreotherDC}
 
 1. Click **Jobs**.
 
-   You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
+   You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized under the Server 2 **Jobs** tab.
    {: tip}
 
 2. From the Action menu, select **Restore**.
@@ -80,7 +80,7 @@ If current backup jobs are registered for Server2, they must be removed. You can
 ## Verifying the restore
 {: #verifyrestoreotherDC}
 
-1. Connect to the root of Server2 through ssh.
+1. Connect to the root of Server 2 through ssh.
 2. List the files and all directory entries in a long format.
     ```sh
     ls -la

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-22"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -182,8 +182,8 @@ When a cluster is fully protected, you can recover the cluster if components are
 {: #SQLDBLogfile}
 
 When you create or edit a backup job, you can specify the level of detail for job logging. Select one of the following logging levels from the list.
-- Files - this setting provides the most detailed information, and is typically used for troubleshooting. Provides information about files that are backed up.
-- Directory - This setting provides less detail than the Files logging level. Provides information about folders that are backed up.
+- Files - this setting provides the most detailed information, and is typically used for troubleshooting. It provides information about files that are backed up.
+- Directory - This setting provides less detail than the Files logging level. It provides information about folders that are backed up.
 - Summary - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version, and backup sizes.
 - Minimal - This setting provides high-level information, including the vault and {{site.data.keyword.backup_notm}} Agent version.
 

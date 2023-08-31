@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-08-31"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -84,7 +84,7 @@ Answer the following prompts.
 * What is the web-based Agent Console username? This entry is the same username that is used to log in to Portal.
 * What is the web-based Agent Console password? This entry is the same password that is used to log in to Portal.
 
-For more information about viewing or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+For more information about viewing or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: tip}
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -58,7 +58,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 
     ![Figure 4 - Choose backup location.](/images/bmr4.svg){: caption="Figure 4. Choose backup location." caption-side="bottom"}
 
-    For more information about viewing the username or changing the backup password, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+    For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
     {: tip}
 
 8. The next screen displays your system in the list. Make sure it is highlighted and click **Next**.

@@ -44,10 +44,10 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 8. In the Create New Job window, enter a Job Name and a Job Description.
 9. Select the files and folders that you want to include in the backup.
 10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
-   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. Lost password cannot be recovered in any way.
+   You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. The lost password cannot be recovered in any way.
    {: important}
 
-11. Click **Apply now** to confirm the backup sets.
+11. Click **Apply now** to confirm the backup set.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
 13. Click **Create Job**.
 14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new window, select the appropriate retention period and click **Save**.

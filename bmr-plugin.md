@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2019-08-01"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -23,7 +23,7 @@ BMR is a Windows&reg;-only product on physical servers. It is not available for 
 ## Capabilities provided
 {: #BMRcapabilities}
 
-- Restore your system to a select point-in-time.
+- Restore your system to a selected point in time.
 - Restore your system from image or file-based backups.
 - Restore your system from backups that are stored on the {{site.data.keyword.backup_notm}}.
 - Start a recovery transaction that you can use to restore your data without a bootable system.

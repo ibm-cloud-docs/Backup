@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-28"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -36,7 +36,7 @@ Ensure that power management is disabled on the server where you install the VRA
     * In the **Network address** field, type `cloudbackupregister.service.softlayer.com`.
     * In the **Port** field, type `8086`.
     * In **username** field, type the {{site.data.keyword.backup_notm}} username for managing the VRA.
-      For more information about viewing the username, see [Managing username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
+      For more information about viewing the username, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 
     * In **Password** field, type the password of the specified {{site.data.keyword.backup_notm}} user.
