@@ -8,6 +8,7 @@ keywords: troubleshoot for backup agent, troubleshooting for Linux, question abo
 
 subcollection: Backup
 
+content-type: troubleshoot
 ---
 
 {{site.data.keyword.attribute-definition-list}}
