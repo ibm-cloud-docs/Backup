@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-04-24"
+lastupdated: "2023-10-12"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -27,15 +27,16 @@ If you cancel the virtual or the Bare Metal Server that the {{site.data.keyword.
 {: ui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
-2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select **Actions** > **Cancel {{site.data.keyword.backup_notm}}**.
-4. Choose to cancel **Immediately** or on the **Anniversary Date**.
+1. Click **Storage** > **Cloud Backup** to display the servers with backup service.
+1. Click the name of the instance that you want to delete. This action displays the Backup service's details page.
+1. Select **Actions** > **Delete**.
+1. Choose to cancel **Immediately** or on the **Anniversary Date**.
 
    You can cancel the service anytime. However, when a backup vault is deleted before the end of the monthly billing cycle, you do not receive a refund.
    {: important}
 
-5. Select **Continue**.
-6. Acknowledge that cancellation might cause data loss in the future by checking the box. Then, select **Cancel {{site.data.keyword.backup_notm}}**.
+1. Select **Continue**.
+1. Acknowledge that cancellation might cause data loss in the future by checking the box. Then, select **Delete**.
 
 ## Cancel the service with Terraform
 {: #cancelbackupterraform}
