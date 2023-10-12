@@ -36,7 +36,7 @@ If you cancel the virtual or the Bare Metal Server that the {{site.data.keyword.
    {: important}
 
 1. Select **Continue**.
-1. Acknowledge that cancellation might cause data loss in the future by checking the box. Then, select **Delete**.
+1. Acknowledge that cancellation might cause data loss in the future by checking the box. After that, click **Delete**.
 
 ## Cancel the service with Terraform
 {: #cancelbackupterraform}

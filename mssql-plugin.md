@@ -32,7 +32,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 - Ability to protect secondary databases in AlwaysOn Availability Groups by using the 64-bit Agent and SQL Server plug-in.
 - Ability to share SQL safe-sets that contain SharePoint 2010/2013 content databases for use with the Granular Restore for Microsoft&reg; SharePoint application. After the safe-set is shared, the Granular Restore application can be used to restore site collections, websites, lists, libraries, folders, list items, or documents.
 - Support for Delta-friendly backup of databases that are on spanned volumes.
-- Ability to protect databases in full recovery model with a single schedule entry. This option allows protecting databases and managing truncation of transaction logs in a single schedule entry.
+- Ability to protect databases in a full recovery model with a single schedule entry. This option allows protecting databases and managing truncation of transaction logs in a single schedule entry.
 - The SQL Server plug-in supports Full, Full with Include Transaction Logs, and Transaction Log backups (updated terminology to align with SQL Server terminology). The application continues to support the Single Pass Restore function that allows the customer to select a point in time “transaction log” backup. {{site.data.keyword.backup_notm}} restores the full database and all transaction logs necessary to restore the database to the selected point in time.
 - A backup job can contain one or more databases from the same single SQL Server instance. A separate Job can be created to back up other databases from a different SQL Server instance, which can be run simultaneously if wanted.
 - Ability to restore databases with "No Recovery" to provide more recovery options through the SQL Server Management Studio.
@@ -68,7 +68,7 @@ Review the Release Notes to ensure that the Backup agent is compatible with SQL 
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}
 
-The SQL Server plug-in can back up databases that span volumes, databases with TDE and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction logs backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
+The SQL Server plug-in can back up databases that span volumes, databases with TDE and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters. For more information, see [Configuring MSSQL database backups](/docs/Backup?topic=Backup-configureMSSQLBackup).
 
 ## Restoring an MSSQL DB
 {: #restoringSQLDBBbackup}
