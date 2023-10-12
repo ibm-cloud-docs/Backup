@@ -76,5 +76,5 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
 11.	Click **Run Restore**.
 12. The restored volumes from the selected VM are mapped as drives on the server where the VRA is running, and are available in a Restore Mount folder. Take one of the following steps.
     * Copy files and folders that you want to restore from mapped drives.
-    * Share one or more mapped drives with other users. Users can then access the UNC share, and copy files and folders that they want to restore.
+    * Share one or more drives with other users. Users can then access the UNC share, and copy files and folders that they want to restore.
     * Share one or more directories from the Restore Mount folder on the VRA server. Users can then access the UNC share, and copy files and folders that they want to restore.
