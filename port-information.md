@@ -80,5 +80,5 @@ The agent must allow the TCP port 2548 inbound on the private network. This sett
 
 The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows&reg; operating systems.
 
-When it comes to connection settings, the difference between desktop Central Control and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the desktop-utilized Central Control connects to your server, by using its address and the server's credentials to access it.
+When it comes to connection settings, the difference between desktop Central Control and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the desktop-based Central Control connects to your server, by using its address and the server's credentials to access it.
 {: tip}
