@@ -189,7 +189,7 @@ BMR backup isn't a disk image, but a system volume image backup system. The syst
 Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data.
 
 
-## What kind of restore jobs can be run with BMR?
+## What kind of restore can be run with BMR?
 {: faq}
 {: #bmr-restore}
 {: support}
@@ -308,12 +308,12 @@ backup history of test/
 10-May 19:30:15 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
 ```
 
-## I'd like to free up space in my vault, how can I remove a specific safeset?
+## I'd like to free up space in my vault, how can I remove a specific safe set?
 {: faq}
 {: #deletesafeset}
 {: support}
 
-Customers cannot delete the backup safesets. If you want to remove a specific safeset, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
+Customers cannot delete the backup safe sets. If you want to remove a specific safe set, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
 
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
 {: important}
