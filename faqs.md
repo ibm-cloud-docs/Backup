@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-11-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -313,13 +313,15 @@ backup history of test/
 {: #deletesafeset}
 {: support}
 
-Customers cannot delete the backup safe sets. If you want to remove a specific safe set, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
+Customers cannot delete specific backup safe sets. If you want to remove a specific safe set, create a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} so that the {{site.data.keyword.cloud_notm}} Backup Admins can erase it on the backend.
 
 When a Backup deletion request is submitted to the vaults, the data is automatically deleted from the associated vaults. Because backup deletion requests are submitted and processed by the vaults immediately, backup deletion requests cannot be canceled.
 {: important}
 
 Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
 {: attention}
+
+If you want to remove all the backups that were created for a server, you can follow the instructions in [Deleting backup tasks](/docs/Backup?topic=Backup-deletetasks&interface=ui).
 
 ## What happens to backups when the Backup service is canceled? Can you keep the backups for later use and restore to another server?
 {: faq}

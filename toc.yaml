@@ -61,7 +61,7 @@ toc:
             topics:
             - expanding-capacity.md
             - reregister.md
-            - delete-jobs.md
+            - delete-tasks.md
         - topicgroup:
             label: Restores
             topics:
