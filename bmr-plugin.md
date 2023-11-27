@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-11-27"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Learn about the Bare Metal Restore plug-in
+# Getting started with the Bare Metal Restore plug-in
 {: #BMRplugin}
 
 Bare Metal Restore is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
