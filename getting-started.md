@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-11-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -79,23 +79,23 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 4. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 5. Click **View backup portal** to start the portal in your browser.
 
-## Configuring the backup agent and the backup schedule
+## Configuring the backup job and the backup schedule
 {: #configureagentschedule}
 {: step}
 
-After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
+After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup job configuration methods.
 
-- The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or `./ <root>` directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
+- The automatic configuration creates a backup job of the complete C Drive [Windows]{: tag-windows} or `./ <root>` directory [Linux]{: tag-linux} with Monthly and Daily Retention schemes.
 
-This job can be modified after it was configured.
-{: note}
+   This job can be modified after it was configured.
+   {: note}
 
-1. Create a password.
-2. Confirm the password.
-3. Add a password hint.
-4. Click **Configure automatically**.
+   1. Create a password.
+   2. Confirm the password.
+   3. Add a password hint.
+   4. Click **Configure automatically**.
 
-- If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
+- If you choose to configure the job manually, the automatic settings are ignored. Then, you can specify the folders and files to be kept with a retention scheme of your choice. For more information, see [Configuring a simple file-level backup](/docs/Backup?topic=Backup-configureFileBackup).
 
 For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
 {: tip}
