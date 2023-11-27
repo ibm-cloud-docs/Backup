@@ -39,12 +39,18 @@ toc:
             label: Provisioning and configuration
             topics:
             - index.md
-            - install-backup-client-linux.md
-            - upgrade-backup-agent-linux.md
-            - install-backup-client-windows.md
-            - upgrade-backup-agent-windows.md
+            - topicgroup:
+                label: Installing the agent
+                topics:
+                - install-backup-client-linux.md
+                - upgrade-backup-agent-linux.md
+                - install-backup-client-windows.md
+                - upgrade-backup-agent-windows.md
             - port-information.md
             - multivaulting.md
+        - topicgroup:
+            label: Configuring the backup jobs
+            topics:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
             - configure-OracleDDB-backup.md
