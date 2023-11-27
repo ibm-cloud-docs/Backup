@@ -16,7 +16,7 @@ subcollection: Backup
 {: help}
 {: support}
 
-A backup job specifies which data to back up on a system, specifies where to save the data, and provides other backup settings. A backup task is the data that is stored in the vault. You can delete backup jobs from online servers without deleting the job data from vaults from the Cloud Backup Portal, so you can use the data later to restore a server. To delete the entire task from the vault follow these instructions.
+A backup job specifies which data to back up on a system, specifies where to save the data, and provides other backup settings. A backup task is the data that is stored in the vault. You can delete backup jobs from online servers without deleting the job data from vaults from the Cloud Backup Portal, so you can use the data later to restore a server. To delete the entire task from the vault, follow these instructions.
 {: shortdesc}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
@@ -24,7 +24,7 @@ A backup job specifies which data to back up on a system, specifies where to sav
 1. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 1. Click **Backup** on the Cloud Backup details page. Jobs and Tasks information is displayed. 
 
-   For example, each virtual machine in a Hyper-V backup job is backed up as a separate task on the vault, and is automatically assigned a unique task name. To help you find each task on the vault, you can view the task name for each protected Hyper-V VM in the Cloud Backup Portal. The task name for each VM is shown on the Virtual Machines tab for a Hyper-V Agent. In previous Portal versions, the task name appeared in a tooltip if you pointed to the VM name.
+   For example, each virtual machine in a Hyper-V backup job is backed up as a separate task on the vault, and is automatically assigned a unique task name. To help you find each task on the vault, you can view the task name for each protected Hyper-V VM in the Cloud Backup Portal. The task name for each VM is shown on the virtual machines tab for a Hyper-V Agent. In previous Portal versions, the task name appeared in a tooltip if you pointed to the VM name.
    {: note}
 
 1. Locate the task that you want to delete from the vault. Click the minus sign to remove the data from the vault. 
