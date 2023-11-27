@@ -49,7 +49,7 @@ toc:
             - port-information.md
             - multivaulting.md
         - topicgroup:
-            label: Configuring the backup jobs
+            label: Creating the backup jobs
             topics:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
@@ -57,7 +57,7 @@ toc:
             - configure-SQLDB-backup.md
             - configure-vra.md
         - topicgroup:
-            label: Managing
+            label: Managing the vault
             topics:
             - expanding-capacity.md
             - reregister.md
