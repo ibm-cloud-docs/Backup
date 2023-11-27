@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-11-27"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Learn about the Oracle plug-in
+# Getting started with the Oracle plug-in
 {: #Oracleplugin}
 
 The Oracle plug-in is an add-on and is installed with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.

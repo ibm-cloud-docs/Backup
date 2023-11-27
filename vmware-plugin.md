@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-11-27"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Learn about the vSphere Recovery Agent
+# Getting started with the vSphere Recovery Agent
 {: #VRA}
 
 The vSphere Recovery Agent (VRA) is a Windows&reg; application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.

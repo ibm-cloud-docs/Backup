@@ -23,14 +23,6 @@ toc:
         - link:
             label: What is IBM Cloud Backup?
             href: https://www.ibm.com/cloud/learn/backup-and-restore
-        - topicgroup:
-            label: Plug-ins
-            topics:
-            - bmr-plugin.md
-            - exchange-plugin.md
-            - mssql-plugin.md
-            - oracle-plugin.md
-            - vmware-plugin.md
 
     - navgroup:
         id: howto
@@ -48,6 +40,14 @@ toc:
                 - upgrade-backup-agent-windows.md
             - port-information.md
             - multivaulting.md
+            - topicgroup:
+                label: Plug-ins
+                topics:
+                - bmr-plugin.md
+                - exchange-plugin.md
+                - mssql-plugin.md
+                - oracle-plugin.md
+                - vmware-plugin.md
         - topicgroup:
             label: Creating the backup jobs
             topics:
