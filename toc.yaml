@@ -23,15 +23,6 @@ toc:
         - link:
             label: What is IBM Cloud Backup?
             href: https://www.ibm.com/cloud/learn/backup-and-restore
-
-    - navgroup:
-        id: howto
-        topics:
-        - topicgroup:
-            label: Provisioning
-            topics:
-            - index.md
-            - expanding-capacity.md
         - topicgroup:
             label: Plug-ins
             topics:
@@ -40,16 +31,26 @@ toc:
             - mssql-plugin.md
             - oracle-plugin.md
             - vmware-plugin.md
+
+    - navgroup:
+        id: howto
+        topics:
         - topicgroup:
-            label: Configuration
+            label: Provisioning and configuration
             topics:
-            - install-backup-client-linux.md
-            - upgrade-backup-agent-linux.md
-            - install-backup-client-windows.md
-            - upgrade-backup-agent-windows.md
+            - index.md
+            - topicgroup:
+                label: Installing the backup agent
+                topics:
+                - install-backup-client-linux.md
+                - upgrade-backup-agent-linux.md
+                - install-backup-client-windows.md
+                - upgrade-backup-agent-windows.md
             - port-information.md
-            - reregister.md
             - multivaulting.md
+        - topicgroup:
+            label: Creating the backup jobs
+            topics:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
             - configure-OracleDDB-backup.md
@@ -65,6 +66,12 @@ toc:
             - restore-OracleDB.md
             - restore-SQLDB.md
             - restore-vsphere.md
+        - topicgroup:
+            label: Managing the vault
+            topics:
+            - expanding-capacity.md
+            - reregister.md
+            - delete-tasks.md
 
     - navgroup:
         id: reference
