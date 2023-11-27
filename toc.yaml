@@ -40,7 +40,7 @@ toc:
             topics:
             - index.md
             - topicgroup:
-                label: Installing the agent
+                label: Installing the backup agent
                 topics:
                 - install-backup-client-linux.md
                 - upgrade-backup-agent-linux.md
@@ -57,12 +57,6 @@ toc:
             - configure-SQLDB-backup.md
             - configure-vra.md
         - topicgroup:
-            label: Managing the vault
-            topics:
-            - expanding-capacity.md
-            - reregister.md
-            - delete-tasks.md
-        - topicgroup:
             label: Restores
             topics:
             - restore-backup.md
@@ -72,6 +66,12 @@ toc:
             - restore-OracleDB.md
             - restore-SQLDB.md
             - restore-vsphere.md
+        - topicgroup:
+            label: Managing the vault
+            topics:
+            - expanding-capacity.md
+            - reregister.md
+            - delete-tasks.md
 
     - navgroup:
         id: reference
