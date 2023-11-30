@@ -30,8 +30,8 @@ To restore a database directly to SQL Server, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available computers.
 2. Find the server with the SQL Server database backup that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
-4. Find the job with the database that you want to restore. In the job’s Select Action menu, click Restore.
-5. In the Choose how to restore dialog box, select Restore database to an SQL Server instance.
+4. Find the job with the database that you want to restore. In the job’s Select Action menu, click **Restore**.
+5. In the Choose how to restore dialog box, select **Restore database to an SQL Server instance**.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
 7. Connect to the instance by using one of the following methods.
    - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the username, password, and domain in the appropriate fields.
@@ -81,9 +81,9 @@ To restore an SQL Server database to flat files, complete the following tasks.
 6. Click Continue. The SQL Server Restore dialog shows the most recent safe set for the job.
 7. To restore data from an older safe set, or from SSI (safe set image) files, take one of the following steps.
    - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. To the right of the calendar, click the specific safe set that you want to use.
-   - To restore data from SSI (safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder. In the Select Folder dialog, select the directory where the files are located, and click Okay.
+   - To restore data from safe set image (SSI) files on disk, select **Directory on disk** from the Source Device list. Click the folder. In the Select Folder dialog, select the directory where the files are located, and click **Okay**.
 
-   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. Note: You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
+   SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
    {: note}
 
 8. In the Database Selection, select the checkbox for each database that you want to restore.
@@ -99,7 +99,7 @@ To restore an SQL Server database to flat files, complete the following tasks.
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed before you attempt the restore.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed. Then, you can attempt the restore.
 {: requirement}
 
 After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
