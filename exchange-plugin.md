@@ -31,8 +31,8 @@ Before you install the plug-in for your MS Windows&reg; server, stop both {{site
 1. Browse to the `c:\installs\{{site.data.keyword.backup_notm}}` folder and run the .exe file with the higher revision number.
 2. At the language screen, click **OK**.
 3. At the welcome screen, click **Next**.
-4. Select the **Modify installation**, and click **Next**.
-5. Select the **Leave Unchanged**, and click **Next**.
+4. Select **Modify installation**, and click **Next**.
+5. Select **Leave Unchanged**, and click **Next**.
 6. At the custom setup screen, select each plug-in that you purchased.
 7. Select **This feature will be installed on ...**, then click **Next**.
 8. Select **Keep my current registration**, and click **Next**.

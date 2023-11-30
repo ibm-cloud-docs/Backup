@@ -85,7 +85,7 @@ Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup job configuration methods.
 
-- The automatic configuration creates a backup job of the complete C Drive [Windows]{: tag-windows} or `./ <root>` directory [Linux]{: tag-linux} with Monthly and Daily Retention schemes.
+- The automatic configuration creates a backup job of the complete C Drive in [Windows]{: tag-windows} or `./ <root>` directory in [Linux]{: tag-linux} with Monthly and Daily Retention schemes.
 
    This job can be modified after it was configured.
    {: note}
