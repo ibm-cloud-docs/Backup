@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2023
-lastupdated: "2023-11-27"
+lastupdated: "2023-12-11"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -46,24 +46,13 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 ## Installing the MSSQL plug-in
 {: #installSQLPlugin}
 
-To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
+To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom Setup** page.
 
 Before you install the MSSQL plug-in for your Microsoft&reg; Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 Review the Release Notes to ensure that the Backup agent is compatible with SQL of your database.
 {: tip}
 
-1. Run the Agent installation package.
-2. At the language screen, click **OK**.
-3. At the welcome screen, click **Next**.
-4. Select the **Modify installation**, and click **Next**.
-5. Select the **Leave Unchanged**, and click **Next**.
-6. At the custom setup screen, select each plug-in that you purchased.
-7. Select **This feature will be installed on ...**, then click **Next**.
-8. Select **Keep my current registration** and click **Next**.
-9. Click **Install**.
-10. When installed, check to ensure that both services are enabled and running.
-11. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
-
+When the installation is complete, check to ensure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
 ## Configuring an MSSQL DB backup job
 {: #configSQLDBbackup}

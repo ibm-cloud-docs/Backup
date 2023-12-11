@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-11-27"
+lastupdated: "2023-12-11"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -28,17 +28,7 @@ The Exchange plug-in is installed during the Windows&reg; Agent 64-bit installat
 Before you install the plug-in for your MS Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}
 
-1. Browse to the `c:\installs\{{site.data.keyword.backup_notm}}` folder and run the .exe file with the higher revision number.
-2. At the language screen, click **OK**.
-3. At the welcome screen, click **Next**.
-4. Select **Modify installation**, and click **Next**.
-5. Select **Leave Unchanged**, and click **Next**.
-6. At the custom setup screen, select each plug-in that you purchased.
-7. Select **This feature will be installed on ...**, then click **Next**.
-8. Select **Keep my current registration**, and click **Next**.
-9. Click **Install**.
-10. When installed, check to ensure that both services are enabled and running.
-11. If Cloud Backup Portal is able to access or view the database, then the installation was successful.
+When the installation is complete, check to ensure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
 ## Downloading the user guide
 {: #ExchangeUserGuide}

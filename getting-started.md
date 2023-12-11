@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-11-27"
+lastupdated: "2023-12-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -66,6 +66,29 @@ Windows 2019 does successfully back up with the Windows agent version 8.60. Howe
 Follow the instructions appropriate for your OS,
 - [Linux]{: tag-linux} [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
 - [Windows]{: tag-windows} [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
+
+## Installing the plug-ins
+{: #installpluginsgettingstarted}
+{: step}
+
+After the agent is installed, you can add plug-ins at any time. To install a plug-in, run the Agent installation kit. The plug-in appears as an option on the Custom Setup page.
+
+1. Run the {{site.data.keyword.backup_notm}} Software Agent - installation program.
+1. At the welcome screen, click **Next**.
+1. Select **Modify**.
+1. Select to leave the logon credentials for the agent services unchanged. Click **Next**.
+1. From the list of plug-ins, select the one that you want to install. Then, select the option to install the feature on the local hard disk. Click **Next**.
+1. Select **Keep my current registration**. Click **Next**.
+1. Click **Install**.
+1. When the installation is complete, click **Finish**.
+1. Check to ensure that the services are enabled and running.
+
+For more information about the available plug-ins, see the following topics.
+- [Bare Metal Server plug-in](/docs/Backup?topic=Backup-BMRplugin)
+- [Exchange plug-in](/docs/Backup?topic=Backup-Exchangeplugin)
+- [SQL Server plug-in](/docs/Backup?topic=Backup-MSSQLplugin)
+- [Oracle plug-in](/docs/Backup?topic=Backup-Oracleplugin)
+- [vSphere Recovery Agent](/docs/Backup?topic=Backup-VRA)
 
 ## Accessing the Cloud Backup Portal
 {: #accessingPortal}
