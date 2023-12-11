@@ -73,11 +73,11 @@ Follow the instructions appropriate for your OS,
 
 After the agent is installed, you can add plug-ins at any time. To install a plug-in, run the Agent installation kit. The plug-in appears as an option on the Custom Setup page.
 
-1. Run the {{site.data.keyword.backup_notm}} Software Agent - InstallShield Wizard.
+1. Run the {{site.data.keyword.backup_notm}} Software Agent - installation program.
 1. At the welcome screen, click **Next**.
 1. Select **Modify**.
 1. Select to leave the logon credentials for the agent services unchanged. Click **Next**.
-1. From the list of plug-ins, select the one that you want to install. Then, select the option to install the feature on the local harddrive. Click **Next**.
+1. From the list of plug-ins, select the one that you want to install. Then, select the option to install the feature on the local hard disk. Click **Next**.
 1. Select **Keep my current registration**. Click **Next**.
 1. Click **Install**.
 1. When the installation is complete, click **Finish**.
