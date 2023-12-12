@@ -70,7 +70,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     13. Click **Create Job**.
     14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
 
-    Multiple retention schedules can be set up for same job but it’s important that they are NOT be run at the same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
+    Multiple retention schedules can be set up for same job but it’s important that they are NOT run at the same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
     {: important}
 
 ## Running a backup job

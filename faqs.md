@@ -189,7 +189,7 @@ BMR backup isn't a disk image, but a system volume image backup system. The syst
 Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data.
 
 
-## What kind of restore can be run with BMR?
+## What kind of restorations can be run with BMR?
 {: faq}
 {: #bmr-restore}
 {: support}

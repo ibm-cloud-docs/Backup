@@ -13,7 +13,7 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why does my backup fail with a message about a missing value for Server0 Password?
+# Why does my backup fail with a message about a missing value for `Server0.Password`?
 {: #troubleshoot-missingServer0password}
 {: troubleshoot}
 {: support}

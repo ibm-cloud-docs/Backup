@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2023
 lastupdated: "2023-08-31"
 
-keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -45,12 +45,12 @@ If current backup jobs are registered for Server 2, they must be removed. You ca
  Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
  {: note}
 
- If a current backup vault is registered to Server 2, it can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
+ If a current backup vault is registered to Server 2, it can be deleted on the **Computers** > **Vault Settings** screen by selecting **Remove** from the Action menu.
 
 ## Reregistering the vault
 {: #reregistervaultotherDC}
 
-1. When the Vault Settings tab is blank, click **Re-register**. On the next screen, for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
+1. When the Vault Settings screen is blank, click **Re-register**. On the next screen, for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
 2. Enter the Vault Name, which is the same as the vault name of Server 1.
 3. Enter credentials for Server 1 to log in to the vault for Server 1.
 4. Click **Load Computers**, this action displays the servers that are attached to the vault location.
@@ -62,7 +62,7 @@ If current backup jobs are registered for Server 2, they must be removed. You ca
 
 1. Click **Jobs**.
 
-   You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized under the Server 2 **Jobs** tab.
+   You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized on the Server 2 **Jobs** screen.
    {: tip}
 
 2. From the Action menu, select **Restore**.

@@ -91,7 +91,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
     ![Figure 11 - Restore Progress](/images/bmr12.svg){: caption="Figure 11. Restore in Progress." caption-side="bottom"}
 
 16. When complete, you receive a notification window that states that the restoration was completed successfully. Click **OK**.
-17. On the restore progress screen. Click **Next**.
+17. On the restore progress screen, click **Next**.
 18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image.
     The restoration is now complete.
 
