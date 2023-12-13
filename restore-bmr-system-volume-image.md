@@ -50,7 +50,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 
 5. The system restore wizard appears. Select **Next** to continue.
 
-    ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restoration process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restore process." caption-side="bottom"}
+    ![Figure 3 - BMR wizard provides an overview of the four steps if the BMR restoration process.](/images/bmr3.svg){: caption="Figure 3. BMR Wizard provides an overview of the four steps if the BMR restoration process." caption-side="bottom"}
 
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
 
