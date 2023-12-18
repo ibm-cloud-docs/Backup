@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring vSphere data
 {: #VRARestore}
 
-When VMs are protected in a vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders]( #restoreFFVRA) with the vSphere Recovery Agent.
+When VMs are protected in a vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders](#restoreFFVRA) with the vSphere Recovery Agent.
 {: shortdesc}
 
 ## Restoring vSphere VMs

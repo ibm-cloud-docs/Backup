@@ -62,7 +62,7 @@ If an Oracle&reg; backup and a full-system backup are available, then the follow
    - To add a numeric extension (for example, .0001) to a restored file name, select **Do not overwrite existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name resides, an extension is added to the restored file name (“filename.txt.0001”).
    - To add a numeric extension (for example, .0001) to an existing file name, select **Rename existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name exists, an extension is added to the existing file name (“filename.txt.0001”). The name of the restored file continues to be “filename.txt”.
 
-9. To change the log detail level or bandwidth settings, click **Advanced Restore Options**. Specify the settings in the Advanced Restore Options dialog box, and click **Okay**. See [Advanced restore options](#advancedODBRestoreOp).
+9. To change the log detail level or bandwidth settings, click **Advanced Restore Options**. Specify the settings in the Advanced Restore Options dialog box, and click **Okay**. For more information, see [Advanced settings](/docs/Backup?topic=Backup-configureOracleBackup#ODBBackupAdvanced).
 10. Click **Run Restore**. The Process Details dialog box shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog box. See View current process information for a job.
 11. To close the Process Details dialog box, click **Close**. Closing the window does not affect the restoration process.
 
