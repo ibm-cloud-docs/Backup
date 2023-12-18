@@ -144,7 +144,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 {: #configureBackupAlwaysOn}
 
 You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows&reg; {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in.
-If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft&reg; supports only copy-only backups of secondary databases. For more information, see [offload-supported backups to secondary replicas of an availability group](http://msdn.microsoft.com/en-us/library/hh245119.aspx){: external}.
+If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft&reg; supports only copy-only backups of secondary databases. For more information, see [offload-supported backups to secondary replicas of an availability group](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups){: external}.
 
 If a backup job includes secondary databases and databases that are not in a secondary replica, a copy-only backup is performed for all databases in the job. Do not include a secondary database in the same job as a stand-alone database.
 {: note}

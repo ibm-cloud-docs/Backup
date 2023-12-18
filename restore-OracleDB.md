@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -42,7 +42,7 @@ If an Oracle&reg; backup and a full-system backup are available, then the follow
 3. Click the Jobs tab.
 4. Find the job with the database that you want to restore, and click **Restore** in the Select Action menu for the job. The Restore dialog box shows the most recent safe set for the job.
 5. To restore the database from an older safe set, or from SSI (safe set image) files, follow one of these steps.
-   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. To the right of the calendar, click the specific safe set that you want to use.
+   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. Next to the calendar, click the specific safe set that you want to use.
    - To restore data from SSI files on disk, select Directory on disk from the Source Device list. Click the folder. In the Select Folder dialog box, select the directory where the files are located, and click **Okay**.
 
    SSI files are full backups that are exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
@@ -62,7 +62,7 @@ If an Oracle&reg; backup and a full-system backup are available, then the follow
    - To add a numeric extension (for example, .0001) to a restored file name, select **Do not overwrite existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name resides, an extension is added to the restored file name (“filename.txt.0001”).
    - To add a numeric extension (for example, .0001) to an existing file name, select **Rename existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name exists, an extension is added to the existing file name (“filename.txt.0001”). The name of the restored file continues to be “filename.txt”.
 
-9. To change the log detail level or bandwidth settings, click **Advanced Restore Options**. Specify the settings in the Advanced Restore Options dialog box, and click **Okay**. See [Advanced restore options](#advancedODBRestoreOp).
+9. To change the log detail level or bandwidth settings, click **Advanced Restore Options**. Specify the settings in the Advanced Restore Options dialog box, and click **Okay**. For more information, see [Advanced settings](/docs/Backup?topic=Backup-configureOracleBackup#ODBBackupAdvanced).
 10. Click **Run Restore**. The Process Details dialog box shows the restore progress and indicates when the restore is completed. Other recent job processes might also be listed in the dialog box. See View current process information for a job.
 11. To close the Process Details dialog box, click **Close**. Closing the window does not affect the restoration process.
 

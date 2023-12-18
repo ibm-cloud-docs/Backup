@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -25,8 +25,8 @@ Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{s
 {: ui}
 
 You can provision {{site.data.keyword.backup_notm}} service in two ways in the console.
-* [Provision backup space when you order a server](#purchasingwithserver).
-* [Provision backup space as an upgrade](#purchasingasupgrade).
+* [Provision backup space when you order a server](#purchasingwithserver-ui).
+* [Provision backup space as an upgrade](#purchasingasupgradeui).
 
 ### Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver-ui}
