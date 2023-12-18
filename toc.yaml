@@ -53,6 +53,7 @@ toc:
             topics:
             - configure-simple-file-backup.md
             - configure-bmr-backup-windows.md
+            - configure-NFS-backup.md
             - configure-OracleDDB-backup.md
             - configure-SQLDB-backup.md
             - configure-vra.md
