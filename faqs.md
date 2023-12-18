@@ -21,9 +21,9 @@ subcollection: Backup
 
 The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page.
 
-You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
+You can also see the username and password through the console. To view usernames and accounts that are associated with your Devices, click **Devices > Device list**, and click the device name. Then, click **Passwords**. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
-Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
+Alternatively, you can click **Devices > Manage > Passwords**. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
 
 ## How can I change my password for the service?
 {: faq}
