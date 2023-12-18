@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -34,7 +34,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 
 1. Establish a Remote Desktop connection to the offline Agent server.
 2. Then, run one of the following commands to check the ports.
-   * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the "Add Roles and Features".
+   * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the **Add Roles and Features**.
     ```sh
     telnet cloudbackupregister.service.softlayer.com 8086
     ```
