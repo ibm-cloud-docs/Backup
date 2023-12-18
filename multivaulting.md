@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -17,18 +17,20 @@ subcollection: Backup
 Multi-vaulting is the ability for a client to connect a server to more than one vault location. It provides redundancy and peace of mind because backups are available even if one site fails.
 {: shortdesc}
 
-- **Key points**
+## Key concepts
+{: #multivault-concepts}
 
-   1. Multiple vaults can be managed through the same Cloud Backup Portal and they are handled the same way. The only difference is that you have different vault choices.
-   2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
+1. Multiple vaults can be managed through the same Cloud Backup Portal and they are handled the same way. The only difference is that you have different vault choices.
+2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
 
 
-- **{{site.data.keyword.backup_notm}} Vault Director locations**
+## {{site.data.keyword.backup_notm}} Vault Director locations
+{: #multivault-locations}
 
-   Multi-vaulting is available across all data centers without any geographical limitations in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
+Multi-vaulting is available across all data centers without any geographical limitations in selecting a remote vault. When vaults are configured correctly, all the configured vaults appear in vault settings.
 
-   Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
-   {: note}
+Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
+{: note}
 
 ## Adding a Remote Vault to an Account
 {: #addremotevault}

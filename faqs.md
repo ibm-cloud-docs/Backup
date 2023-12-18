@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2023
-lastupdated: "2023-11-27"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -20,7 +20,7 @@ subcollection: Backup
 {: #backup-username}
 {: support}
 
-The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page, the username is in the upper-left area of the UI. The Portal Password is on the Overview tab.
+The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page.
 
 You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
@@ -35,10 +35,6 @@ Alternatively, you can click Devices > Manage > Passwords. The console displays 
 2. Click **Storage** > **Cloud Backup** to display the list of backup services.
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
-
-   The {{site.data.keyword.backup_notm}} username is displayed in the upper-left area of the page.
-   {: note}
-
 5. Enter the new password in the **Password** field.
 
    The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.

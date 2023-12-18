@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-12-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -38,7 +38,7 @@ To restore a database directly to SQL Server, complete the following tasks.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the username and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent safe set for the job.
 9. To restore data from an older safe set, or from SSI (safe set image) files, take one of the following steps.
-   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. To the right of the calendar, click the specific safe set that you want to use.
+   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. Next to the calendar, click the specific safe set that you want to use.
    - To restore data from SSI (safe set image) files on disk, select Directory on disk from the Source Device list. Click the folder. In the Select Folder dialog box, select the directory where the files are located, and click Okay.
 
    SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. Note: You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
@@ -80,7 +80,7 @@ To restore an SQL Server database to flat files, complete the following tasks.
 5. In the Choose how to restore dialog, select Restore to folder.
 6. Click Continue. The SQL Server Restore dialog shows the most recent safe set for the job.
 7. To restore data from an older safe set, or from SSI (safe set image) files, take one of the following steps.
-   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. To the right of the calendar, click the specific safe set that you want to use.
+   - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. Next to the calendar, click the specific safe set that you want to use.
    - To restore data from safe set image (SSI) files on disk, select **Directory on disk** from the Source Device list. Click the folder. In the Select Folder dialog, select the directory where the files are located, and click **Okay**.
 
    SSI files are full backups that were exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_notm}} Agent is synchronized with the vault.
