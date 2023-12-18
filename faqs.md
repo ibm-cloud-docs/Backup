@@ -11,7 +11,6 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-
 # FAQs
 {: #faqs}
 
@@ -22,9 +21,9 @@ subcollection: Backup
 
 The username and password can be seen on the {{site.data.keyword.backup_notm}} instance's Overview page.
 
-You can also see the username and password through the [Device list](https://cloud.ibm.com/gen1/infrastructure/devices){: external}. To view usernames and accounts that are associated with your Devices, click Devices > Device list, and click the Device name. On the left-side menu, click Passwords. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
+You can also see the username and password through the console. To view usernames and accounts that are associated with your Devices, click **Devices > Device list**, and click the device name. Then, click **Passwords**. The {{site.data.keyword.backup_notm}} service is listed in the Software Name column as "Base Client".
 
-Alternatively, you can click Devices > Manage > Passwords. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
+Alternatively, you can click **Devices > Manage > Passwords**. The console displays the list of your devices and the associated software with the appropriate usernames and passwords. The service name is listed as "Base Client".
 
 ## How can I change my password for the service?
 {: faq}
@@ -77,14 +76,12 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 You can modify default retention schemes and can create custom retention schemes. It's best to use the default retention schemes as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is not selected. Archiving is not supported.
 {: tip}
 
-
 ## What is Delta Technology?
 {: faq}
 {: #delta}
 {: support}
 
 The first backup is a "seed" (a complete, full backup), the next and subsequent ones are "deltas" (that is, changes only), but they are equivalent to, and still considered a "full backup". That is, you're able to restore all or any files from it. With this technology, "full backups" are created at each session, but it saves enormous amounts of space on the vault and decreases the amount of time each subsequent backup takes to complete.
-
 
 ## Are the backups secure?
 {: faq}
@@ -108,14 +105,12 @@ The system state backups include, but aren't limited to COM + class registration
 No user data file is included in System state backup. A system-state backup job must be configured as a stand-alone job. There mustn't be any other data source that is included in the System State backup job.
 {: important}
 
-
 ## What happens to open files?
 {: faq}
 {: #open-files}
 {: support}
 
 By default, the base client has a state-of-the-art technology to handle most open files that are running on the OS.
-
 
 ## What does VSS (Volume Shadow Copy Services) do?
 {: faq}
@@ -124,7 +119,6 @@ By default, the base client has a state-of-the-art technology to handle most ope
 
 The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
 
-
 ## Where can I find information about pricing?
 {: #pricing}
 {: faq}
@@ -132,14 +126,12 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 
 The pricing information for your system resources is shown on the side of the provisioning window, and it shows all of your resource costs. To view the cost estimates for your organization on a per user basis, use the [pricing calculator](https://cloud.ibm.com/cloud-storage/backup/order).
 
-
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
 {: faq}
 {: #capacity}
 {: support}
 
 You can increase or decrease the size of your vault through the [{{site.data.keyword.cloud_notm}} console](/login){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [expanding vault capacity](/docs/Backup?topic=Backup-expandcapacity#expandcapacity).
-
 
 ## What happens when the {{site.data.keyword.backup_notm}} capacity is exceeded?
 {: faq}
@@ -169,7 +161,6 @@ Yes, that works. However, you need to select a large capacity device due to the 
 
 If you restore the image to a larger disk than the original volume, the leftover space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, Windows 2003 does not have a similar built-in capability, so you must allocate the space another way.
 
-
 ## Can BMR be used for regular backup?
 {: faq}
 {: #bmr-regular}
@@ -183,7 +174,6 @@ BMR backup isn't a disk image, but a system volume image backup system. The syst
 {: support}
 
 Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data.
-
 
 ## What kind of restorations can be run with BMR?
 {: faq}
@@ -205,7 +195,6 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 {: support}
 
 A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
-
 
 ## Is the 32-bit version of EVault for Windows&reg; 8 still supported?
 {: faq}
@@ -263,6 +252,7 @@ First, go to the directory of the Backup Agent.
 ```sh
 cd /opt/BUAgent
 ```
+{: pre}
 
 Then, use the following syntax to show all backup job results.
 
@@ -288,6 +278,7 @@ backup history of test/
 11-May 19:30:36 -0500 BKUP-I-04128 job completed at 11-May-2022 19:30:36 -0500
 11-May 19:30:36 -0500 BKUP-I-04129 elapsed time 00:00:10 ...
 ```
+{: screen}
 
 You can use the following syntax to show only the backup data size.
 ```sh
@@ -303,6 +294,7 @@ backup history of test/
 10-May 19:30:15 -0500 BKUP-I-00013 deltized bytes processed: 0 (0 bytes)
 10-May 19:30:15 -0500 BKUP-I-00014 compressed bytes processed: 0 (0 bytes)
 ```
+{: screen}
 
 ## I'd like to free up space in my vault, how can I remove a specific safe set?
 {: faq}
