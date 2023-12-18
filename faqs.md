@@ -246,7 +246,7 @@ For more information, see the following topics.
 {: #nfs-share-backup}
 {: support}
 
-Yes. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Configuring NFS backups](/docs/Backup?topic=Backup-configureNFSBackup}){: external}.
+Yes. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Configuring NFS backups](/docs/Backup?topic=Backup-configureNFSBackup).
 
 NFS Backups are not supported in Windows.
 {: attention}
