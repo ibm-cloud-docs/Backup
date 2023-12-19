@@ -154,12 +154,12 @@ Notifications can be set up on the Advanced tab. Follow the instructions that yo
 
 Yes, that works. However, you need to select a large capacity device due to the size decrease that the raid array causes.
 
-## When we use the BMR plug-in, what happens when the image is restored to a larger disk than the original volume?
+## What happens when the disk image is restored to a larger disk than the original volume?
 {: faq}
 {: #bmr-restore-size}
 {: support}
 
-If you restore the image to a larger disk than the original volume, the leftover space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, Windows 2003 does not have a similar built-in capability, so you must allocate the space another way.
+If you restore the image to a larger disk than the original volume, the leftover space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With Windows 2008 and newer versions, you can use the built-in disk utility to grow the primary partition.
 
 ## Can BMR be used for regular backup?
 {: faq}
@@ -311,9 +311,9 @@ Backup data deletion is permanent. After the data is deleted from vaults, it can
 
 If you want to remove all the backups that were created for a server, you can follow the instructions in [Deleting backup tasks](/docs/Backup?topic=Backup-deletetasks&interface=ui).
 
-## What happens to backups when the Backup service is canceled? Can you keep the backups for later use and restore to another server?
+## What happens to backups when the Backup service is canceled?
 {: faq}
 {: #canceledbackup}
 {: support}
 
-No. When the Backup service is canceled, your vault with the backed-up data is deleted. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
+When the Backup service is canceled, your vault with the backed-up data is deleted. So you can't keep the backups for later use and restore to another server.You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
