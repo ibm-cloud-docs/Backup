@@ -18,7 +18,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 {: shortdesc}
 
 ## Starting Cloud Backup Portal
-{: #startPortalconfigLin}
+{: #startPortalconfigNFS}
 {: help}
 {: support}
 
@@ -34,7 +34,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: tip}
 
 ## Configuring an NFS backup job
-{: #configureBackupjob}
+{: #configureNFSBackupjob}
 {: help}
 {: support}
 
@@ -64,7 +64,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
     {: important}
 
 ## Running a backup job
-{: #runBackupjob}
+{: #runNFSBackupjob}
 {: help}
 {: support}
 
