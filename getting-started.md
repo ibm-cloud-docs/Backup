@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2023
+  years: 1994, 2024
 lastupdated: "2023-12-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,

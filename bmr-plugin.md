@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2023
+  years: 1994, 2024
 lastupdated: "2023-11-27"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
