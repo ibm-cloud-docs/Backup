@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2023
+  years: 1994, 2024
 lastupdated: "2023-11-27"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere

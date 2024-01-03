@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 lastupdated: "2023-08-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,

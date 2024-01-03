@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2023
+  years: 2019, 2024
 lastupdated: "2023-12-11"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
