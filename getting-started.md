@@ -49,7 +49,7 @@ Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{s
 - Windows&reg; Server 2008 R2
 - Windows&reg; Server 2008
 
-Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functions were tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The latest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
+Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functions were tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The newest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
 {: tip}
 
 [Linux]{: tag-linux} - Oldest supported version of the backup agent is 8.50. BMR backups are not supported.
@@ -152,6 +152,6 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 {: #nextsteps}
 {: step}
 
-For redundancy and peace of mind, consider adding a second vault to your account. You can setup and manage multiple vaults for the same server through the Cloud Backup Portal. For more information, see [Multi-vaulting](/docs/Backup?topic=Backup-multivault).
+For redundancy and peace of mind, consider adding a second vault to your account. You can set up and manage multiple vaults for the same server through the Cloud Backup Portal. For more information, see [Multi-vaulting](/docs/Backup?topic=Backup-multivault).
 
 Cloud Backup Portal's systems are fully documented, and support for the application is accessible within the Portal. Click the question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
