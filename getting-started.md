@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-03-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -148,8 +148,10 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
 {: important}
 
-## Getting more online help
-{: #onlinehelp}
+## Next steps
+{: #nextsteps}
 {: step}
 
-Cloud Backup Portal's systems are fully documented and support for the application is accessible within the Portal. Click the question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
+For redundancy and peace of mind, consider adding a second vault to your account. You can setup and manage multiple vaults for the same server through the Cloud Backup Portal. For more information, see [Multi-vaulting](/docs/Backup?topic=Backup-multivault).
+
+Cloud Backup Portal's systems are fully documented, and support for the application is accessible within the Portal. Click the question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.
