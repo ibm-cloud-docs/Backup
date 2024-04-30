@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-04-30"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -311,9 +311,16 @@ Backup data deletion is permanent. After the data is deleted from vaults, it can
 
 If you want to remove all the backups that were created for a server, you can follow the instructions in [Deleting backup tasks](/docs/Backup?topic=Backup-deletetasks&interface=ui).
 
+## Can I move or migrate backup data to another DC or another account?
+{: faq}
+{: #migratebackups}
+{: support}
+
+No, backup data cannot be transferred or migrated to other backup accounts. You can opt to configure [multivaulting](/docs/Backup?topic=Backup-multivault) and store your backups in more than one data center location, but you can't copy data from one vault to another.
+
 ## What happens to backups when the Backup service is canceled?
 {: faq}
 {: #canceledbackup}
 {: support}
 
-When the Backup service is canceled, your vault with the backed-up data is deleted. So you can't keep the backups for later use and restore to another server.You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
+When the Backup service is canceled, your vault with the backed-up data is deleted. So you can't keep the backups for later use and restore to another server. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
