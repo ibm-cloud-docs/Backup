@@ -1,7 +1,6 @@
 #  Name your file `toc.yaml`
 #  Make sure you include all nav file coding requirements.
 #  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
-
 toc:
   properties:
     subcollection: Backup
@@ -12,7 +11,6 @@ toc:
     product-page: /cloud-storage/backup
     path: Backup
     label: IBM Cloud Backup
-
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group.
   entries:
     - navgroup:
@@ -23,7 +21,6 @@ toc:
         - link:
             label: What is IBM Cloud Backup?
             href: https://www.ibm.com/topics/backup-and-restore
-
     - navgroup:
         id: howto
         topics:
@@ -73,7 +70,6 @@ toc:
             - expanding-capacity.md
             - reregister.md
             - delete-tasks.md
-
     - navgroup:
         id: reference
         topics:
@@ -93,7 +89,6 @@ toc:
               - link:
                   label: Terraform reference
                   href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault         
-
     - navgroup:
         id: help
         topics:
