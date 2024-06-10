@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-05-22"
+  years: 2023, 2024
+lastupdated: "2024-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore, Backup Portal, portal
 
@@ -36,7 +36,7 @@ The portal includes a series of pages where you can perform various tasks for ma
 ### Dashboard
 {: #portaldashboard}
 
-The Dashboard provides notifications and summary information about servers, backups, restores, and activity in your site. In the What’s new section, you can see the newest {{site.data.keyword.backup_full}} Announcements along with unconfigured agent information. Such a {{site.data.keyword.backup_notm}} agent can be configured by clicking the Configure Now link or by clicking the computers tab.
+The Dashboard provides notifications and summary information about servers, backups, restores, and activity in your site. In the What’s new section, you can see the newest {{site.data.keyword.backup_full}} Announcements along with unconfigured agent information. Such an {{site.data.keyword.backup_notm}} agent can be configured by clicking the Configure Now link or by clicking the computers tab.
 
 For more
 
