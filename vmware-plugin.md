@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-11-27"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -102,5 +102,4 @@ For more information, see [Configure, schedule, and run a backup job](/docs/Back
 
 For more information, see [Restore vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
-{: tip}
+

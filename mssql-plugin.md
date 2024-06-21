@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -65,5 +65,3 @@ The SQL Server plug-in can back up databases that span volumes, databases with T
 After you backed up the SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance, or restore databases to flat files. When you want to restore an SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
 For more information, see [Restoring MSSQL Database](/docs/Backup?topic=Backup-restoreMSSQLDB).
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can download the user guides in PDF format from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
-{: tip}

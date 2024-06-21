@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2023-08-31"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -134,8 +134,3 @@ If the bandwidth-throttling time period begins when a backup is underway, the ma
 
 If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new settings do not affect the backup that is running. Bandwidth settings are applied when a backup starts, not during its operation.
 
-
-## Downloading the user guide
-{: #OracleConfigUserGuide}
-
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.

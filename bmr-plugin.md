@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-11-27"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -43,7 +43,3 @@ For more information, see [Configuring BMR backup jobs](/docs/Backup?topic=Backu
 
 For more information, see [Restoring a BMR system volume image](/docs/Backup?topic=Backup-restoreBMR).
 
-## Downloading the user guide
-{: #BMRUserGuide}
-
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.

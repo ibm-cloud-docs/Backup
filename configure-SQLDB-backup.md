@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2023-08-31"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -199,7 +199,3 @@ You can also enter a password hint. When you want to restore data, you can view 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.
 {: important}
 
-## Downloading the user guide
-{: #MSSQLConfigUserGuide}
-
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.

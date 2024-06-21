@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -30,7 +30,3 @@ Before you install the plug-in for your MS Windows&reg; server, stop both {{site
 
 When the installation is complete, check to ensure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
-## Downloading the user guide
-{: #ExchangeUserGuide}
-
-Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}. The guide describes how to back up and restore MS Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safe-set. With a DR backup safe-set, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft&reg; Exchange application.

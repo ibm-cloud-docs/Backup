@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-06-20"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -91,5 +91,3 @@ For more information, see [Configuring Oracle DB backups](/docs/Backup?topic=Bac
 
 For more information, see [Restoring Oracle DB](/docs/Backup?topic=Backup-restoreOracleDB).
 
-Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can download the user guides in PDF format from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
-{: tip}
