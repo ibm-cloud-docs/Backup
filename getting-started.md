@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2024
 lastupdated: "2024-07-23"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, set up, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -123,7 +123,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
 {: tip}
 
-Archiving is not supported. When you create a retention scheme or modify an existing scheme, make sure that the Archiving option is **not** selected.
+Archiving is not supported. When you create a retention scheme, or modify an existing scheme, make sure that the Archiving option is **not** selected.
 {: important}
 
 ## Running your first backup job

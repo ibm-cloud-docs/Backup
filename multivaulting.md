@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -66,7 +66,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 6. Click **Vault Settings**.
 7. In the **Vault Settings** window, click **Add Vault**.
 8. In the **New Vault** window,
-   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
+   1. In the Vault Profile menu, choose **Enter Vault Settings** to create an entry. Don't update the existing entry, it doesn't work.
    2. The vault name can't be the same as the other vault name. Try adding a `-2` tag to the end of it.
 
        The vault name field has a 15 character limit.
