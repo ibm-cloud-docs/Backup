@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -28,7 +28,7 @@ The account that was specified during the {{site.data.keyword.backup_notm}} Agen
 {: help}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{: important}
+{: requirement}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.
@@ -157,7 +157,7 @@ To protect SQL Server databases in AlwaysOn Availability Groups, you can choose 
    If the availability mode of the secondary replica is asynchronous-commit, transaction logs on the secondary database might lag behind the primary replica database. If the secondary database is being backed up, data loss might occur.
    {: note}
 
-- Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy ensures that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
+- Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy makes sure that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
 
 If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in, and Cluster plug-in on each physical node. Then, configure the jobs on the virtual node. Full backups run if the database is a primary database. Copy-only backups run if the database is a secondary database.
 {: tip}

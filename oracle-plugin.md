@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -42,7 +42,7 @@ The Oracle plug-in is installed with the 32-bit or 64-bit Windows&reg; Agent. To
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}
 
-When the installation is complete, check to ensure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
+When the installation is complete, check to make sure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
 
 ## Installing the plug-in for Linux
 {: #installOracleLin}
@@ -78,7 +78,7 @@ The Oracle plug-in installation kit is available in a tar.gz file.
 
 5. Follow the installation instructions on the screen.
 
-The Oracle plug-in performs an "inconsistent" whole database backup that requires that the database runs in ARCHIVELOG mode. The DBA needs to ensure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the User Guide.
+The Oracle plug-in performs an "inconsistent" whole database backup that requires that the database runs in ARCHIVELOG mode. The DBA needs to make sure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the User Guide.
 {: important}
 
 ## Configuring an Oracle DB backup job

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -17,7 +17,7 @@ subcollection: Backup
 To protect data in Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. Then, you can add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary table spaces and instance parameter files are automatically backed up. Full and partial databases can be restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
 {: shortdesc}
 
-The Oracle plug-in performs what the Oracle Corporation deems an “inconsistent” whole database backup that requires that the database is run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator must ensure that the database is in ARCHIVELOG mode.
+The Oracle plug-in performs what the Oracle Corporation deems an “inconsistent” whole database backup that requires that the database is run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator must make sure that the database is in ARCHIVELOG mode.
 {: important}
 
 ## Starting Cloud Backup Portal

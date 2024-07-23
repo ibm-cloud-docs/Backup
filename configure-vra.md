@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-08-31"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -24,7 +24,7 @@ You must configure vault settings and vCenter information before you can add a b
 {: #startPortalVRA}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{: important}
+{: requirement}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.

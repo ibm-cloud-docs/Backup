@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, NFS
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring NFS backups
 {: #configureNFSBackup}
 
-After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data.
+After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. First, add the Linux&reg; client in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data.
 {: shortdesc}
 
 ## Starting Cloud Backup Portal
@@ -23,7 +23,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 {: support}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{: important}
+{: requirement}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the **menu** ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.

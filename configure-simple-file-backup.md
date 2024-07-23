@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-04-11"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -22,7 +22,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 {: support}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{: important}
+{: requirement}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.

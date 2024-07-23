@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-11-27"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -21,7 +21,7 @@ You need to purchase the BMR plug-in to create a BMR backup. BMR is available on
 {: #startPortalBMR}
 
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
-{: important}
+{: requirement}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
 2. Click **Storage** > **Cloud Backup** to display the backup services.
