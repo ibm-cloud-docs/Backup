@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-08-31"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -108,6 +108,15 @@ This step is required for RHEL, but optional for other distributions.
     {: pre}
 
 2. Run the following command and observe the output.
+    - For backup agent 9.21:
+
+    ```sh
+    etc/rc.d/vvagent status
+    ```
+    {: pre}
+
+    - For previous versions:
+
     ```sh
     service vvagent status
     ```
@@ -120,7 +129,7 @@ This step is required for RHEL, but optional for other distributions.
     ```
     {: codeblock}
 
-   The process IDs that are represented by `xxxxx` varies with each installation.
+   The process IDs that are represented by `xxxxx` vary with each installation.
    {: tip}
 
 ## Next steps
