@@ -19,7 +19,7 @@ Sometimes you want to restore data to a different server. This procedure applies
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
-## Pre-requisites
+## Before you begin
 {: #prereqsrestore2}
 
 - Server 1 and Server 2 must have the same Operating System. Cross-platform restores aren't supported.
@@ -40,12 +40,12 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 4. Click **View backup portal** to start the portal in your browser.
 
-If current backup jobs are registered for Server 2, they must be removed. You can delete existing jobs on the Computers > Jobs page by selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
+If current backup jobs are registered for Server 2, they must be removed. You can delete existing jobs on the Computers > Jobs page by selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type *CONFIRM*, and click **Confirm Deletion**.
 
- Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
- {: note}
+Deleting a job in the Portal doesn't delete the job from the Backup Vaults. Jobs can be recovered by reregistering the agent to its own vault location after the files are recovered from another computer.
+{: note}
 
- If a current backup vault is registered to Server 2, it can be deleted on the **Computers** > **Vault Settings** screen by selecting **Remove** from the Action menu.
+If a current backup vault is registered to Server 2, it can be deleted on the **Computers** > **Vault Settings** screen by selecting **Remove** from the Action menu.
 
 ## Reregistering the vault
 {: #reregistervaultotherDC}

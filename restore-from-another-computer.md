@@ -19,7 +19,7 @@ Sometimes you might want to restore data to a different server in the same data 
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
-## Pre-requisites
+## Before you begin
 {: #prereqsrestore1}
 
 - Server 1 and Server 2 must have the same Operating System. Cross-platform restores aren't supported.
