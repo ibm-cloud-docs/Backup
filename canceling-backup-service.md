@@ -54,7 +54,7 @@ For more information, see [terraform destroy](https://developer.hashicorp.com/te
 ## Uninstall the Backup Agent from your server
 {: #uninstallbackupagent}
 
-### Removing the Backup Agent from a Windows&reg; Server
+### Removing the Backup Agent from a Windows Server
 {: #uninstallbackupagentWin}
 
 1. Establish a remote desktop session to your server.
@@ -76,7 +76,7 @@ For more information, see [terraform destroy](https://developer.hashicorp.com/te
 3. When prompted by the following question, press Y, then press Enter.
     ```sh
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
-    ````
+    ```
 4. At the next prompt, press Y. Then, press Enter again.
     ```sh
     This will remove jobs, settings, etc. (y/[N])

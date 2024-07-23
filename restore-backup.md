@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-08-31"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Restoring data from a backup
 {: #simplerestore}
 
-Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows&reg; BMR](/docs/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
+Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
 {: shortdesc}
 
 ## Starting Cloud Backup Portal

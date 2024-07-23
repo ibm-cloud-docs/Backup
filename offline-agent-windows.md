@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -17,10 +17,10 @@ subcollection: Backup
 {: troubleshoot}
 {: support}
 
-The Windows&reg; backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
+The Windows backup agent might appear offline in the Portal for multiple reasons. Follow the steps to rule out issues with firewall port settings, and the `buagent` process on the server.
 {: shortdesc}
 
-Windows&reg; agent shows as offline in Portal.
+Windows agent shows as offline in Portal.
 {: tsSymptoms}
 
 ## Possible firewall issue

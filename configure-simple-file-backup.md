@@ -39,7 +39,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-- The automatic agent configuration creates a backup job of the complete C Drive (Windows&reg; OS) or `./<root>` directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
+- The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or `./<root>` directory (Linux&reg; OS) with Monthly and Daily Retention schemes.
 
     This job can be modified after it was configured.
     {: note}

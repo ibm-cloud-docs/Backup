@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-04-30"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -54,7 +54,7 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware&reg; VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows&reg; servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service at no cost.
+The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service at no cost.
 
 ## How frequently can we back up the data?
 {: faq}
@@ -196,12 +196,12 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 
 A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
 
-## Is the 32-bit version of EVault for Windows&reg; 8 still supported?
+## Is the 32-bit version of EVault for Windows 8 still supported?
 {: faq}
 {: #evault}
 {: support}
 
-No. The 32-bit version of the backup software agent was retired along with Windows&reg; Server 2008 Standard and data center Editions in March 2017.
+No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and data center Editions in March 2017.
 
 ## Why does my backup agent show as offline in the WebCC?
 {: faq}
@@ -211,7 +211,7 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the troubleshooting section:
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
-* [Why does my Windows&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
+* [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
 
 ## Why is my agent Status showing as unconfigured in the WebCC?
 {: faq}
@@ -225,9 +225,9 @@ If the backup agent appears as `unconfigured` in the WebCC or Portal, confirm th
 {: #agent-uninstall}
 {: support}
 
-You can remove the backup agent either through the command line on a Linux server or through the Control Panel of a Windows&reg; server.
+You can remove the backup agent either through the command line on a Linux server or through the Control Panel of a Windows server.
 For more information, see the following topics.
-- [Uninstalling the Backup Agent from a Windows&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
+- [Uninstalling the Backup Agent from a Windows Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentWin)
 - [Uninstalling the Backup Agent from a Linux&reg; Server](/docs/Backup?topic=Backup-cancelBackup#uninstallbackupagentLin)
 
 ## Can I back up NFS File Shares?

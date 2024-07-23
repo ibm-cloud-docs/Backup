@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -23,7 +23,7 @@ After you back up SQL Server databases by using the SQL Server plug-in, you can 
 After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance.
 If transaction logs were backed up by using an alternative method, you can restore a database in the restoring state so that you can apply transaction logs to the database later.
 When you restore system databases, the primary database must be restored first, by itself. Other system databases can then be restored later.
-You must specify a Windows&reg; or SQL Server administrator account for connecting to SQL Server during a restore.
+You must specify a Windows or SQL Server administrator account for connecting to SQL Server during a restore.
 After you restored an SQL Server 2016 database that is stretched to Microsoft® Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://learn.microsoft.com/en-us/sql/sql-server/stretch-database/restore-stretch-enabled-databases-stretch-database){: external}.
 
 To restore a database directly to SQL Server, complete the following tasks.
@@ -34,7 +34,7 @@ To restore a database directly to SQL Server, complete the following tasks.
 5. In the Choose how to restore dialog box, select **Restore database to an SQL Server instance**.
 6. In the Instance list, click the SQL Server instance where you want to restore the database.
 7. Connect to the instance by using one of the following methods.
-   - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication. Enter the username, password, and domain in the appropriate fields.
+   - To connect to the instance by using a Windows administrator account, select Windows authentication. Enter the username, password, and domain in the appropriate fields.
    - To connect to the instance by using an SQL Server administrator account, select SQL Server authentication. Enter the username and password in the appropriate fields.
 8. Click Continue. The SQL Server Restore dialog box shows the most recent safe set for the job.
 9. To restore data from an older safe set, or from SSI (safe set image) files, take one of the following steps.
@@ -99,10 +99,10 @@ To restore an SQL Server database to flat files, complete the following tasks.
 ## Restoring databases in AlwaysOn Availability groups
 {: #restoreSQLDBAlwaysOn}
 
-You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed. Then, you can attempt the restore.
+You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed. Then, you can attempt the restore.
 {: requirement}
 
-After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
+After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}

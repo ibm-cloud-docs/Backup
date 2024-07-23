@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring BMR backup job
 {: #configureBMR}
 
-You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows&reg; Bare Metal Servers. No BMR option is available for VSI. For more information, see [Getting started with the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
+You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Getting started with the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
 {: important}
 
 ## Starting Cloud Backup Portal

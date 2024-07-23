@@ -31,7 +31,7 @@ BMR is a Windows&reg;-only product on physical servers. It is not available for 
 ## Installing the BMR plug-in
 {: #installingBMR}
 
-The plug-in is installed during the Windows&reg; Agent installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
+The plug-in is installed during the Windows Agent installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
 ## Configuring BMR backup job
 {: #configBMRplugin}

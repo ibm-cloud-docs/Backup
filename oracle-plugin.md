@@ -37,7 +37,7 @@ The Oracle plug-in is an add-on and is installed with the Backup Agent on the Or
 ## Installing the plug-in for Windows
 {: #installOracleWin}
 
-The Oracle plug-in is installed with the 32-bit or 64-bit Windows&reg; Agent. To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom setup** page. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
+The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom setup** page. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}

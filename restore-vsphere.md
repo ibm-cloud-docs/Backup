@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -49,7 +49,7 @@ When VMs are protected in a vSphere environment, you can restore [vSphere virtua
 ## Restoring files and folders
 {: #restoreFFVRA}
 
-You can restore files and folders from a protected Windows&reg; VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at the same time. You can't restore files and folders from Linux&reg; VMs with VRA.
+You can restore files and folders from a protected Windows VM by using the vSphere Recovery Agent (VRA). You can restore files and folders from more than one VM at the same time. You can't restore files and folders from Linux&reg; VMs with VRA.
 {: important}
 
 During a file and folder restore, volumes from the selected VM are mounted as drives on the server where the VRA is running. You can then share some or all of the mounted drives so that users can copy files and folders from the drives. You can also sign in to the VRA server, and copy files and folders from the mounted drives.

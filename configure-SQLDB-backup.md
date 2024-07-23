@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring MSSQL database backups
 {: #configureMSSQLBackup}
 
-To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows&reg; {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
+To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 {: shortdesc}
 
 You can back up transaction logs for databases only when they use the full or bulk-logged recovery model.
@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in an SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with the SQL Server plug-in. However, an SQL Server backup job cannot include databases from multiple SQL Server instances.
 
-When you create the backup job, you must specify the Windows&reg; administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where the databases reside.
+When you create the backup job, you must specify the Windows administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where the databases reside.
 
 To back up the data, you can run the backup job manually or schedule the job to run. When you schedule or run a job, you can specify whether to back up the database, the transaction logs, or both.
 
@@ -59,11 +59,11 @@ To add an MSSQL database backup job, complete the following tasks.
 4. In the Select Job Task menu, click **Create New SQL Server Job**.
 5. In the Connect to SQL Server dialog box, provide the following information.
    - In the Instance list, select the SQL Server instance where you want to back up databases.
-   - To connect to the instance by using a Windows&reg; administrator account, select Windows&reg; authentication.
+   - To connect to the instance by using a Windows administrator account, select Windows authentication.
    - To connect to the instance by using an SQL Server administrator account, select SQL authentication.
    - In the User Name box, type the username for connecting to the instance.
    - In the Password box, type the password of the specified user.
-   - If you selected Windows&reg; authentication, in the Domain box, type the domain of the specified account.
+   - If you selected Windows authentication, in the Domain box, type the domain of the specified account.
 6. Click **Connect**.
 7. In the Create New Job dialog box, specify the following information.
    - In the Name box, type a name for the backup job.
@@ -143,21 +143,21 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 ## Protecting SQL databases in AlwaysOn Availability Groups
 {: #configureBackupAlwaysOn}
 
-You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows&reg; {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in.
+You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in.
 If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft&reg; supports only copy-only backups of secondary databases. For more information, see [offload-supported backups to secondary replicas of an availability group](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups){: external}.
 
 If a backup job includes secondary databases and databases that are not in a secondary replica, a copy-only backup is performed for all databases in the job. Do not include a secondary database in the same job as a stand-alone database.
 {: note}
 
 To protect SQL Server databases in AlwaysOn Availability Groups, you can choose one from the following options.
-- Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the server where the primary replica is hosted. You can run a full backup of the primary databases, followed by full or transaction log backups. If the primary replica becomes a secondary replica after a failover, the {{site.data.keyword.backup_notm}} Agent automatically runs copy-only database backups instead of full backups. Transaction log backups remain the same.
+- Install the Windows {{site.data.keyword.backup_notm}} Agent and plug-in on the server where the primary replica is hosted. You can run a full backup of the primary databases, followed by full or transaction log backups. If the primary replica becomes a secondary replica after a failover, the {{site.data.keyword.backup_notm}} Agent automatically runs copy-only database backups instead of full backups. Transaction log backups remain the same.
 
-- Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on a server where a secondary replica is hosted. This backup strategy offloads backup processing to a nonprimary server. You can run a copy-only backup of the secondary database, followed by copy-only or transaction log backups. If the secondary replica becomes the primary replica after a failover, the {{site.data.keyword.backup_notm}} Agent automatically runs full backups instead of copy-only backups. Transaction log backups remain the same.
+- Install the Windows {{site.data.keyword.backup_notm}} Agent and plug-in on a server where a secondary replica is hosted. This backup strategy offloads backup processing to a nonprimary server. You can run a copy-only backup of the secondary database, followed by copy-only or transaction log backups. If the secondary replica becomes the primary replica after a failover, the {{site.data.keyword.backup_notm}} Agent automatically runs full backups instead of copy-only backups. Transaction log backups remain the same.
 
    If the availability mode of the secondary replica is asynchronous-commit, transaction logs on the secondary database might lag behind the primary replica database. If the secondary database is being backed up, data loss might occur.
    {: note}
 
-- Install the Windows&reg; {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy makes sure that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
+- Install the Windows {{site.data.keyword.backup_notm}} Agent and plug-in on the primary replica server and on secondary replica servers. This strategy makes sure that backups continue even if one of the replicas is down. You can run a full backup on the primary replica, followed by full or transaction log backups. You can also run copy-only backups on the secondary replicas, followed by copy-only or transaction log backups.
 
 If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server Failover Cluster Instance, install the Agent, SQL Server plug-in, and Cluster plug-in on each physical node. Then, configure the jobs on the virtual node. Full backups run if the database is a primary database. Copy-only backups run if the database is a secondary database.
 {: tip}
@@ -165,7 +165,7 @@ If an SQL database in an AlwaysOn Availability Group is hosted on an SQL Server 
 ## Protecting SQL Server Clusters
 {: #configureBackupSQLCluster}
 
-To protect an SQL Server cluster, you must install the Windows&reg; {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
+To protect an SQL Server cluster, you must install the Windows {{site.data.keyword.backup_notm}} Agent with the Cluster Support plug-in and SQL Server plug-in on each node in the cluster. Then, you can register a virtual server for the SQL Server role in the Portal and create and run backup jobs on the virtual server. Backup jobs on a virtual server are automatically directed to the active cluster node and do not reseed after a failover.
 
 To fully protect an SQL Server cluster, you must back up:
 - The quorum disk,

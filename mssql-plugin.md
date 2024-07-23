@@ -14,7 +14,7 @@ subcollection: Backup
 # Getting started with the SQL Server plug-in
 {: #MSSQLplugin}
 
-The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL database host. Through the Cloud Backup Portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
+The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the Cloud Backup Portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
 {: shortdesc}
 
 ## Capabilities provided
@@ -48,7 +48,7 @@ The SQL Server plug-in is installed with the Windows&reg; Agent on the SQL datab
 
 To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom Setup** page.
 
-Before you install the MSSQL plug-in for your Microsoft&reg; Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
+Before you install the MSSQL plug-in for your Microsoft&reg; Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 Review the Release Notes to make sure that the Backup agent is compatible with SQL of your database.
 {: tip}
 

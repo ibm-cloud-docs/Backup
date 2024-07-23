@@ -14,7 +14,7 @@ subcollection: Backup
 # Getting started with the Exchange plug-in
 {: #Exchangeplugin}
 
-The Exchange plug-in is installed with the Windows&reg; Agent on the host. Through the Cloud Backup Portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
+The Exchange plug-in is installed with the Windows Agent on the host. Through the Cloud Backup Portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
 {: shortdesc}
 
 The plug-in provides the following capabilities:
@@ -23,9 +23,9 @@ The plug-in provides the following capabilities:
 ## Installing the plug-in
 {: #installExchangePlugin}
 
-The Exchange plug-in is installed during the Windows&reg; Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
+The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
-Before you install the plug-in for your MS Windows&reg; server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
+Before you install the plug-in for your MS Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}
 
 When the installation is complete, check to make sure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.

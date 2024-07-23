@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-23"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -78,7 +78,7 @@ Cloud Backup Portal and AMP proxy
 
 The agent must allow the TCP port 2548 inbound on the private network. This setting allows Central Control and Cloud Backup Portal to connect into the agent to manage it. Older versions of EVault used port 808.
 
-The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows&reg; operating systems.
+The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows operating systems.
 
 When it comes to connection settings, the difference between desktop Central Control and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the client-based Central Control connects to your server, by using its address and the server's credentials to access it.
 {: tip}
