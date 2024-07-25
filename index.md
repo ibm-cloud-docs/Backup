@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -14,13 +14,13 @@ subcollection: Backup
 # Provisioning {{site.data.keyword.backup_notm}}
 {: #ordering}
 
-Backups make sure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. You can provision your {{site.data.keyword.backup_full}} instance in the UI, from the CLI, with the API, or Terraform. The first 10 GB of vault space is provided at no cost to you.
+Backups make sure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. You can provision your {{site.data.keyword.backup_full}} instance in the console, from the CLI, with the API, or Terraform. The first 10 GB of vault space is provided at no cost to you.
 {: shortdesc}
 
 Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
 
-## Provisioning {{site.data.keyword.backup_notm}} in the UI
+## Provisioning {{site.data.keyword.backup_notm}} in the console
 {: #ordering-ui}
 {: ui}
 

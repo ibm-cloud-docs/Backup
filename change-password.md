@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -20,7 +20,7 @@ Each {{site.data.keyword.backup_full}} service has an associated password that i
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
 {: important}
 
-## Viewing the backup username and password in the UI
+## Viewing the backup username and password in the console
 {: #viewBackupPW-ui}
 {: help}
 {: support}
@@ -45,7 +45,7 @@ Use the `ibm_storage_evault` resource to create or update your {{site.data.keywo
 
 For more information about arguments and attributes, see [ibm_storage_evault](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault){: external}.
 
-## Changing the backup password in the UI
+## Changing the backup password in the console
 {: #changeBackupPW}
 {: help}
 {: support}
