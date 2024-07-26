@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-10"
+lastupdated: "2024-07-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore, Backup Portal, portal
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Overview of the Backup Portal
 {: #backupportalreference}
 
-The Backup Portal provides a central access point for managing backups and restores for all of your servers. You can create and run backup jobs, restore data, monitor computer and processes; all within the Portal.
+The Backup Portal provides a central access point for managing backups and restores for all of your servers. You can create and run backup jobs, restore data, monitor computers, and processes; all within the Portal.
 {: shortdesc}
 
 ## Starting Cloud Backup Portal
@@ -49,4 +49,3 @@ On the Computers page, you can view server information, configure backup jobs, r
 {: #portalmonitor}
 
 On the Monitor page, you can view the most recent backup statuses for your jobs, monitor processes, and view logs. You can go from information on the Monitor page to related information on the Computers page or in the Logs window. If you click an online computer name or job name, you can view the computer’s record on the Computers page. If you click a job’s last backup status, you can view the job’s past logs in a separate window.
-
