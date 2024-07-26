@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -49,8 +49,8 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 {{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.cloud}} also offers software agents for some of the more common software systems that are backed up, which include the following plug-ins.
 
 - [Bare Metal Restore](/docs/Backup?topic=Backup-BMRplugin)
-- [Microsoft&reg; Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
-- [Microsoft&reg; SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Microsoft Exchange](/docs/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware&reg; VRA](/docs/Backup?topic=Backup-VRA#VRA)
 

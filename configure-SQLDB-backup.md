@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring MSSQL database backups
 {: #configureMSSQLBackup}
 
-To protect Microsoft&reg; SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
+To protect Microsoft SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 {: shortdesc}
 
 You can back up transaction logs for databases only when they use the full or bulk-logged recovery model.
@@ -61,8 +61,8 @@ To add an MSSQL database backup job, complete the following tasks.
    - In the Instance list, select the SQL Server instance where you want to back up databases.
    - To connect to the instance by using a Windows administrator account, select Windows authentication.
    - To connect to the instance by using an SQL Server administrator account, select SQL authentication.
-   - In the User Name box, type the username for connecting to the instance.
-   - In the Password box, type the password of the specified user.
+   - Enter the username for connecting to the instance.
+   - Enter the password of the specified user.
    - If you selected Windows authentication, in the Domain box, type the domain of the specified account.
 6. Click **Connect**.
 7. In the Create New Job dialog box, specify the following information.
@@ -95,9 +95,9 @@ To add an MSSQL database backup job, complete the following tasks.
    Filters are applied when the backup job runs. New databases that match the specified filters are automatically excluded when the backup job runs. Filters are not case-sensitive.
    {: note}
 
-10. To remove an inclusion or exclusion record from the Backup Set box, click Delete next to the record.
-11. Click Apply Now to consolidate and simplify records in the Backup Set box, if changes need to be applied.
-12. Click Create Job. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click Cancel if you don't want to create a schedule now.
+10. To remove an inclusion or exclusion record from the Backup Set box, click **Delete** next to the record.
+11. Click **Apply Now** to consolidate and simplify records in the Backup Set box, if changes need to be applied.
+12. Click **Create Job**. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click **Cancel** if you don't want to create a schedule now.
 
 
 ## Scheduling the SQL backup job
@@ -122,12 +122,12 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 4. In the Schedule box, click the arrow.
 5. In the Configure Job Schedule dialog box, choose one of the following options.
      - To run the backup on specific days each week, in the Schedule View list, click **Days of Week**. Select the days when you want to run the job. Then, use the At field to specify the time when you want to run the job.
-     -  To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the date when you want to run the job. Then, use the At field to specify the time when you want to run the job.
+     - To run the backup on specific dates each month, click **Days of Month** in the Schedule View list. On the calendar, select the date when you want to run the job. Then, use the At field to specify the time when you want to run the job.
      - To create a custom schedule, click **Custom** in the Schedule View list. In the Custom Cycle dialog box, enter a custom schedule. Be sure to follow the format and notation as described.
 6. Click **Okay**. The schedule appears in the Schedule box.
 7. In the Compression list, click a compression level for the backup data. Compression levels optimize the volume of data sent against the speed of processing.
 8. For deferring, select one of the following options.
-    - To allow the backup job to run without a time limit, click None in the Deferring list.
+    - To allow the backup job to run without a time limit, click **None** in the Deferring list.
     - To specify a maximum amount of time that the backup job can run, click **Minutes** or **Hours** in the Deferring list. In the adjacent box, type the maximum number of minutes or hours that the job can run.
 
     When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
@@ -143,8 +143,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 ## Protecting SQL databases in AlwaysOn Availability Groups
 {: #configureBackupAlwaysOn}
 
-You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in.
-If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft&reg; supports only copy-only backups of secondary databases. For more information, see [offload-supported backups to secondary replicas of an availability group](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups){: external}.
+You can protect SQL Server databases in AlwaysOn Availability Groups by using the Windows {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in. If you back up a database in a secondary replica, a copy-only backup of the database is performed. Copy-only backups do not affect the sequence of conventional SQL Server backups. Microsoft supports only copy-only backups of secondary databases. For more information, see [offload-supported backups to secondary replicas of an availability group](https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups){: external}.
 
 If a backup job includes secondary databases and databases that are not in a secondary replica, a copy-only backup is performed for all databases in the job. Do not include a secondary database in the same job as a stand-alone database.
 {: note}
@@ -198,4 +197,3 @@ You can also enter a password hint. When you want to restore data, you can view 
 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.
 {: important}
-

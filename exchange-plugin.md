@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -29,4 +29,3 @@ Before you install the plug-in for your MS Windows server, stop both {{site.data
 {: tip}
 
 When the installation is complete, check to make sure that both services are enabled and running. If Cloud Backup Portal is able to view and access the database, then the installation was successful.
-

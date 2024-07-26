@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, NFS
 
@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: note}
    
 1. From the Select Job Task menu, select **Create New NFS Files Job**.
-    1. In the Create New Job window, enter a **Name** and a **Description**.
+    1. In the new window, enter a **Name** and a **Description**.
     1. In the **Destination** list, select the vault where you want to save the backup data. A vault appears in the list only if it is assigned to the user, or if the user added it on the computer’s Vault Settings.
     1. In the **Log File Options** list, select the level of detail for job logging.
     1. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.

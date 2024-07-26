@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -30,7 +30,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 
 - Ability to specify the names of databases to include and exclude in SQL Server backup jobs by using wildcard characters (asterisks and question marks). New databases with names that match a backup job's filters are automatically included or excluded when the job runs.
 - Ability to protect secondary databases in AlwaysOn Availability Groups by using the 64-bit Agent and SQL Server plug-in.
-- Ability to share SQL safe-sets that contain SharePoint 2010/2013 content databases for use with the Granular Restore for Microsoft&reg; SharePoint application. After the safe-set is shared, the Granular Restore application can be used to restore site collections, websites, lists, libraries, folders, list items, or documents.
+- Ability to share SQL safe-sets that contain SharePoint 2010/2013 content databases for use with the Granular Restore for Microsoft SharePoint application. After the safe-set is shared, the Granular Restore application can be used to restore site collections, websites, lists, libraries, folders, list items, or documents.
 - Support for Delta-friendly backup of databases that are on spanned volumes.
 - Ability to protect databases in a full recovery model with a single schedule entry. This option allows protecting databases and managing truncation of transaction logs in a single schedule entry.
 - The SQL Server plug-in supports Full, Full with Include Transaction Logs, and Transaction Log backups (updated terminology to align with SQL Server terminology). The application continues to support the Single Pass Restore function that allows the customer to select a point in time “transaction log” backup. {{site.data.keyword.backup_notm}} restores the full database and all transaction logs necessary to restore the database to the selected point in time.
@@ -48,7 +48,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 
 To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom Setup** page.
 
-Before you install the MSSQL plug-in for your Microsoft&reg; Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
+Before you install the MSSQL plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 Review the Release Notes to make sure that the Backup agent is compatible with SQL of your database.
 {: tip}
 

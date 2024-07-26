@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -41,7 +41,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 5. Click **Save**.
 6. Click the **Jobs** tab.
 7. From the Select Job Task menu, select **Create Bare Metal Restore Job**.
-8. In the Create New Job window, enter a Job Name and a Job Description.
+8. In the new window, enter a Job Name and a Job Description.
 9. Select the files and folders that you want to include in the backup.
 10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
    You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. The lost password cannot be recovered in any way.

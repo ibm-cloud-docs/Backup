@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -127,10 +127,9 @@ Bandwidth throttling settings specify the amount of bandwidth that is used by an
 
 Bandwidth settings include the following parameters.
 - Maximum bandwidth, in megabits per second, to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
-- Length of time during the day that throttling is in effect. Only one time window can be specified. Outside the window, no throttling takes place.
+- Length of time during the day that throttling is in effect. Only one time-window can be specified. Outside the window, no throttling takes place.
 - Days of the week that throttling is in effect.
 
 If the bandwidth-throttling time period begins when a backup is underway, the maximum bandwidth is applied dynamically to the running backup. Similarly, if the bandwidth-throttling time period ends when a backup is running, bandwidth throttling is ended for the backup.
 
 If you edit an {{site.data.keyword.backup_notm}} Agent’s bandwidth settings while a backup is running, the new settings do not affect the backup that is running. Bandwidth settings are applied when a backup starts, not during its operation.
-

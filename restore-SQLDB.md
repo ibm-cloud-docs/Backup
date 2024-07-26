@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -24,7 +24,7 @@ After you back up SQL Server databases by using the SQL Server plug-in, you can 
 If transaction logs were backed up by using an alternative method, you can restore a database in the restoring state so that you can apply transaction logs to the database later.
 When you restore system databases, the primary database must be restored first, by itself. Other system databases can then be restored later.
 You must specify a Windows or SQL Server administrator account for connecting to SQL Server during a restore.
-After you restored an SQL Server 2016 database that is stretched to Microsoft® Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft&reg; Developer Network](https://learn.microsoft.com/en-us/sql/sql-server/stretch-database/restore-stretch-enabled-databases-stretch-database){: external}.
+After you restored an SQL Server 2016 database that is stretched to Microsoft® Azure, you must run a stored procedure (sys.sp_rda_reauthorize_db) to reconnect the local restored database to the remote Azure data. For more information, see [Restore the connection between the SQL Server database and the remote Azure database on the Microsoft Developer Network](https://learn.microsoft.com/en-us/sql/sql-server/stretch-database/restore-stretch-enabled-databases-stretch-database){: external}.
 
 To restore a database directly to SQL Server, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available computers.
@@ -123,9 +123,9 @@ After you restored a database to the primary replica and added the database back
 ## Restoring items from an SQL server or SharePoint database
 {: #restoreSQLDBitems}
 
-If a Microsoft&reg; SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a Microsoft&reg; SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
+If a Microsoft SharePoint 2010 or 2013 database is backed up by using the SQL Server plug-in, you can restore items such as site collections, websites, lists, and documents from the backup. If a Microsoft SQL Server database is backed up by using the SQL Server plug-in or Image plug-in, you can restore specific tables and objects from the backup.
 
-To restore items from a database backup, you must first use Portal to expose the safe set as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for Microsoft&reg; SharePoint. To restore items from an SQL Server database backup, use Granular Restore for Microsoft&reg; Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
+To restore items from a database backup, you must first use Portal to expose the safe set as a shared resource. You can then use a Granular Restore application to find and restore items from the backup. To restore items from a SharePoint database backup, use Granular Restore for Microsoft SharePoint. To restore items from an SQL Server database backup, use Granular Restore for Microsoft Exchange and SQL. For more information, or to obtain a Granular Restore application, contact your service provider.
 
 To restore items from an SQL Server or SharePoint database, complete the following tasks.
 1. On the navigation bar, click Computers. A grid lists available servers.
@@ -140,8 +140,8 @@ To restore items from an SQL Server or SharePoint database, complete the followi
 10. Click Share. The Process Details dialog shows the status of the share process. When the share is available, the share path appears next to the dialog box.
 11. Click Copy Path to Clipboard. The path is now available for you to paste into the Granular Restore application.
 12. Start the granular restore.
-    - To restore SharePoint items, start the Granular Restore for Microsoft&reg; SharePoint application on a SharePoint 2010 or 2013 system.
-    - To restore SQL Server database items, start the Granular Restore for Microsoft&reg; Exchange and SQL application on an SQL Server system.
+    - To restore SharePoint items, start the Granular Restore for Microsoft SharePoint application on a SharePoint 2010 or 2013 system.
+    - To restore SQL Server database items, start the Granular Restore for Microsoft Exchange and SQL application on an SQL Server system.
 13. Paste the path for the SQL safe set share into the Granular Restore application.
 14. Select and restore your data.
 15. When you no longer need to share the safe set, click Stop. When you click Stop or the share idle time is reached, the Process Details dialog shows that the share is no longer available.

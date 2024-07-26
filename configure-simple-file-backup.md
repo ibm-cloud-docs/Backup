@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -58,7 +58,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     5. Click **Save**.
     6. Click the **Jobs** tab.
     7. From the Select Job Task menu, select **Create New Local System Job**.
-    8. In the Create New Job window, enter a Job Name and a Job Description.
+    8. In the new window, enter a Job Name and a Job Description.
     9. Select the files and folders that you want to include and exclude in the backup. To exclude files, you must add an exclusion record. Select the directory that contains the file that you want to exclude and click **Exclude**. This action adds the file to the Backup Set with a red minus sign. From here, you can filter out a directory or specific file name from that directory that you want skipped during backup.
     10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 

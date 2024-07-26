@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -42,4 +42,3 @@ For more information, see [Configuring BMR backup jobs](/docs/Backup?topic=Backu
 {: #restoringBMimage}
 
 For more information, see [Restoring a BMR system volume image](/docs/Backup?topic=Backup-restoreBMR).
-
