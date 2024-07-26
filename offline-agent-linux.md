@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-26"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -38,7 +38,7 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 When the `BUAgent` process is no longer active on the server, the Linux&reg; Agent appears offline in the Cloud Backup Portal.
 {: tsCauses}
 
-Ensure that the BUAgent is running by issuing the following command on the Linux&reg; system.
+Make sure that the BUAgent is running by issuing the following command on the Linux&reg; system.
 {: tsResolve}
 
 ```sh
@@ -64,12 +64,12 @@ BUAgent is running (PID: )
    ```
    {: pre}
 
-   or for Backup agent 9.21:
+   Or for Backup agent 9.21:
 
    ```sh
    /etc/rc.d/vvagent start
    ```
-   [: pre]
+   {: pre}
 
 * If the BUAgent appears to be running, restart the service with the following command.
    ```sh
@@ -77,7 +77,7 @@ BUAgent is running (PID: )
    ```
    {: pre}
 
-   or for Backup agent 9.21:
+   Or for Backup agent 9.21:
 
    ```sh
    /etc/rc.d/vvagent restart
