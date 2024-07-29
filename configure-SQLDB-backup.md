@@ -133,7 +133,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
     When you use the deferring option, the backup job doesn't back up any new data after the specified amount of time, even if some data is not backed up. Changes to data that was previously backed up are still backed up, regardless of the amount of time specified.
     {: note}
 
-9. To run the job on the specified schedule, select the Enable checkbox near the end of the row.
+9. To run the job on the specified schedule, select the checkbox **Enable**.
 
    If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules toward the end of the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the retention type of the schedule that is highest in the priority list.
    {: note}
