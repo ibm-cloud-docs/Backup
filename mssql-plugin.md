@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-07-26"
+lastupdated: "2024-07-29"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -35,7 +35,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 - Ability to protect databases in a full recovery model with a single schedule entry. This option allows protecting databases and managing truncation of transaction logs in a single schedule entry.
 - The SQL Server plug-in supports Full, Full with Include Transaction Logs, and Transaction Log backups (updated terminology to align with SQL Server terminology). The application continues to support the Single Pass Restore function that allows the customer to select a point in time “transaction log” backup. {{site.data.keyword.backup_notm}} restores the full database and all transaction logs necessary to restore the database to the selected point in time.
 - A backup job can contain one or more databases from the same single SQL Server instance. A separate Job can be created to back up other databases from a different SQL Server instance, which can be run simultaneously if wanted.
-- Ability to restore databases with "No Recovery" to provide more recovery options through the SQL Server Management Studio.
+- The ability to restore databases with "No Recovery" provides more recovery options through the SQL Server Management Studio.
 - Alternate restore option supports restore to files, which allows the database administrator to mount the databases through the SQL System Manager.
 - Alternate restore includes the ability to direct the restore of one database into another even when the logical database names are not matching. For mismatched objects, the plug-in creates databases in the default database location for the instance.
 - Support for Transparent Data Encryption (TDE) with 64-bit SQL Server 2008 R2 (SP1) and SQL Server 2012.

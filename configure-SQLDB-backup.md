@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-26"
+lastupdated: "2024-07-29"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -17,7 +17,7 @@ subcollection: Backup
 To protect Microsoft SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 {: shortdesc}
 
-You can back up transaction logs for databases only when they use the full or bulk-logged recovery model.
+You can back up transaction logs for databases only when they use the full or bulk recovery model.
 {: note}
 
 The account that was specified during the {{site.data.keyword.backup_notm}} Agent and SQL Server plug-in installation must have the public server role to perform full SQL Server backups. The account must have the "sysadmin" role to perform transaction log backups.
@@ -116,7 +116,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
    - To back up each database and its transaction logs from the point in time when the backup starts, click **Full with transaction logs**.
    - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When **Transaction Logs only** is selected, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
 
-   After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can be backed up for databases only when they use the full or bulk-logged recovery model.
+   After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can be backed up for databases only when they use the full or bulk recovery model.
    {: note}
 
 4. In the Schedule box, click the arrow.
