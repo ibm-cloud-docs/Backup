@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -37,13 +37,13 @@ If an Oracle&reg; backup and a full-system backup are available, then the follow
 ## Restoring an Oracle database
 {: #restoreODB}
 
-1. On the navigation bar, click **Computers**. A grid lists available servers.
+1. On the navigation bar, click **Computers**. A grid shows available servers.
 2. Find the computer with the Oracle&reg; database that you want to restore, and expand its view by clicking the row for the computer.
 3. Click the Jobs tab.
 4. Find the job with the database that you want to restore, and click **Restore** in the Select Action menu for the job. The Restore dialog box shows the most recent safe set for the job.
 5. To restore the database from an older safe set, or from SSI (safe set image) files, follow one of these steps.
    - To restore data from an older safe set, click the calendar. In the calendar that appears, click the date of the safe set from which you want to restore. Next to the calendar, click the specific safe set that you want to use.
-   - To restore data from SSI files on disk, select Directory on disk from the Source Device list. Click the folder. In the Select Folder dialog box, select the directory where the files are located, and click **Okay**.
+   - To restore data from SSI files on disk, select **Directory on disk** from the Source Device list. Click the folder. In the Select Folder dialog box, select the directory where the files are located, and click **Okay**.
 
    SSI files are full backups that are exported from the vault or backed up from a computer to disk instead of to a vault. It can be quicker to save backup files on physical media and transport them to a location for a restore than to restore data from a vault in a remote data center. You cannot restore from backups to disk (SSI files) until the safe set is imported into the vault and the {{site.data.keyword.backup_full}} Agent is synchronized with the vault.
    {: note}
@@ -53,11 +53,11 @@ If an Oracle&reg; backup and a full-system backup are available, then the follow
    - To restore files and folders to the location where they were backed up, select **Restore files to their original location**.
    - To restore files and folders to a different location, select **Restore files to an alternate location**. Click the folder. In the Select Folder dialog box, select the location where you want to restore, and click **Okay**.
 
-8. Select a File Overwrite option. This option specifies how to restore a file to a location where a file with the same name exists.
+8. Select one of the File Overwrite options. This option specifies how to restore a file to a location where a file with the same name exists.
    - To overwrite existing files with restored files, select **Overwrite existing files**.
 
-   If you try to restore multiple files with the same name to an alternative location and select **Overwrite existing files**, only the last file remains. Other files with the same name are overwritten.
-   {: note}
+      If you try to restore multiple files with the same name to an alternative location and select **Overwrite existing files**, only the last file remains. Other files with the same name are overwritten.
+      {: note}
 
    - To add a numeric extension (for example, .0001) to a restored file name, select **Do not overwrite existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name resides, an extension is added to the restored file name (“filename.txt.0001”).
    - To add a numeric extension (for example, .0001) to an existing file name, select **Rename existing files**. For example, if you restore a file named “filename.txt” to a location where a file with the same name exists, an extension is added to the existing file name (“filename.txt.0001”). The name of the restored file continues to be “filename.txt”.

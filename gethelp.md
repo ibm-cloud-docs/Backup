@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2023-02-22"
+lastupdated: "2024-07-31"
 
 keywords: IBM Cloud backup, EVault, issues, get support, how to request help, open a case, open a ticket
 
@@ -19,6 +19,7 @@ If you experience an issue or have questions when you use {{site.data.keyword.ba
 
 * Review the [FAQs](/docs/Backup?topic=Backup-faqs) in the product documentation.
 * Review the [troubleshooting documentation](/docs/Backup?topic=Backup-troubleshoot-missingServer0password) to troubleshoot and resolve common issues.
+* Connect to the {{site.data.keyword.cloud}} network with [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 * Check the status of the {{site.data.keyword.cloud}} platform and resources by going to the [Status page](/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `cloud-backup`, so it can be seen by the {{site.data.keyword.cloud_notm}} development teams.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-31"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -101,5 +101,3 @@ For more information, see [Configure, schedule, and run a backup job](/docs/Back
 {: #restoringvSphereData}
 
 For more information, see [Restore vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).
-
-

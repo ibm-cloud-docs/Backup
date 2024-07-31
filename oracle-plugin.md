@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-31"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -90,4 +90,3 @@ For more information, see [Configuring Oracle DB backups](/docs/Backup?topic=Bac
 {: #restoringODBbackup}
 
 For more information, see [Restoring Oracle DB](/docs/Backup?topic=Backup-restoreOracleDB).
-
