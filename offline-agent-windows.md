@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-08-07"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -35,18 +35,18 @@ Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports
 1. Establish a Remote Desktop connection to the offline Agent server.
 2. Then, run one of the following commands to check the ports.
    * Open CMD and run `telnet` to validate the connection. If TELNET is not yet installed, you can add the Telnet Client through the **Add Roles and Features**.
-    ```sh
-    telnet cloudbackupregister.service.softlayer.com 8086
-    ```
-    {: pre}
+     ```sh
+     telnet cloudbackupregister.service.softlayer.com 8086
+     ```
+     {: pre}
 
-    If the port is open, the CMD shows a blank screen. If the port is not open, CMD returns the following message.
-    ```sh
-    Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
-    ```
-    {: screen}
+     If the port is open, the CMD shows a blank screen. If the port is not open, CMD returns the following message.
+     ```sh
+     Connecting to cloudbackupregister.service.softlayer.com… Could not open connection to the host, on port 8086: Connect failed
+     ```
+     {: screen}
 
-    If so, you must contact your network team to update the firewall.
+     If so, you must contact your network team to update the firewall.
 
    * If you don't want to install Telnet, you can use `test-netconnection` in Powershell.
      1. Open Powershell as Administrator.
@@ -81,7 +81,6 @@ Restart the Carbonite EVault Server Backup BUAgent in Services.msc.
 2. Open `Services.msc`.
 3. Restart the BUAgent service.
 4. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
-
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
