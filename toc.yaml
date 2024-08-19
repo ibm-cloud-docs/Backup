@@ -102,6 +102,7 @@ toc:
         - topicgroup:
             label: Troubleshooting
             topics:
-            - missingServer0PW.md
-            - offline-agent-linux.md
-            - offline-agent-windows.md
+            - ts-missingServer0PW.md
+            - ts-offline-agent-linux.md
+            - ts-offline-agent-windows.md
+            - ts-unsupportedOStype.md
