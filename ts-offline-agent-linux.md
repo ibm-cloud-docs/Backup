@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-19"
+lastupdated: "2024-09-04"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -46,12 +46,6 @@ Make sure that the BUAgent is running by issuing the following command on the Li
 ```
 {: pre}
 
-For Backup Agent 9.21, run the following command:
-
-```sh
-/etc/rc.d/vvagent status
-```
-
 The output shows whether the BUAgent is running.
 ```sh
 VVAgent is running (PID: )
@@ -64,23 +58,9 @@ BUAgent is running (PID: )
    ```
    {: pre}
 
-   Or for Backup agent 9.21:
-
-   ```sh
-   /etc/rc.d/vvagent start
-   ```
-   {: pre}
-
 * If the BUAgent appears to be running, restart the service with the following command.
    ```sh
    /etc/init.d/vvagent restart
-   ```
-   {: pre}
-
-   Or for Backup agent 9.21:
-
-   ```sh
-   /etc/rc.d/vvagent restart
    ```
    {: pre}
 
