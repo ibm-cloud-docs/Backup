@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -24,7 +24,7 @@ BMR is available only for Windows Bare Metal Servers. No BMR option is available
 {: #initiateBMR}
 
 You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
-1. Log in to the [{{site.data.keyword.cloud_notm}} UI](/login){: external}. From the menu ![menu icon](../icons/icon_hamburger.svg "menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} UI](/login){: external}. From the menu ![menu icon](../icons/icon_hamburger.svg "menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Click the instance name to display the details of the Backup instance.
 4. In the Installed plug-ins section, click **Initiate Bare Metal Restore**.

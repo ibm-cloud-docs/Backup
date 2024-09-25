@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, set up, configure, run backup, billing, pricing,
 
@@ -97,7 +97,7 @@ For more information about the available plug-ins, see the following topics.
 Cloud Backup Portal is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. The Portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
 1. Access the Private Network over [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external}. The Cloud Backup Portal can't be accessed over the public network. A VPN connection must be established first.
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 3. Click **Storage** > **Cloud Backup** to display the backup services.
 4. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 5. Click **View backup portal** to start the portal in your browser.
@@ -140,7 +140,7 @@ Archiving is not supported. When you create a retention scheme, or modify an exi
 
 The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage**, and select **Backup** from the list.
 3. Click anywhere on the row of the vault that you want to view its storage details. From this view, the password isn't visible.
 4. Click the **Show** checkbox next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.

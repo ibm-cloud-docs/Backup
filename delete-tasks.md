@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, delete jobs
 
@@ -19,7 +19,7 @@ subcollection: Backup
 A backup job specifies which data to back up on a system, specifies where to save the data, and contains other backup settings. A backup task is the data that is stored in the vault. You can delete backup jobs from online servers without deleting the job data from vaults from the Cloud Backup Portal, so you can use the data later to restore a server. To delete the entire task from the vault, follow these instructions.
 {: shortdesc}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 1. Click **Storage** > **Cloud Backup** to display the backup services.
 1. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 1. Click **Backup** on the Cloud Backup details page. Jobs and Tasks information is displayed. 

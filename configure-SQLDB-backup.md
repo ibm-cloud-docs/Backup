@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-07-29"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -30,7 +30,7 @@ The account that was specified during the {{site.data.keyword.backup_notm}} Agen
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the Portal.
 {: requirement}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
 3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
 4. Click **View backup portal** to start the portal in your browser.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-25"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -59,7 +59,7 @@ You can also save the order without purchasing by clicking **Save as Quote**.
 ### Purchasing {{site.data.keyword.backup_notm}} as an upgrade
 {: #purchasingasupgradeui}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 1. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add the backup service.
 1. Click the Device name to go to the **Device Details** page.
 1. Click the **Storage** tab, and scroll down to locate the {{site.data.keyword.backup_notm}} section.

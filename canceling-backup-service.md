@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-07-25"
+lastupdated: "2024-09-25"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -26,7 +26,7 @@ If you cancel the virtual or the Bare Metal Server that the {{site.data.keyword.
 {: #cancelbackupUI}
 {: ui}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Classic Infrastructure** ![Classic icon](../icons/classic.svg "Classic").
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 1. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 1. Click the name of the instance that you want to delete. This action displays the Backup service's details page.
 1. Select **Actions** > **Delete**.
