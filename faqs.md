@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-09-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -33,7 +33,7 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the list of backup services.
 3. Click the instance name of the backup vault where you want to change your password.
-4. On the Overview page, you can see your Portal Password. Click the Pencil icon to modify the password.
+4. On the Overview page, you can see your Portal Password. Click the **Edit icon** ![Edit icon](../icons/edit-tagging.svg "Edit") to modify the password.
 5. Enter the new password in the **Password** field.
 
    The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
