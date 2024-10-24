@@ -33,7 +33,7 @@
         },
         {
           "title": "Disaster Recovery vs. Backup: What's the difference?",
-          "description": "In this lightboard video, Bradley Knapp with IBM Cloud, answers these questions and many more as he breaks down the differences and similarities between disaster recovery and backup, as well as explains how both of these solutions can help you solve the needs for you and your business.",
+          "description": "In this lightboard video, Bradley Knapp with IBM Cloud, answers these questions and many more as he breaks down the differences and similarities between disaster recovery and backup.",
           "href": "https://www.youtube.com/watch?v=07EHsPuKXc0&ab_channel=IBMTechnology",
           "type": "video"
         }
@@ -47,23 +47,19 @@
     "tiles": [
       {
         "date": "05 July 2024",
-        "title": "New version of the Linux agent is available.",
-        "description": "Version 9.22 was released on 05 July 2024. This Linux Agent version includes security enhancements."
+        "title": "New version of the Linux agent is available." 
       },
       {
         "date": "15 October 2023",
-        "title": "New location available: DAL14.",
-        "description": "Customers can now provision IBM Cloud Backup instances in Dallas 14 data center." 
+        "title": "New location available: DAL14."
       },
       {
         "date": "06 June 2023",
-        "title": "IBM Cloud Backup is deployed in Madrid MZR",
-        "description": "Customers can now set up IBM Cloud Backup instances in Madrid MZR to secure their data."
+        "title": "IBM Cloud Backup is deployed in Madrid MZR"
       },
       {
         "date": "10 April 2023",
-        "title": "New version of the Windows agent is available",
-        "description": "Version 9.30 was released on 10 April 2023. This Windows Agent version includes security enhancements, and the ability to trigger Image and Local System backups by system events, such as Log on or Shut Down. For each backup trigger, you can specify a retention type for the resulting backups, and specify whether there needs be at least 12 hours or 24 hours between triggered backups." 
+        "title": "New version of the Windows agent is available"
       }
     ]
   }
