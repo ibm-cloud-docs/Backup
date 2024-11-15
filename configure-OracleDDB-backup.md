@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-11-15"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -76,7 +76,7 @@ To add an Oracle database backup job, complete the following tasks.
 {: #ODBSchedulejob}
 
 1. In the View/Add Schedule dialog box, click **Add Schedule**.
-2. In the new schedule row, in the Retention list, click a retention type.
+2. In the new schedule row, in the Retention list, click a [retention type](/docs/Backup?topic=Backup-faqs#retention-type).
 3. In the Schedule box, click the arrow.
 4. In the Configure Job Schedule dialog box, choose one of the following options.
      - To run the backup on specific days each week, in the Schedule View list, click **Days of Week**. Select the days when you want to run the job. Then, use the At field to specify the time when you want to run the job.
