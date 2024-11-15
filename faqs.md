@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-09-26"
+lastupdated: "2024-11-15"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -75,6 +75,21 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 
 You can modify default retention schemes and can create custom retention schemes. It's best to use the default retention schemes as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is not selected. Archiving is not supported.
 {: tip}
+
+## What are retention types?
+{: faq}
+{: #retention-type}
+{: support}
+
+Retention types specify the number of days a backup is kept on the vault, how many copies of a backup are stored online, and how long backup data is stored offline. In a policy, you can have the following retention types: Daily, Weekly, Monthly, and Yearly. You can view these retention types in the [IBM Cloud Backup portal](https://ibmcloudbackup.service.softlayer.com/Computer){: external}, by clicking **Computer** > **Advanced** > **Retention**, where you can also modify the default values.
+
+| Retention             | Days Online | Copies Online |
+|-----------------------|-------------|---------------|
+| Daily for 7 days      | 7           | 7             |
+| Weekly for 1 month    | 31          | 5             |
+| Monthly for a quarter | 91          | 3             |
+| Yearly for 5 years    | 1825        | 5             |
+{: caption="Available retention types" caption-side="bottom"}
 
 ## What is Delta Technology?
 {: faq}
