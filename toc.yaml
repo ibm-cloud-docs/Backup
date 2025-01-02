@@ -20,7 +20,7 @@ toc:
         - backup-portal.md
         - link:
             label: What is IBM Cloud Backup?
-            href: https://www.ibm.com/topics/backup-and-restore
+            href: https://www.ibm.com/think/topics/backup-and-restore
     - navgroup:
         id: howto
         topics:
