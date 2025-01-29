@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-11-15"
+  years: 1994, 2025
+lastupdated: "2025-01-29"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -155,12 +155,24 @@ You can increase or decrease the size of your vault through the [{{site.data.key
 
 You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. However, you are going to receive an extra charge for every additional GB that was used in the next billing statement.
 
-## How can I set up notifications in the Cloud Backup Portal that can alert me if a backup fails?
+## How can I set up email notifications in the Cloud Backup Portal that can alert me if a backup fails?
 {: faq}
 {: #fail-alerts}
 {: support}
 
-Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in the Portal.
+Notifications can be set up for multiple recipients on the Advanced tab of the Computer in the Portal.
+
+After you located the computer in the Portal, on the Advanced tab, click **Notifications**. You can select to get notified in the following instances:
+- When a backup or restore fails.
+- When a backup or restore completes with errors in the log file. 
+- When a backup or restore completes successfully.
+
+Email notifications are sent separately for each backup and restore. For example, if three backup jobs fail on a computer and On failure is selected for the computer, three notification emails are sent.
+
+If the Notifications tab appears, but a policy is assigned to the computer, you cannot change values on the Notifications tab. Instead, notifications can only be modified in the policy.
+{: note}
+
+For more information, see the instructions that you can find in **Quick Links** in the Portal.
 
 ## When we use the BMR plug-in, can we move from a single disk to a raid array?
 {: faq}
