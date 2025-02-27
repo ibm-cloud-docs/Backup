@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-02-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs
+# FAQ for {{site.data.keyword.backup_notm}}
 {: #faqs}
 
 ## Where can I find my username for the service?
