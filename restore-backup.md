@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-06"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -33,7 +33,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 1. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the server that you want to restore to a previous state.
 2. Click **Jobs** to load the job options.
-3. Click **Select job Task** and select **Restore*.
+3. Click **Select job Task** and select **Restore**.
 4. Confirm the vault, computer, and job information and click **Okay**.
 5. Enter the encryption password of the previous backup.
 6. The Restore Options window appears. By default, it displays the most recent safe set. To choose a different date, click the Calendar icon and view other safe sets.
