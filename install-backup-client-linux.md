@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -14,12 +14,12 @@ subcollection: Backup
 # Installing the backup client in Linux
 {: #InstallinLinux}
 
-Installing the {{site.data.keyword.backup_full}} client on a Linux&reg;-based operating system can be done through a series of commands in the shell or the terminal within the OS.
+You can install the {{site.data.keyword.backup_full}} client on a Linux&reg;-based operating system through a series of commands in the shell or terminal within the OS.
 {: shortdesc}
 
 This procedure outlines the steps that are required to install the client on any of the following operating systems:
 * Red Hat Enterprise Linux&reg;
-* CentOS
+* CentOS Stream
 * CloudLinux&reg;
 
 After you completed the procedure, the automated process registers the Agent service with Cloud Backup Portal, then downloads and installs the files that are needed to run the service.
@@ -87,7 +87,7 @@ This step is required for RHEL, but optional for other distributions.
 
 3. After the username and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
 
-    They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
+    They are produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
     {: note}
 
 4. The installation is complete when the following messages appear.

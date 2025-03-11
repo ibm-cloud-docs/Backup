@@ -42,26 +42,32 @@ Each server must have its own {{site.data.keyword.backup_notm}} Account. One {{s
 {{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
 [Windows]{: tag-windows} - Oldest supported version of the backup agent is 8.32.
+- Windows 2022 - client must be on Agent version 9.00 or earlier.
 - Windows Server 2019
 - Windows Server 2016
-- Windows Server 2012 R2
-- Windows Server 2012
-- Windows Server 2008 R2
-- Windows Server 2008
 
-Windows 2019 does successfully back up with the Windows agent version 8.60. However, the server shows up in the Backup Portal as Windows 2016. Full backup functions were tested with version 8.60. Do not upgrade to a higher version such as 8.70 because it disables the management of the agent until the Backup Portal is upgraded. The customer can also install Central Control to manage the backup agent. The newest version of Central Control is available to download from [here](http://downloads.service.softlayer.com/evault/CentralControl/){: external}. You must install .NET 3.5 before you install the Central Control application. .Net can be installed by using the Add Roles and Features Wizard from the Server Manager. Multiple.NET can be installed at the same time.
+Windows 2022 can be successfully backed up with Windows Agent version 9.00. However, the server shows up in Backup Portal as Windows 2019. Full backup functions were tested with version 9.00. Do not upgrade to a newer version such as 9.30 because it disables the management of the agent when the Backup Portal is upgraded.
 {: tip}
 
-[Linux]{: tag-linux} - Oldest supported version of the backup agent is 8.50. BMR backups are not supported.
-- CentOS 8.x (It requires backup agent version 8.83.)
-- CentOS 7.x
-- Debian GNU/Linux&reg; 9.x
-- Debian GNU/Linux&reg; 8.x
-- RHEL 8.x (It requires backup agent version 8.83.)
-- RHEL 7.x
-- Ubuntu Linux&reg; 18.04 (It requires backup agent version 8.62 or newer.)
-- Ubuntu Linux&reg; 16.04
-- Ubuntu Linux&reg; 14.04
+[Linux]{: tag-linux} - Current version of Linux Agent is 9.40. BMR backups are not supported.
+- Debian 12 (up to Update 5)
+- Debian 11 (up to Update 9)
+- Debian 10 (up to Update 13)
+- openSUSE Linux 15 (up to Service Pack 5) 1
+- Oracle Linux&reg; 9 (up to Update 4)
+- Oracle Linux&reg; 8 (up to Update 10)
+- Oracle Linux&reg; 7 (up to Update 9)
+- Red Hat Enterprise Linux&reg; Server 9 (up to Update 4)
+- Red Hat Enterprise Linux&reg; Server 8 (up to Update 10)
+- Red Hat Enterprise Linux&reg; Server 7 (up to Update 9)
+- Rocky Linux&reg; 9 (up to Update 4)
+- Rocky Linux&reg; 8 (up to Update 10)
+- SUSE Linux&reg; Enterprise Server 15 (up to Service Pack 5) 1
+- SUSE Linux&reg; Enterprise Server 12 (up to Service Pack 5) 1 2
+- Ubuntu Server 24.04
+- Ubuntu Server 22.04
+- Ubuntu Server 20.04
+- Ubuntu Server 18.04
 
 Follow the instructions appropriate for your OS,
 - [Linux]{: tag-linux} [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-07-23"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -16,13 +16,10 @@ subcollection: Backup
 {: help}
 {: support}
 
-The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
-{: tip}
-
-Any agent that's older than the 8.32 version needs to be upgraded. Any agent that's older than the 8.32 version cannot connect with the Backup portal due to the outdated, unsupported TLS version. Following the upgrade process makes sure that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+The latest supported version of the Windows Agent is v9.00. Any agent that is older than the 8.32 version needs to be upgraded. Any agent that's older than the 8.32 version cannot connect with the Backup portal due to the outdated, unsupported TLS version. Following the upgrade process makes sure that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
 {: shortdesc}
 
-As of 25 March 2021, full support of Windows 2019 is available in the Cloud Backup Portal. Agent version 8.72 is required for this OS.
+The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
 {: tip}
 
 1. Remote control your {{site.data.keyword.cloud}} server that is in need of an {{site.data.keyword.backup_notm}} upgrade.
