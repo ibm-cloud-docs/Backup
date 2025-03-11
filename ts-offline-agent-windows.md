@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-19"
+  years: 2020, 2025
+lastupdated: "2025-03-11"
 
 keywords: troubleshoot for Backup Agent, troubleshooting for Windows, question about Windows backup agent, troubleshooting backup, backup agent offline
 
@@ -26,7 +26,7 @@ Windows agent shows as offline in Portal.
 ## Possible firewall issue
 {: #ts-WinAgentFW}
 
-Currently, at minimum, your servers must allow access to the `10.200.86.0/24` and `10.2.118.0/24` subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked, and the agent cannot communicate with the Portal.
+Your servers must allow access to the `10.200.86.0/24` and `10.2.118.0/24` subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked, and the agent cannot communicate with the Portal.
 {: tsCauses}
 
 Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
@@ -80,7 +80,7 @@ Restart the Carbonite EVault Server Backup BUAgent in Services.msc.
 1. Establish a Remote Desktop connection to the offline Agent server.
 2. Open `Services.msc`.
 3. Restart the BUAgent service.
-4. Refresh the page on the Portal webpage and see whether the Agent now shows “Online”.
+4. Refresh the page on the Portal webpage and see whether the Agent is shown as _online_.
 
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
