@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -17,7 +17,7 @@ subcollection: Backup
 Sometimes you might want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
 {: shortdesc}
 
-The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
+The process includes registering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
 ## Before you begin
 {: #prereqsrestore1}
@@ -39,7 +39,6 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Click Server 2.
 4. Click **View backup portal** to start the portal in your browser.
-
 
 ## Editing the vault information
 {: #changhingvault}
@@ -69,11 +68,10 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 8. Then, click **Run Restore**.
 9. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 
-
 ## Verifying the restore
 {: #verifyrestore}
 
-1. Connect to the root of Server 2 through ssh.
+1. Connect to the root of Server 2 through SSH.
 2. List the files and all directory entries in a long format.
     ```sh
     ls -la
@@ -82,7 +80,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 3. Compare the output.
 
-## Resuming normal backup schedule.
+## Resuming normal backup schedule
 {: #resumeschedule}
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from.

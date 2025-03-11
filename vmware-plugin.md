@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-07-31"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -14,15 +14,15 @@ subcollection: Backup
 # Getting started with the vSphere Recovery Agent
 {: #VRA}
 
-The vSphere Recovery Agent (VRA) is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.
+The vSphere Recovery Agent (VRA) is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect virtual machines that are attached to a single vCenter.
 {: shortdesc}
 
-In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up the preferred VMs of that site. If a VM is moved to a different site (because of maintenance or failures), backup performance can be degraded but remain acceptable.
+In a vSAN stretched cluster, each virtual machine has a preferred site. Ideally, one local VRA is installed in each site that backs up the preferred virtual machines of that site. If maintenance or failures prompt a virtual machine to be moved to a different site, backup performance can be degraded but remain acceptable.
 
 ## Installing the plug-in
 {: #installVRAPlugin}
 
-Ensure that power management is disabled on the server where you install the VRA.
+Make sure that power management is disabled on the server where you install the VRA.
 {: important}
 
 1. Download the installation kit from `http://downloads.service.softlayer.com/evault/`. Then, double-click the installation kit.
@@ -88,7 +88,7 @@ After the successful vault registration, the vCenter Settings need to be configu
     The user must have administrative access to the vCenter to perform this task successfully.
     {: note}
 
-3. Disable Change Block Tracking (CBT) by removing the checkmark. CBT is a VMware&reg; feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
+3. Disable Change Block Tracking (CBT) by removing the checkmark. CBT is a VMware&reg; feature that tracks changed disk sectors and improves the performance of virtual machine backups, and it is automatically enabled by the vSphere Agent.
 4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, a `The vCenter credentials have been validated successfully` message appears.
 5. Click **Save** to save the settings.
 

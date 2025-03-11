@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-31"
+  years: 2019, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Getting started with the Oracle plug-in
 {: #Oracleplugin}
 
-The Oracle plug-in is an add-on and is installed with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.
+The Oracle plug-in is an add-on that you can install with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.
 {: shortdesc}
 
 ## Capabilities provided
@@ -78,7 +78,7 @@ The Oracle plug-in installation kit is available in a tar.gz file.
 
 5. Follow the installation instructions on the screen.
 
-The Oracle plug-in performs an "inconsistent" whole database backup that requires that the database runs in ARCHIVELOG mode. The DBA needs to make sure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the User Guide.
+The Oracle plug-in performs an "inconsistent" whole database backup. It requires that the database runs in ARCHIVELOG mode. The DBA needs to make sure that the database is in ARCHIVELOG mode before the backups are started.
 {: important}
 
 ## Configuring an Oracle DB backup job

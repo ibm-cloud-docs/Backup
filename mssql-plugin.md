@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-31"
+  years: 2019, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -14,14 +14,14 @@ subcollection: Backup
 # Getting started with the SQL Server plug-in
 {: #MSSQLplugin}
 
-The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the Cloud Backup Portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
+The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the Cloud Backup Portal, you can configure jobs, back up SQL databases to a secure and remote vault, and restore SQL databases.
 {: shortdesc}
 
 ## Capabilities provided
 {: #sqlcapabilities}
 
-- You can run full database backups, full database with transaction logs backups, or transaction logs only backup.
-- You can run multiple backups at the same time.
+- You can create backups of the database, backups of the database with transaction logs, or backups of transaction logs only.
+- You can run multiple backup jobs at the same time.
 - You can restore SQL databases to the same SQL instance or to a different SQL instance.
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
 

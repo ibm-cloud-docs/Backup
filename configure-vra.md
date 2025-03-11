@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -50,9 +50,9 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
    {: note}
 
-5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the VMs that you want to include in the backup job.
-    * To add specific VMs to the backup job, select each VM, and then click **Include**.
-    * To exclude specific VMs from the backup job, select each VM, and then click **Exclude**.
+5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the virtual machines that you want to include in the backup job.
+    * To add specific VMs to the backup job, select each virtual machine, and then click **Include**.
+    * To exclude specific VMs from the backup job, select each virtual machine, and then click **Exclude**.
     * To add VMs to the backup job by name, check the virtual machines box, and then click **Include**.
     * To remove an inclusion or exclusion record from the Backup Set box, click **Delete** next to the record.
 
@@ -86,4 +86,4 @@ Scheduled backup jobs can also be run immediately.
 To see the status of the last backup job that ran, click the Jobs tab. All job logs can be accessed from the action menu. Click **Action** and select **History/Logs**.
 {: tip}
 
-For more information about restoring VMs or Files and folders, see [Restoring vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).
+For more information about restoring virtual machines or Files and folders, see [Restoring vSphere data](/docs/Backup?topic=Backup-VRARestore#VRARestore).

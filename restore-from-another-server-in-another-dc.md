@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -89,7 +89,7 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
 
 3. Compare the output.
 
-## Resuming normal backup schedule.
+## Resuming normal backup schedule
 {: #resumescheduleotherCD}
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from.

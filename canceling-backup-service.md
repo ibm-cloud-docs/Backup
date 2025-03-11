@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -58,12 +58,12 @@ For more information, see the [terraform documentation](https://developer.hashic
 {: #uninstallbackupagentWin}
 
 1. Establish a remote desktop session to your server.
-2. Go to Start, and click Control Panel.
-3. Select Programs and Features.
-4. Right-click the EVault Software Agent and confirm the removal by clicking uninstall.
-5. In the dialog box that appears, click Yes.
-6. Select Total uninstall and confirm by clicking Next >.
-7. Restart your server at your earliest convenience to make sure that the software is removed completely.
+2. Go to **Start**, and click **Control Panel**.
+3. Select **Programs and Features**.
+4. Right-click the **EVault Software Agent** and confirm the removal by clicking uninstall.
+5. In the dialog box that appears, click **Yes**.
+6. Select **Total uninstall** and confirm by clicking **Next >**.
+7. Restart your server to make sure that the software is removed completely.
 
 ### Removing the Backup Agent from a Linux&reg; Server
 {: #uninstallbackupagentLin}

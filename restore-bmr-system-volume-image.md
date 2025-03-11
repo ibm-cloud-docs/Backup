@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-09"
+  years: 1994, 2025
+lastupdated: "2025-03-11"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -17,7 +17,7 @@ subcollection: Backup
 If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable Windows operating system. It's useful when the OS is no longer usable or the drives in the server were replaced.
 {: shortdesc}
 
-BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI.
+BMR is available only for Windows Bare Metal Servers. BMR is not available for virtual servers.
 {: attention}
 
 ## Initiating the BMR Rescue Kernel system
@@ -29,7 +29,6 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 3. Click the instance name to display the details of the Backup instance.
 4. In the Installed plug-ins section, click **Initiate Bare Metal Restore**.
 5. You're prompted to confirm the action. To proceed, click *Initiate Bare Metal Restore**. The transaction takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed in the next section. You're going to be emailed when the system completes the boot process.
-
 
 ## Restoring from the BMR Rescue Kernel
 {: #restorefromBMR}
