@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-03-18"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -80,7 +80,7 @@ cd opt/BUAgent
 
 Answer the following prompts.
 * What is the web-based Agent Console address? `cloudbackupregister.service.softlayer.com` or `cloudbackupregister.service.usgov.softlayer.com`
-* What is the web-based Agent Console connection port [8086]? Press enter, 8086 is the correct port.
+* What is the web-based Agent Console connection port [8086]? Press Enter, 8086 is the correct port.
 * What is the web-based Agent Console username? The answer is the same username that is used to log in to Portal.
 * What is the web-based Agent Console password? The answer is the same password that is used to log in to Portal.
 
