@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-02-27"
+lastupdated: "2025-03-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -71,7 +71,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 {: #retention}
 {: support}
 
-{{site.data.keyword.backup_notm}} allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
+{{site.data.keyword.backup_notm}} allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest dataset gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
 You can modify default retention schemes and can create custom retention schemes. It's best to use the default retention schemes as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is not selected. Archiving is not supported.
 {: tip}
@@ -83,7 +83,7 @@ You can modify default retention schemes and can create custom retention schemes
 
 Retention types specify the number of days a backup is kept on the vault, how many copies of a backup are stored online, and how long backup data is stored offline. In a policy, you can have the following retention types: Daily, Weekly, Monthly, and Yearly. You can view these retention types in the [IBM Cloud Backup portal](https://ibmcloudbackup.service.softlayer.com/Computer){: external}, by clicking **Computer** > **Advanced** > **Retention**, where you can also modify the default values.
 
-| Retention             | Days Online | Copies Online |
+| Retention             | Days online | Copies online |
 |-----------------------|-------------|---------------|
 | Daily for 7 days      | 7           | 7             |
 | Weekly for 1 month    | 31          | 5             |
@@ -108,7 +108,7 @@ By default all encryption over the wire (OTW) is encrypted with AES 256-bit encr
 You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back.
 {: important}
 
-Compression ratios allow for zero compression to a maximum ratio compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
+Compression ratios allow for zero compression to a maximum ratio compression that, depending on file type, might be compressed anywhere from 20% to 30%.
 
 ## What information is stored with system state backups?
 {: faq}
@@ -139,7 +139,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 {: faq}
 {: support}
 
-The pricing information for your system resources is shown on the side of the provisioning window, and it shows all of your resource costs. To view the cost estimates for your organization on a per user basis, use the [pricing calculator](https://cloud.ibm.com/cloud-storage/backup/order).
+The pricing information for your system resources is shown on the side of the provisioning window, and it shows all of your resource costs. To view the cost estimates for your organization on a per-user basis, use the [pricing calculator](https://cloud.ibm.com/cloud-storage/backup/order).
 
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
 {: faq}
@@ -163,13 +163,13 @@ You can still save and retrieve your backups even if you reached the limit of th
 Notifications can be set up for multiple recipients on the Advanced tab of the Computer in the Portal.
 
 After you located the computer in the Portal, on the Advanced tab, click **Notifications**. You can select to get notified in the following instances:
-- When a backup or restore fails.
-- When a backup or restore completes with errors in the log file. 
-- When a backup or restore completes successfully.
+- When a backup or restore fails
+- When a backup or restore completes with errors in the log file
+- When a backup or restore completes successfully
 
 Email notifications are sent separately for each backup and restore. For example, if three backup jobs fail on a computer and On failure is selected for the computer, three notification emails are sent.
 
-If the Notifications tab appears, but a policy is assigned to the computer, you cannot change values on the Notifications tab. Instead, notifications can only be modified in the policy.
+If the Notifications tab appears, but a policy is assigned to the computer, you cannot change values on the tab. In that case, notifications can be modified only in the policy.
 {: note}
 
 For more information, see the instructions that you can find in **Quick Links** in the Portal.
@@ -235,7 +235,7 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 {: #agent-offline}
 {: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the troubleshooting section:
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure that you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the troubleshooting section:
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
 * [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)

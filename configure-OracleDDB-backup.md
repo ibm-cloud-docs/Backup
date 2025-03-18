@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-11-15"
+  years: 2021, 2025
+lastupdated: "2025-03-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -126,7 +126,7 @@ If you forget the encryption password, you lose access to the data. You cannot r
 Bandwidth throttling settings specify the amount of bandwidth that is used by an {{site.data.keyword.backup_notm}} Agent for backups. For example, you might want to restrict the amount of bandwidth that is used for daytime backups so that online users are not affected. At the same time, you might allow unlimited bandwidth usage at night so that scheduled backups run as fast as possible.
 
 Bandwidth settings include the following parameters.
-- Maximum bandwidth, in megabits per second, to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
+- Maximum bandwidth in megabits per second that is to be used by the {{site.data.keyword.backup_notm}} Agent for all backups and restores.
 - Length of time during the day that throttling is in effect. Only one time-window can be specified. Outside the window, no throttling takes place.
 - Days of the week that throttling is in effect.
 

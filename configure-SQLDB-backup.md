@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-11-15"
+  years: 2021, 2025
+lastupdated: "2025-03-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more databases in an SQL Server instance. The backup job specifies which databases to back up, and where to save the backup data. You can also back up a SharePoint 2013 or 2010 database with the SQL Server plug-in. However, an SQL Server backup job cannot include databases from multiple SQL Server instances.
 
-When you create the backup job, you must specify the Windows administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where the databases reside.
+When you create the backup job, you must specify the Windows administrator or SQL Server administrator credentials that allow the {{site.data.keyword.cloud_notm}} Agent to connect to the instance where the databases are present.
 
 To back up the data, you can run the backup job manually or schedule the job to run. When you schedule or run a job, you can specify whether to back up the database, the transaction logs, or both.
 

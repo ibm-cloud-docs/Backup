@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-03-18"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, delete jobs
 
@@ -32,5 +32,5 @@ A backup job specifies which data to back up on a system, specifies where to sav
    Backup data deletion is permanent. After the data is deleted from vaults, it cannot be recovered or restored.
    {: attention}
 
-   If you want to delete a specific data set and not the entire task, you need to raise a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}. For more information, see the [FAQs](/docs/Backup?topic=Backup-faqs&interface=ui#deletesafeset).
+   If you want to delete a specific dataset and not the entire task, you need to raise a [support case](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}. For more information, see the [FAQs](/docs/Backup?topic=Backup-faqs&interface=ui#deletesafeset).
    {: tip}
