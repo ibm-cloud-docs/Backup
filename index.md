@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-03-21"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -78,7 +78,7 @@ If the backup storage size continues to show a capacity of zero, a second page r
 {: #ordering-cli}
 {: cli}
 
-Before you begin, you must install the IBM Cloud CLI. For more information, see [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started).
+Before you begin, you must install the IBM Cloud CLI. For more information, see the [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started) tutorial.
 {: requirement}
 
 You can provision backup space when you order a server, and you can order the {{site.data.keyword.backup_notm}} service as an upgrade. The following example command orders a monthly VSI with 4 CPU, 16 GB RAM, 100 GB SAN disk, Ubuntu 18.04, and 1 Gbps public and private uplink in data center DAL13. It also provisions 20 GB of vault space for backups. The system prompts for confirmation as this action incurs charges. Type `y` and press Enter to continue.
@@ -99,7 +99,7 @@ For more information, see [ibmcloud sl order place](/docs/cli?topic=cli-sl-manag
 {: #ordering-terraform}
 {: terraform}
 
-To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started).
+To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see the [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) tutorial.
 {: requirement}
 
 Use the `ibm_storage_evault` resource to create or update your {{site.data.keyword.backup_full}} instance. The following example creates a 20-GB vault in the DAL13 data center. The `virtual_instance_id` defines the server that is going to be backed up in this vault.
@@ -118,4 +118,4 @@ For more information about arguments and attributes, see [ibm_storage_evault](ht
 ## Next Steps
 {: #ordering-next-steps}
 
-When you're ready, install the software agent on the server and set up your backup schedule in the Cloud Backup Portal. For more information, see [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
+When you're ready, install the software agent on the server and set up your backup schedule in the Cloud Backup Portal. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).

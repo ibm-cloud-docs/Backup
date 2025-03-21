@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-26"
+  years: 1994, 2025
+lastupdated: "2025-03-21"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -38,7 +38,7 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 {: support}
 {: terraform}
 
-To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started).
+To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see the [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) tutorial.
 {: requirement}
 
 Use the `ibm_storage_evault` resource to create or update your {{site.data.keyword.backup_full}} instance. After the backup vault is provisioned, you can access the `username` and `password` attributes.
