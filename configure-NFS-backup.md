@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-04-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, NFS
 
@@ -40,6 +40,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected Linux server.
 1. Click the **Jobs** tab.
+
    If a valid vault connection is not available for the computer, you cannot access the Jobs tab.
    {: note}
    
