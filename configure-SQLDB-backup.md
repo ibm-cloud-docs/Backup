@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-04-03"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -114,7 +114,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 3. Select the Backup Type:
    - To back up each database from the point in time when the backup starts, click **Full**.
    - To back up each database and its transaction logs from the point in time when the backup starts, click **Full with transaction logs**.
-   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When **Transaction Logs only** is selected, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
+   - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When you select this option, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.
 
    After a transaction log backup, logs are marked for truncation. If you also back up databases by using another tool (for example, native SQL Server backup), use only one tool for truncating logs. Transaction logs can be backed up for databases only when they use the full or bulk recovery model.
    {: note}
