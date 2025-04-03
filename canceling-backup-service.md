@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-04-03"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -42,7 +42,7 @@ If you cancel the virtual or the Bare Metal Server that the {{site.data.keyword.
 {: #cancelbackupterraform}
 {: terraform}
 
-Use the `terraform destroy` command to conveniently destroy a remote object such as an instance of {{site.data.keyword.backup_notm}}. The following example deletes the vault that is defined by its ID.
+Use the `terraform destroy` command to conveniently remove a remote object such as an instance of {{site.data.keyword.backup_notm}}. The following example deletes the vault that is defined by its ID.
 
 ```terraform
 terraform destroy --target ibm_storage_evault.example.id
