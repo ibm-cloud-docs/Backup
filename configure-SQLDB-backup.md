@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-04-04"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -105,7 +105,7 @@ To add an MSSQL database backup job, complete the following tasks.
 
 After you created a backup job, you can add one or more schedules for running the job automatically. You can create complex schedules for a job by creating multiple schedules. For example, you can schedule a backup job to run at midnight every Friday, and schedule the job to run at 8 PM on the first day of every month. When you schedule multiple SQL Server database jobs in the same instance, it's good practice to schedule the jobs so that their running times do not overlap. Simultaneous backups are supported, but are not recommended.
 
-If a job is scheduled to start at the same time by multiple schedules, the job runs only once at the scheduled time. If the jobs have different retention types, the [retention type](/docs/Backup?topic=Backup-faqs#retention-type) of the schedule that is highest in the list is applied to the resulting safe set. For example, the job is scheduled to run at midnight each Saturday with the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type), and every day at 12 midnight with the Daily [retention type](/docs/Backup?topic=Backup-faqs#retention-type). On Saturdays, the job runs once at 12 midnight. Because the schedule with the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type) is higher in the list than the schedule with the Daily [retention type](/docs/Backup?topic=Backup-faqs#retention-type), the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type) is applied to the safe set.
+If a job is scheduled to start at the same time by multiple schedules, the job runs only one time. If the jobs have different retention types, the [retention type](/docs/Backup?topic=Backup-faqs#retention-type) of the schedule that is highest in the list is applied to the resulting safe set. For example, the job is scheduled to run at midnight each Saturday with the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type), and every day at 12 midnight with the Daily [retention type](/docs/Backup?topic=Backup-faqs#retention-type). On Saturdays, the job runs one time at 12 midnight. Because the schedule with the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type) is higher in the list than the schedule with the Daily [retention type](/docs/Backup?topic=Backup-faqs#retention-type), the Weekly [retention type](/docs/Backup?topic=Backup-faqs#retention-type) is applied to the safe set.
 
 If a job is scheduled to run at slightly different times, the {{site.data.keyword.backup_notm}} Agent attempts to run the job according to each schedule. For example, if a job is scheduled to run at 11 PM by one schedule and 11:01 PM by another schedule, the {{site.data.keyword.backup_notm}} agent attempts to run the job twice. Try to avoid overlapping schedules. Problems can occur if a job is scheduled to run twice in a short period. In particular, try to avoid overlapping schedules for SQL Server database jobs in the same instance. Simultaneous backups in the same SQL Server instance are supported, but are not recommended.
 
@@ -135,7 +135,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 
 9. To run the job on the specified schedule, select the checkbox **Enable**.
 
-   If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules toward the end of the list. If a job is scheduled to run at the same time by multiple schedules, the job runs once at the scheduled time. If the schedules have different retention types, the job runs with the [retention type](/docs/Backup?topic=Backup-faqs#retention-type) of the schedule that is highest in the priority list.
+   If more than one schedule row exists, you can use the Priority arrows to change the order of the schedule rows. Schedules higher in the list have a higher priority than schedules toward the end of the list. If a job is scheduled to run at the same time by multiple schedules, the job runs one time at the scheduled time. If the schedules have different retention types, the job runs with the [retention type](/docs/Backup?topic=Backup-faqs#retention-type) of the schedule that is highest in the priority list.
    {: note}
 
 10. Click **Save**.
