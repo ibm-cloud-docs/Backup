@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-04-06"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -28,7 +28,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
 * [Provision backup space when you order a server](#purchasingwithserver-ui).
 * [Provision backup space as an upgrade](#purchasingasupgradeui).
 
-### Purchasing {{site.data.keyword.backup_notm}} when you order a server
+### Provisioning {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver-ui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](/catalog){: external}.
@@ -56,7 +56,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
 You can also save the order without purchasing by clicking **Save as Quote**.
 {: note}
 
-### Purchasing {{site.data.keyword.backup_notm}} as an upgrade
+### Provisioning {{site.data.keyword.backup_notm}} as an upgrade
 {: #purchasingasupgradeui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-04-06"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -28,7 +28,7 @@ Make sure that power management is disabled on the server where you install the 
 1. Download the installation kit from `http://downloads.service.softlayer.com/evault/`. Then, double-click the installation kit.
 2. On the confirmation message, click **YES**.
 3. On the welcome page, click **Next**.
-4. On the End-User-License Agreement page, read the license agreement. If you agree to the terms, click the checkbox, and then click **Next**.
+4. On the End-User License Agreement (EULA) page, read the license agreement. If you agree to the terms, click the checkbox, and then click **Next**.
 5. On the Destination Folder page, take one of the following actions.
     * To install the VRA in the default location, click **Next**.
     * To install the VRA in another location, click **Change**. In the Change the destination folder dialog box, browse to the new installation folder, or type it in the Folder name box. Click **OK**. On the Destination Folder page, click **Next**.
