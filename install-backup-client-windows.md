@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-04-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -45,7 +45,7 @@ You can install the {{site.data.keyword.backup_full}} client through a series of
 ## Installing and Registering the Backup Agent
 {: #registeragent}
 
-1. Enter the Network address:
+1. Enter the Network address.
    ```sh
    cloudbackupregister.service.softlayer.com
    ```

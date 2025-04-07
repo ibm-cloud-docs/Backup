@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-04-07"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -31,7 +31,7 @@ When virtual machines are protected in a vSphere environment, you can restore [v
 7.	In the **Items to Restore** panel, select each virtual machine that you want to restore.
 8.	In the **Encryption Password** field, type the data encryption password.
 9.	In the **Destination Datastore** list, click the VMware datastore for the restored VMs.
-10.	Select one of the following options for restoring VMs to the VMware datastore that you selected:
+10.	Select one of the following options for restoring VMs to the VMware datastore that you selected.
     * **Restore all selected virtual machines to the selected datastore only.**
     * **Restore to the selected datastore only when a virtual machine’s original datastore is not available.** If the virtual machine's backup contains multiple VMDKs that were on multiple VMware datastores, and not all of the datastores are available, the entire virtual machine is restored to the selected VMware datastore.
 
@@ -39,9 +39,10 @@ When virtual machines are protected in a vSphere environment, you can restore [v
     {: note}
 
 11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected VMware datastore.
-12.	Select one of the following options for registering the restored VMs with the hosts that you selected:
+12.	Select one of the following options for registering the restored VMs with the hosts that you selected.
     * **Register all selected virtual machines with the selected hosts only.**
     * **Register with the selected hosts only when a virtual machine’s original host is not available.**
+
 13.	To power on the VMs after they are restored, select **Power VMs on after restoring**.
 14.	In **Performance options**, keep the default setting.
 15.	Click **Run Restore**.

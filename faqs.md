@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-04-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -162,7 +162,7 @@ You can still save and retrieve your backups even if you reached the limit of th
 
 Notifications can be set up for multiple recipients on the Advanced tab of the Computer in the Portal.
 
-After you located the computer in the Portal, on the Advanced tab, click **Notifications**. You can select to get notified in the following instances:
+After you located the computer in the Portal, on the Advanced tab, click **Notifications**. You can get notified in the following instances:
 - When a backup or restore fails
 - When a backup or restore completes with errors in the log file
 - When a backup or restore completes successfully
@@ -235,7 +235,7 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 {: #agent-offline}
 {: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure that you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the troubleshooting section:
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure that you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the following topics in the troubleshooting section.
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
 * [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)

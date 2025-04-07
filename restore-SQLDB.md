@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-08-01"
+  years: 2021, 2025
+lastupdated: "2025-04-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -62,9 +62,8 @@ To restore a database directly to SQL Server, complete the following tasks.
     The alternate file location is only used if the original location for database files is not available.
     {: note}
 
-16. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, select the following options:
-    - In the Log Level Detail list, select the level of detail for job logging.
-    - Select or clear the Use all available bandwidth option.
+16. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options.
+
 17. Click Run Restore. The Process Details dialog shows the restoration progress and indicates when the restoration is complete. Other recent job processes might also be listed in the dialog window. To close the Process Details screen, click Close. Closing the window does not affect the restoration process.
 
 ## Restoring databases to Flat Files
@@ -89,9 +88,7 @@ To restore an SQL Server database to flat files, complete the following tasks.
 8. In the Database Selection, select the checkbox for each database that you want to restore.
 9. In the Encryption Password field, enter the data encryption password. To view the password hint, click Hint.
 10. Under Restore Destination, enter a path for the destination, or click the folder. In the Select Folder dialog box, select the location where you want to restore, and click Okay.
-11. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, you can select the options:
-    - In the Log Level Detail list, select the level of detail for job logging.
-    - Select or clear the Use all available bandwidth option.
+11. To change the log detail level, bandwidth throttling setting, or hard recovery option, click Advanced Restore Options. In the dialog box, you can select the level of detail for job logging, and select or clear the Use all available bandwidth option.
 
 12. Click Run Restore. The Process Details dialog shows the restoration progress and indicates when the restoration is complete. Other recent job processes might also be listed in the dialog. To close the Process Details screen, click Close. Closing the window does not affect the restoration process.
 

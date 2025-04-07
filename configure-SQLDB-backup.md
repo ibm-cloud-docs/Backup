@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-04-04"
+lastupdated: "2025-04-07"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -111,7 +111,7 @@ If a job is scheduled to run at slightly different times, the {{site.data.keywor
 
 1. In the View/Add Schedule dialog box, click **Add Schedule**.
 2. In the new schedule row, in the Retention list, click a [retention type](/docs/Backup?topic=Backup-faqs#retention-type).
-3. Select the Backup Type:
+3. Select the Backup Type.
    - To back up each database from the point in time when the backup starts, click **Full**.
    - To back up each database and its transaction logs from the point in time when the backup starts, click **Full with transaction logs**.
    - To back up the database transaction logs only from the point in time when the backup starts, click Transaction logs only. When you select this option, the entire database and its transaction logs are backed up when the job first runs. In subsequent backups, only the transaction logs are backed up.

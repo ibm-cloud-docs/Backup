@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-08-19"
+  years: 2021, 2025
+lastupdated: "2025-04-07"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -37,6 +37,6 @@ Store the Vault password in the Backup Portal again. To do so, go to "Vault Sett
 
 5. Click Save.
 
-If this action does not fix the issue, remove the Backup agent from the server and install the newest version. Follow the instructions that are appropriate for your OS:
+If this action does not fix the issue, remove the Backup agent from the server and install the newest version. Follow the instructions that are appropriate for your OS.
 - [Installing the backup client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux)
 - [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
