@@ -33,9 +33,9 @@ When virtual machines are protected in a vSphere environment, you can restore [v
 9.	In the **Destination Datastore** list, click the VMware datastore for the restored VMs.
 10.	Select one of the following options for restoring VMs to the VMware datastore that you selected.
     * **Restore all selected virtual machines to the selected datastore only.**
-    * **Restore to the selected datastore only when a virtual machine’s original datastore is not available.** If the virtual machine's backup contains multiple VMDKs that were on multiple VMware datastores, and not all of the datastores are available, the entire virtual machine is restored to the selected VMware datastore.
+    * **Restore to the selected datastore only when a virtual machine’s original datastore is not available.** If the VM's backup contains multiple VMDKs that existed on multiple VMware datastores, and not all of the datastores are available, the entire VM is restored to the selected VMware datastore.
 
-    If you restore a virtual machine or template to a vCenter, and the original virtual machine is present, the virtual machine is restored as a clone of the original with the following name: `<VMname>-vra-restored-<Date>`. The virtual machine is restored as a clone if the original virtual machine is powered on, off, or suspended. If the original virtual machine is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned virtual machine is powered on.
+    If you restore a VM to a vCenter, and the original VM is still present, the VM is restored as a clone of the original with the following name: `<VMname>-vra-restored-<Date>`. The virtual machine is restored as a clone if the original virtual machine is powered on, off, or suspended. If the original virtual machine is powered on, and uses a static IP address, you can encounter an IP address conflict when the restored, cloned virtual machine is powered on.
     {: note}
 
 11.	In the **Destination Host** list, click the host where you want to register the VMs. The list shows only the hosts that have access to the selected VMware datastore.
