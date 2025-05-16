@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-05-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -23,11 +23,10 @@ The first 10 GB of vault space is provided at no cost to you. When you need to i
 {: ui}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select the vault that you want to extend.
+2. Click **Storage** > **Cloud Backup** to display the backup service instances.
+3. Select the vault that you want to extend. You can tell if you need more capacity by looking at the usage information.
 4. Click **Actions**, and select **Modify {{site.data.keyword.backup_notm}}**.
 5. On the next screen, select the new size and click **Upgrade**.
-
 
 ## Ordering an increase with Terraform
 {: #increasevault-terraform}

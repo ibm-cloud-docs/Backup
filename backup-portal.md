@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-09-25"
+  years: 2023, 2025
+lastupdated: "2025-05-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore, Backup Portal, portal
 
@@ -25,7 +25,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
-3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
+3. Click the instance name of the {{site.data.keyword.cloud_notm}} service to display the instance details.
 4. Click **View backup portal** to start the portal in your browser.
 
 ## Pages in the Portal
