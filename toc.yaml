@@ -29,6 +29,7 @@ toc:
             topics:
             - index.md
             - topicgroup:
+                id: agent-install
                 label: Installing the backup agent
                 topics:
                 - install-backup-client-linux.md
@@ -38,6 +39,7 @@ toc:
             - port-information.md
             - multivaulting.md
             - topicgroup:
+                id: about-plugins
                 label: Plug-ins
                 topics:
                 - bmr-plugin.md
@@ -46,6 +48,7 @@ toc:
                 - oracle-plugin.md
                 - vmware-plugin.md
         - topicgroup:
+            id: creating-backup-job
             label: Creating the backup jobs
             topics:
             - configure-simple-file-backup.md
@@ -55,6 +58,7 @@ toc:
             - configure-SQLDB-backup.md
             - configure-vra.md
         - topicgroup:
+            id: restoring-data
             label: Restores
             topics:
             - restore-backup.md
@@ -65,6 +69,7 @@ toc:
             - restore-SQLDB.md
             - restore-vsphere.md
         - topicgroup:
+            id: managing-vault
             label: Managing the vault
             topics:
             - expanding-capacity.md
@@ -93,6 +98,7 @@ toc:
         id: help
         topics:
         - topicgroup:
+            id: FAQs
             label: FAQs
             topics:
             - faqs.md
@@ -100,6 +106,7 @@ toc:
             - canceling-backup-service.md
             - gethelp.md
         - topicgroup:
+            id: troubleshooting
             label: Troubleshooting
             topics:
             - ts-missingServer0PW.md
