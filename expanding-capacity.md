@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-05-16"
+lastupdated: "2025-06-24"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -52,6 +52,3 @@ For more information about arguments and attributes, see [ibm_storage_evault](ht
 {: #changeinbilling}
 
 Billing for the volume is automatically updated to add the prorated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
-
-The same process can be used to downsize your {{site.data.keyword.backup_notm}}.
-{: tip}
