@@ -26,17 +26,17 @@
     },
     "section_highlights": [
         {
-          "title": "IBM Cloud Backup and Restore Options",
-          "description": "As you deploy workloads on the IBM Cloud via the IBM Cloud Console, Terraform, CLI or language SDKs, it can seem effortless. But backup and restore are required to protect your data and applications.",
-          "href": "https://www.ibm.com/blog/ibm-cloud-backup-and-restore-options/",
-          "type": "blog"
-        },
-        {
           "title": "Disaster Recovery vs. Backup: What's the difference?",
           "description": "In this lightboard video, Bradley Knapp with IBM Cloud, answers these questions and many more as he breaks down the differences and similarities between disaster recovery and backup.",
           "href": "https://www.youtube.com/watch?v=07EHsPuKXc0&ab_channel=IBMTechnology",
           "type": "video"
-        }
+        },
+        {
+          "title": "What is backup and disaster recovery?",
+          "description": "Backup and disaster recovery involves periodically creating or updating more copies of files, storing them in one or more remote locations, and using the copies to continue or resume business operations in the event of data loss...",
+          "href": "https://www.ibm.com/think/topics/backup-disaster-recovery",
+          "type": "blog"
+        },
     ],
     "section_devtools": {
       "cli": "/docs/cli?topic=cli-sl-manage-classic-orders",
