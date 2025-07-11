@@ -36,7 +36,7 @@
           "description": "Backup and disaster recovery involves periodically creating or updating more copies of files, storing them in one or more remote locations, and using the copies to continue or resume business operations in the event of data loss...",
           "href": "https://www.ibm.com/think/topics/backup-disaster-recovery",
           "type": "blog"
-        },
+        }
     ],
     "section_devtools": {
       "cli": "/docs/cli?topic=cli-sl-manage-classic-orders",
