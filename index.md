@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-05-16"
+lastupdated: "2025-09-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -78,7 +78,7 @@ If the backup storage size continues to show a capacity of zero, a second page r
 {: #ordering-cli}
 {: cli}
 
-Before you begin, you must install the IBM Cloud CLI. For more information, see the [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started) tutorial.
+Before you begin, you must install the IBM Cloud CLI. For more information, see the [Getting started with the IBM Cloud CLI](/docs/cli?topic=cli-getting-started) tutorial.
 {: requirement}
 
 You can provision backup space when you order a server, and you can order the {{site.data.keyword.backup_notm}} service as an upgrade. The following example command orders a monthly VSI with 4 CPU, 16 GB RAM, 100 GB SAN disk, Ubuntu 18.04, and 1 Gbps public and private uplink in data center DAL13. It also provisions 20 GB of vault space for backups. The system prompts for confirmation as this action incurs charges. Type `y` and press Enter to continue.
