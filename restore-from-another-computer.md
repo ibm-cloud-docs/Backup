@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-09-29"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -53,6 +53,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 {: #runbackuprestore}
 
 1. On the **Computer** tab, click **Jobs**.
+
    You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized under the Server 2 **Jobs** tab.
    {: tip}
 
@@ -61,10 +62,11 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 4. Enter the encryption password.
 5. The Restore window appears. By default, it displays the most recent safe set. To choose a different date, click the Calendar icon, and view other safe sets.
 6. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
    {: note}
 
-7. When your restore set is configured the way that you want it, click **Apply Now**.
+7. When your restore set is configured in the way that you want it, click **Apply Now**.
 8. Then, click **Run Restore**.
 9. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 
@@ -73,6 +75,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 1. Connect to the root of Server 2 through SSH.
 2. List the files and all directory entries in a long format.
+
     ```sh
     ls -la
     ```
@@ -83,5 +86,4 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 ## Resuming normal backup schedule
 {: #resumeschedule}
 
-1. When the restore is complete, remove the registration information of server1, where the data was restored from.
-2. Enter the current server2 registration and enable Schedule tasks.
+After the restore is complete, remove the registration information for Server 1. [Re-register Server 2](/docs/Backup?topic=Backup-reregister) and re-enable scheduled tasks.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-09-29"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -70,8 +70,8 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
 4. The Restore window appears. By default, it displays the most recent safe set. To choose a different date, click the Calendar icon, and view other safe sets.
 5. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
-    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
-    {: note}
+   Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
+   {: note}
 
 6. When your restore set is configured the way that you want it, click **Apply Now**.
 7. Then, click **Run Restore**.
@@ -82,15 +82,15 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
 
 1. Connect to the root of Server 2 through ssh.
 2. List the files and all directory entries in a long format.
-    ```sh
-    ls -la
-    ```
-    {: pre}
+
+   ```sh
+   ls -la
+   ```
+   {: pre}
 
 3. Compare the output.
 
 ## Resuming normal backup schedule
 {: #resumescheduleotherCD}
 
-1. When the restore is complete, remove the registration information of server1, where the data was restored from.
-2. Enter the current server2 registration and enable Schedule tasks.
+After the restore is complete, remove the registration information for Server 1. [Re-register Server 2](/docs/Backup?topic=Backup-reregister) and re-enable scheduled tasks.
