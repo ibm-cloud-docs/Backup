@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-07-11"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -54,14 +54,14 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 - [Oracle](/docs/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware&reg; VRA](/docs/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service at no cost.
+The listed plug-ins are compatible only with Windows servers, except for the Oracle or VMware&reg; plug-ins. Each agent is available as an add-on to your backup service at no cost.
 
 ## How frequently can we back up the data?
 {: faq}
 {: #frequency}
 {: support}
 
-Within Cloud Backup Portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
+Within Cloud Backup Portal, backups can be started manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
 Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because the backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safe-sets to grow.
 {: note}
@@ -214,7 +214,7 @@ You can either do a whole system restore, or you can pick individual files from 
 {: #bmr-open-backup}
 {: support}
 
-BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](/docs/Backup?topic=Backup-MSSQLplugin) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. For more information, see [Getting started with the SQL Server plug-in](/docs/Backup?topic=Backup-MSSQLplugin).
 
 ## How much disk space and time does a BMR restore take?
 {: faq}

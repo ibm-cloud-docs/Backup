@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -24,6 +24,7 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
 
 1. Remote control your {{site.data.keyword.cloud}} server that is in need of an {{site.data.keyword.backup_notm}} upgrade.
 2. Open a browser, and go to the following address.
+
      ```sh
      http://downloads.service.softlayer.com/evault/
      ```

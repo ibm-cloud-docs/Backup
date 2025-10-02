@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -22,7 +22,6 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 
 1. Multiple vaults can be managed through the same Cloud Backup Portal and they are handled the same way. The only difference is that you have different vault choices.
 2. The new vault needs to be manually added to the Cloud Backup Portal after each purchase.
-
 
 ## {{site.data.keyword.backup_notm}} Vault Director locations
 {: #multivault-locations}
@@ -78,6 +77,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
       {: tip}
 
    4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} username for the selected vault, and the password for the selected vault.
+   
       For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 

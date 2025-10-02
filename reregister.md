@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-07-31"
+  years: 1994, 2025
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -40,6 +40,7 @@ The reregistration of the computer to the vault is not the same as registering t
 
    - Username
    - Password
+   
 6. Click **Load Computers**.
 7. Click the computer name and click **Save**. A confirmation window appears, click **Yes** to confirm the reregistration of the computer.
 8. Refresh the website to see the backup jobs associated with the computer.

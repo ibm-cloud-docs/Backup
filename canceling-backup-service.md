@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -47,7 +47,7 @@ Use the `terraform destroy` command to conveniently remove a remote object such 
 ```terraform
 terraform destroy --target ibm_storage_evault.example.id
 ```
-{: codeblock}
+{: pre}
 
 For more information, see the [terraform documentation](https://developer.hashicorp.com/terraform/cli/commands/destroy){: external}.
 
@@ -70,15 +70,24 @@ For more information, see the [terraform documentation](https://developer.hashic
 
 1. Establish a Secure Shell connection (SSH) to your server.
 2. From the command line, issue the following command.
+
     ```sh
     /opt/BUAgent/uninstall.sh
     ```
+    {: pre}
+
 3. When prompted by the following question, press Y, then press Enter.
+
     ```sh
     VVAgent is still running. Do you wish to stop it? ([Y]/n)
     ```
+    {: screen}
+
 4. At the next prompt, press Y. Then, press Enter again.
+
     ```sh
     This will remove jobs, settings, etc. (y/[N])
     ```
+    {: screen}
+
 5. Restart your server at your earliest convenience to make sure that the software is removed completely.

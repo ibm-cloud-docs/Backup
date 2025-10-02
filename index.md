@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-09-08"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -84,14 +84,18 @@ Before you begin, you must install the IBM Cloud CLI. For more information, see 
 You can provision backup space when you order a server, and you can order the {{site.data.keyword.backup_notm}} service as an upgrade. The following example command orders a monthly VSI with 4 CPU, 16 GB RAM, 100 GB SAN disk, Ubuntu 18.04, and 1 Gbps public and private uplink in data center DAL13. It also provisions 20 GB of vault space for backups. The system prompts for confirmation as this action incurs charges. Type `y` and press Enter to continue.
 
 ```sh
-$ ibmcloud sl order place CLOUD_SERVER DALLAS13 GUEST_CORES_4,RAM_16_GB,REBOOT_REMOTE_CONSOLE,1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS,BANDWIDTH_0_GB_2,1_IP_ADDRESS,GUEST_DISK_100_GB_SAN,OS_UBUNTU_18_04_LTS_BIONIC_BEAVER_LAMP_64_BIT,MONITORING_HOST_PING,NOTIFICATION_EMAIL_AND_TICKET,AUTOMATED_NOTIFICATION,UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT,NESSUS_VULNERABILITY_ASSESSMENT_REPORTING,EVAULT_20_GB --billing monthly --extras '{"virtualGuests": [{"hostname": "test", "domain": "softlayer.com"}]}' --complex-type SoftLayer_Container_Product_Order_Virtual_Guest
+ibmcloud sl order place CLOUD_SERVER DALLAS13 GUEST_CORES_4,RAM_16_GB,REBOOT_REMOTE_CONSOLE,1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS,BANDWIDTH_0_GB_2,1_IP_ADDRESS,GUEST_DISK_100_GB_SAN,OS_UBUNTU_18_04_LTS_BIONIC_BEAVER_LAMP_64_BIT,MONITORING_HOST_PING,NOTIFICATION_EMAIL_AND_TICKET,AUTOMATED_NOTIFICATION,UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT,NESSUS_VULNERABILITY_ASSESSMENT_REPORTING,EVAULT_20_GB --billing monthly --extras '{"virtualGuests": [{"hostname": "test", "domain": "softlayer.com"}]}' --complex-type Soft
+```
+{: pre}
+
+```sh
 This action will incur charges on your account. Continue?> y
        
 ID        105021440
 Created   2023-04-24T20:04:57Z
 Status    PENDING_AUTO_APPROVAL
 ```
-{: codeblock}
+{: screen}
 
 For more information, see [ibmcloud sl order place](/docs/cli?topic=cli-sl-manage-classic-orders).
 

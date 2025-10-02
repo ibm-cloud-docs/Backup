@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-07"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -55,8 +55,9 @@ This step is required for RHEL, but optional for other distributions.
 {: tip}
 
 - Run the following command at the server prompt.
+
    ```sh
-   yum update
+   dnf update
    ```
    {: pre}
 
@@ -66,6 +67,7 @@ This step is required for RHEL, but optional for other distributions.
 {: #downloadscript}
 
 - Run the following command at the server prompt.
+
    ```sh
    wget -N http://downloads.service.softlayer.com/evault/evault_manual.sh
    ```
@@ -75,6 +77,7 @@ This step is required for RHEL, but optional for other distributions.
 {: #executescript}
 
 1. Run the following command at the server prompt.
+
    ```sh
    sh ./evault_manual.sh
    ```
@@ -102,6 +105,7 @@ This step is required for RHEL, but optional for other distributions.
 {: #verifyinstall}
 
 1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
+
     ```sh
     grep 'Registered' /opt/BUAgent/Install.log
     ```

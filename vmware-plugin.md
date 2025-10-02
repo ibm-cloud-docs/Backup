@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-06"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -36,6 +36,7 @@ Make sure that power management is disabled on the server where you install the 
     * In the **Network address** field, type `cloudbackupregister.service.softlayer.com`.
     * In the **Port** field, type `8086`.
     * In the **username** field, type the {{site.data.keyword.backup_notm}} username for managing the VRA.
+
       For more information about viewing the username, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 
@@ -52,8 +53,7 @@ After VRA is installed, you need to configure it in the Cloud Backup Portal.
 3. Configure your vault information.
 
      Vault information can be configured in two ways: **Automatically** or **Manually**.
-     If the agent is being configured for the first time, then it can be configured by using the [Automatic configuration](#VRAautoconfig) option.
-     If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
+     If the agent is being configured for the first time, then it can be configured by using the [Automatic configuration](#VRAautoconfig) option. If the computer was previously registered with a Vault, then the automatic configuration doesn't work and the vault needs to be [configured manually](#VRAmanualconfig).
      {: tip}
 
 4. Configure the [vCenter Settings](#vCenterSettingsconfig).

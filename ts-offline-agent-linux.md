@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-10-01"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -47,18 +47,21 @@ Make sure that the BUAgent is running by issuing the following command on the Li
 {: pre}
 
 The output shows whether the BUAgent is running.
+
 ```sh
 VVAgent is running (PID: )
 BUAgent is running (PID: )
 ```
 
 * If the BUAgent is not running, start it with the following command.
+
    ```sh
    /etc/init.d/vvagent start
    ```
    {: pre}
 
 * If the BUAgent appears to be running, restart the service with the following command.
+
    ```sh
    /etc/init.d/vvagent restart
    ```
@@ -77,6 +80,7 @@ Registering an Agent to the Portal retains all existing jobs, schedules, and con
 cd opt/BUAgent
 ./register
 ```
+{: pre}
 
 Answer the following prompts.
 * What is the web-based Agent Console address? `cloudbackupregister.service.softlayer.com` or `cloudbackupregister.service.usgov.softlayer.com`
@@ -90,18 +94,21 @@ For more information about viewing or changing the backup password, see [Managin
 If the previous steps don't work, pull up and review the most recent BUAgent-X.XLOG.
 
 1. Go to `opt/BUAgent`.
+
    ```sh
    cd /opt/BUAgent
    ```
    {: pre}
 
 2.  List the contents and sort them by date.
+
     ```sh
     ls -lrth
     ```
     {: pre}
 
 3. Find the name of the most recent `BUAgent-x.XLOG` and open it with `/opt/BUAgent/xlogcat`. It can't be opened with `cat` or `vim`.
+
    ```sh
    ./xlogcat BUAgent-1.XLOG
    ```

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-04-07"
+lastupdated: "2025-10-01"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -32,6 +32,7 @@ Store the Vault password in the Backup Portal again. To do so, go to "Vault Sett
 2. Click **Vault Settings** and from the Action menu, select **Edit**.
 3. Enter the Vault Name.
 4. Enter your credentials.
+
    "Account" is the same as the "Account Name" in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. Typically, it looks like "SLE[account ID]" or "IBME[account ID]". For more information about finding the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
    {: tip}
 

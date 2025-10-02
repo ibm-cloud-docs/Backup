@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -52,12 +52,14 @@ The Oracle plug-in is an add-on to the Linux&reg; Agent and is installed with th
 The Oracle plug-in installation kit is available in a tar.gz file.
 
 1. On the host, download the installation package.
+
    ```sh
    http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
    ```
    {: pre}
 
 2. Extract the files from the package.
+
    ```sh
    # cd /tmp
    # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
@@ -65,12 +67,14 @@ The Oracle plug-in installation kit is available in a tar.gz file.
    {: pre}
 
 3. Go to the folder.
+
    ```sh
    # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
    ```
    {: pre}
 
 4. Run the installation script.
+
    ```sh
    # ./install.sh
    ```

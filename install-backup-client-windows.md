@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-07"
+lastupdated: "2025-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -30,6 +30,7 @@ You can install the {{site.data.keyword.backup_full}} client through a series of
 {: #downloadclient}
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client.
+
    ```sh
    http://downloads.service.softlayer.com/evault/
    ```
@@ -46,6 +47,7 @@ You can install the {{site.data.keyword.backup_full}} client through a series of
 {: #registeragent}
 
 1. Enter the Network address.
+
    ```sh
    cloudbackupregister.service.softlayer.com
    ```
