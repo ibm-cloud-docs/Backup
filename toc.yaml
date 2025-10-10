@@ -1,6 +1,3 @@
-#  Name your file `toc.yaml`
-#  Make sure you include all nav file coding requirements.
-#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
 toc:
   properties:
     subcollection: Backup
@@ -11,105 +8,104 @@ toc:
     product-page: /cloud-storage/backup
     path: Backup
     label: IBM Cloud Backup
-#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group.
   entries:
-    - navgroup:
-        id: learn
-        topics:
-        - getting-started.md
-        - backup-portal.md
-        - link:
-            label: What is IBM Cloud Backup?
-            href: https://www.ibm.com/think/topics/backup-and-restore
-    - navgroup:
-        id: howto
-        topics:
-        - topicgroup:
-            label: Provisioning and configuration
-            topics:
-            - index.md
-            - topicgroup:
-                id: agent-install
-                label: Installing the backup agent
-                topics:
-                - install-backup-client-linux.md
-                - upgrade-backup-agent-linux.md
-                - install-backup-client-windows.md
-                - upgrade-backup-agent-windows.md
-            - port-information.md
-            - multivaulting.md
-            - topicgroup:
-                id: about-plugins
-                label: Plug-ins
-                topics:
-                - bmr-plugin.md
-                - exchange-plugin.md
-                - mssql-plugin.md
-                - oracle-plugin.md
-                - vmware-plugin.md
-        - topicgroup:
-            id: creating-backup-job
-            label: Creating the backup jobs
-            topics:
-            - configure-simple-file-backup.md
-            - configure-bmr-backup-windows.md
-            - configure-NFS-backup.md
-            - configure-OracleDDB-backup.md
-            - configure-SQLDB-backup.md
-            - configure-vra.md
-        - topicgroup:
-            id: restoring-data
-            label: Restores
-            topics:
-            - restore-backup.md
-            - restore-from-another-computer.md
-            - restore-from-another-server-in-another-dc.md
-            - restore-bmr-system-volume-image.md
-            - restore-OracleDB.md
-            - restore-SQLDB.md
-            - restore-vsphere.md
-        - topicgroup:
-            id: managing-vault
-            label: Managing the vault
-            topics:
-            - expanding-capacity.md
-            - reregister.md
-            - delete-tasks.md
-    - navgroup:
-        id: reference
-        topics:
-        - topicgroup:
-            label: Identity and Access Management
-            topics:
-            - include: ../account/iam-mnginfra.md
-        - topicgroup:
-            label: Service Level Agreement
-            topics:
-              - link:
-                  label: Service Level Agreements for IBM Cloud (Public Cloud)
-                  href: https://www.ibm.com/support/customer/csol/terms    
-        - topicgroup:
-            label: Terraform reference
-            topics:
-              - link:
-                  label: Terraform reference
-                  href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault         
-    - navgroup:
-        id: help
-        topics:
-        - topicgroup:
-            id: FAQs
-            label: FAQs
-            topics:
-            - faqs.md
-            - change-password.md
-            - canceling-backup-service.md
-            - gethelp.md
-        - topicgroup:
-            id: troubleshooting
-            label: Troubleshooting
-            topics:
-            - ts-missingServer0PW.md
-            - ts-offline-agent-linux.md
-            - ts-offline-agent-windows.md
-            - ts-unsupportedOStype.md
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - backup-portal.md
+      - link:
+          label: What is IBM Cloud Backup?
+          href: https://www.ibm.com/think/topics/backup-and-restore
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Provisioning and configuration
+          topics:
+          - index.md
+          - topicgroup:
+              id: agent-install
+              label: Installing the backup agent
+              topics:
+              - install-backup-client-linux.md
+              - upgrade-backup-agent-linux.md
+              - install-backup-client-windows.md
+              - upgrade-backup-agent-windows.md
+          - port-information.md
+          - multivaulting.md
+          - topicgroup:
+              id: about-plugins
+              label: Plug-ins
+              topics:
+              - bmr-plugin.md
+              - exchange-plugin.md
+              - mssql-plugin.md
+              - oracle-plugin.md
+              - vmware-plugin.md
+      - topicgroup:
+          id: creating-backup-job
+          label: Creating the backup jobs
+          topics:
+          - configure-simple-file-backup.md
+          - configure-bmr-backup-windows.md
+          - configure-NFS-backup.md
+          - configure-OracleDDB-backup.md
+          - configure-SQLDB-backup.md
+          - configure-vra.md
+      - topicgroup:
+          id: restoring-data
+          label: Restores
+          topics:
+          - restore-backup.md
+          - restore-from-another-computer.md
+          - restore-from-another-server-in-another-dc.md
+          - restore-bmr-system-volume-image.md
+          - restore-OracleDB.md
+          - restore-SQLDB.md
+          - restore-vsphere.md
+      - topicgroup:
+          id: managing-vault
+          label: Managing the vault
+          topics:
+          - expanding-capacity.md
+          - reregister.md
+          - delete-tasks.md
+  - navgroup:
+      id: reference
+      topics:
+      - topicgroup:
+          label: Identity and Access Management
+          topics:
+          - include: ../account/iam-mnginfra.md
+      - topicgroup:
+          label: Service Level Agreement
+          topics:
+          - link:
+              label: Service Level Agreements for IBM Cloud (Public Cloud)
+              href: https://www.ibm.com/support/customer/csol/terms
+      - topicgroup:
+          label: Terraform reference
+          topics:
+          - link:
+              label: Terraform reference
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault
+  - navgroup:
+      id: help
+      topics:
+      - topicgroup:
+          id: FAQs
+          label: FAQs
+          topics:
+          - faqs.md
+          - change-password.md
+          - canceling-backup-service.md
+          - gethelp.md
+      - topicgroup:
+          id: troubleshooting
+          label: Troubleshooting
+          topics:
+          - ts-missingServer0PW.md
+          - ts-offline-agent-linux.md
+          - ts-offline-agent-windows.md
+          - ts-unsupportedOStype.md
