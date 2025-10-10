@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-09-29"
+lastupdated: "2025-10-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -56,7 +56,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
    You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized under the Server 2 **Jobs** tab.
    {: tip}
-
+   
 2. From the Action menu, select **Restore from Another Computer**.
 3. Select the Vault, Computer, and Job from menus.
 4. Enter the encryption password.
