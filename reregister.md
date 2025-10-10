@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-10-01"
+lastupdated: "2025-10-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -43,8 +43,8 @@ The reregistration of the computer to the vault is not the same as registering t
    
 6. Click **Load Computers**.
 7. Click the computer name and click **Save**. A confirmation window appears, click **Yes** to confirm the reregistration of the computer.
-8. Refresh the website to see the backup jobs associated with the computer.
-9. Synchronize each backup job through the Action menu to restore safe-set history.
+8. Refresh the website to see the backup jobs that are associated with the computer.
+9. Synchronize each backup job through the **Select Action** menu to restore safe-set history.
 
    If the backup jobs were created with an encryption password, you must enter the encryption password to restore data, or continue with backups.
    {: important}

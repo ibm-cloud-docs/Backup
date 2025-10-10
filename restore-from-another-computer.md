@@ -86,4 +86,16 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 ## Resuming normal backup schedule
 {: #resumeschedule}
 
-After the restore is complete, remove the registration information for Server 1. [Re-register Server 2](/docs/Backup?topic=Backup-reregister) and re-enable scheduled tasks.
+After the restore is complete, remove the registration information for Server 1. [Reregister Server 2](/docs/Backup?topic=Backup-reregister) and re-enable scheduled tasks.
+
+### Updating vault registration for server 2
+{: #updatesregistration}
+
+1. Go to **Vault Settings** and click **Re-register**. This action updates the vault configuration to reflect Server 2’s details.
+2. Go to the **Backup Job** for Server 2, click **Select Actions**, and choose **Synchronize**. The backup job synchronizes with the updated vault, and the status is displayed as **Completed**.
+3. Click **Edit Job**, enter the **encryption password**, and click **Save**.  
+
+   Do not modify any other settings. This step makes sure that the encryption password is resynchronized.
+   {: note}
+
+4. Click **Run Job** to verify that the backup job runs successfully.
