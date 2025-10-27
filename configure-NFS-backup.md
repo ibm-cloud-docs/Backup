@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-01"
+lastupdated: "2025-10-24"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, NFS
 
@@ -33,7 +33,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {: tip}
 
-## Configuring an NFS backup job
+## Configuring an NFS Files backup job
 {: #configureNFSBackupjob}
 {: help}
 {: support}
@@ -44,7 +44,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    If a valid vault connection is not available for the computer, you cannot access the Jobs tab.
    {: note}
    
-1. From the Select Job Task menu, select **Create New NFS Files Job**.
+1. From the Select Job Task menu, select **Create NFS Files Job**.
     1. In the new window, enter a **Name** and a **Description**.
     1. In the **Destination** list, select the vault where you want to save the backup data. A vault appears in the list only if it is assigned to the user, or if the user added it on the computer’s Vault Settings.
     1. In the **Log File Options** list, select the level of detail for job logging.
