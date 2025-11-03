@@ -1,12 +1,14 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-09-25"
+  years: 1994, 2025
+lastupdated: "2025-11-03"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
 subcollection: Backup
+
+ai-gen-assist: wca
 
 ---
 {{site.data.keyword.attribute-definition-list}}
@@ -62,13 +64,13 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     9. Select the files and folders that you want to include and exclude in the backup. To exclude files, you must add an exclusion record. Select the directory that contains the file that you want to exclude and click **Exclude**. This action adds the file to the Backup Set with a red minus sign. From here, you can filter out a directory or specific file name from that directory that you want skipped during backup.
     10. Enter the encryption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. The lost password cannot be recovered in any way.
+        You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup. The lost password cannot be recovered.
         {: important}
 
     11. Click **Apply now** to confirm the backup set.
     12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
     13. Click **Create Job**.
-    14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
+    14. You can choose from three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
 
     Multiple retention schedules can be set up for same job but it’s important that they are NOT run at the same time. For more information about Retention Schemes, see the [FAQ](/docs/Backup?topic=Backup-faqs#faqs).
     {: important}
@@ -78,6 +80,6 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 {: help}
 {: support}
 
-1. The new job is displayed on the Computers tab. To start the job, click **Select Actions** and click **Run Job**.
-2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, and the backup job keeps running in the background.
+1. On the Computers tab, locate the new job. To start it, click **Select Actions** > **Run Job**. 
+2. Verify that the destination and retention scheme, and click **Start Backup**. The Progress Detail page shows the job progress. You can close this window if needed, and the backup job keeps running in the background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.
