@@ -48,10 +48,10 @@ You can install the {{site.data.keyword.backup_full}} client through a series of
 1. Select the target language, and click **OK**.
 1. Review the required Windows packages. Click **Install**. 
 1. Click **Next** on the next couple screens until you reach the license agreement.
-1. Read the General Terms and  through the installation wizard's steps.
+1. Read the General Enterprise Terms of Service.
 1. Select "I accept the terms..." and click **Next**.
 1. Select the setup type. Click **Next**.
-1. If you selected the custom setup, choose the plugins that you want to install.
+1. If you selected the custom setup, choose the plug-ins that you want to install.
 1. Specify the account to be used to run the agent services.
 1. On the **Register Agent with Portal** screen, enter the following Network address, and add the username and password.
 
