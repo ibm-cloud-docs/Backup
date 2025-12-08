@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-11-03"
+lastupdated: "2025-12-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -68,7 +68,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
         {: important}
 
     11. Click **Apply now** to confirm the backup set.
-    12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
+    12. You can keep the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
     13. Click **Create Job**.
     14. You can choose from three job retention schemes: Daily, Weekly, Monthly. In the new schedule window, select the appropriate retention period and click **Save**.
 

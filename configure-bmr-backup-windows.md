@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-28"
+  years: 2004, 2025
+lastupdated: "2025-12-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -14,8 +14,16 @@ subcollection: Backup
 # Configuring a Bare Metal Restore (BMR) backup job
 {: #configureBMR}
 
-Follow the process to configure a Bare Metal Restore (BMR) backup job for Windows Bare Metal Servers in IBM Cloud. Before you begin, you must purchase the BMR plug-in. BMR is available only for Windows Bare Metal Servers. The BMR option is not available for virtual server instances. For more information, see [Getting started with the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
-{: important}
+Follow the process to configure a Bare Metal Restore (BMR) backup job for Windows Bare Metal Servers in IBM Cloud.
+{: shortdesc}
+
+BMR is available only for Windows Bare Metal Servers. The BMR option is not available for virtual server instances or Linux servers. For more information, see [Getting started with the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
+{: note}
+
+## Before you begin
+{: #gettingstartedBMR}
+
+First, [install the Backup Agent and BMR plug-in](/docs/Backup?topic=Backup-InstallinWindows) on the server that you want to protect.
 
 ## Starting Cloud Backup Portal
 {: #startPortalBMR}
@@ -49,7 +57,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    {: important}
 
 11. Click **Apply now** to confirm the backup set.
-12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
+12. You can keep the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
 13. Click **Create Job**.
 14. {{site.data.keyword.backup_notm}} offers three job retention schemes: Daily, Weekly, Monthly. In the new window, select the appropriate retention period and click **Save**.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-01"
+  years: 2004, 2025
+lastupdated: "2025-12-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -33,7 +33,7 @@ The most recent backup agent can be downloaded from your Cloud Backup Portal Das
 3. Click the file that you want.
 
     The version number is in the file name. Choose the most recent.
-    {{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. For example, Agent-Windows-x64-8-32-7901.exe.
+    {{site.data.keyword.cloud}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name. For example, `Agent-Windows-x64-9-30-1009.exe`.
     {: tip}
 
 4. Click **Run** at the download screen, and again after it is downloaded.
