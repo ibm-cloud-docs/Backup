@@ -2,7 +2,7 @@
 
 copyright:
   years: 2004, 2025
-lastupdated: "2025-12-08"
+lastupdated: "2025-12-09"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Configuring a Bare Metal Restore (BMR) backup job
 {: #configureBMR}
 
-Follow the process to configure a Bare Metal Restore (BMR) backup job for Windows Bare Metal Servers in IBM Cloud.
+The following process can be used to configure a Bare Metal Restore (BMR) backup job for Windows Bare Metal Servers in {{site.data.keyword.cloud}}. Make sure you installed and configured the backup agent on the target server, then start the IBM Cloud Backup portal from the {{site.data.keyword.cloud}} console, and create and start a BMR Backup job.
 {: shortdesc}
 
 BMR is available only for Windows Bare Metal Servers. The BMR option is not available for virtual server instances or Linux servers. For more information, see [Getting started with the Bare Metal Restore plug-in](/docs/Backup?topic=Backup-BMRplugin#BMRplugin).
