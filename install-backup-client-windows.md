@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-11-21"
+lastupdated: "2025-12-15"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
+keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows, create BMR backup, create SQL backup
 
 subcollection: Backup
 
