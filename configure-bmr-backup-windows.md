@@ -2,9 +2,9 @@
 
 copyright:
   years: 2004, 2025
-lastupdated: "2025-12-09"
+lastupdated: "2025-12-15"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
+keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration, create bmr backup
 
 subcollection: Backup
 
