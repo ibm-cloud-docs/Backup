@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-04-07"
+  years: 2021, 2026
+lastupdated: "2026-01-13"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -99,7 +99,7 @@ To restore an SQL Server database to flat files, complete the following tasks.
 You must always restore an SQL Server database to the primary replica in an AlwaysOn Availability Group. If Windows {{site.data.keyword.backup_notm}} Agent and plug-in are not installed on the primary replica server, you must fail over to a server where the software is installed. Then, you can attempt the restore.
 {: requirement}
 
-After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the amount of replication traffic after a restore, you can run a “Restore from another computer” on any secondary replica server where the Windows {{site.data.keyword.backup_notm}} Agent and plug-in are installed.
+After you restored a database to the primary replica and added the database back into the AlwaysOn Availability Group, it can be replicated to the secondary replicas. To reduce the replication traffic after a restore, you can run a “Restore from another computer” on any secondary server where the Backup Agent and plug-in are installed.
 
 ### Restoring a primary database in an AlwaysOn Availability Group
 {: #restorePrimaryAAG}
