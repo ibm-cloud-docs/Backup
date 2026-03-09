@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-11-03"
+  years: 2021, 2026
+lastupdated: "2026-03-09"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -10,7 +10,6 @@ subcollection: Backup
 
 content-type: troubleshoot
 
-ai-gen-assist: wca
 ---
 
 {{site.data.keyword.attribute-definition-list}}
@@ -27,7 +26,7 @@ A backup agent installation fails on a Windows 2022 device and the error message
 The current release of the Backup Portal requires that servers that use Windows 2022 connect with the backup agent version 9.0.
 {: tsCauses}
 
-To resolve this issue, install the backup agent version 9.0. 
+To resolve this issue, install the backup agent version 9.0.
 {: tsResolve}
 
 1. Follow the instructions in [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)

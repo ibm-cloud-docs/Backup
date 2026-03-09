@@ -1,14 +1,12 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-12-08"
+  years: 1994, 2026
+lastupdated: "2026-03-09"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
 subcollection: Backup
-
-ai-gen-assist: wca
 
 ---
 {{site.data.keyword.attribute-definition-list}}
@@ -80,6 +78,6 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 {: help}
 {: support}
 
-1. On the Computers tab, locate the new job. To start it, click **Select Actions** > **Run Job**. 
+1. On the Computers tab, locate the new job. To start it, click **Select Actions** > **Run Job**.
 2. Verify that the destination and retention scheme, and click **Start Backup**. The Progress Detail page shows the job progress. You can close this window if needed, and the backup job keeps running in the background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action**, and choose **History/Logs**.
