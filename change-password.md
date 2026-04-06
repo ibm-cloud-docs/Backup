@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-03-21"
+  years: 1994, 2026
+lastupdated: "2026-04-06"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -56,8 +56,9 @@ For more information about arguments and attributes, see [ibm_storage_evault](ht
 3. Click the instance name of the backup vault where you want to change your password.
 4. On the Overview page, you can see your Portal Password. Click the **Edit icon** ![Edit icon](../icons/edit-tagging.svg "Edit") to modify the password.
 5. Enter the new password in the **Password** field.
+   - The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
 
-   The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
+   Changing the IBM Cloud Backup WebUI password disables the auto-login functionality on the login page. After the password is changed, users must manually enter their credentials for each login session. Use caution, as this behavior cannot be reversed after the password is updated.
    {: important}
 
 6. Press Enter to update the password.
