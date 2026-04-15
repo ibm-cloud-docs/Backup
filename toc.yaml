@@ -77,7 +77,7 @@ toc:
       - topicgroup:
           label: Identity and Access Management
           topics:
-          - include: ../account/iam-mnginfra.md
+          - include: ../iam/iam-mnginfra.md
       - topicgroup:
           label: Service Level Agreement
           topics:

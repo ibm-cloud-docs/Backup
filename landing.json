@@ -1,53 +1,53 @@
 {
-    "version": 2,
-    "title": "IBM Cloud Backup",
-    "introduction": "IBM Cloud Backup is a full-featured, agent-based backup and recovery system managed through a web interface. Back up data between IBM Cloud servers in one or more IBM Cloud global data centers.",
-    "product_page": "https://www.ibm.com/products/backup",
-    "console_page": "/cloud/backup",
-    "section_topics": {
-      "links": [
-        {
-          "title": "Getting started with IBM Cloud Backup for Classic",
-          "href": "/docs/Backup?topic=Backup-getting-started"
-        },
-        {
-          "title": "Frequently asked questions",
-          "href": "/docs/Backup?topic=Backup-faqs"
-        },
-        {
-          "title": "Overview of the Backup Portal",
-          "href": "/docs/Backup?topic=Backup-backupportalreference&interface=ui"
-        },
-        {
-          "title": "Multi-vaulting",
-          "href": "/docs/Backup?topic=Backup-multivault&interface=ui"
-        }
-      ]
+  "version": 2,
+  "title": "IBM Cloud Backup",
+  "introduction": "IBM Cloud Backup is a full-featured, agent-based backup and recovery system managed through a web interface. Back up data between IBM Cloud servers in one or more IBM Cloud global data centers.",
+  "product_page": "https://www.ibm.com/products/backup",
+  "console_page": "/cloud/backup",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with IBM Cloud Backup for Classic",
+        "href": "/docs/Backup?topic=Backup-getting-started"
+      },
+      {
+        "title": "Frequently asked questions",
+        "href": "/docs/Backup?topic=Backup-faqs"
+      },
+      {
+        "title": "Overview of the Backup Portal",
+        "href": "/docs/Backup?topic=Backup-backupportalreference&interface=ui"
+      },
+      {
+        "title": "Multi-vaulting",
+        "href": "/docs/Backup?topic=Backup-multivault&interface=ui"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Disaster Recovery vs. Backup: What's the difference?",
+      "description": "In this lightboard video, Bradley Knapp with IBM Cloud, answers these questions and many more as he breaks down the differences and similarities between disaster recovery and backup.",
+      "href": "https://www.youtube.com/watch?v=07EHsPuKXc0&ab_channel=IBMTechnology",
+      "type": "video"
     },
-    "section_highlights": [
-        {
-          "title": "Disaster Recovery vs. Backup: What's the difference?",
-          "description": "In this lightboard video, Bradley Knapp with IBM Cloud, answers these questions and many more as he breaks down the differences and similarities between disaster recovery and backup.",
-          "href": "https://www.youtube.com/watch?v=07EHsPuKXc0&ab_channel=IBMTechnology",
-          "type": "video"
-        },
-        {
-          "title": "What is backup and disaster recovery?",
-          "description": "Backup and disaster recovery involves periodically creating or updating more copies of files, storing them in one or more remote locations, and using the copies to continue or resume business operations in the event of data loss...",
-          "href": "https://www.ibm.com/think/topics/backup-disaster-recovery",
-          "type": "blog"
-        }
-    ],
-    "section_devtools": {
-      "cli": "/docs/cli?topic=cli-sl-manage-classic-orders",
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault"
-    },
-    "section_updates": {
+    {
+      "title": "What is backup and disaster recovery?",
+      "description": "Backup and disaster recovery involves periodically creating or updating more copies of files, storing them in one or more remote locations, and using the copies to continue or resume business operations in the event of data loss...",
+      "href": "https://www.ibm.com/think/topics/backup-disaster-recovery",
+      "type": "blog"
+    }
+  ],
+  "section_devtools": {
+    "cli": "/docs/cli?topic=cli-sl-manage-classic-orders",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/storage_evault"
+  },
+  "section_updates": {
     "view_more": "/docs/Backup?topic=Backup-getting-started",
     "tiles": [
       {
         "date": "05 July 2024",
-        "title": "New version of the Linux agent is available." 
+        "title": "New version of the Linux agent is available."
       },
       {
         "date": "15 October 2023",
