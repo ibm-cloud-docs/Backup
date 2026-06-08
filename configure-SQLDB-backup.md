@@ -76,7 +76,7 @@ To add an MSSQL database backup job, complete the following tasks.
      {: tip}
 
    - In the Log File Options list, select the level of detail for job logging. For more information, see [Log file options](#SQLDBLogfile).
-   - For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods. For more information, see [Encryption settings](#SQLDBEncrypt).
+   - For new backup jobs, the encryption method is Advanced Encryption Standard (AES) 256 bit. Existing jobs can have other encryption methods. For more information, see [Encryption settings](#SQLDBEncrypt).
    - In the Password and Confirm Password boxes, enter an encryption password. You can also enter a password hint in the Password Hint box.
 8. In the Select Databases for Backup box, select the database that you want to back up.
    - To add specific databases to the backup job, select the checkbox for each database, and then click Include. The included databases appear in the Backup Set box.
@@ -194,7 +194,7 @@ Changing the logging level affects only the log files that are created at that p
 ### Encryption settings and password
 {: #SQLDBEncrypt}
 
-Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
+Encryption settings specify the encryption type for backup data at rest on the vault. AES 256 bit encryption is the default encryption type available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
 You can also enter a password hint. When you want to restore data, you can view the password hint to remind you of the encryption password for this job.
 
 If you forget the encryption password, you lose access to the data. You cannot retrieve the password from the system.

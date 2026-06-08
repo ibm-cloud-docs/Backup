@@ -47,7 +47,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    * In the **Password** and **Confirm Password** fields, type an encryption password. You can also type a password hint in the Password Hint field.
 
    A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.
-   For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
+   For new backup jobs, the encryption method is Advanced Encryption Standard (AES) 256 bit. Existing jobs can have other encryption methods.
    {: note}
 
 5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the virtual machines that you want to include in the backup job.

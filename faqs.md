@@ -107,7 +107,7 @@ The first backup is a "seed" (a complete, full backup), the next and subsequent 
 {: #secure}
 {: support}
 
-By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted format by using AES 256-bit.
+By default all encryption over the wire (OTW) is encrypted with Advanced Encryption Standard (AES) 256 bit encryption. You can also choose to store data in encrypted format by using AES 256 bit.
 
 You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back.
 {: important}

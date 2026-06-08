@@ -68,7 +68,7 @@ To add an Oracle database backup job, complete the following tasks.
      {: note}
 
    - In the Log File Options list, select the level of detail for job logging. For more information, see [log file options](#ODBLogfile).
-   - For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods. For more information, see [encryption settings](#ODBEncrypt).
+   - For new backup jobs, the encryption method is Advanced Encryption Standard (AES) 256 bit. Existing jobs can have other encryption methods. For more information, see [encryption settings](#ODBEncrypt).
    - In the Password and Confirm Password boxes, enter an encryption password. You can also enter a password hint in the Password Hint box.
 8. In the Include in Backup box, select the database that you want to back up.
 9. Click **Save**. The job is now created, and the View/Add Schedule dialog box appears. Next, you can create a schedule for running the backup. Click **Cancel** if you don't want to create a schedule now.
@@ -114,7 +114,7 @@ Changing the logging level affects only the log files that are created at that p
 ### Encryption settings and password
 {: #ODBEncrypt}
 
-Encryption settings specify the encryption type for backup data at rest on the vault. AES 256-bit encryption is the default encryption type that is available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
+Encryption settings specify the encryption type for backup data at rest on the vault. AES 256 bit encryption is the default encryption type that is available for new backup jobs. When you create a backup job, you must enter a password for the encrypted data. The password is case-sensitive. To recover the data, you must provide the encryption password that was entered when the files were backed up.
 
 You can also enter a password hint. When you want to restore data, you can view the password hint to remind you of the encryption password for this job.
 {: tip}
