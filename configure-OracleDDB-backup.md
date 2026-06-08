@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-03-18"
+  years: 2021, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -11,11 +11,13 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring Oracle DB backups
+# Configuring Oracle DB backups in the Cloud Backup portal
 {: #configureOracleBackup}
 
-To protect data in Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. Then, you can add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary table spaces and instance parameter files are automatically backed up. Full and partial databases can be restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
+Protect Oracle databases with {{site.data.keyword.backup_full}} by installing the Oracle plug-in and configuring backup jobs for database instances and parameter files.
 {: shortdesc}
+
+To protect data in Oracle&reg; databases, install the Oracle&reg; plug-in with the {{site.data.keyword.backup_full}} agent on the Oracle&reg; database server. Then, you can add and run backup jobs that specify which databases to back up, and where to save the backup data. The plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All nontemporary table spaces and instance parameter files are automatically backed up. Full and partial databases can be restored through normal user-managed Oracle recovery mechanisms. Database passwords are encrypted for enhanced security over script-based methods.
 
 The Oracle plug-in performs what the Oracle Corporation deems an “inconsistent” whole database backup that requires that the database is run in ARCHIVELOG mode. During a live backup, any changes to the database are written to archive logs. The database administrator must make sure that the database is in ARCHIVELOG mode.
 {: important}
@@ -39,7 +41,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 {: #configureBackupjobODB}
 {: help}
 
-Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more Oracle databases. The backup job specifies which databases to back up, and where to save the backup data. 
+Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can create a backup job for one or more Oracle databases. The backup job specifies which databases to back up, and where to save the backup data.
 
 When you create an Oracle database backup job, you must specify credentials for the {{site.data.keyword.backup_notm}} Agent to use to connect to the Oracle server.
 

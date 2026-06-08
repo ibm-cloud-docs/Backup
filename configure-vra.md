@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-03-11"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring VRA backup jobs
+# Configuring VMware vSphere Recovery Agent backup jobs
 {: #ConfigureVRA}
 
-After the VMware&reg; vSphere environment is added in the Cloud Backup Portal, you can create a backup job. The backup job specifies the virtual machines (VMs) to be backed up, and where to save the backup data. You can run the backup job manually or schedule the backup job to run at specific times and intervals.
+Configure VMware vSphere Recovery Agent (VRA) backup jobs with {{site.data.keyword.backup_notm}} to protect virtual machines with manual or scheduled backups.
 {: shortdesc}
 
 You must configure vault settings and vCenter information before you can add a backup job.

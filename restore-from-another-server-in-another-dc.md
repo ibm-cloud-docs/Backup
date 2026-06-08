@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-09-29"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring data from one VSI to another in a different Data Center
+# Restoring data across data centers with {{site.data.keyword.backup_notm}}
 {: #restoreVSIotherlocation}
 
-Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
+Restore {{site.data.keyword.backup_notm}} data from one server to another across different data centers by reregistering the backup agent to access the original vault.
 {: shortdesc}
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.

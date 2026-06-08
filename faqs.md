@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-04-06"
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -13,6 +13,9 @@ subcollection: Backup
 
 # FAQ for {{site.data.keyword.backup_notm}}
 {: #faqs}
+
+Get answers to common questions about {{site.data.keyword.backup_notm}}, including username and password management, backup frequency, supported applications, and pricing details.
+{: shortdesc}
 
 ## Where can I find my username for the service?
 {: faq}
@@ -36,8 +39,8 @@ Alternatively, you can click **Devices > Manage > Passwords**. The console displ
 4. On the Overview page, you can see your Portal Password. Click the **Edit icon** ![Edit icon](../icons/edit-tagging.svg "Edit") to modify the password.
 5. Enter the new password in the **Password** field.
    - The password must be 8 - 12 characters in length. It must include at least one uppercase letter, at least one lowercase letter, at least one numeric character, and at least one of these special characters: `\!@\#%\^`. It can contain only letters, numerals, and these special characters: `\!@\#%\^`.
-     
-   Changing the IBM Cloud Backup WebUI password disables the auto-login functionality on the login page. After the password is changed, users must manually enter their credentials for each login session. Use caution, as this behavior cannot be reversed after the password is updated. 
+
+   Changing the {{site.data.keyword.backup_full}} WebUI password disables the auto-login functionality on the login page. After the password is changed, users must manually enter their credentials for each login session. Use caution, as this behavior cannot be reversed after the password is updated.
    {: important}
 
 6. Press Enter to update the password.
@@ -82,7 +85,7 @@ You can modify default retention schemes and can create custom retention schemes
 {: #retention-type}
 {: support}
 
-Retention types specify the number of days a backup is kept on the vault, how many copies of a backup are stored online, and how long backup data is stored offline. In a policy, you can have the following retention types: Daily, Weekly, Monthly, and Yearly. You can view these retention types in the [IBM Cloud Backup portal](/docs/Backup?topic=Backup-backupportalreference), by clicking **Computer** > **Advanced** > **Retention**, where you can also modify the default values.
+Retention types specify the number of days a backup is kept on the vault, how many copies of a backup are stored online, and how long backup data is stored offline. In a policy, you can have the following retention types: Daily, Weekly, Monthly, and Yearly. You can view these retention types in the [{{site.data.keyword.backup_full}} portal](/docs/Backup?topic=Backup-backupportalreference), by clicking **Computer** > **Advanced** > **Retention**, where you can also modify the default values.
 
 | Retention             | Days online | Copies online |
 |-----------------------|-------------|---------------|
@@ -236,7 +239,7 @@ No. The 32-bit version of the backup software agent was retired along with Windo
 {: #agent-offline}
 {: support}
 
-If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure that you apply the information in [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo). For more information, see the following topics in the troubleshooting section.
+If you registered the backup agent to the WebCC but it shows as offline within the Computers section of the WebCC, then the agent cannot communicate with the WebCC. To resolve, make sure that you apply the information in [Configuring firewall ports for {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-portinfo). For more information, see the following topics in the troubleshooting section.
 
 * [Why does my Linux&reg; Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-LinuxAgent)
 * [Why does my Windows Backup Agent appear offline?](/docs/Backup?topic=Backup-troubleshoot-WinAgent)
@@ -263,7 +266,7 @@ For more information, see the following topics.
 {: #nfs-share-backup}
 {: support}
 
-Yes. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Configuring NFS backups](/docs/Backup?topic=Backup-configureNFSBackup).
+Yes. First, add the Linux&reg; system in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data. For more information, see [Configuring NFS backups with {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-configureNFSBackup).
 
 NFS Backups are not supported in Windows.
 {: attention}
@@ -351,4 +354,4 @@ No, backup data cannot be transferred or migrated to other backup accounts. You 
 {: #canceledbackup}
 {: support}
 
-When the Backup service is canceled, your vault with the backed-up data is deleted. So you can't keep the backups for later use and restore to another server. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the IBM Cloud Backup service](/docs/Backup?topic=Backup-cancelBackup).
+When the Backup service is canceled, your vault with the backed-up data is deleted. So you can't keep the backups for later use and restore to another server. You can't log in to the Cloud Backup Portal with the canceled credentials either. For more information, see [Canceling the {{site.data.keyword.backup_full}} service](/docs/Backup?topic=Backup-cancelBackup).

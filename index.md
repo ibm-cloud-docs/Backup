@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-01"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -14,8 +14,10 @@ subcollection: Backup
 # Provisioning {{site.data.keyword.backup_notm}}
 {: #ordering}
 
-Backups make sure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. You can provision your {{site.data.keyword.backup_full}} instance in the console, from the CLI, with the API, or Terraform. The first 10 GB of vault space is provided at no cost to you.
+Provision {{site.data.keyword.backup_full}} to protect your data with automated agent-based backups. Get 10 GB free vault space and scale up to 12,000 GB with flexible pricing.
 {: shortdesc}
+
+Backups make sure that your data is safely stored outside of your device and stays protected. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the Cloud Backup Portal browser-based management utility. You can provision your {{site.data.keyword.backup_full}} instance in the console, from the CLI, with the API, or Terraform. The first 10 GB of vault space is provided at no cost to you.
 
 Each server must have its own {{site.data.keyword.backup_notm}} instance. One {{site.data.keyword.backup_notm}} license cannot be used for multiple servers.
 {: important}
@@ -44,7 +46,7 @@ You can provision {{site.data.keyword.backup_notm}} service in two ways in the c
    1. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
    1. In the **Storage Disks** section, specify the size of the boot volume and add more disks if you want to.
    1. Under **Add-ons**, and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
-   
+
       The first 10 GB of vault space is provided at no cost to you. If you don't know how much backup storage you need, provision 10 GB, and you can add more storage later.
       {: tip}
 
@@ -90,7 +92,7 @@ ibmcloud sl order place CLOUD_SERVER DALLAS13 GUEST_CORES_4,RAM_16_GB,REBOOT_REM
 
 ```sh
 This action will incur charges on your account. Continue?> y
-       
+
 ID        105021440
 Created   2023-04-24T20:04:57Z
 Status    PENDING_AUTO_APPROVAL

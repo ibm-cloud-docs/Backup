@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-24"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, NFS
 
@@ -11,11 +11,13 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring NFS backups
+# Configuring NFS backups with {{site.data.keyword.backup_notm}}
 {: #configureNFSBackup}
 
-After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. First, add the Linux&reg; client in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data.
+Configure NFS backups with {{site.data.keyword.backup_full}} by adding a Linux client and creating backup jobs for files and folders on attached NFS shares.
 {: shortdesc}
+
+After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. First, add the Linux&reg; client in the Backup Portal. Then, you can create a backup job for files and folders that are saved on the NFS shares that are attached to this server. The backup job specifies which folders and files to back up, and where to save the data.
 
 ## Starting Cloud Backup Portal
 {: #startPortalconfigNFS}
@@ -43,7 +45,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
    If a valid vault connection is not available for the computer, you cannot access the Jobs tab.
    {: note}
-   
+
 1. From the Select Job Task menu, select **Create NFS Files Job**.
     1. In the new window, enter a **Name** and a **Description**.
     1. In the **Destination** list, select the vault where you want to save the backup data. A vault appears in the list only if it is assigned to the user, or if the user added it on the computer’s Vault Settings.

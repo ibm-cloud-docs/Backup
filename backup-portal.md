@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2025
-lastupdated: "2025-05-16"
+  years: 2023, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore, Backup Portal, portal
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Overview of the Backup Portal
+# {{site.data.keyword.backup_notm}} Portal overview and features
 {: #backupportalreference}
 
-The Backup Portal provides a central access point for managing backups and restores for all of your servers. You can create and run backup jobs, restore data, monitor computers, and processes; all within the Portal.
+Access the {{site.data.keyword.backup_notm}} Portal to manage backups, restore data, and monitor backup jobs across all your servers from a central interface.
 {: shortdesc}
 
 ## Starting Cloud Backup Portal

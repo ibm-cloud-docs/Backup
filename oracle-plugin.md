@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-10-01"
+  years: 2019, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with the Oracle plug-in
+# Getting started with {{site.data.keyword.backup_notm}} Oracle plug-in
 {: #Oracleplugin}
 
-The Oracle plug-in is an add-on that you can install with the Backup Agent on the Oracle Database host. Through the Cloud Backup Portal, you can configure jobs, back up Oracle Databases to a secure, remote vault, and restore Oracle Databases. The Oracle plug-in integrates into the existing architecture.
+Protect Oracle databases with {{site.data.keyword.backup_notm}} Oracle plug-in to perform ARCHIVELOG-based backups and restore full or partial databases.
 {: shortdesc}
 
 ## Capabilities provided
@@ -37,7 +37,7 @@ The Oracle plug-in is an add-on that you can install with the Backup Agent on th
 ## Installing the plug-in for Windows
 {: #installOracleWin}
 
-The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom setup** page. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
+The Oracle plug-in is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit with the **Modify** selection. The plug-in appears as an option on the **Custom setup** page. For more information, see [Installing {{site.data.keyword.backup_notm}} client in Windows](/docs/Backup?topic=Backup-InstallinWindows).
 
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {: tip}
@@ -47,7 +47,7 @@ When the installation is complete, check to make sure that both services are ena
 ## Installing the plug-in for Linux
 {: #installOracleLin}
 
-The Oracle plug-in is an add-on to the Linux&reg; Agent and is installed with the Agent on the database host. The Linux&reg; Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux&reg;](/docs/Backup?topic=Backup-InstallinLinux).
+The Oracle plug-in is an add-on to the Linux&reg; Agent and is installed with the Agent on the database host. The Linux&reg; Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing {{site.data.keyword.backup_notm}} client in Linux](/docs/Backup?topic=Backup-InstallinLinux).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 
@@ -93,4 +93,4 @@ For more information, see [Configuring Oracle DB backups](/docs/Backup?topic=Bac
 ## Restoring an Oracle DB
 {: #restoringODBbackup}
 
-For more information, see [Restoring Oracle DB](/docs/Backup?topic=Backup-restoreOracleDB).
+For more information, see [Restoring Oracle databases with {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-restoreOracleDB).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-04-06"
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Managing the username and password for the {{site.data.keyword.backup_notm}} service
 {: #changePassword}
 
-Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the Cloud Backup Portal.
+Manage your {{site.data.keyword.backup_notm}} username and password to access the Cloud Backup Portal and control vault access for your backup service.
 {: shortdesc}
 
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. When you change your password, keep in mind that it impacts your service directly.

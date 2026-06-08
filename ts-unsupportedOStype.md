@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-03-09"
+lastupdated: "2026-06-08"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup auth error, server0, Server0.Password, PARS-E-05152
 
@@ -19,9 +19,11 @@ content-type: troubleshoot
 {: troubleshoot}
 {: support}
 
+Fix {{site.data.keyword.backup_notm}} agent installation failures on Windows Server 2022 by installing backup agent version 9.0 or later for compatibility.
+{: shortdesc}
+
 A backup agent installation fails on a Windows 2022 device and the error message indicates `Unsupported OS super type UNKNOWN`.
 {: tsSymptoms}
-{: shortdesc}
 
 The current release of the Backup Portal requires that servers that use Windows 2022 connect with the backup agent version 9.0.
 {: tsCauses}
@@ -29,6 +31,6 @@ The current release of the Backup Portal requires that servers that use Windows 
 To resolve this issue, install the backup agent version 9.0.
 {: tsResolve}
 
-1. Follow the instructions in [Installing the backup client in Windows&reg;](/docs/Backup?topic=Backup-InstallinWindows)
+1. Follow the instructions in [Installing {{site.data.keyword.backup_notm}} client in Windows](/docs/Backup?topic=Backup-InstallinWindows)
 1. Download the executable file for the {{site.data.keyword.backup_notm}} client for version 9.0 from your internal resources or repository.
 1. Retry the backup agent installation.

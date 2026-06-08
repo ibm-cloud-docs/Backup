@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-01"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -11,13 +11,18 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with the vSphere Recovery Agent
+# Getting started with vSphere Recovery Agent for {{site.data.keyword.backup_notm}}
 {: #VRA}
 
-The vSphere Recovery Agent (VRA) is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect virtual machines that are attached to a single vCenter.
+Protect VMware vSphere virtual machines with {{site.data.keyword.backup_notm}} vSphere Recovery Agent (VRA) to back up and restore Virtual Machine Disks (VMDKs) up to 10 TB.
 {: shortdesc}
 
+The VRA is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the VRA on a physical or virtual machine that has local network access to the vCenter that you want to protect.
+
 In a vSAN stretched cluster, each virtual machine has a preferred site. Ideally, one local VRA is installed in each site that backs up the preferred virtual machines of that site. If maintenance or failures prompt a virtual machine to be moved to a different site, backup performance can be degraded but remain acceptable.
+
+For best performance, install the VRA on a server that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect virtual machines that are attached to a single vCenter.
+{: tip}
 
 ## Installing the plug-in
 {: #installVRAPlugin}

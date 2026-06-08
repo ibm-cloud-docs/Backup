@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2025
-lastupdated: "2025-10-01"
+  years: 2020, 2026
+lastupdated: "2026-06-08"
 
 keywords: troubleshoot for backup agent, troubleshooting for Linux, question about backup agent, troubleshooting backup, backup agent offline
 
@@ -29,7 +29,7 @@ Linux&reg; agent shows as offline in Portal.
 Currently, at minimum, your servers must allow access to the **`10.200.86.0/24`** and **`10.2.118.0/24`** subnets for TCP ports **8086**, **8087**. If the port settings are incorrect, traffic is blocked, and the agent cannot communicate with the Cloud Backup Portal.
 {: tsCauses}
 
-Check firewall ports - 8086 & 8087. For more information, see [Configuring Ports to allow communication between the backup agent and Cloud Backup Portal](/docs/Backup?topic=Backup-portinfo).
+Check firewall ports - 8086 & 8087. For more information, see [Configuring firewall ports for {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-portinfo).
 {: tsResolve}
 
 ## BUAgent service isn't running

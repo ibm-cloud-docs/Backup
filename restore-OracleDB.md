@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-03-18"
+  years: 2021, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring Oracle DB
+# Restoring Oracle databases with {{site.data.keyword.backup_notm}}
 {: #restoreOracleDB}
 
-After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restoration process is performed by a Database Administrator. 
+After you backed up an Oracle&reg; database by using the Oracle&reg; plug-in, you can restore the database. An Oracle&reg; restoration process is performed by a Database Administrator.
 {: shortdesc}
 
 The following steps are included in the restoration process.
@@ -28,7 +28,7 @@ The following steps are included in the restoration process.
 The plug-in does not do table-level restores.
 {: note}
 
-You might also need to recover the entire system, by performing a [bare metal restore](/docs/Backup?topic=Backup-restoreBMR) (BMR) first. The BMR reinstalls the OS, and the applications. Then, the full database (plus any transaction logs) can be restored on to the new system.
+You might also need to recover the entire system, by performing a [Bare Metal Restore](/docs/Backup?topic=Backup-restoreBMR) (BMR) first. The BMR reinstalls the OS, and the applications. Then, the full database (plus any transaction logs) can be restored on to the new system.
 
 If an Oracle&reg; backup and a full-system backup are available, then the following steps apply.
 1. Restore the system (putting back the contents of ORACLE_HOME – specifically the database installation). If you'd like, you can exclude the data files and archive logs that are backed up by the plug-in.

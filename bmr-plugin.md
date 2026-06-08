@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-12-15"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore, create bmr backup
 
@@ -14,7 +14,7 @@ subcollection: Backup
 # Getting started with the Bare Metal Restore plug-in
 {: #BMRplugin}
 
-Bare Metal Restore is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
+Protect Windows bare metal servers with {{site.data.keyword.backup_notm}} Bare Metal Restore (BMR) plug-in for disaster recovery from OS or hardware failures.
 {: shortdesc}
 
 BMR is a Windows&reg;-only product on physical servers. It is not available for virtual servers. Bare metal restorations for Linux&reg; distributions aren't supported.
@@ -36,9 +36,9 @@ The plug-in is installed during the Windows Agent installation. The plug-in can 
 ## Configuring BMR backup job
 {: #configBMRplugin}
 
-For more information, see [Configuring BMR backup jobs](/docs/Backup?topic=Backup-configureBMR).
+For more information, see [Configuring Bare Metal Restore backup jobs](/docs/Backup?topic=Backup-configureBMR).
 
 ## Restoring a BMR system volume image
 {: #restoringBMimage}
 
-For more information, see [Restoring a BMR system volume image](/docs/Backup?topic=Backup-restoreBMR).
+For more information, see [Restoring Bare Metal systems with {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-restoreBMR).

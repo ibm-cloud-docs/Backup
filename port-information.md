@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-03-18"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -11,8 +11,11 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring Ports to allow communication between the backup agent and Cloud Backup Portal
+# Configuring firewall ports for {{site.data.keyword.backup_notm}}
 {: #portinfo}
+
+Configure firewall ports to enable communication between your {{site.data.keyword.backup_full}} agent and the Cloud Backup Portal. Ensure TCP ports 8086, 8087, and 2546 are accessible.
+{: shortdesc}
 
 The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](/cloud-storage/backup){: external}. The following list provides some examples, and the hostname depends on the data center where the director is present.
 
@@ -21,7 +24,7 @@ The {{site.data.keyword.backup_full}} agent that is installed on your server nee
 * `ev-vaultlon0201.service.softlayer.com TCP/2546`
 * `ev-vaulthkg0201.service.softlayer.com TCP/2546`
 
-Always register agents to the Cloud Backup Portal and the directors by using the FQDN because the IP addresses for these services might change.
+Always register agents to the Cloud Backup Portal and the directors by using the fully qualified domain name (FQDN) because the IP addresses for these services might change.
 {: important}
 
 ## Recommended {{site.data.keyword.backup_notm}} Port settings
@@ -29,7 +32,7 @@ Always register agents to the Cloud Backup Portal and the directors by using the
 
 Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to `10.0.0.0/8`.
 
-{{site.data.keyword.backup_notm}} Portal Registration Service 
+{{site.data.keyword.backup_notm}} Portal Registration Service
 - `cloudbackupregister.service.softlayer.com TCP Port 8086`
 
 If you need to use more restrictive firewall rules, you might lose access to the Cloud Backup Portal as the infrastructure is expanded.
@@ -71,7 +74,7 @@ Agents must have connectivity to all proxy servers. New proxy servers might be a
 ## Federal Portal Servers
 {: #fedservers}
 
-Cloud Backup Portal and AMP proxy 
+Cloud Backup Portal and AMP proxy
 - `webcc.service.usgov.softlayer.com [100.100.6.20] TCP 8086, 8087`
 
 The agent must allow the TCP port 2548 inbound on the private network. This setting allows Cloud Backup Portal to connect into the agent to manage it. Older versions of EVault used port 808.

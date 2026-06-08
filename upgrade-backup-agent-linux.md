@@ -2,7 +2,7 @@
 
 copyright:
   years: 2004, 2026
-lastupdated: "2026-04-06"
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -11,13 +11,15 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Upgrading backup software agent for Linux
+# Upgrading {{site.data.keyword.backup_notm}} agent for Linux
 {: #UpgradeinLinux}
 {: help}
 {: support}
 
-The most recent version of Linux Agent is v9.40. Any agent that is older than the 8.63 version needs to be upgraded. Agents that are older than the 8.63 version cannot connect with the Backup portal due to the outdated, unsupported TLS version. Following the upgrade process makes sure that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+Upgrade your {{site.data.keyword.backup_notm}} agent on Linux to version 9.40 to ensure compatibility with the Cloud Backup Portal and maintain your registration.
 {: shortdesc}
+
+The most recent version of Linux Agent is v9.40. Any agent that is older than the 8.63 version needs to be upgraded. Agents that are older than the 8.63 version cannot connect with the Backup portal due to the outdated, unsupported TLS version. Following the upgrade process makes sure that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
 
 The most recent backup agent can be downloaded from your Cloud Backup Portal Dashboard quick links section.
 {: tip}

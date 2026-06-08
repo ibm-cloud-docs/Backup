@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-01"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}{{site.data.keyword.attribute-definition-list}}
 
-# Multi-vaulting
+# Multi-vaulting with {{site.data.keyword.backup_notm}}
 {: #multivault}
 
-Multi-vaulting is the ability for a client to connect a server to more than one vault location. It provides redundancy and peace of mind because backups are available even if one site fails.
+Connect your server to multiple {{site.data.keyword.backup_notm}} vault locations for redundancy and disaster recovery protection across geographic regions.
 {: shortdesc}
 
 ## Key concepts
@@ -73,11 +73,11 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
    3. In the IP address field, add the address of the second {{site.data.keyword.backup_notm}} vault location.
 
-       You can look up the fully qualified domain name of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas, you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
+       You can look up the fully qualified domain name (FQDN) of the {{site.data.keyword.backup_notm}} vault in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. You can either use the FQDN or the IP address of the server to connect to the vault. To get the IP address, ping the FQDN from the server that's going to be backed up. For example, if you want to connect to the vault in a data center located in Dallas, you can use `ev-vaultdal1201.service.softlayer.com` or its IP address `10.200.134.250`.
       {: tip}
 
    4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} username for the selected vault, and the password for the selected vault.
-   
+
       For more information about viewing the username or changing the backup password, see [Managing the username and password for the Cloud Backup service](/docs/Backup?topic=Backup-changePassword).
       {: tip}
 

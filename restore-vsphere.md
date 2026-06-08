@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-04-07"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring vSphere data
+# Restoring VMware vSphere data with {{site.data.keyword.backup_notm}}
 {: #VRARestore}
 
-When virtual machines are protected in a vSphere environment, you can restore [vSphere virtual machines](#restoreVMs), and [restore files and folders](#restoreFFVRA) with the vSphere Recovery Agent.
+Restore VMware vSphere virtual machines and files with {{site.data.keyword.backup_notm}} vSphere Recovery Agent (VRA) from the Cloud Backup Portal.
 {: shortdesc}
 
 ## Restoring vSphere VMs
@@ -77,5 +77,5 @@ Files and folders on the disks are accessible to anyone on the VRA system, inclu
 11.	Click **Run Restore**.
 12. The restored volumes from the selected virtual machine are mapped as drives on the server where the VRA is running, and are available in a Restore Mount folder. Take one of the following steps.
     * Copy files and folders that you want to restore from mapped drives.
-    * Share one or more drives with other users. Users can then access the UNC share, and copy files and folders that they want to restore.
+    * Share one or more drives with other users. Users can then access the Universal Naming Convention (UNC) share, and copy files and folders that they want to restore.
     * Share one or more directories from the Restore Mount folder on the VRA server. Users can then access the UNC share, and copy files and folders that they want to restore.

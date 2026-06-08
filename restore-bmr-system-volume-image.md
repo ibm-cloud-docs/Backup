@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-03-11"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring a BMR system volume image
+# Restoring Bare Metal systems with {{site.data.keyword.backup_notm}}
 {: #restoreBMR}
 
-If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable Windows operating system. It's useful when the OS is no longer usable or the drives in the server were replaced.
+Restore Windows bare metal servers from {{site.data.keyword.backup_notm}} BMR backups using the BMR Rescue Kernel system for disaster recovery without a bootable OS.
 {: shortdesc}
 
 BMR is available only for Windows Bare Metal Servers. BMR is not available for virtual servers.
@@ -36,7 +36,7 @@ You can initiate Bare Metal Restore in the {{site.data.keyword.cloud}} console.
 1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways. Both of these ways work well.
    - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.cloud_notm}} console.
    - The KVM console of your IPMI card.
-   
+
 2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the time zone and keyboard language of your choice and click **Next**.
 
    ![Figure 1 - BMR time zone and keyboard language selections are displayed.](/images/bmr1.svg){: caption="BMR time zone and keyboard language selections are displayed." caption-side="bottom"}

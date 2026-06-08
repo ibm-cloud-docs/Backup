@@ -13,7 +13,8 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - backup-portal.md
+      - topic: backup-portal.md
+        navtitle: Portal overview
       - link:
           label: What is IBM Cloud Backup?
           href: https://www.ibm.com/think/topics/backup-and-restore
@@ -28,49 +29,76 @@ toc:
               id: agent-install
               label: Installing the backup agent
               topics:
-              - install-backup-client-linux.md
-              - upgrade-backup-agent-linux.md
-              - install-backup-client-windows.md
-              - upgrade-backup-agent-windows.md
-          - port-information.md
-          - multivaulting.md
+              - topic: install-backup-client-linux.md
+                navtitle: Installing client in Linux
+              - topic: upgrade-backup-agent-linux.md
+                navtitle: Upgrading agent for Linux
+              - topic: install-backup-client-windows.md
+                navtitle: Installing client in Windows
+              - topic: upgrade-backup-agent-windows.md
+                navtitle: Upgrading agent for Windows
+          - topic: port-information.md
+            navtitle: Configuring firewall ports
+          - topic: multivaulting.md
+            navtitle: Multi-vaulting
           - topicgroup:
               id: about-plugins
               label: Plug-ins
               topics:
-              - bmr-plugin.md
-              - exchange-plugin.md
-              - mssql-plugin.md
-              - oracle-plugin.md
-              - vmware-plugin.md
+              - topic: bmr-plugin.md
+                navtitle: Bare Metal Restore plug-in
+              - topic: exchange-plugin.md
+                navtitle: Exchange plug-in
+              - topic: mssql-plugin.md
+                navtitle: SQL Server plug-in
+              - topic: oracle-plugin.md
+                navtitle: Oracle plug-in
+              - topic: vmware-plugin.md
+                navtitle: vSphere Recovery Agent plug-in
       - topicgroup:
           id: creating-backup-job
           label: Creating the backup jobs
           topics:
-          - configure-simple-file-backup.md
-          - configure-bmr-backup-windows.md
-          - configure-NFS-backup.md
-          - configure-OracleDDB-backup.md
-          - configure-SQLDB-backup.md
-          - configure-vra.md
+          - topic: configure-simple-file-backup.md
+            navtitle: Configuring file-level backups
+          - topic: configure-bmr-backup-windows.md
+            navtitle: Configuring BMR backup jobs
+          - topic: configure-NFS-backup.md
+            navtitle: Configuring NFS backups
+          - topic: configure-OracleDDB-backup.md
+            navtitle: Configuring Oracle DB backups
+          - topic: configure-SQLDB-backup.md
+            navtitle: Configuring SQL Server backups
+          - topic: configure-vra.md
+            navtitle: Configuring vSphere Recovery Agent
       - topicgroup:
           id: restoring-data
           label: Restores
           topics:
-          - restore-backup.md
-          - restore-from-another-computer.md
-          - restore-from-another-server-in-another-dc.md
-          - restore-bmr-system-volume-image.md
-          - restore-OracleDB.md
-          - restore-SQLDB.md
-          - restore-vsphere.md
+          - topic: restore-backup.md
+            navtitle: Restoring data
+          - topic: restore-from-another-computer.md
+            navtitle: Restoring between servers
+          - topic: restore-from-another-server-in-another-dc.md
+            navtitle: Restoring across data centers
+          - topic: restore-bmr-system-volume-image.md
+            navtitle: Restoring Bare Metal systems
+          - topic: restore-OracleDB.md
+            navtitle: Restoring Oracle databases
+          - topic: restore-SQLDB.md
+            navtitle: Restoring SQL Server
+          - topic: restore-vsphere.md
+            navtitle: Restoring vSphere data
       - topicgroup:
           id: managing-vault
           label: Managing the vault
           topics:
-          - expanding-capacity.md
-          - reregister.md
-          - delete-tasks.md
+          - topic: expanding-capacity.md
+            navtitle: Expanding vault capacity
+          - topic: reregister.md
+            navtitle: Reregistering vault
+          - topic: delete-tasks.md
+            navtitle: Deleting backup tasks
   - navgroup:
       id: reference
       topics:

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-10"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -11,13 +11,16 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring data from one server to another
+# Restoring data between servers with {{site.data.keyword.backup_notm}}
 {: #restorefromotherVSI}
 
-Sometimes you might want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/Backup?topic=Backup-restoreBMR) instructions.
+Restore {{site.data.keyword.backup_notm}} data from one server to another in the same data center by reregistering the backup agent and accessing the original vault.
 {: shortdesc}
 
 The process includes registering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
+
+This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Restoring Bare Metal systems with {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-restoreBMR) instructions.
+{: tip}
 
 ## Before you begin
 {: #prereqsrestore1}
@@ -56,7 +59,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
    You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized under the Server 2 **Jobs** tab.
    {: tip}
-   
+
 2. From the Action menu, select **Restore from Another Computer**.
 3. Select the Vault, Computer, and Job from menus.
 4. Enter the encryption password.
@@ -93,7 +96,7 @@ After the restore is complete, remove the registration information for Server 1.
 
 1. Go to **Vault Settings** and click **Re-register**. This action updates the vault configuration to reflect Server 2’s details.
 2. Go to the **Backup Job** for Server 2, click **Select Actions**, and choose **Synchronize**. The backup job synchronizes with the updated vault, and the status is displayed as **Completed**.
-3. Click **Edit Job**, enter the **encryption password**, and click **Save**.  
+3. Click **Edit Job**, enter the **encryption password**, and click **Save**.
 
    Do not modify any other settings. This step makes sure that the encryption password is resynchronized.
    {: note}

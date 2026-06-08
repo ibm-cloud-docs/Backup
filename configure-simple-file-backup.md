@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-03-09"
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -11,10 +11,13 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring simple file-level backups
+# Configuring file-level backups with {{site.data.keyword.backup_notm}}
 {: #configureFileBackup}
 
-After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
+Configure file-level backups with {{site.data.keyword.backup_full}} by setting up your agent, defining retention schedules, and creating your first backup job to protect your data.
+{: shortdesc}
+
+Before you begin, make sure that the {{site.data.keyword.backup_full}} agent is installed and running on your server. For more information, see [Installing the backup agent](/docs/Backup?group=agent-install).
 
 ## Starting Cloud Backup Portal
 {: #startPortalconfigLin}

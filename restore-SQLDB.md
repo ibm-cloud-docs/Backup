@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-01-13"
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -11,11 +11,14 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring MSSQL Database
+# Restoring Microsoft SQL Server with {{site.data.keyword.backup_notm}}
 {: #restoreMSSQLDB}
 
-After you back up SQL Server databases by using the SQL Server plug-in, you can restore databases directly to an SQL Server instance, or restore databases to flat files. When you want to restore an SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
+Restore Microsoft SQL Server databases with {{site.data.keyword.backup_notm}} directly to an SQL Server instance or to flat files for disaster recovery.
 {: shortdesc}
+
+ When you want to restore an SQL Server database in an Always On Availability Group, you must always restore the database to the primary replica.
+ {: important}
 
 ## Restoring databases directly to an SQL Server.
 {: #restoreDBSQLdirect}

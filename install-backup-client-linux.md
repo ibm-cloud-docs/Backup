@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-10-01"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -11,10 +11,10 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Installing the backup client in Linux
+# Installing {{site.data.keyword.backup_notm}} client in Linux
 {: #InstallinLinux}
 
-You can install the {{site.data.keyword.backup_full}} client on a Linux&reg;-based operating system through a series of commands in the shell or terminal within the OS.
+Install the {{site.data.keyword.backup_notm}} client on Linux systems using shell commands to enable automated backups for Red Hat, CentOS, and CloudLinux servers.
 {: shortdesc}
 
 This procedure outlines the steps that are required to install the client on any of the following operating systems:

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-04-07"
+  years: 2021, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -11,11 +11,13 @@ subcollection: Backup
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Configuring MSSQL database backups
+# Configuring Microsoft SQL Server backups with {{site.data.keyword.backup_notm}}
 {: #configureMSSQLBackup}
 
-To protect Microsoft SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
+Configure Microsoft SQL Server backups with {{site.data.keyword.backup_full}} to protect databases with full backups, transaction logs, TDE support, and AlwaysOn Availability Groups.
 {: shortdesc}
+
+To protect Microsoft SQL Server databases, install the SQL Server plug-in with the Windows {{site.data.keyword.backup_full}} Agent on the server where the SQL Server is running. Then, you can add and run backup jobs that specify which SQL Server databases to back up and where to save the backup data. The SQL Server plug-in can back up databases that span volumes, databases that have Transparent Data Encryption (TDE) enabled and databases in AlwaysOn Availability Groups. The plug-in can also back up BLOB data from filestream-enabled databases. You can run full database backups, full database with transaction log backups, or transaction log only backups. When it is installed with the Cluster Support plug-in, the SQL Server plug-in can protect databases on SQL Server clusters.
 
 You can back up transaction logs for databases only when they use the full or bulk recovery model.
 {: note}

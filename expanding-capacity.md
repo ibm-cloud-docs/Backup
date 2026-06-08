@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2025
-lastupdated: "2025-06-24"
+  years: 1994, 2026
+lastupdated: "2026-06-08"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -12,10 +12,10 @@ subcollection: Backup
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Expanding vault capacity
+# Expanding {{site.data.keyword.backup_notm}} vault capacity
 {: #expandcapacity}
 
-The first 10 GB of vault space is provided at no cost to you. When you need to increase the vault capacity, you can expand the size of your vault up to 12,000 GB. You don't need to create a duplicate or manually migrate data to a larger volume. The limit increase process does not cause any outage or lack of access.
+Expand your {{site.data.keyword.backup_notm}} vault capacity up to 12,000 GB without downtime or data migration. The first 10 GB is free.
 {: shortdesc}
 
 ## Ordering an increase in the console
@@ -35,7 +35,7 @@ The first 10 GB of vault space is provided at no cost to you. When you need to i
 To use Terraform, download the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in. For more information, see the [Getting started with Terraform](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) tutorial.
 {: requirement}
 
-Use the `ibm_storage_evault` resource to update your {{site.data.keyword.backup_full}} instance. The following example increases the vault capacity to 100 GB when it is applied. 
+Use the `ibm_storage_evault` resource to update your {{site.data.keyword.backup_full}} instance. The following example increases the vault capacity to 100 GB when it is applied.
 
 ```terraform
 resource "ibm_storage_evault" "test" {
