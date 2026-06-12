@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-06-08"
+lastupdated: "2026-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows, create BMR backup, create SQL backup
 
@@ -69,9 +69,12 @@ Install the {{site.data.keyword.backup_notm}} client on Windows servers to enabl
 1. Click **Install** to complete the installation.
 1. When the installation is complete, restart your server.
 
-Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to `10.0.0.0/8`. For more information about port settings, see [Configuring firewall ports for {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-portinfo).
+## Next steps
+{: #afterinstallwin}
 
-## Configuring backup agents
-{: #configureagent}
+Your servers must communicate with the Cloud Backup Portal and all AMP proxy servers for Cloud Backup Portal to work correctly, regardless of the data center's location. TCP Port 8086, 8087 must have access to `10.0.0.0/8`.
+
+For more information about configuring firewall ports, see [Configuring firewall ports for {{site.data.keyword.backup_notm}}](/docs/Backup?topic=Backup-portinfo).
+{: important}
 
 Log in to Cloud Backup Portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/Backup?topic=Backup-getting-started#getting-started).
