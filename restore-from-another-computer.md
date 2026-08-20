@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-06-08"
+lastupdated: "2026-08-20"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -40,8 +40,11 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Click Server 2.
-4. Click **View backup portal** to start the portal in your browser.
+3. Click Server 2. to display the backup instance details, including your portal username and password.
+4. Click **Backup portal login** to start the portal in your browser, then enter your username and password when prompted.
+
+   The Cloud Backup Portal requires a [VPN connection](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external} to the IBM Cloud private network.
+   {: tip}
 
 ## Editing the vault information
 {: #changhingvault}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2004, 2026
-lastupdated: "2026-06-08"
+lastupdated: "2026-08-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration, create bmr backup
 
@@ -33,10 +33,10 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
-3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
-4. Click **View backup portal** to start the portal in your browser.
+3. Click the instance name of the {{site.data.keyword.cloud_notm}} service to display the instance details, including your portal username and password.
+4. Click **Backup portal login** to start the portal in your browser, then enter your username and password when prompted.
 
-   If the Portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
+   If the Portal doesn't start, you might have a problem with your [VPN connection](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external}. You might also see a message that says that the form you're sending isn't secure. It is expected - proceed by sending the form.
    {: tip}
 
 ## Configuring a BMR backup job

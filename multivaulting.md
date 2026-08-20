@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-06-08"
+lastupdated: "2026-08-20"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -55,8 +55,8 @@ When the ordering process is complete, go to the **Storage** > **Backup** page t
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external}. From the menu ![Menu icon](../icons/icon_hamburger.svg "Menu"), select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the backup services.
-3. Select the instance name of the {{site.data.keyword.cloud_notm}} Account.
-4. Click **View backup portal** to start the portal in your browser.
+3. Click the instance name of the {{site.data.keyword.cloud_notm}} service to display the instance details, including your portal username and password.
+4. Click **Backup portal login** to start the portal in your browser, then enter your username and password when prompted.
 
    Cloud Backup Portal is only accessible through [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-vpn-getting-started){: external}.
    {: tip}
