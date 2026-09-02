@@ -60,7 +60,7 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
 
 1. On the **Computer** tab, click **Jobs**.
 
-   Refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized in Server 2's **Jobs** tab.
+   Refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized in the **Jobs** tab of Server 2.
    {: tip}
 
 2. From the Action menu, select **Restore from Another Computer**.

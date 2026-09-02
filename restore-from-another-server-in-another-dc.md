@@ -65,7 +65,7 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
 
 1. Click **Jobs**.
 
-   Refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized in Server 2's **Jobs** tab.
+   Refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized in the **Jobs** tab of Server 2.
    {: tip}
 
 2. From the Action menu, select **Restore**.
@@ -76,7 +76,7 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
    Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
    {: note}
 
-6. When your restore set is configured the way that you want it, click **Apply Now**.
+6. When your restore set is configured in the way that you want it, click **Apply Now**.
 7. Then, click **Run Restore**.
 8. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main Cloud Backup Portal screen.
 

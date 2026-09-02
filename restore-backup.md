@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-09-02"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -45,6 +45,6 @@ Remember to start your [{{site.data.keyword.BluVPN}}](/docs/iaas-vpn?topic=iaas-
     Default restore options place the files in their original location. If files exist in the destination folder with the same name, the incoming file is renamed. These options can be changed and an alternative restore location can be selected from Restore Destination options.
     {: note}
 
-8. When your restore set is configured the way that you want it, click **Apply Now**.
+8. When your restore set is configured in the way that you want it, click **Apply Now**.
 9. Then, click **Run Restore**.
 10. The files are restored when the Status displays **Restore completed** on the **Process Details** screen.
