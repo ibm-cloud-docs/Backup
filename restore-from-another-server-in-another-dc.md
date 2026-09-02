@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-09-02"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -65,7 +65,7 @@ If a current backup vault is registered to Server 2, it can be deleted on the **
 
 1. Click **Jobs**.
 
-   You might need to refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized on the Server 2 **Jobs** screen.
+   Refresh the page to see the jobs that are defined on Server 1 as accessible and synchronized in Server 2's **Jobs** tab.
    {: tip}
 
 2. From the Action menu, select **Restore**.
